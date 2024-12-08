@@ -10,4 +10,6 @@ Hilfe zur Markdownformatierung
 
 - [griechisches Alphabet](https://gist.github.com/mrquincle/1102e58562411b7f633c08d5dc9a2e1f#file-greek-md)
 
+- [Ich nutze KiCAD](https://www.kicad.org/download/) `sudo apt install kicad`
+
 Kontakt [patrick@biber.solar](mailto:patrick@biber.solar)
