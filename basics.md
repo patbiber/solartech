@@ -28,9 +28,9 @@ Ohmsches gesetz
 
 $U=R*I$
 
-$R=U/I$
+$R=\frac{U}{I}$
 
-$I=U/R$
+$I=\frac{U}{R}$
 
 ## Schaltungen
 
