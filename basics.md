@@ -8,7 +8,7 @@ Stomstärke $I$ Ampère [A]
 
 Spannung $U$ Volt [V]
 
-Wiederstand $R$ Ohm [ $ \Omega $ ]
+Wiederstand $R$ Ohm [ $\Omega$ ]
 
 $R=(\rho*I)/A$
 
