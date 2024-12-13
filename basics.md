@@ -58,6 +58,44 @@ $U=U_1=U_2$
 Der  Kehrwert des Gesammtwiederstand ist die Summe der Kerhwerte der Einzelwiederstände: 
 $1/R_p= 1/R_1 + 1/R_2 + 1/R_3$
 
+## Elektrische Leistung
+
+Leistung [W] $P = U * I =U²/R = I² * R = \sqrt{3} * U * I * cos\phi * \eta = W / t$
+
+Arbeit [kWh] $W = P * t$
+
+Wirkungsgrad $\eta = P_n / P_a$ 
+
+Wirkleistung $P = U * I * cos\phi$
+
+Scheinleistung [VA] $S = U * I$ 
+
+Leistungsfaktoktor $cos\phi = P /S$
+
+Kosten = $W * Tarif$
+
+# Drehstrom
+
+### Sternschaltung
+
+$I = I_p$
+
+$U = \sqrt3 * U_p$ = 400V
+
+$U_p$ = 230 V
+
+### Dreickschaltung
+
+$U = U_p$
+
+$I = \sqrt3 * I_p$
+
+
+
+# Wärmepumpen auslegung
+
+
+
 
 
 
