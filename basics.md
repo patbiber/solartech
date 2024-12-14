@@ -72,7 +72,7 @@ $I = \sqrt3 * I_p$
 
 ## Elektrische Arbeit und Leistung 
 
-Arbeit [Ws] praxis [kWh] $W = P * t = U * I * t * cos\phi$
+Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
 
 *Gleichstrom: $cos\phi$ = 1*
 
@@ -92,9 +92,117 @@ Kosten = $W * Tarif$
 
 Wirkungsgrad $\eta = P_n / P_a$ 
 
-# Wärmepumpen auslegung
+# Heizleistung und Wärmeübertragung
 
+## 1. Heizleistung bei Massefluss
 
+Wenn ein Medium (z. B. Wasser) durch eine Temperaturänderung erwärmt oder abgekühlt wird, lautet die Formel:
 
+$Q = m \cdot c \cdot \Delta t$
 
+### Bedeutungen:
+- **$Q$**: Wärmeenergie [Joule (J) oder Kilowattstunden (kWh)]
+- **$m$**: Masse des Mediums [Kilogramm (kg)]
+- **$c$**: Spezifische Wärmekapazität des Mediums [J/(kg·K)] (z. B. Wasser: $c$ approx 4.18, [kJ/(kg·K)]
+- **$\Delta t$**: Temperaturänderung [Kelvin (K) oder °C]
 
+Um die **Wärmeleistung $P$** zu berechnen, gilt:
+
+$P = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
+
+- **$P$**: Heizleistung [Watt (W) oder Kilowatt (kW)]
+- **$t$**: Zeit [Sekunden (s) oder Stunden (h)]
+
+---
+
+## 2. Heizleistung bei Wärmeübertragung durch eine Fläche
+
+Wenn Wärme durch eine Fläche (z. B. durch eine Wand) übertragen wird, lautet die Formel:
+
+$P = A \cdot k \cdot \Delta t$
+
+### Bedeutungen:
+- **$P$**: Wärmeleistung (Wärmefluss) [Watt (W) oder Kilowatt (kW)]
+- **$A$**: Fläche der Wärmeübertragung [m²]
+- **$k$**: Wärmedurchgangskoeffizient [W/(m²·K)] (Materialabhängig)
+- **$\Delta t$**: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K oder °C]
+
+Diese Formel beschreibt die **Wärmeleitung durch Flächen**.
+
+---
+
+### Allgemeine Formel für Heizleistung:
+$P = \frac{Q}{t}$
+
+Die Formel gilt in zwei Szenarien:
+1. **Bei Massefluss**:
+   $P = \frac{m \cdot c \cdot \Delta t}{t}$
+2. **Bei Wärmeleitung durch Flächen**:
+   $P = A \cdot k \cdot \Delta t$
+
+# Wärmepumpen und Stromverbrauch
+
+## Heizleistung der Wärmepumpe
+
+Die Heizleistung $Q_{\text{Heiz}}$ der Wärmepumpe beschreibt die Wärmeenergie, die bereitgestellt wird. Sie kann durch allgemeine Formeln für thermische Energie berechnet werden:
+
+1. **Bei Massefluss (z. B. Erwärmung von Wasser):**
+   $$
+   Q_{\text{Heiz}} = m \cdot c \cdot \Delta t
+   $$
+   - $m$: Masse des Mediums [kg]
+   - $c$: Spezifische Wärmekapazität des Mediums [J/(kg·K)]
+   - $\Delta t$: Temperaturdifferenz [K]
+
+2. **Bei Wärmeübertragung durch eine Fläche (z. B. durch eine Wand):**
+   $$
+   Q_{\text{Heiz}} = A \cdot k \cdot \Delta t
+   $$
+   - $A$: Wärmeübertragungsfläche [m²]
+   - $k$: Wärmedurchgangskoeffizient [W/(m²·K)]
+   - $\Delta t$: Temperaturdifferenz [K]
+
+---
+
+## Stromverbrauch der Wärmepumpe
+
+Die elektrische Energie $E_{\text{el}}$, die von der Wärmepumpe verbraucht wird, hängt von der Effizienz der Wärmepumpe ab. Diese Effizienz wird durch die **Jahresarbeitszahl (JAZ)** beschrieben:
+
+$$
+E_{\text{el}} = \frac{Q_{\text{Heiz}}}{\text{JAZ}} \cdot t
+$$
+
+### Variablen:
+- **$E_{\text{el}}$**: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
+- **$Q_{\text{Heiz}}$**: Heizleistung der Wärmepumpe [kW]
+- **$\text{JAZ}$**: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
+- **$t$**: Zeit, in der die Wärmepumpe läuft [h].
+
+---
+
+## Zusammenhang zwischen Heizleistung und Stromverbrauch
+
+1. Die Heizleistung $Q_{\text{Heiz}}$ wird durch die thermodynamischen Formeln berechnet:
+   $$
+   Q_{\text{Heiz}} = m \cdot c \cdot \Delta t \quad \text{oder} \quad Q_{\text{Heiz}} = A \cdot k \cdot \Delta t
+   $$
+
+2. Der elektrische Energieverbrauch ergibt sich aus der Heizleistung und der Effizienz:
+   $$
+   E_{\text{el}} = \frac{Q_{\text{Heiz}}}{\text{JAZ}} \cdot t
+   $$
+
+3. **Beispiel**:
+   - Heizleistung der Wärmepumpe: $Q_{\text{Heiz}} = 6 \, \text{kW}$
+   - Jahresarbeitszahl: $\text{JAZ} = 4$
+   - Laufzeit: $t = 1000 \, \text{h}$
+   - Elektrischer Energieverbrauch:
+     $$
+     E_{\text{el}} = \frac{6}{4} \cdot 1000 = 1500 \, \text{kWh}
+     $$
+
+---
+
+## Fazit
+
+Die Formel zur Berechnung des Stromverbrauchs einer Wärmepumpe ergänzt die allgemeinen Heizleistungsformeln, indem sie die Effizienz der Wärmepumpe ($\text{JAZ}$) berücksichtigt. So kann sowohl die bereitgestellte Wärmeenergie als auch der elektrische Verbrauch genau berechnet werden.
