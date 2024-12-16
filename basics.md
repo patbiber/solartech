@@ -203,6 +203,8 @@ $$
 
 ---
 
-## Fazit
+# Solar Panel Auslegung
 
-Die Formel zur Berechnung des Stromverbrauchs einer Wärmepumpe ergänzt die allgemeinen Heizleistungsformeln, indem sie die Effizienz der Wärmepumpe ($\text{JAZ}$) berücksichtigt. So kann sowohl die bereitgestellte Wärmeenergie als auch der elektrische Verbrauch genau berechnet werden.
+### Temperatur Korrektur für Leerlaufspannung Voc [V] 
+
+Effektive Leerlaufspannung Voc = Leerlaufspannung Voc [V] @ 25 °C * Tempereaturkoeffizient Voc [%/°K] * $\Delta t$
