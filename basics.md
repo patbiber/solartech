@@ -115,7 +115,7 @@ Wirkungsgrad $\eta = P_n / P_a$
 
 ### Temperatur Korrektur für Leerlaufspannung Voc [V] 
 
-Effektive Leerlaufspannung Voc = Leerlaufspannung Voc [V] @ 25 °C * Tempereaturkoeffizient Voc [%/°K] * $\Delta t$
+Effektive Leerlaufspannung $V$ [V]= Leerlaufspannung $V_{oc}$ [V] @ 25 °C * Tempereaturkoeffizient $V_{oc}$ [%/°K] * $\Delta t$
 
 # Heizleistung und Wärmeübertragung
 
