@@ -111,6 +111,12 @@ Kosten = $W * Tarif$
 
 Wirkungsgrad $\eta = P_n / P_a$ 
 
+# Solar Panel Auslegung
+
+### Temperatur Korrektur für Leerlaufspannung Voc [V] 
+
+Effektive Leerlaufspannung Voc = Leerlaufspannung Voc [V] @ 25 °C * Tempereaturkoeffizient Voc [%/°K] * $\Delta t$
+
 # Heizleistung und Wärmeübertragung
 
 ## 1. Heizleistung bei Massefluss
@@ -212,8 +218,3 @@ $$
 
 ---
 
-# Solar Panel Auslegung
-
-### Temperatur Korrektur für Leerlaufspannung Voc [V] 
-
-Effektive Leerlaufspannung Voc = Leerlaufspannung Voc [V] @ 25 °C * Tempereaturkoeffizient Voc [%/°K] * $\Delta t$
