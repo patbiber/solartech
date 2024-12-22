@@ -16,6 +16,25 @@ l = Leitungslänge [m]
 
 $A$= Stromdichte [A / mm²]
 
+## Erlaubte Stromdichte pro Leitungs Querschnitt
+
+| Stromdurchfluss [A]| Durchmesser [mm²]| 
+|--------------------|------------------|
+|200                 | 95               |
+|160                 | 70               |
+|100                 | 35               |
+|80                  | 25               |
+|69                  | 16 (Erdung)      |
+|50                  | 16 (Erdung)      |
+|40                  | 10               |
+|32                  | 6                |
+|25                  | 6                |
+|20                  | 4                |
+|16                  | 2,5              |
+|16                  | 1.5              |
+
+Die Erdung hat immer 16 mm² 
+
 ### Stromarten 🤘 AC/DC
 
 🔋 Gleichstrom (Direct Curren) DC -
