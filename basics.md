@@ -183,23 +183,17 @@ $$
 ## Zusammenhang zwischen Heizleistung und Stromverbrauch
 
 1. Die Heizleistung $Q_{\text{Heiz}}$ wird durch die thermodynamischen Formeln berechnet:
-   $$
-   Q_{\text{Heiz}} = m \cdot c \cdot \Delta t \quad \text{oder} \quad Q_{\text{Heiz}} = A \cdot k \cdot \Delta t
-   $$
+   $Q_{\text{Heiz}} = m \cdot c \cdot \Delta t \quad \text{oder} \quad Q_{\text{Heiz}} = A \cdot k \cdot \Delta t$
 
 2. Der elektrische Energieverbrauch ergibt sich aus der Heizleistung und der Effizienz:
-   $$
-   E_{\text{el}} = \frac{Q_{\text{Heiz}}}{\text{JAZ}} \cdot t
-   $$
+   $E_{\text{el}} = \frac{Q_{\text{Heiz}}}{\text{JAZ}} \cdot t$
 
 3. **Beispiel**:
    - Heizleistung der Wärmepumpe: $Q_{\text{Heiz}} = 6 \, \text{kW}$
    - Jahresarbeitszahl: $\text{JAZ} = 4$
    - Laufzeit: $t = 1000 \, \text{h}$
    - Elektrischer Energieverbrauch:
-     $$
-     E_{\text{el}} = \frac{6}{4} \cdot 1000 = 1500 \, \text{kWh}
-     $$
+     $E_{\text{el}} = \frac{6}{4} \cdot 1000 = 1500 \, \text{kWh}$
 
 ---
 
