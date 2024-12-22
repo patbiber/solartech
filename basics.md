@@ -166,17 +166,13 @@ Die Formel gilt in zwei Szenarien:
 Die Heizleistung $Q_{\text{Heiz}}$ der Wärmepumpe beschreibt die Wärmeenergie, die bereitgestellt wird. Sie kann durch allgemeine Formeln für thermische Energie berechnet werden:
 
 1. **Bei Massefluss (z. B. Erwärmung von Wasser):**
-   $$
-   Q_{\text{Heiz}} = m \cdot c \cdot \Delta t
-   $$
+   $Q_{\text{Heiz}} = m \cdot c \cdot \Delta t$
    - $m$: Masse des Mediums [kg]
    - $c$: Spezifische Wärmekapazität des Mediums [J/(kg·K)]
    - $\Delta t$: Temperaturdifferenz [K]
 
 2. **Bei Wärmeübertragung durch eine Fläche (z. B. durch eine Wand):**
-   $$
-   Q_{\text{Heiz}} = A \cdot k \cdot \Delta t
-   $$
+   $Q_{\text{Heiz}} = A \cdot k \cdot \Delta t$
    - $A$: Wärmeübertragungsfläche [m²]
    - $k$: Wärmedurchgangskoeffizient [W/(m²·K)]
    - $\Delta t$: Temperaturdifferenz [K]
