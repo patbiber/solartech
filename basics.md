@@ -101,17 +101,17 @@ Wenn ein Medium (z. B. Wasser) durch eine Temperaturänderung erwärmt oder abge
 $Q = m \cdot c \cdot \Delta t$
 
 ### Bedeutungen:
-- **$Q$**: Wärmeenergie [Joule (J) oder Kilowattstunden (kWh)]
-- **$m$**: Masse des Mediums [Kilogramm (kg)]
-- **$c$**: Spezifische Wärmekapazität des Mediums [J/(kg·K)] (z. B. Wasser: $c$ approx 4.18, [kJ/(kg·K)]
-- **$\Delta t$**: Temperaturänderung [Kelvin (K) oder °C]
+- $Q$: Wärmeenergie [Joule (J) oder Kilowattstunden (kWh)]
+- $m$: Masse des Mediums [Kilogramm (kg)]
+- $c$: Spezifische Wärmekapazität des Mediums [J/(kg·K)] (z. B. Wasser: $c$ approx 4.18, [kJ/(kg·K)]
+- $\Delta t$: Temperaturänderung [Kelvin (K) oder °C]
 
-Um die **Wärmeleistung $P$** zu berechnen, gilt:
+Um die **Wärmeleistung $P$ zu berechnen, gilt:
 
 $P = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
 
-- **$P$**: Heizleistung [Watt (W) oder Kilowatt (kW)]
-- **$t$**: Zeit [Sekunden (s) oder Stunden (h)]
+- $P$: Heizleistung [Watt (W) oder Kilowatt (kW)]
+- $t$: Zeit [Sekunden (s) oder Stunden (h)]
 
 ---
 
@@ -122,10 +122,10 @@ Wenn Wärme durch eine Fläche (z. B. durch eine Wand) übertragen wird, lautet 
 $P = A \cdot k \cdot \Delta t$
 
 ### Bedeutungen:
-- **$P$**: Wärmeleistung (Wärmefluss) [Watt (W) oder Kilowatt (kW)]
-- **$A$**: Fläche der Wärmeübertragung [m²]
-- **$k$**: Wärmedurchgangskoeffizient [W/(m²·K)] (Materialabhängig)
-- **$\Delta t$**: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K oder °C]
+- $P$: Wärmeleistung (Wärmefluss) [Watt (W) oder Kilowatt (kW)]
+- $A$: Fläche der Wärmeübertragung [m²]
+- $k$: Wärmedurchgangskoeffizient [W/(m²·K)] (Materialabhängig)
+- $\Delta t$: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K oder °C]
 
 Diese Formel beschreibt die **Wärmeleitung durch Flächen**.
 
@@ -173,10 +173,10 @@ E_{\text{el}} = \frac{Q_{\text{Heiz}}}{\text{JAZ}} \cdot t
 $$
 
 ### Variablen:
-- **$E_{\text{el}}$**: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
-- **$Q_{\text{Heiz}}$**: Heizleistung der Wärmepumpe [kW]
-- **$\text{JAZ}$**: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
-- **$t$**: Zeit, in der die Wärmepumpe läuft [h].
+- $E_{\text{el}}$: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
+- $Q_{\text{Heiz}}$: Heizleistung der Wärmepumpe [kW]
+- $\text{JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
+- $t$: Zeit, in der die Wärmepumpe läuft [h].
 
 ---
 
