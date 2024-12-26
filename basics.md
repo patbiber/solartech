@@ -117,6 +117,20 @@ Wirkungsgrad $\eta = P_n / P_a$
 
 Effektive Leerlaufspannung $V$ [V]= Leerlaufspannung $V_{oc}$ [V] @ 25 °C * Tempereaturkoeffizient $V_{oc}$ [%/°K] * $\Delta t$
 
+### Geometrie Dachschräge
+
+$l_{Dach}=b / cos(\Theta)$
+
+b ist die Dachlänge
+
+$\Theta$ die Dachschräge
+
+[Wikipedia Trigonometrische Funktion ](https://de.wikipedia.org/wiki/Trigonometrische_Funktion)
+
+![Trigonometrische Funktion](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/RechtwinkligesDreieck.svg/langde-442px-RechtwinkligesDreieck.svg.png)
+
+![Trigonometrische Funktion](https://wikimedia.org/api/rest_v1/media/math/render/svg/bba659bb417359e2b6a733d5fcc549027eade0c2)
+
 # Heizleistung und Wärmeübertragung
 
 ## 1. Heizleistung bei Massefluss
