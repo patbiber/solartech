@@ -16,9 +16,9 @@ l = Leitungslänge [m]
 
 $A$= Stromdichte [A / mm²]
 
-## Erlaubte Stromdichte pro Leitungs Querschnitt
+## Erlaubte Stromdichte für Leitungs Querschnitt
 
-| Stromdurchfluss [A]| Durchmesser [mm²]| 
+| Stromdurchfluss [A]| Querschnitt [mm²]| 
 |--------------------|------------------|
 |200                 | 95               |
 |160                 | 70               |
