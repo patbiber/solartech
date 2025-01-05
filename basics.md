@@ -121,9 +121,13 @@ Effektive Leerlaufspannung $V$ [V]= Leerlaufspannung $V_{oc}$ [V] @ 25 °C * Tem
 
 $l_{Dach}=b / cos(\Theta)$
 
-b ist die Dachlänge
+$b=l_{Dach} * cos(\Theta)$
 
-$\Theta$ die Dachschräge
+b ist die Breite bis zum First vom Grundriss
+
+$\Theta$ ist die Dachschräge
+
+$l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 
 [Wikipedia Trigonometrische Funktion ](https://de.wikipedia.org/wiki/Trigonometrische_Funktion)
 
