@@ -130,7 +130,7 @@ $l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 
 [Wikipedia Trigonometrische Funktion ](https://de.wikipedia.org/wiki/Trigonometrische_Funktion)
 
-![Trigonometrische Funktion](https://upload.wikimedia.org/wikipedia/commons/tH_smb/5/56/RechtwinkligesDreieck.svg/langde-442px-RechtwinkligesDreieck.svg.png)
+![Trigonometrische Funktion](https://upload.wikimedia.org/wikipedia/commons/5/56/RechtwinkligesDreieck.svg)
 
 ![Trigonometrische Funktion](https://wikimedia.org/api/rest_v1/media/math/render/svg/bba659bb417359e2b6a733d5fcc549027eade0c2)
 
