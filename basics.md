@@ -134,6 +134,18 @@ $l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 
 ![Trigonometrische Funktion](https://wikimedia.org/api/rest_v1/media/math/render/svg/bba659bb417359e2b6a733d5fcc549027eade0c2)
 
+
+# Fläche
+
+## Dreieck
+
+$ A = (l * h )/2
+
+## Kreis
+
+$ A = (d²*\pi)/ 4$
+
+
 # Heizleistung und Wärmeübertragung
 
 ## 1. Heizleistung bei Massefluss
