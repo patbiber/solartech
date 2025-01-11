@@ -12,4 +12,10 @@ Hilfe zur Markdownformatierung
 
 - [Ich nutze KiCAD](https://www.kicad.org/download/) `sudo apt install kicad`
 
+- Jupyter Notebook ist auch praktisch
+
+`sudo apt install python3 python3-pip -y`
+`pip3 install notebook`
+`jupyter notebook`
+
 Kontakt [patrick@biber.solar](mailto:patrick@biber.solar)

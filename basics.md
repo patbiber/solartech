@@ -69,7 +69,7 @@ $1/R_p= 1/R_1 + 1/R_2 + 1/R_3$
 
 ### Sternschaltung
 
-![Sternschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sternschaltung.svg/250px-Sternschaltung.svg.png)
+![Sternschaltung](https://upload.wikimedia.org/wikipedia/commons/tH_smb/8/86/Sternschaltung.svg/250px-Sternschaltung.svg.png)
 
 $I = I_p$
 
@@ -81,7 +81,7 @@ $U_p$ = 230 V
 
 ### Dreickschaltung
 
-![Dreieckschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dreieckschaltung.svg/330px-Dreieckschaltung.svg.png)
+![Dreieckschaltung](https://upload.wikimedia.org/wikipedia/commons/tH_smb/e/e2/Dreieckschaltung.svg/330px-Dreieckschaltung.svg.png)
 
 $U = U_p$
 
@@ -130,7 +130,7 @@ $l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 
 [Wikipedia Trigonometrische Funktion ](https://de.wikipedia.org/wiki/Trigonometrische_Funktion)
 
-![Trigonometrische Funktion](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/RechtwinkligesDreieck.svg/langde-442px-RechtwinkligesDreieck.svg.png)
+![Trigonometrische Funktion](https://upload.wikimedia.org/wikipedia/commons/tH_smb/5/56/RechtwinkligesDreieck.svg/langde-442px-RechtwinkligesDreieck.svg.png)
 
 ![Trigonometrische Funktion](https://wikimedia.org/api/rest_v1/media/math/render/svg/bba659bb417359e2b6a733d5fcc549027eade0c2)
 
@@ -139,6 +139,10 @@ $l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 ## 1. Heizleistung bei Massefluss
 
 Wenn ein Medium (z. B. Wasser) durch eine Temperaturänderung erwärmt oder abgekühlt wird, lautet die Formel:
+
+1 [J] = 1 [Ws]
+1 [MJ] = 1 * 10 ^6 J 
+kWh = MJ / 3.6
 
 Wärmeenergie $Q [J][kWh] = m \cdot c \cdot \Delta t$
 
@@ -163,8 +167,20 @@ Wärmeleistung [W] $P = A \cdot k \cdot \Delta t$
 - $k$: Wärmedurchgangskoeffizient [W/(m²·K)] (Materialabhängig)
 - $\Delta t$: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K]
 
+Wärmedunrchgangskoeffizient [W/(m²·K)] $k = 1 / (1 / \alpha_i + \sum{d / \lambda} + 1 / \alpha_i)$
 
 Heizleistung [W] $P = \frac{Q}{t}$
+
+## Wärmepumpenleistung
+
+Heizleistung $P_{heiz} [kW] = P_{el} * E_{WP}$
+
+P_{el} = P_{heiz} / $E_{WP}$
+
+$E_{WP}$ = Leistungszahl
+
+Erdsonde ca 90 Watt / m Sondenlänge
+
 
 ## Stromverbrauch der Wärmepumpe
 
@@ -179,7 +195,30 @@ $$
 - $\text{JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
 - $t$: Zeit, in der die Wärmepumpe läuft [h].
 
+
 ---
+## Heizleistung von Fosilen Heizungen
+
+Heizenergie [MJ] $Q = m * H_s$
+
+kWh = MJ / 3.6
+
+Heizleistung [kWh] $P = Q / t = m * H_s / t$
+
+Masse $m$ [kg]
+
+Brennwert $H_s$ [MJ/kg] oder [kWh/kg]
+
+|Brennstoff      |Brennwert [MJ/kg]|
+|----------------|---------|
+|Oel Extraleicht | 42     |
+|Oel Schwer      | 39,8   |
+|Erdgas          | 31,8   |
+|Propan          | 100,56 |
+|Erdgas          | 113,1  |
+
+$ m = Q / H_s $
+
 
 
 
