@@ -139,11 +139,11 @@ $l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 
 ## Dreieck
 
-$ A = (l * h )/2
+$A = (l * h )/2$
 
 ## Kreis
 
-$ A = (d²*\pi)/ 4$
+$A = (d²*\pi)/ 4$
 
 
 # Heizleistung und Wärmeübertragung
