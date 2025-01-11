@@ -210,15 +210,15 @@ Erdsonde ca 90 Watt / m Sondenlänge
 
 ## Stromverbrauch der Wärmepumpe
 
-Die elektrische Energie $E_{\text{el}}$, die von der Wärmepumpe verbraucht wird, hängt von der Effizienz der Wärmepumpe ab. Diese Effizienz wird durch die **Jahresarbeitszahl (JAZ)** beschrieben:
+Die elektrische Energie $E_{{el}}$, die von der Wärmepumpe verbraucht wird, hängt von der Effizienz der Wärmepumpe ab. Diese Effizienz wird durch die **Jahresarbeitszahl (JAZ)** beschrieben:
 
 $$
-E_{\text{el}} = \frac{Q_{\text{Heiz}}}{\text{JAZ}} \cdot t
+E_{{el}} = \frac{Q_{{Heiz}}}{{JAZ}} \cdot t
 $$
 
-- $E_{\text{el}}$: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
-- $Q_{\text{Heiz}}$: Heizleistung der Wärmepumpe [kW]
-- $\text{JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
+- $E_{{el}}$: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
+- $Q_{{Heiz}}$: Heizleistung der Wärmepumpe [kW]
+- ${JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
 - $t$: Zeit, in der die Wärmepumpe läuft [h].
 
 
@@ -245,6 +245,41 @@ Brennwert $H_s$ [MJ/kg] oder [kWh/kg]
 
 $ m = Q / H_s $
 
+## Berechnung des jährlichen Energiebedarfs für Heizung unter Berücksichtigung der Klimadaten in der Schweiz
+
+**Formel:**
+
+Um den jährlichen Energiebedarf zu berechnen, kannst du folgende Formel verwenden:
+
+\[ {Jahres-Energiebedarf (kWh)} = {Heizlast (kW)} \times {Heizgradtage (HGT)} \times 24 \, {h/Tag} \times \frac{1}{{Norm-Heizgradtage}} \]
+
+**Parameter:**
+
+- **Heizlast (kW):** Die maximale benötigte Heizleistung deines Gebäudes.
+- **Heizgradtage (HGT):** Summe der täglichen Temperaturdifferenzen, die den Heizbedarf anzeigen.
+- **Norm-Heizgradtage:** Standardwert, z. B. 3'400 HGT.
+
+**Beispielrechnung:**
+
+Angenommen, du hast folgende Werte:
+
+- Heizlast: 10 kW
+- Regionale Heizgradtage: 3'200 HGT
+- Norm-Heizgradtage: 3'400 HGT
+
+Dann berechnet sich der Jahres-Energiebedarf wie folgt:
+
+\[ {Jahres-Energiebedarf} = 10 \, {kW} \times 3'200 \times 24 \, {h/Tag} \times \frac{1}{3'400} \approx 22'588 \, {kWh} \]
+
+**Hinweis:**
+
+Diese Berechnung liefert eine grobe Schätzung. Für genaue Ergebnisse sollten spezifische Gebäudedaten und lokale Klimadaten verwendet werden.
+
+**Weitere Informationen:**
+
+Für detaillierte Klimadaten und Heizgradtage in der Schweiz kannst du die Webseite von MeteoSchweiz besuchen:
+
+- [Heiztag - MeteoSchweiz](https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/heiztag.html)
 
 
 
