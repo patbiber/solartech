@@ -222,10 +222,60 @@ $$
 - $t$: Zeit, in der die Wärmepumpe läuft [h].
 
 
+Ermittlung der Heizleistung aus dem Energie-
+verbrauch von Öl- oder Gaskessel
+Die erforderliche Heizleistung kann nach Weiersmüller [1]
+aufgrund des jährlichen Brennstoffverbrauchs Die Berechnungen basieren auf 20 °C Raumluft-
+temperatur. Sie ergeben speziell für Wohnbauten mit
+Kesselleistungen bis 100 kW gute Resultate. Für grössere
+Leistungen sollte nach Kap. 3.2 vorgegangen werden Dimensionierung
+von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publication/download/165
+.
+
+### Mittelland
+
+- Mit Warmwasser Warmwasserbereitung ganzjährig Kessel
+  
+  $Q_H$ = Verbrauch / 300
+
+- Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
+
+  $Q_H$ = Verbrauch / 265
+
+### Über 800 m ü.M.
+
+- Mit Warmwasser Warmwasserbereitung ganzjährig Kessel
+  
+  $Q_H$ = Verbrauch / 330
+
+- Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
+
+  $Q_H$ = Verbrauch / 295
+
+
+$Q_H$ = erforderlicher Heizleistungsbedarf bei Auslegetemperatur [kW]
+
+Verbrauch in Liter Öl 
+ - 1 kg Öl entspricht ca. 1.19 Liter
+ - 1 Betriebs-m3 Gas entspricht ca. 0.93 Liter Öl
+
+
+Zur Kontrolle der Resultate kann die spezifische Heizlei stung herangezogen werden. Sie errechnet sich aus der Heizleistung dividiert durch die Energiebezugsfläche (beheizte Bruttogeschossfläche):
+
+| Gebäudetyp                              | W/m2      |
+|-----------------------------------------|-----------|
+|Herkömmlich wärmegedämmte Wohnhäuser     | 50 ... 70 |
+|Gut wärmegedämmte bestehende Wohnhäuser  | 40 ... 50 |
+|Neubauten gemäss heutigen Vorschriften   | 30 ... 40 |
+|Herkömmliche Dienstleistungsbauten       | 60 ... 80 |
+
+
+brauche auch https://biber.solar/heat-pump-calculator/
+
 ---
 ## Heizleistung von Fosilen Heizungen
 
-Heizenergie [MJ] $Q = m * H_s$
+Heizenergie [MJ] $Q_F = m * H_s$
 
 kWh = MJ / 3.6
 
@@ -245,41 +295,75 @@ Brennwert $H_s$ [MJ/kg] oder [kWh/kg]
 
 $ m = Q / H_s $
 
+### Umrechnung auf benötigte Leistung mit WP
+
+$Q_{WPel}=Q_{WP}*\eta$ 
+
+$Q_{WP}$= Benötige Wäremeleistung (EW Sperrfrist beachten)
+
+$Q_{WPel}$= Elektrische Aufnameleistung
+
+$\eta$= Wirkungsgrad 
+
+
+
 ## Berechnung des jährlichen Energiebedarfs für Heizung unter Berücksichtigung der Klimadaten in der Schweiz
 
-**Formel:**
+Energiebedarf (kWh) = (Heizlast / 28) × 16 × HGT Dabei gilt:
 
-Um den jährlichen Energiebedarf zu berechnen, kannst du folgende Formel verwenden:
+    Heizlast: Die benötigte Wärmeleistung des Hauses in kW
+    28: Differenz zwischen -8°C (Auslegungstemperatur) und 20°C (gewünschte Raumtemperatur)
+    16: Angenommene tägliche Betriebsdauer der Heizung in Stunden
+    HGT: Heizgradtage des Standorts2
 
-\[ {Jahres-Energiebedarf (kWh)} = {Heizlast (kW)} \times {Heizgradtage (HGT)} \times 24 \, {h/Tag} \times \frac{1}{{Norm-Heizgradtage}} \]
+https://opendata.swiss/de/dataset/monatliche-heizgradtage-in-der-schweiz-gewichtet/resource/fc492ffc-1eb6-4919-af54-16998eaf7eaa
+https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage
+https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8
 
-**Parameter:**
+Zürich Fluntern 3125
 
-- **Heizlast (kW):** Die maximale benötigte Heizleistung deines Gebäudes.
-- **Heizgradtage (HGT):** Summe der täglichen Temperaturdifferenzen, die den Heizbedarf anzeigen.
-- **Norm-Heizgradtage:** Standardwert, z. B. 3'400 HGT.
+Schritte zur Berechnung:
 
-**Beispielrechnung:**
+    Ermittlung der Heizlast:
+        Für Sanierungen: Heizlast (kW) = Jahresverbrauch × Umrechnungsfaktor
+        (z.B. Liter Öl pro Jahr × 0.004)5
+        Für Neubauten: Heizlast (kW) = beheizte Fläche (m²) × Heizlast pro m²
+        (z.B. 25-40 W/m² für Neubauten ab 2000)5
+    Bestimmung der Heizgradtage (HGT) für den Standort:
+        Verwenden Sie die HGT-Werte aus offiziellen Tabellen für Schweizer Städte
 
-Angenommen, du hast folgende Werte:
+    Einsetzen der Werte in die Formel:
+    Energiebedarf (kWh) = (Heizlast / 28) × 16 × HGT
+    Berücksichtigung des Warmwasserbedarfs:
+    Addieren Sie ca. 250 W pro Person für den Warmwasserbedarf5
 
-- Heizlast: 10 kW
-- Regionale Heizgradtage: 3'200 HGT
-- Norm-Heizgradtage: 3'400 HGT
+Beispiel:
+Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
-Dann berechnet sich der Jahres-Energiebedarf wie folgt:
+    Heizlast: 140 m² × 35 W/m² = 4.9 kW
+    HGT für Zürich: 32672
+    Warmwasserbedarf: 4 × 250 W = 1 kW
 
-\[ {Jahres-Energiebedarf} = 10 \, {kW} \times 3'200 \times 24 \, {h/Tag} \times \frac{1}{3'400} \approx 22'588 \, {kWh} \]
-
-**Hinweis:**
-
-Diese Berechnung liefert eine grobe Schätzung. Für genaue Ergebnisse sollten spezifische Gebäudedaten und lokale Klimadaten verwendet werden.
-
-**Weitere Informationen:**
-
-Für detaillierte Klimadaten und Heizgradtage in der Schweiz kannst du die Webseite von MeteoSchweiz besuchen:
-
-- [Heiztag - MeteoSchweiz](https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/heiztag.html)
+Energiebedarf = ((4.9 + 1) / 28) × 16 × 3267 ≈ 11,900 kWh pro Jahr
 
 
+# Stromverbrauch
+
+Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbraucht etwa 5000 kWh pro Jahr.
+
+-Typischer Zwei-Personen-Haushalt:
+    -In einem Mehrfamilienhaus: 2750 kWh/Jahr
+    -In einem Einfamilienhaus: 3550 kWh/Jahr2
+
+-Ein-Personen-Haushalt:
+    -In einem Mehrfamilienhaus: 2200 kWh/Jahr
+    -In einem Einfamilienhaus: 2700 kWh/Jahr2
+
+-Vier-Personen-Haushalt:
+    -In einem Mehrfamilienhaus: 3850 kWh/Jahr
+    -In einem Einfamilienhaus: 5200 kWh/Jahr
+
+
+
+https://pubdb.bfe.admin.ch/de/publication/download/10559
 
