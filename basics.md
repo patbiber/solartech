@@ -277,23 +277,22 @@ brauche auch https://biber.solar/heat-pump-calculator/
 
 Heizenergie [MJ] $Q_F = m * H_s$
 
-kWh = MJ / 3.6
-
 Heizleistung [kWh] $P = Q / t = m * H_s / t$
 
 Masse $m$ [kg]
 
-Brennwert $H_s$ [MJ/kg] oder [kWh/kg]
+Heizwert $H_s$ [MJ/kg] oder [kWh/kg]
+- Oel Extraleicht: 42,9 [MJ/kg]
+- Erdgas:  37 [MJ/m³] / 10,305 [kWh/m³]
 
-|Brennstoff      |Brennwert [MJ/kg]|
-|----------------|---------|
-|Oel Extraleicht | 42     |
-|Oel Schwer      | 39,8   |
-|Erdgas          | 31,8   |
-|Propan          | 100,56 |
-|Erdgas          | 113,1  |
+
+kWh = MJ / 3.6
 
 $ m = Q / H_s $
+
+Anpassung Heizwert https://pubdb.bfe.admin.ch/de/publication/download/7442
+
+Werte Gas: https://www.svgw.ch/media/9858/g10001_d_werte2022.pdf
 
 ### Umrechnung auf benötigte Leistung mit WP
 
