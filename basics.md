@@ -284,7 +284,7 @@ Heizwert $H_s$ [MJ/kg] oder [kWh/kg]
 
 kWh = MJ / 3.6
 
-$ m = Q / H_s $
+$m = Q / H_s$
 
 Anpassung Heizwert https://pubdb.bfe.admin.ch/de/publication/download/7442
 
@@ -301,8 +301,7 @@ $Q_{WPel}$= Elektrische Aufnameleistung
 $\eta$= Wirkungsgrad 
 
 
-
-## Berechnung des jährlichen Energiebedarfs für Heizung unter Berücksichtigung der Klimadaten in der Schweiz
+### Berechnung des jährlichen Energiebedarfs für Heizung 
 
 Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
 
@@ -314,15 +313,7 @@ Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
  - [Heizgradtage HGT Ortschaften](https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage)
 - [Heizgradtage HGT St. Gallen](https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8)
 
-
-## Ermittlung der Heizlast:
-
-### Für Sanierunge 
-
-Heizlast (kW) = Jahresverbrauch * Umrechnungsfaktor
-(z.B. Liter Öl pro Jahr * 0.004)
-
-### Für Neubauten: 
+### Ermittlung der Heizlast für Neubauten: 
 
 Heizlast (kW) = beheizte Fläche (m²) * Heizlast pro m²
 
