@@ -197,7 +197,7 @@ Wärmedunrchgangskoeffizient [W/(m²·K)] $k = 1 / (1 / \alpha_i + \sum{d / \lam
 
 Heizleistung $P_{heiz} [kW] = P_{el} * E_{WP}$
 
-P_{el} = P_{heiz} / $E_{WP}$
+$P_{el} = P_{heiz} / E_{WP}$
 
 $E_{WP}$ = Leistungszahl
 
