@@ -69,7 +69,7 @@ $1/R_p= 1/R_1 + 1/R_2 + 1/R_3$
 
 ### Sternschaltung
 
-![Sternschaltung](https://upload.wikimedia.org/wikipedia/commons/tH_smb/8/86/Sternschaltung.svg/250px-Sternschaltung.svg.png)
+![Sternschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sternschaltung.svg/250px-Sternschaltung.svg.png)
 
 $I = I_p$
 
@@ -81,7 +81,7 @@ $U_p$ = 230 V
 
 ### Dreickschaltung
 
-![Dreieckschaltung](https://upload.wikimedia.org/wikipedia/commons/tH_smb/e/e2/Dreieckschaltung.svg/330px-Dreieckschaltung.svg.png)
+![Dreieckschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dreieckschaltung.svg/330px-Dreieckschaltung.svg.png)
 
 $U = U_p$
 
@@ -148,9 +148,9 @@ $A = (d²*\pi)/ 4$
 
 # Heizleistung und Wärmeübertragung
 
-## 1. Heizleistung bei Massefluss
+Heizleistung [W] $P = \frac{Q}{t}$
 
-Wenn ein Medium (z. B. Wasser) durch eine Temperaturänderung erwärmt oder abgekühlt wird, lautet die Formel:
+## Heizleistung bei Massefluss
 
 1 [J] = 1 [Ws]
 1 [MJ] = 1 * 10 ^6 J 
@@ -181,9 +181,7 @@ Wärmeleistung $P [W] = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
 | 2 1/2"          | DN 65          | 76,1                  | 13,33                 |
 
 
----
-
-## 2. Heizleistung bei Wärmeübertragung durch eine Fläche
+## Heizleistung bei Wärmeübertragung durch eine Fläche
 
 Wenn Wärme durch eine Fläche (z. B. durch eine Wand) übertragen wird, lautet die Formel:
 
@@ -194,8 +192,6 @@ Wärmeleistung [W] $P = A \cdot k \cdot \Delta t$
 - $\Delta t$: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K]
 
 Wärmedunrchgangskoeffizient [W/(m²·K)] $k = 1 / (1 / \alpha_i + \sum{d / \lambda} + 1 / \alpha_i)$
-
-Heizleistung [W] $P = \frac{Q}{t}$
 
 ## Wärmepumpenleistung
 
@@ -308,42 +304,38 @@ $\eta$= Wirkungsgrad
 
 ## Berechnung des jährlichen Energiebedarfs für Heizung unter Berücksichtigung der Klimadaten in der Schweiz
 
-Energiebedarf (kWh) = (Heizlast / 28) × 16 × HGT Dabei gilt:
+Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
 
-    Heizlast: Die benötigte Wärmeleistung des Hauses in kW
-    28: Differenz zwischen -8°C (Auslegungstemperatur) und 20°C (gewünschte Raumtemperatur)
-    16: Angenommene tägliche Betriebsdauer der Heizung in Stunden
-    HGT: Heizgradtage des Standorts2
+- Heizlast: Die benötigte Wärmeleistung des Hauses in kW
+- 28: Differenz zwischen -8°C (Auslegungstemperatur) und 20°C (gewünschte - Raumtemperatur)
+- 16: Angenommene tägliche Betriebsdauer der Heizung in Stunden
+- HGT: Heizgradtage des Standorts
+- [Heizgradtage HGT Schweiz](https://opendata.swiss/de/dataset/monatliche-heizgradtage-in-der-schweiz-gewichtet/resource/fc492ffc-1eb6-4919-af54-16998eaf7eaa)
+ - [Heizgradtage HGT Ortschaften](https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage)
+- [Heizgradtage HGT St. Gallen](https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8)
 
-https://opendata.swiss/de/dataset/monatliche-heizgradtage-in-der-schweiz-gewichtet/resource/fc492ffc-1eb6-4919-af54-16998eaf7eaa
-https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage
-https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8
 
-Zürich Fluntern 3125
+## Ermittlung der Heizlast:
 
-Schritte zur Berechnung:
+### Für Sanierunge 
 
-    Ermittlung der Heizlast:
-        Für Sanierungen: Heizlast (kW) = Jahresverbrauch × Umrechnungsfaktor
-        (z.B. Liter Öl pro Jahr × 0.004)5
-        Für Neubauten: Heizlast (kW) = beheizte Fläche (m²) × Heizlast pro m²
-        (z.B. 25-40 W/m² für Neubauten ab 2000)5
-    Bestimmung der Heizgradtage (HGT) für den Standort:
-        Verwenden Sie die HGT-Werte aus offiziellen Tabellen für Schweizer Städte
+Heizlast (kW) = Jahresverbrauch * Umrechnungsfaktor
+(z.B. Liter Öl pro Jahr * 0.004)
 
-    Einsetzen der Werte in die Formel:
-    Energiebedarf (kWh) = (Heizlast / 28) × 16 × HGT
-    Berücksichtigung des Warmwasserbedarfs:
-    Addieren Sie ca. 250 W pro Person für den Warmwasserbedarf5
+### Für Neubauten: 
 
-Beispiel:
+Heizlast (kW) = beheizte Fläche (m²) * Heizlast pro m²
+
+Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT
+  
+- plus ca. 250 W pro Person für den Warmwasserbedarf5
+
 Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
-    Heizlast: 140 m² × 35 W/m² = 4.9 kW
-    HGT für Zürich: 32672
-    Warmwasserbedarf: 4 × 250 W = 1 kW
-
-Energiebedarf = ((4.9 + 1) / 28) × 16 × 3267 ≈ 11,900 kWh pro Jahr
+      Heizlast: 140 m² * 35 W/m² = 4.9 kW
+      HGT für Zürich: 32672
+      Warmwasserbedarf: 4 * 250 W = 1 kW
+      Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
 
 
 # Stromverbrauch
@@ -362,7 +354,6 @@ Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbrauc
     -In einem Mehrfamilienhaus: 3850 kWh/Jahr
     -In einem Einfamilienhaus: 5200 kWh/Jahr
 
-
-
-https://pubdb.bfe.admin.ch/de/publication/download/10559
+[Stromverbrauch eines
+typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559)
 
