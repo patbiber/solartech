@@ -220,13 +220,10 @@ $$
 
 Ermittlung der Heizleistung aus dem Energie-
 verbrauch von Öl- oder Gaskessel
-Die erforderliche Heizleistung kann nach Weiersmüller [1]
-aufgrund des jährlichen Brennstoffverbrauchs Die Berechnungen basieren auf 20 °C Raumluft-
-temperatur. Sie ergeben speziell für Wohnbauten mit
-Kesselleistungen bis 100 kW gute Resultate. Für grössere
+Die erforderliche Heizleistung kann 
+aufgrund des jährlichen Brennstoffverbrauchs Die Berechnungen basieren auf 20 °C Raumlufttemperatur bis 100 kW. Für grössere
 Leistungen sollte nach Kap. 3.2 vorgegangen werden Dimensionierung
-von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publication/download/165
-.
+von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publication/download/165.
 
 ### Mittelland
 
