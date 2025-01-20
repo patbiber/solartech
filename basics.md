@@ -345,3 +345,54 @@ Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbrauc
 [Stromverbrauch eines
 typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559)
 
+
+# Abkürzungen
+
+AC Wechselstrom 
+
+DC Gleichstrom
+
+EnFV Energieförderverordnung
+
+EnG Energiegesetz
+
+EnV Energieverordnung
+
+ESTI Eidgenössisches Starkstrominspektorat
+
+EVU Energieversorgungsunternehmen
+
+GREIV Einmalvergütung für grosse Anlagen. Betreiber von Anlagen mit einer 
+Leistung von mehr als 100 kW können ab 2018 zwischen EVS und GREIV 
+wählen.
+
+HV Hauptverteilung
+
+IEC International Electrotechnical Commission 
+
+KLEIV Einmalvergütung für kleine Anlagen. Betreiber von Anlagen mit einer 
+Leistung von weniger als 100 kW erhalten ab 2018 ausschliesslich die 
+KLEIV.
+
+MPP-Tracker Maximal-Leistungspunkt-Suche
+
+NIN Niederspannungs-Installations-Norm
+
+Pronovo Unterem anderem zuständig für die Ausstellung von Herkunftsnachweisen 
+und Abwicklung der Förderprogramme des Bundes für die Stromproduktion 
+aus neuen erneuerbaren Energien.
+
+PV Photovoltaik
+
+SENS Die Stiftung SENS (Sustainability, Expertise, Network, Solution) ist eine 
+unabhängige, neutrale und nicht gewinnorientierte, gemeinnützige Stiftung 
+und tritt gegen aussen mit der Marke SENS eRecycling auf.
+
+SIA Schweizerischer Ingenieur- und Architektenverein
+
+UV Unterverteilung
+
+VKF Vereinigung Kantonaler Feuerversicherungen
+
+VNB Verteilnetzbetreibe
+
