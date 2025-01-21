@@ -56,6 +56,7 @@ Die Erdung hat immer 16 mm²
 | 80 A          | ![#CCCCCC](https://via.placeholder.com/15/CCCCCC/000000?text=+) silber |  |  | 21,4 mm |
 | 100 A         | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) rot |  |  | 24,2 mm |
 
+[Wikipedia Schmelzsicherungen](https://de.wikipedia.org/wiki/Schmelzsicherung)
 
 ### Stromarten 🤘 AC/DC
 
