@@ -16,47 +16,6 @@ l = Leitungslänge [m]
 
 $A$= Stromdichte [A / mm²]
 
-## Erlaubte Stromdichte für Leitungs Querschnitt
-
-| Stromdurchfluss [A]| Querschnitt [mm²]| 
-|--------------------|------------------|
-|200                 | 95               |
-|160                 | 70               |
-|100                 | 35               |
-|80                  | 25               |
-|69                  | 16 (Erdung)      |
-|50                  | 16 (Erdung)      |
-|40                  | 10               |
-|32                  | 6                |
-|25                  | 6                |
-|20                  | 4                |
-|16                  | 2,5              |
-|16                  | 1.5              |
-
-Die Erdung hat immer 16 mm² 
-
-# Schmelzsicherungen
-
-| Nennstrom      | Farbe   | Fußdurchmesser |   |   |
-|---------------|---------|---------------|---|---|
-|               |         | D             | DL| D0|
-| 2 A           | 🟥 rosa  | 6 mm | 8 mm | 7,3 mm |
-| 4 A           | 🟫 braun |  |  |  |
-| 6 A           | 🟩 grün  |  |  |  |
-| (10 A mit 6 A Fuß) | 🟥 rot  |  |  |  |
-| 10 A          | 🟥 rot  | 8 mm | 8 mm | 8,5 mm |
-| (13 A)        | ⬛ schwarz |  |  |  |
-| 16 A          | ⬜ grau  | 10 mm | 10 mm | 9,7 mm |
-| 20 A          | 🟦 blau  | 12 mm | 12 mm | 10,9 mm |
-| 25 A          | 🟨 gelb  | 14 mm |  | 12,1 mm |
-| 32 A          | 🟪 violett |  |  |  |
-| 35 A (40 A)   | ⬛ schwarz | 16 mm |  | 13,3 mm |
-| 50 A          | ⬜ weiß   | 18 mm |  | 14,5 mm |
-| 63 A          | 🟧 kupfer | 20 mm |  | 15,9 mm |
-| 80 A          | ⚪ silber |  |  | 21,4 mm |
-| 100 A         | 🟥 rot  |  |  | 24,2 mm |
-
-[Wikipedia Schmelzsicherungen](https://de.wikipedia.org/wiki/Schmelzsicherung)
 
 ### Stromarten 🤘 AC/DC
 
@@ -132,6 +91,54 @@ Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
 Kosten = $W * Tarif$
 
 Wirkungsgrad $\eta = P_n / P_a$ 
+
+
+## Erlaubte Stromdichte für Leitungs Querschnitt
+
+| Stromdurchfluss [A]| Querschnitt [mm²]| 
+|--------------------|------------------|
+|200                 | 95               |
+|160                 | 70               |
+|100                 | 35               |
+|80                  | 25               |
+|69                  | 16 (Erdung)      |
+|50                  | 16 (Erdung)      |
+|40                  | 10               |
+|32                  | 6                |
+|25                  | 6                |
+|20                  | 4                |
+|16                  | 2,5              |
+|16                  | 1.5              |
+
+Die Erdung hat immer 16 mm² 
+
+# Schmelzsicherungen
+
+| Nennstrom      | Farbe   | Fußdurchmesser |   |   |
+|---------------|---------|---------------|---|---|
+|               |         | D             | DL| D0|
+| 2 A           | 🟥 rosa  | 6 mm | 8 mm | 7,3 mm |
+| 4 A           | 🟫 braun |  |  |  |
+| 6 A           | 🟩 grün  |  |  |  |
+| (10 A mit 6 A Fuß) | 🟥 rot  |  |  |  |
+| 10 A          | 🟥 rot  | 8 mm | 8 mm | 8,5 mm |
+| (13 A)        | ⬛ schwarz |  |  |  |
+| 16 A          | ⬜ grau  | 10 mm | 10 mm | 9,7 mm |
+| 20 A          | 🟦 blau  | 12 mm | 12 mm | 10,9 mm |
+| 25 A          | 🟨 gelb  | 14 mm |  | 12,1 mm |
+| 32 A          | 🟪 violett |  |  |  |
+| 35 A (40 A)   | ⬛ schwarz | 16 mm |  | 13,3 mm |
+| 50 A          | ⬜ weiß   | 18 mm |  | 14,5 mm |
+| 63 A          | 🟧 kupfer | 20 mm |  | 15,9 mm |
+| 80 A          | ⚪ silber |  |  | 21,4 mm |
+| 100 A         | 🟥 rot  |  |  | 24,2 mm |
+
+[Wikipedia Schmelzsicherungen](https://de.wikipedia.org/wiki/Schmelzsicherung)
+
+### Beispiel
+
+40 Ampère Sicherung * 230 V * 3 Phasen = 27600 VA -> 27,6 kWP max Leistung der Solaranlage 
+$I * U * cos\phi= P$
 
 # Solar Panel Auslegung
 
