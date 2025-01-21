@@ -35,6 +35,28 @@ $A$= Stromdichte [A / mm²]
 
 Die Erdung hat immer 16 mm² 
 
+# Schmelzsicherungen
+
+| Nennstrom      | Farbe   | Fußdurchmesser |   |   |
+|---------------|---------|---------------|---|---|
+|               |         | D             | DL| D0|
+| 2 A           | ![#FFBBCC](https://via.placeholder.com/15/FFBBCC/000000?text=+) rosa | 6 mm | 8 mm | 7,3 mm |
+| 4 A           | ![#965220](https://via.placeholder.com/15/965220/000000?text=+) braun |  |  |  |
+| 6 A           | ![#00DD00](https://via.placeholder.com/15/00DD00/000000?text=+) grün |  |  |  |
+| (10 A mit 6 A Fuß) | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) rot |  |  |  |
+| 10 A          | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) rot | 8 mm | 8 mm | 8,5 mm |
+| (13 A)        | ![#000000](https://via.placeholder.com/15/000000/000000?text=+) schwarz |  |  |  |
+| 16 A          | ![#999999](https://via.placeholder.com/15/999999/000000?text=+) grau | 10 mm | 10 mm | 9,7 mm |
+| 20 A          | ![#0000FF](https://via.placeholder.com/15/0000FF/000000?text=+) blau | 12 mm | 12 mm | 10,9 mm |
+| 25 A          | ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+) gelb | 14 mm |  | 12,1 mm |
+| 32 A          | ![#A146FF](https://via.placeholder.com/15/A146FF/000000?text=+) violett |  |  |  |
+| 35 A (40 A)   | ![#0A0A0D](https://via.placeholder.com/15/0A0A0D/000000?text=+) schwarz | 16 mm |  | 13,3 mm |
+| 50 A          | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) weiß | 18 mm |  | 14,5 mm |
+| 63 A          | ![#EE8030](https://via.placeholder.com/15/EE8030/000000?text=+) kupfer | 20 mm |  | 15,9 mm |
+| 80 A          | ![#CCCCCC](https://via.placeholder.com/15/CCCCCC/000000?text=+) silber |  |  | 21,4 mm |
+| 100 A         | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) rot |  |  | 24,2 mm |
+
+
 ### Stromarten 🤘 AC/DC
 
 🔋 Gleichstrom (Direct Curren) DC -
@@ -344,7 +366,6 @@ Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbrauc
 
 [Stromverbrauch eines
 typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559)
-
 
 # Abkürzungen
 
