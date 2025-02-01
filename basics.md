@@ -355,6 +355,20 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
       Warmwasserbedarf: 4 * 250 W = 1 kW
       Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
 
+## Wärmepumpen Regelung
+Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
+SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zustände abdeckt: 0:0, 0:1, 1:0 und 1:1. Die Betriebszustände sehen so aus:
+1. Nicht heizen, Sperrung, wie sie z. B. für die Sperrzeiten in Heiztarifen gebraucht wird
+
+2. Normalbetrieb mit einer Leistung, die Wärme auch für eventuelle Sperrzeiten produziert
+
+3. Erhöhter Normalbetrieb nach vorher hinterlegten Parametern als "Einschaltempfehlung". Die WP-Steuerung kann dennoch entscheiden, dass jetzt nicht eingeschaltet wird.
+
+4. Anlaufbefehl mit vorher hinterlegten Parametern für Leistung, z. B. für höhere Vorlauftemperaturen
+
+Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
+
+
 
 # Stromverbrauch
 
