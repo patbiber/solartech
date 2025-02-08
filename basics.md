@@ -16,7 +16,7 @@ Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
 # Energie und Arbeit
 
-Arbeit, Energie, Wärmemenge [Ws, J, Nm] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$
+Arbeit, Energie, Wärmemenge [Ws, J, Nm] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
 $P = W / t$
 
@@ -26,6 +26,9 @@ $P = W / t$
 - 1 PS = 735 W 
 
 Kraft [N] $F$ = Masse [kg] $m$ * Beschleunigung  [m/s2] $a$
+
+Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ (z. B. Wasser: 4.18 [kJ/(kg·K)]
+
 
 
 ## Der einfache Stromkreis ⚡
@@ -224,7 +227,7 @@ Heizleistung [W] $P = \frac{Q}{t}$
 1 [MJ] = 1 * 10 ^6 J 
 kWh = MJ / 3.6
 
-Wärmeenergie $Q [J][kWh] = m \cdot c \cdot \Delta t$
+Wärmeenergie $Q [J][Ws] = m \cdot c \cdot \Delta t$
 
 - $m$: Masse des Mediums [Kilogramm (kg)]
 - $c$: Spezifische Wärmekapazität des Mediums [J/(kg·K)] (z. B. Wasser: $c$ approx 4.18, [kJ/(kg·K)]
