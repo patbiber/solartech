@@ -7,9 +7,20 @@ Energie formen:
 - Kinetisch
 - Elektrisch
 - Thermisch
-- Licht
+- Strahlungsenergie
+- Lageenergie
+- Rotation
+- Kernenergie
 
-Bsp: Kohlekraftwerk: chemisch -> thermisch -> kinetisch -> elektrisch
+Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
+
+# Energie und Arbeit
+
+Arbeit, Energie [Ws, Wh, kWh, MWh, J, Nm, cal] $W$ = Kraft $F$ * Weg $s$ = Leistung $P$ * Zeit $t$
+
+1 cal = 4.154 J
+
+Kraft $F$ = Masse $m$ * Beschleunigung $A$
 
 
 ## Der einfache Stromkreis ⚡
