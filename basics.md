@@ -1,5 +1,17 @@
 # Elektrotechnik für Solarteure Basics ☀️ 👷
 
+Es gilt die Energieerhaltung.
+
+Energie formen:
+- Chemisch
+- Kinetisch
+- Elektrisch
+- Thermisch
+- Licht
+
+Bsp: Kohlekraftwerk: chemisch -> thermisch -> kinetisch -> elektrisch
+
+
 ## Der einfache Stromkreis ⚡
 
 ### Ohmsches gesetz Ω
@@ -90,7 +102,15 @@ Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
 
 Kosten = $W * Tarif$
 
-Wirkungsgrad $\eta = P_n / P_a$ 
+Wirkungsgrad [Faktor] $\eta = P_{Nutzen} / P_{Aufwand} = \eta_1*\eta_2*\eta_n $
+
+bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
+
+Nutzenergie: Energie auf dem Rad 
+
+Endenergie: Energie aus der Steckdose
+
+(Bsp E-Car)
 
 
 ## Erlaubte Stromdichte für Leitungs Querschnitt
@@ -389,7 +409,29 @@ Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbrauc
 [Stromverbrauch eines
 typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559)
 
-# Abkürzungen
+Gesamtverbrauch Schweiz: 65 TWh = 10 hoch 12 W
+
+Gesamterzeugung CH: 67 TWh
+
+8% sind Erneuerbar
+
+30% Atom
+
+# Versorgungsnetz in der Schweiz
+
+|Netzebene | Kraftwerke | Vebraucher |Spannung |
+|----------|---------|-------------|---------|
+|1 Übertragungsnetz|Pumpspeicher, Kernkraft, Wasserkraft|Schwerindustrie, SBB| Höchstspannung 220/380 kV |
+|2|Übertragungsnetz
+|3 Überregionale Verteilnetze|Wasserkraft|Industrie| Hochspannung 36 bis 220 kV
+|4|Übertragungsnetz
+|5 Regionale Verteilnetze|Thermisch | Dienstleistungsbauten | Mittelspannung 1 bis 36 kV
+|6|Übertragungsnetz
+|7 lokale Verteilnetze |Wind, Photovoltaik, Biogas|Büros, Wohnen |Niederspannung 400 / 230 V 
+
+
+
+# Abkürzungen und Namen
 
 AC Wechselstrom 
 
@@ -400,8 +442,6 @@ EnFV Energieförderverordnung
 EnG Energiegesetz
 
 EnV Energieverordnung
-
-ESTI Eidgenössisches Starkstrominspektorat
 
 EVU Energieversorgungsunternehmen
 
@@ -437,5 +477,15 @@ UV Unterverteilung
 
 VKF Vereinigung Kantonaler Feuerversicherungen
 
-VNB Verteilnetzbetreibe
+VNB Verteilnetzbetreiber
+
+NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc.
+
+ESTI Eidgenössisches Starkstrominspektorat nimmt unter anderem die NIV-14 Prüfung ab
+
+Hans Carl von Carlowitz Begründer dern Nachhaltigkeit
+
+Gro Harlem Bruntland moderne Definition der Nachhaltigkeit.
+
+HAK Hausanschlusskasten
 
