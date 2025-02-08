@@ -2,7 +2,7 @@
 
 Es gilt die Energieerhaltung.
 
-Energie formen:
+Energieformen:
 - Chemisch
 - Kinetisch
 - Elektrisch
