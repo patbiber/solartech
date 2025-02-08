@@ -16,7 +16,7 @@ Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
 # Energie und Arbeit
 
-Arbeit, Energie, Wärmemenge [Ws, J, Nm] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung $P$ * Zeit [s] $t$
+Arbeit, Energie, Wärmemenge [Ws, J, Nm] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$
 
 $P = W / t$
 
