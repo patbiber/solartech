@@ -16,11 +16,16 @@ Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
 # Energie und Arbeit
 
-Arbeit, Energie [Ws, Wh, kWh, MWh, J, Nm, cal] $W$ = Kraft $F$ * Weg $s$ = Leistung $P$ * Zeit $t$
+Arbeit, Energie, Wärmemenge [Ws, Wh, kWh, MWh, J, Nm, cal] $W, E , Q$ = Kraft $F$ * Weg $s$ = Leistung $P$ * Zeit $t$
 
-1 cal = 4.154 J
+$P = W / t$
 
-Kraft $F$ = Masse $m$ * Beschleunigung $A$
+- 1 cal = 4.154 J
+- 1 Ws = 1 J 
+- 1 kWh = 3'600'000 J = 3.6 MJ
+- 1 PS = 735 W 
+
+Kraft [N]$F$ = Masse [kg] $m$ * Beschleunigung $A$
 
 
 ## Der einfache Stromkreis ⚡
