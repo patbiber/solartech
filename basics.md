@@ -148,6 +148,8 @@ Endenergie: Energie aus der Steckdose
 
 Die Erdung hat immer 16 mm² 
 
+bsp: 16 A * 230 V = 3.68 kW
+
 # Schmelzsicherungen
 
 | Nennstrom      | Farbe   | Fußdurchmesser |   |   |
