@@ -529,6 +529,8 @@ aus neuen erneuerbaren Energien.
 
 PV Photovoltaik
 
+RE Rundsteuerempfänger
+
 SENS Die Stiftung SENS (Sustainability, Expertise, Network, Solution) ist eine 
 unabhängige, neutrale und nicht gewinnorientierte, gemeinnützige Stiftung 
 und tritt gegen aussen mit der Marke SENS eRecycling auf.
