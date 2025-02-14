@@ -16,6 +16,22 @@ Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
 # Energie und Arbeit
 
+## Sonnenenergie
+
+E = m * c2
+
+c = 2.998e+8 m/s
+
+m = differenz Masse Helium Wasserstoff
+
+Energie kann aus Umwandlung von Masse kommen nur in der Sonne wenn Wasserstoff in Helium umgewandelt werden
+
+15.8 MW/m2 Sonnen Abstrahlung
+
+Abstand 150 Mio km
+
+1367 W/m2 erreichen die Erde
+
 Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
 $P = W / t$
