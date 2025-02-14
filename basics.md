@@ -25,6 +25,14 @@ Endenergie: Energie beim Vebraucher, wie Strom, Pellets vor der Haustüre
 
 Nutzenergie: Energie die genutz wird, Wärme eines Föhnes
 
+Verügbarkeit:
+
+Reserve|
+Erdöl| 230 GT
+Kohle| 230 GT
+Erdgas| 188 Billionen m3 | 3 Billionen m3
+Uran|1,8 Mt | 14 Mt | 41300 t/Jahr | 50 - 150 a
+
 ## Sonnenenergie
 
 E = m * c2
@@ -446,7 +454,7 @@ Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese
 
 # Stromverbrauch
 
-Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbraucht etwa 5000 kWh pro Jahr.
+Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbraucht etwa 5000 kWh pro Jahr ohne WP und E-Auto.
 
 -Typischer Zwei-Personen-Haushalt:
     -In einem Mehrfamilienhaus: 2750 kWh/Jahr
@@ -461,7 +469,7 @@ Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbrauc
     -In einem Einfamilienhaus: 5200 kWh/Jahr
 
 [Stromverbrauch eines
-typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559)
+typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559) 
 
 Gesamtverbrauch Schweiz: 65 TWh = 10 hoch 12 W
 
