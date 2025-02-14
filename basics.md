@@ -543,7 +543,7 @@ UV Unterverteilung
 
 Üu Überstrom Unterbrecher
 
-ÜA Überstrom Schutz
+ÜA Überspannungsableiter 
 
 VKF Vereinigung Kantonaler Feuerversicherungen
 
