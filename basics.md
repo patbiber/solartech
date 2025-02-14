@@ -541,6 +541,10 @@ SIA Schweizerischer Ingenieur- und Architektenverein
 
 UV Unterverteilung
 
+Üu Überstrom Unterbrecher
+
+ÜA Überstrom Schutz
+
 VKF Vereinigung Kantonaler Feuerversicherungen
 
 VNB Verteilnetzbetreiber
