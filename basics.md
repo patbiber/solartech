@@ -32,6 +32,12 @@ Abstand 150 Mio km
 
 1367 W/m2 erreichen die Erde
 
+1000 W7m2 gem STC
+
+Auf dem boden gem SolarGIS am Wendekreis
+
+mal wirkungsgrad der PV Anlage
+
 Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
 $P = W / t$
