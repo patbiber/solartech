@@ -16,7 +16,7 @@ Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
 # Energie und Arbeit
 
-Arbeit, Energie, Wärmemenge [Ws, J, Nm] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
+Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
 $P = W / t$
 
@@ -492,6 +492,8 @@ SENS Die Stiftung SENS (Sustainability, Expertise, Network, Solution) ist eine
 unabhängige, neutrale und nicht gewinnorientierte, gemeinnützige Stiftung 
 und tritt gegen aussen mit der Marke SENS eRecycling auf.
 
+STC Standart Test Conditions  (25°C, 1000 W/m2, 1,5 AM) Testkondition für Modulmessungung
+
 SIA Schweizerischer Ingenieur- und Architektenverein
 
 UV Unterverteilung
@@ -501,6 +503,8 @@ VKF Vereinigung Kantonaler Feuerversicherungen
 VNB Verteilnetzbetreiber
 
 NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc.
+
+NOCT Normal Operating Cell Temperature (20°C, 1 m/s Wind, 800 W/m2, 1,5 AM) Testkondition für Modulmessungung
 
 ESTI Eidgenössisches Starkstrominspektorat nimmt unter anderem die NIV-14 Prüfung ab
 
