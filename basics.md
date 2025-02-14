@@ -11,10 +11,19 @@ Energieformen:
 - Lageenergie
 - Rotation
 - Kernenergie
+- Photosynthese
 
 Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
 # Energie und Arbeit
+
+Primärenergie 100%: Unverarbeitete Rohstoffe, wei Kohle, Erdöl, Baum
+
+Sekundärenergie: Verarbeitet Rohstoffe, wie Diesel, Pellets, Strom
+
+Endenergie: Energie beim Vebraucher, wie Strom, Pellets vor der Haustüre
+
+Nutzenergie: Energie die genutz wird, Wärme eines Föhnes
 
 ## Sonnenenergie
 
@@ -144,6 +153,8 @@ Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
 Kosten = $W * Tarif$
 
 Wirkungsgrad [Faktor] $\eta = P_{Nutzen} / P_{Aufwand} = \eta_1*\eta_2*\eta_n $
+
+Wandlungsverlust + $\eta$ = 100%
 
 bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
 
