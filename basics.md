@@ -49,7 +49,7 @@ Abstand 150 Mio km
 
 1367 W/m2 erreichen die Erde
 
-1000 W7m2 gem STC
+1000 W/m2 gem STC
 
 Auf dem boden gem SolarGIS am Wendekreis
 
@@ -67,6 +67,10 @@ $P = W / t$
 Kraft [N] $F$ = Masse [kg] $m$ * Beschleunigung  [m/s2] $a$
 
 Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ (z. B. Wasser: 4.18 [kJ/(kg·K)]
+
+1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
+
+1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
 
 
 
