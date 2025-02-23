@@ -25,7 +25,7 @@ Endenergie: Energie beim Vebraucher, wie Strom, Pellets vor der Haustüre
 
 Nutzenergie: Energie die genutz wird, Wärme eines Föhnes
 
-Verügbarkeit:
+Verfügbarkeit:
 
 Reserve|
 Erdöl| 230 GT
@@ -537,7 +537,7 @@ SENS Die Stiftung SENS (Sustainability, Expertise, Network, Solution) ist eine
 unabhängige, neutrale und nicht gewinnorientierte, gemeinnützige Stiftung 
 und tritt gegen aussen mit der Marke SENS eRecycling auf.
 
-STC Standart Test Conditions  (25°C, 1000 W/m2, 1,5 AM) Testkondition für Modulmessungung
+STC Standart Test Conditions  (25°C, 1000 W/m2, 1,5 AM Atmosphärendick / Spektrum) Testkondition für Modulmessungung
 
 SIA Schweizerischer Ingenieur- und Architektenverein
 
@@ -553,7 +553,7 @@ VNB Verteilnetzbetreiber
 
 NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc.
 
-NOCT Normal Operating Cell Temperature (20°C, 1 m/s Wind, 800 W/m2, 1,5 AM) Testkondition für Modulmessungung
+NOCT Normal Operating Cell Temperature (20°C, 1 m/s Wind, 800 W/m2, 1,5 AM Atmosphärendick / Spektrum) Testkondition für Modulmessungung
 
 ESTI Eidgenössisches Starkstrominspektorat nimmt unter anderem die NIV-14 Prüfung ab
 
