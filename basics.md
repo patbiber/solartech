@@ -569,7 +569,7 @@ vZEV
 
 LEG gemeindeleg.ch / leg-register.ch
 
-Pixpro
+Pixpro solarmarkt
 
 
 
