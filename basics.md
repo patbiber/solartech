@@ -72,11 +72,15 @@ Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ (z. B. Wasser: 4.18 [kJ
 
 1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
 
-
-
 ## Der einfache Stromkreis ⚡
 
-### Ohmsches gesetz Ω
+### Stromarten 🤘 AC/DC
+
+🔋 Gleichstrom (Direct Curren) DC -
+
+🔌 Wechselstrom (Alternating Current) AC ~
+
+### Ohmsches Gesetz Ω
 
 Spannung Volt [V] $U=R*I$
 
@@ -90,36 +94,30 @@ l = Leitungslänge [m]
 
 $A$= Stromdichte [A / mm²]
 
-
-### Stromarten 🤘 AC/DC
-
-🔋 Gleichstrom (Direct Curren) DC -
-
-🔌 Wechselstrom (Alternating Current) AC ~
-
-## Schaltungen
+Leitwert Siemens [S] $G = 1/R$
 
 ### Serieschaltung
 
 Alle Wiederstände sind vom selben Strom druchflossen:
-$I = I_2 = I_3 = I_3$
+$I_{tot} = I_2 = I_3 = I_3$
 
 Die Spannung wird von den Wiederständen proportional geteilt:
-$U = U_1 + U_2 + U_3$
+$U_{tot} = U_1 + U_2 + U_3$
 
 Die Widerstände werde addiert: 
-$R = R_1 + R_2 + R_3$
+$R_{tot} = R_1 + R_2 + R_3$
 
 ### Parallelschaltung
 
 Der Strom fliesst proportional:
-$I = I_1 + I_2 + I_3$
+$I_{tot} = I_1 + I_2 + I_3$
 
 Die Spannung ist an allen Wiederständen gleich:
-$U=U_1=U_2=U_3$
+$U_{tot} = U_1=U_2=U_3$
 
 Der  Kehrwert des Gesammtwiederstand ist die Summe der Kerhwerte der Einzelwiederstände: 
-$1/R_p= 1/R_1 + 1/R_2 + 1/R_3$
+$R_{tot} = 1 / (1/R_1 + 1/R_2 + 1/R_3) = R_{Einzel}/
+n$
 
 ## Drehstrom
 
