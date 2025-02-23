@@ -563,3 +563,18 @@ Gro Harlem Bruntland moderne Definition der Nachhaltigkeit.
 
 HAK Hausanschlusskasten
 
+ZEV zevvi.ch
+
+vZEV
+
+LEG gemeindeleg.ch / leg-register.ch
+
+Pixpro
+
+
+
+
+
+
+
+
