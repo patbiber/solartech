@@ -563,11 +563,16 @@ Gro Harlem Bruntland moderne Definition der Nachhaltigkeit.
 
 HAK Hausanschlusskasten
 
-ZEV zevvi.ch
+ZEV Zusammenschluss zum Eigenverbrauch hinter dem HAK, es müssen eigene Zähler eingebautt werden. zevvi.ch
 
-vZEV
+vZEV Virtueller Zusammenschluss zum Eigenverbrauch in der selben Netzebene 1 ab 2016
 
-LEG gemeindeleg.ch / leg-register.ch
+EVG Eigenverbrauchsgemeinschaft, Die EVG besteht aus Eigentümer/Betreiber der Solaranlage und mehreren Endverbrauchern. EW kann Zählers stellen bzw einen zusätzlichen für die PV Anlage anbieten. EW Infrastruktur wird genutzt.
+
+LEG lokale Elektrizitätsgemeinschaft können sich Solarstrom-Produzentinnen, Speicher-Betreiber sowie Endverbraucherinnen und Endverbraucher innerhalb des gleichen Gemeindegebiets zusammenschliessen und so lokal produzierten Strom lokal verbrauchen. Am 9. Juni 2024 hat das Schweizer Stimmvolk dem revidierten Stromversorgungsgesetz zugestimmt. Somit wird es künftig möglich sein, lokal erzeugte Elektrizität über das öffentliche Netz innerhalb eines Quartiers oder einer Gemeinde zu vermarkten. gemeindeleg.ch / leg-register.ch
+- Örtliche Nähe: Die Teilnehmenden (Solarstrom-Produzenten, Speicher-Betreiberinnen und Endverbraucher) müssen sich im gleichen Netzgebiet, auf der gleichen Netzebene und im gleichen Gemeindegebiet befinden.
+- Definierte Mindestleistung: Solaranlagen in der LEG müssen eine Mindestleistung von 20 Prozent* im Verhältnis zur Anschlussleistung aller LEG-Endverbraucherinnen und Endverbraucher aufweisen.
+- Geeignete Messausstattung: Alle Teilnehmenden müssen mit einem kommunikativen, digitalen Stromzähler (Smart Meter) ausgestattet sein.
 
 Pixpro solarmarkt
 
