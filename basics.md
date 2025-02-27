@@ -1,59 +1,6 @@
 # Elektrotechnik für Solarteure Basics ☀️ 👷
 
-Es gilt die Energieerhaltung.
-
-Energieformen:
-- Chemisch
-- Kinetisch
-- Elektrisch
-- Thermisch
-- Strahlungsenergie
-- Lageenergie
-- Rotation
-- Kernenergie
-- Photosynthese
-
-Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
-
 # Energie und Arbeit
-
-Primärenergie 100%: Unverarbeitete Rohstoffe, wei Kohle, Erdöl, Baum
-
-Sekundärenergie: Verarbeitet Rohstoffe, wie Diesel, Pellets, Strom
-
-Endenergie: Energie beim Vebraucher, wie Strom, Pellets vor der Haustüre
-
-Nutzenergie: Energie die genutz wird, Wärme eines Föhnes
-
-Verfügbarkeit:
-
-Reserve|
-Erdöl| 230 GT
-Kohle| 230 GT
-Erdgas| 188 Billionen m3 | 3 Billionen m3
-Uran|1,8 Mt | 14 Mt | 41300 t/Jahr | 50 - 150 a
-
-## Sonnenenergie
-
-E = m * c2
-
-c = 2.998e+8 m/s
-
-m = differenz Masse Helium Wasserstoff
-
-Energie kann aus Umwandlung von Masse kommen nur in der Sonne wenn Wasserstoff in Helium umgewandelt werden
-
-15.8 MW/m2 Sonnen Abstrahlung
-
-Abstand 150 Mio km
-
-1367 W/m2 erreichen die Erde
-
-1000 W/m2 gem STC
-
-Auf dem boden gem SolarGIS am Wendekreis
-
-mal wirkungsgrad der PV Anlage
 
 Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
@@ -579,6 +526,99 @@ LEG lokale Elektrizitätsgemeinschaft können sich Solarstrom-Produzentinnen, Sp
 Pixpro solarmarkt
 
 
+# Energie Formen und Quellen
+
+Es gilt die Energieerhaltung.
+
+Energieformen:
+- Chemisch
+- Kinetisch
+- Elektrisch
+- Thermisch
+- Strahlungsenergie
+- Lageenergie
+- Rotation
+- Kernenergie
+- Photosynthese
+
+Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
+
+Primärenergie 100%: Unverarbeitete Rohstoffe, wie Kohle, Erdöl, Baum
+
+Sekundärenergie: Verarbeitetes Material, wie Diesel, Pellets, Strom
+
+Endenergie: Energie beim Vebraucher, wie Strom, Pellets vor der Haustüre, Diesel im Tank
+
+Nutzenergie: Energie die genutz wird, Wärme eines Föhnes, Energie mit der der Computer betrieben wird
+
+Verfügbarkeit:
+
+|Recource|Reserven|Dauer|
+|-----|----------|------|
+|Erdöl| 230 GT|
+|Kohle| 230 GT|
+|Erdgas| 188 Billionen m3 | 3 Billionen m3
+|Uran|1,8 Mt | 14 Mt | 41300 t/Jahr | 50 - 150 a
+
+## Vorteile / Nachteile Erneuerbare Energien
+
+
+### Photovoltaik
+|Vorteile|Nachteile|
+|-------|---------|
+| Einfache Installation   | Produktion nur tagsüber
+| Kostengünstig 0.13 CHF / WP         | Wirkungsgrad gering
+| Betrieb Emmisionsfrei   | Abhängigkeit von China
+
+### Solarthermie
+|Vorteile|Nachteile|
+|-------|---------|
+| Wirkungsgrad höher als PV (~60 % Kollektorwirkungsgrad bei dT=40K)  | Schwierigere Installation als PV
+| Gut Speicherbar           | Nur Wärme
+
+### Windkraft
+|Vorteile|Nachteile|
+|-------|---------|
+| Produziert auch nachts, wenn PV nicht produziert | Gesellschaftliche Akzeptanz geringer als bei PV und Solarthermie
+| Hohe Leistung          | Beeinträchtigung Landschaftsbild
+
+### Wasserkraft
+|Vorteile|Nachteile|
+|-------|---------|
+| Schwarzstartfähig (d.h. kann Netz nach Black Out wieder hochfahren)    | Grösserer Eingriff ins Ökosystem
+| Langzeitspeicherung von Energie möglich  | Geringe Energiedichte
+| Steuerbar   |
+| Immer Verfügbar | 
+
+### Biomasse
+|Vorteile|Nachteile|
+|-------|---------|
+| Verwertung Bioabfälle  | Hohe Investitionen
+| Vielseitig nutzbar (Strom, Wärme) | Komplexe Technik 
+| Speicherbar => Grundlastfähig   | Anlage muss dicht sein, sonst können 
+Klimagase entweichen
+
+## Sonnenenergie
+
+E = m * c2
+
+c = 2.998e+8 m/s
+
+m = differenz Masse Helium Wasserstoff
+
+Energie kann aus Umwandlung von Masse kommen nur in der Sonne wenn Wasserstoff in Helium umgewandelt werden
+
+15.8 MW/m2 Sonnen Abstrahlung
+
+Abstand 150 Mio km
+
+1367 W/m2 erreichen die Erde
+
+1000 W/m2 gem STC
+
+Auf dem boden gem SolarGIS am Wendekreis
+
+mal wirkungsgrad der PV Anlage
 
 
 
