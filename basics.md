@@ -509,6 +509,8 @@ EnV Energieverordnung
 
 EVU Energieversorgungsunternehmen
 
+GAK Generator Anschluss Kasten Im Generatoranschlusskasten werden die Stränge der Solarmodule an String-Sammelklemmen zusammengeführt, Überspannungsableiter
+
 GREIV Einmalvergütung für grosse Anlagen. Betreiber von Anlagen mit einer 
 Leistung von mehr als 100 kW können ab 2018 zwischen EVS und GREIV 
 wählen.
