@@ -620,8 +620,202 @@ Auf dem boden gem SolarGIS am Wendekreis
 
 mal wirkungsgrad der PV Anlage
 
+## Treibhauseffekt
+
+Wir sind bei 427 ppm in 2024, 
+vor der Industrialisierung war es ca 280 ppm, anstieg von über 50 % ca 147 ppm.
+
+Die Globale Durschnitstemperatur 2025 hat sich um 1,2 bis 1,3 °C erhöht zum vorindustriellen Niveau.
+
+2024 Gabe es einzelne Monate die 1,5 °C über dem vorindustriellen Niveau lagen.
+
+Aktuell ist die Schweiz 2.8 °C über dem 
+vorindustriellen Zeitalter
+
+Treibhausgasemissionen Schweiz Inland und 
+Importe: 13 t / Kopf
+
+2022 sind Treibhausgasemissionen gegenüber 
+1990 in CH um 24% gesunken
+
+#### Anteile der CO2 Emissionen in der Schweiz
+
+- 21% Landwirtschaft, Abfallbehandlung, Ausstoss synthetischer Gase
+- 23% Gebäude
+- 23% Industrie
+- 33% Verkehr (ohne int. Flüge)
 
 
+### Konsequenzen
+
+- Extremwetterereignisse nehmen zu
+- Meeresspiegel steigt
+- Ökosystem kann sich nicht mehr schnell genug anpassen => 
+Artensterben
+- Gesundheitsrisiken 
+- Die Auswirkungen machen sich besonders in Entwicklungs- und 
+Schwellenländern bemerkbar => mehr Migration
+
+### Kipppunkte
+
+- An einem Kipppunkt fällt ein System von einem Zustand irreversibel in 
+einen anderen
+- Wird ein Kipppunkt erreicht, lässt sich dieser auf sehr lange Zeit nicht 
+mehr rückgängig machen, auch wenn die Emissionen reduziert werden
+- Einige Kipppunkte beschleunigen die CO2 Emissionen und damit den 
+Klimawandel („positive Rückkopplung“ = Ein Effekt verstärkt seine 
+eigene Ursache) 
+- Arktischer Eisschild reflektiert viel Sonnenlicht direkt zurück ins All => 
+Verkleinerung des Eisschildes bedeutet weniger Reflektion
+- Permafrostboden könnte auftauen und gigantische Mengen 
+gebundenes CO2
+freisetzen
+
+### Pariser Klimaziele
+
+- Vereinbart 2015 auf der Weltklimakonferenz in Paris 
+- Die Erderwärmung soll auf deutlich unter 2.0 °C, besser 1.5°
+gegenüber dem Vorindustriellen Zeitalter begrenzt werden (aktuell 
+bereits bei 1.1° im globalen Durchschnitt, 1.6° auf dem Festland1))
+- Ärmere Länder sollen finanziell unterstützt werden 
+- Es gibt keine Strafen für Zielverfehlungen…
+
+## Energiestrategie 2050
+
+- 2007 wurden vier Säulen festgelegt:
+- - Energieeffizienz verbessern und Energie sparen
+- - Ausbau Erneuerbare Energien
+- - Sanierung und Neubau von Grosskraftwerken (inkl. Kernkraft)
+- Energieaussenpolitik 
+- Ziele: bis 2050 die Treibhausgasemissionen auf Netto-Null senken (Netto-Null = Emissionen maximal so hoch, wie die natürlichen und technischen 
+Aufnahmekapazitäten der Schweiz) 
+- Ziel für 2050 Netto-Null, für 2030 halbieren 
+gegenüber 1990
+- Planetare Belastbarkeitsgrenze: 0,6 t / Kopf
+
+### Massnahmen
 
 
+- Liberalisierung Strommarkt (Stromversorgungsgesetz)
+21.02.2025 
+- Seit 2018 Netzzuschlag von 2.3 Rp. für Netzzuschlagfonds für 
+Energieeffizienzmassnahmen
+- Gebäudeprogramm, finanziert u.a. durch CO2 Abgabe 
+- Gebäudesanierung kann steuerlich geltend gemacht werden
+- Emissionsobergrenzen für Verkehr (Reduktion von 130 g CO2
+/km auf 95 g CO2
+/km)
+- Wettbewerbliche Ausschreibungen (Förderung von besonders sparsamen 
+Massnahmen)
+- Investitionsbeiträge für PV (pronovo) und Wasserkraft > 10 MW 
+- Nationales Interesse (Gerichtsentscheide bei Konflikt EE vs. Naturschutz)
+- Kürzere Bewilligungsverfahren (für EE Anlagen und Netzausbau)
+- Keine neuen AKWs
+
+### Co2 Gesetz Schweiz
+
+Ziele:
+- CO2 Ausstoss bis 2030 halbieren gegenüber 1990 (ca. 800.000 TJ)
+- ¾ der Massnahmen zur CO2 Reduktion im Inland
+
+Steuerwerkzeuge:
+- Abgabe auf jede Tonne CO2
+- Anpassung der Abgabe je nach erreichter Verminderung
+- Einnahmen gehen zu 1/3 an Bevölkerung via Krankenkasse, 1/3 an 
+Wirtschaft und AHV, 1/3 an Gebäudeprogamm
+
+### [Energiegesetz 9.6.2024](https://www.fedlex.admin.ch/eli/fga/2023/2301/de)
+
+[Energieproduktion EE ohne Wasserkraft 2022 ca. 7.7 TWh](
+https://de.statista.com/statistik/daten/studie/329694/umfrage/stromerzeugung-in-der-schweiz-nach-energietraeger/)
+Vorgaben im Gesetz: 
+- 2035 mind 35 TWh
+- 2050 mind 45 TWh
+- bei 300 m2 Gebäudefläche ist eine Solaranlage Plicht
+
+Lokale Eletrizitätsgemeinschaften LEG um Energie innerhalb dieser Gemienschaft abzusetzen Voraussetzungen sind:
+- im gleichen Netzgebiet
+- gleiche Netzebene
+- örtliche nahe beieinander am Netz angeschlossen sind
+- gemeinsame ein Mindestmasse and Erzeugern zu den Verbrauchern aufweisen
+
+Verbrauchsziele: der Verbrauch ist pro Person und Jahr 2000 bis 2035 um 43% und bis 2050 um 53 % zu senken.
+
+# Übersicht Vorschriften, Normen, Standards
+- Vorschriften: z.B. Energiegesetz, kantonale Vorschriften
+- Verordnungen: z.B. NIV (Niederspannungs-InstallationsVerordnung) mit Art. 14
+- Normen: ISO (International), SIA (Ingenieur- und 
+Architektenvereins), ElectroSuisse z.B. NIN 
+(Niederspannungs-Installations-Norm)
+- Standards: z.B. Minergie, GEAK 
+
+## Vorschriften 
+- Energiedirektorenkonferenz (EnDK): Forum der Energiebereichsleiter 
+der einzelnen Kantone. Koordinieren Energiefragen und kantonale 
+Interessen
+- Erlässt „Mustervorschriften der Kantone im Energiebereich“ (MuKE) => 
+Leitfaden für kantonale Energievorschriften
+- Um was geht’s in MuKE 2014? (Skript S.59)
+- Neubauten müssen angemessenen Anteil an Stromverbrauch selbst 
+produzieren
+- Min. 10% der Heizenergie muss aus erneuerbaren Quellen kommen nach 
+Heizungswechsel
+- Einführung GEAK 
+- U-Grenzwerte für Bauteile
+
+## Gebäudeenergieausweis der Kantone (GEAK)
+- Gibt die Energieeffizienz der Gebäudehülle und den standardmässigen
+Energieverbrauch eines Gebäudes an
+- Bewertungsskala von A bis G, zeigt Verbesserungspotenziale auf
+- Wird von einem GEAK Experten bewertet
+- Gut geeignet für Modernisierungsmassnahmen
+- Schafft schweizweit eine Vergleichbarkeit
+- Zusätze von GEAK plus:
+- Beratungsbericht mit Beschreibung konkreter Modernisierungsmassnahmen in bis zu 
+drei Varianten
+- Priorisierung der Massnahmen
+- GEAK wird vom Gebäudeprogramm in SG und AR nicht gefördert, in TG 
+pauschal, AI fördert 
+- www.geak.ch
+
+## Minergie - Standard
+- Freiwilliger Baustandard für Energieeffizienz
+- Gültig für Neubauten und Sanierungen
+- Hauptansatzpunkte sind die Gebäudehülle, Lufterneuerung und 
+geringer Energiebedarf
+- Ziele:
+- Verbesserung der Wohnqualität durch warme Oberflächentemperatur, 
+- Werterhalt von Gebäuden, 
+- geringere Heizkosten und Unabhängigkeit von Energiepreisen
+- Verminderter CO2
+-Ausstoss
+- Abstufungen: Minergie < Minergie-P < Minergie-A
+- Finanzielle Anreize und Förderungen: Förderung - Minergie
+
+## Gebäudeprogramm
+- Energieförderportal St. Gallen: Förderportal (sg.ch)
+- Kantonale Förderprogramme: https://portal.dasgebaeudeprogramm.ch/
+- Gefördert werden Heizungs- und Gebäudesanierungen, PV und 
+weitere Massnahmen
+- Die geförderten Massnahmen hängen von der jeweiligen 
+Gemeinde ab (z.B. St. Gallen kein PV [wird eigenständig von der 
+Stadt gefördert], dafür in Wattwil)
+
+## Fördermassnahmen PV und Solarthermie 
+- Montagearten: Freistehend, Angebaut, Integriert
+- Förderung auf Bundes-, Kantons- und Gemeindeebene
+- Für jede Gemeinde sind ein grosser Teil der Förderprogamme
+einsehbar unter: [www.energiefranken.ch](https://www.energiefranken.ch/de) (Achtung: Gemeindeförderungen werden oft nicht aufgeführt)
+- Pronovo
+- Energiefonds Stadt St. Gallen
+Antrag Fördergelder: [Login | Kundenportal Pronovo](https://kundenportal.pronovo.ch/)
+- Rechner Förderbeitrag: [www.pronovo.ch](https://pronovo.ch/)
+
+# Links
+
+https://www.geoportal.ch/
+
+https://www.uvek-gis.admin.ch/BFE/sonnendach/
+
+https://solargis.com/resources/free-maps-and-gis-data
 
