@@ -688,6 +688,7 @@ Importe: 13 t / Kopf
 - Ziel für 2050 Netto-Null, für 2030 halbieren 
   gegenüber 1990
 - Planetare Belastbarkeitsgrenze: 0,6 t / Kopf
+- Atomausstieg
 
 ### Massnahmen
 
