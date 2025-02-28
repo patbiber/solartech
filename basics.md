@@ -112,6 +112,8 @@ Wirkungsgrad [Faktor] $\eta = P_{Nutzen} / P_{Aufwand} = \eta_1*\eta_2*\eta_n $
 
 Wandlungsverlust + $\eta$ = 100%
 
+1 - Verluste = Wirkungsgrad
+
 bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
 
 Nutzenergie: Energie auf dem Rad 
