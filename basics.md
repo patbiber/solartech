@@ -500,7 +500,9 @@ Gro Harlem Bruntland moderne Definition der Nachhaltigkeit.
 
 HAK Hausanschlusskasten
 
-ZEV Zusammenschluss zum Eigenverbrauch hinter dem HAK, es müssen eigene Zähler eingebautt werden. zevvi.ch
+ZEV Zusammenschluss zum Eigenverbrauch hinter dem HAK, es müssen eigene Zähler eingebautt werden. Zähler müssen geicht sein. zevvi.ch. Müssen Messmittel für elektrische Energie und Leistung (EMmV) entsprechen. Zähler müssen von Metas abgenommen werden.
+
+METAS Eidgenössischen Institut für Metrologie Die Eichgültigkeitsdauer für elektronische Elektrizitätszähler beträgt zehn Jahre, für elektromechanische Zähler fünfzehn Jahre. Nach Ablauf dieser Fristen ist eine Nacheichung durch eine vom Eidgenössischen Institut für Metrologie (METAS) ermächtigte Eichstelle erforderlich. 
 
 vZEV Virtueller Zusammenschluss zum Eigenverbrauch in der selben Netzebene 7 ab 2016
 
@@ -693,9 +695,7 @@ Importe: 13 t / Kopf
   Energieeffizienzmassnahmen
 - Gebäudeprogramm, finanziert u.a. durch CO2 Abgabe 
 - Gebäudesanierung kann steuerlich geltend gemacht werden
-- Emissionsobergrenzen für Verkehr (Reduktion von 130 g CO2
-  /km auf 95 g CO2
-  /km)
+- Emissionsobergrenzen für Verkehr (Reduktion von 130 g CO2/km auf 95 g CO2/km)
 - Wettbewerbliche Ausschreibungen (Förderung von besonders sparsamen 
   Massnahmen)
 - Investitionsbeiträge für PV (pronovo) und Wasserkraft > 10 MW 
@@ -738,12 +738,12 @@ Verbrauchsziele: der Verbrauch ist pro Person und Jahr 2000 bis 2035 um 43% und 
 
 # Übersicht Vorschriften, Normen, Standards
 
-- Vorschriften: z.B. Energiegesetz, kantonale Vorschriften
-- Verordnungen: z.B. NIV (Niederspannungs-InstallationsVerordnung) mit Art. 14
-- Normen: ISO (International), SIA (Ingenieur- und 
+- Vorschriften sind einzuhalten: z.B. Energiegesetz, kantonale Vorschriften
+- Verordnungen sind einzhualten: z.B. NIV (Niederspannungs-Installations-Verordnung) mit Art. 14
+- Normen sind Handlungsempfehlungen: ISO (International), SIA (Ingenieur- und 
   Architektenvereins), ElectroSuisse z.B. NIN 
   (Niederspannungs-Installations-Norm)
-- Standards: z.B. Minergie, GEAK 
+- Standards sind freiwillig: z.B. Minergie, GEAK 
 
 ## Vorschriften
 
@@ -774,7 +774,7 @@ Verbrauchsziele: der Verbrauch ist pro Person und Jahr 2000 bis 2035 um 43% und 
 - Priorisierung der Massnahmen
 - GEAK wird vom Gebäudeprogramm in SG und AR nicht gefördert, in TG 
   pauschal, AI fördert 
-- www.geak.ch
+- [www.geak.ch](https://www.geak.ch)
 
 ## Minergie - Standard
 
