@@ -4,6 +4,14 @@
 
 Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
+Elektrische Energie $W$ [Ws, VAs, kWh]
+
+Meschanische Energie $W$ oder E [Nm, kg*m2/s2]
+
+Thermische Energie $Q$ oder $W$ [J, kJ]
+
+Strahlungsenergie $Q$ [J, lms, lmh]
+
 $P = W / t$
 
 - 1 cal = 4.154 J
