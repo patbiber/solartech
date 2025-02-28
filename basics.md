@@ -635,6 +635,8 @@ Importe: 13 t / Kopf
 2022 sind Treibhausgasemissionen gegenüber 
 1990 in CH um 24% gesunken
 
+Natürlicher Treibhauseffekt: +33°K Durchschnitstemperatur ohne -18°C mit 15°C
+
 #### Anteile der CO2 Emissionen in der Schweiz
 
 - 21% Landwirtschaft, Abfallbehandlung, Ausstoss synthetischer Gase
