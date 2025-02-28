@@ -90,8 +90,7 @@ $I = \sqrt3 * I_p$
 
 [Wikipedia Dreieckschaltung](https://de.wikipedia.org/wiki/Dreieckschaltung)
 
-## Elektrische Arbeit und Leistung 
-
+## Elektrische Arbeit und Leistung
 
 Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R = I²*R$
 
@@ -121,23 +120,22 @@ Endenergie: Energie aus der Steckdose
 
 (Bsp E-Car)
 
-
 ## Erlaubte Stromdichte für Leitungs Querschnitt
 
-| Stromdurchfluss [A]| Querschnitt [mm²]| 
-|--------------------|------------------|
-|200                 | 95               |
-|160                 | 70               |
-|100                 | 35               |
-|80                  | 25               |
-|69                  | 16 (Erdung)      |
-|50                  | 16 (Erdung)      |
-|40                  | 10               |
-|32                  | 6                |
-|25                  | 6                |
-|20                  | 4                |
-|16                  | 2,5              |
-|16                  | 1.5              |
+| Stromdurchfluss [A] | Querschnitt [mm²] |
+| ------------------- | ----------------- |
+| 200                 | 95                |
+| 160                 | 70                |
+| 100                 | 35                |
+| 80                  | 25                |
+| 69                  | 16 (Erdung)       |
+| 50                  | 16 (Erdung)       |
+| 40                  | 10                |
+| 32                  | 6                 |
+| 25                  | 6                 |
+| 20                  | 4                 |
+| 16                  | 2,5               |
+| 16                  | 1.5               |
 
 Die Erdung hat immer 16 mm² 
 
@@ -145,24 +143,24 @@ bsp: 16 A * 230 V = 3.68 kW
 
 # Schmelzsicherungen
 
-| Nennstrom      | Farbe   | Fußdurchmesser |   |   |
-|---------------|---------|---------------|---|---|
-|               |         | D             | DL| D0|
-| 2 A           | 🟥 rosa  | 6 mm | 8 mm | 7,3 mm |
-| 4 A           | 🟫 braun |  |  |  |
-| 6 A           | 🟩 grün  |  |  |  |
-| (10 A mit 6 A Fuß) | 🟥 rot  |  |  |  |
-| 10 A          | 🟥 rot  | 8 mm | 8 mm | 8,5 mm |
-| (13 A)        | ⬛ schwarz |  |  |  |
-| 16 A          | ⬜ grau  | 10 mm | 10 mm | 9,7 mm |
-| 20 A          | 🟦 blau  | 12 mm | 12 mm | 10,9 mm |
-| 25 A          | 🟨 gelb  | 14 mm |  | 12,1 mm |
-| 32 A          | 🟪 violett |  |  |  |
-| 35 A (40 A)   | ⬛ schwarz | 16 mm |  | 13,3 mm |
-| 50 A          | ⬜ weiß   | 18 mm |  | 14,5 mm |
-| 63 A          | 🟧 kupfer | 20 mm |  | 15,9 mm |
-| 80 A          | ⚪ silber |  |  | 21,4 mm |
-| 100 A         | 🟥 rot  |  |  | 24,2 mm |
+| Nennstrom          | Farbe      | Fußdurchmesser |       |         |
+| ------------------ | ---------- | -------------- | ----- | ------- |
+|                    |            | D              | DL    | D0      |
+| 2 A                | 🟥 rosa    | 6 mm           | 8 mm  | 7,3 mm  |
+| 4 A                | 🟫 braun   |                |       |         |
+| 6 A                | 🟩 grün    |                |       |         |
+| (10 A mit 6 A Fuß) | 🟥 rot     |                |       |         |
+| 10 A               | 🟥 rot     | 8 mm           | 8 mm  | 8,5 mm  |
+| (13 A)             | ⬛ schwarz  |                |       |         |
+| 16 A               | ⬜ grau     | 10 mm          | 10 mm | 9,7 mm  |
+| 20 A               | 🟦 blau    | 12 mm          | 12 mm | 10,9 mm |
+| 25 A               | 🟨 gelb    | 14 mm          |       | 12,1 mm |
+| 32 A               | 🟪 violett |                |       |         |
+| 35 A (40 A)        | ⬛ schwarz  | 16 mm          |       | 13,3 mm |
+| 50 A               | ⬜ weiß     | 18 mm          |       | 14,5 mm |
+| 63 A               | 🟧 kupfer  | 20 mm          |       | 15,9 mm |
+| 80 A               | ⚪ silber   |                |       | 21,4 mm |
+| 100 A              | 🟥 rot     |                |       | 24,2 mm |
 
 [Wikipedia Schmelzsicherungen](https://de.wikipedia.org/wiki/Schmelzsicherung)
 
@@ -173,7 +171,7 @@ $I * U * cos\phi= P$
 
 # Solar Panel Auslegung
 
-### Temperatur Korrektur für Leerlaufspannung Voc [V] 
+### Temperatur Korrektur für Leerlaufspannung Voc [V]
 
 Effektive Leerlaufspannung $U$ [V]= Leerlaufspannung $U_{oc}$ [V] @ 25 °C * Tempereaturkoeffizient $V_{oc}$ [%/°K] * $\Delta t$
 
@@ -195,7 +193,6 @@ $l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
 
 ![Trigonometrische Funktion](https://wikimedia.org/api/rest_v1/media/math/render/svg/bba659bb417359e2b6a733d5fcc549027eade0c2)
 
-
 # Fläche
 
 ## Dreieck
@@ -205,7 +202,6 @@ $A = (l * h )/2$
 ## Kreis
 
 $A = (d²*\pi)/ 4$
-
 
 # Heizleistung und Wärmeübertragung
 
@@ -223,7 +219,6 @@ Wärmeenergie $Q [J][Ws] = m \cdot c \cdot \Delta t$
 - $c$: Spezifische Wärmekapazität des Mediums [J/(kg·K)] (z. B. Wasser: $c$ approx 4.18, [kJ/(kg·K)]
 - $\Delta t$: Temperaturänderung [K]
 
-
 Wärmeleistung $P [W] = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
 
 - $t$: Zeit [s]
@@ -231,7 +226,7 @@ Wärmeleistung $P [W] = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
 ### Rohrmasse und Max. Durchfluss
 
 | Gewinderohr (") | Nennweite (DN) | Außendurchmesser (mm) | Max. Durchfluss (l/s) |
-|-----------------|----------------|-----------------------|-----------------------|
+| --------------- | -------------- | --------------------- | --------------------- |
 | 3/8"            | DN 10          | 17,2                  | 0,33                  |
 | 1/2"            | DN 15          | 21,3                  | 0,83                  |
 | 3/4"            | DN 20          | 26,9                  | 1,33                  |
@@ -240,7 +235,6 @@ Wärmeleistung $P [W] = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
 | 1 1/2"          | DN 40          | 48,3                  | 5,00                  |
 | 2"              | DN 50          | 60,3                  | 8,33                  |
 | 2 1/2"          | DN 65          | 76,1                  | 13,33                 |
-
 
 ## Heizleistung bei Wärmeübertragung durch eine Fläche
 
@@ -264,7 +258,6 @@ $E_{WP}$ = Leistungszahl
 
 Erdsonde ca 90 Watt / m Sondenlänge
 
-
 ## Stromverbrauch der Wärmepumpe
 
 Die elektrische Energie $E_{{el}}$, die von der Wärmepumpe verbraucht wird, hängt von der Effizienz der Wärmepumpe ab. Diese Effizienz wird durch die **Jahresarbeitszahl (JAZ)** beschrieben:
@@ -277,7 +270,6 @@ $$
 - $Q_{{Heiz}}$: Heizleistung der Wärmepumpe [kW]
 - ${JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
 - $t$: Zeit, in der die Wärmepumpe läuft [h].
-
 
 Ermittlung der Heizleistung aus dem Energie-
 verbrauch von Öl- oder Gaskessel
@@ -293,7 +285,7 @@ von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publicatio
   $Q_H$ = Verbrauch / 300
 
 - Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
-
+  
   $Q_H$ = Verbrauch / 265
 
 ### Über 800 m ü.M.
@@ -303,30 +295,29 @@ von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publicatio
   $Q_H$ = Verbrauch / 330
 
 - Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
-
+  
   $Q_H$ = Verbrauch / 295
-
 
 $Q_H$ = erforderlicher Heizleistungsbedarf bei Auslegetemperatur [kW]
 
 Verbrauch in Liter Öl 
- - 1 kg Öl entspricht ca. 1.19 Liter
- - 1 Betriebs-m3 Gas entspricht ca. 0.93 Liter Öl
 
+- 1 kg Öl entspricht ca. 1.19 Liter
+- 1 Betriebs-m3 Gas entspricht ca. 0.93 Liter Öl
 
 Zur Kontrolle der Resultate kann die spezifische Heizlei stung herangezogen werden. Sie errechnet sich aus der Heizleistung dividiert durch die Energiebezugsfläche (beheizte Bruttogeschossfläche):
 
 | Gebäudetyp                              | W/m2      |
-|-----------------------------------------|-----------|
-|Herkömmlich wärmegedämmte Wohnhäuser     | 50 ... 70 |
-|Gut wärmegedämmte bestehende Wohnhäuser  | 40 ... 50 |
-|Neubauten gemäss heutigen Vorschriften   | 30 ... 40 |
-|Herkömmliche Dienstleistungsbauten       | 60 ... 80 |
-
+| --------------------------------------- | --------- |
+| Herkömmlich wärmegedämmte Wohnhäuser    | 50 ... 70 |
+| Gut wärmegedämmte bestehende Wohnhäuser | 40 ... 50 |
+| Neubauten gemäss heutigen Vorschriften  | 30 ... 40 |
+| Herkömmliche Dienstleistungsbauten      | 60 ... 80 |
 
 brauche auch https://biber.solar/heat-pump-calculator/
 
 ---
+
 ## Heizleistung von Fosilen Heizungen
 
 Heizenergie [MJ] $Q_F = m * H_s$
@@ -336,9 +327,9 @@ Heizleistung [kWh] $P = Q / t = m * H_s / t$
 Masse $m$ [kg]
 
 Heizwert $H_s$ [MJ/kg] oder [kWh/kg]
+
 - Oel Extraleicht: 42,9 [MJ/kg]
 - Erdgas:  37 [MJ/m³] / 10,305 [kWh/m³]
-
 
 kWh = MJ / 3.6
 
@@ -358,8 +349,7 @@ $Q_{WPel}$= Elektrische Aufnameleistung
 
 $\eta$= Wirkungsgrad 
 
-
-### Berechnung des jährlichen Energiebedarfs für Heizung 
+### Berechnung des jährlichen Energiebedarfs für Heizung
 
 Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
 
@@ -368,15 +358,15 @@ Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
 - 16: Angenommene tägliche Betriebsdauer der Heizung in Stunden
 - HGT: Heizgradtage des Standorts
 - [Heizgradtage HGT Schweiz](https://opendata.swiss/de/dataset/monatliche-heizgradtage-in-der-schweiz-gewichtet/resource/fc492ffc-1eb6-4919-af54-16998eaf7eaa)
- - [Heizgradtage HGT Ortschaften](https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage)
+  - [Heizgradtage HGT Ortschaften](https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage)
 - [Heizgradtage HGT St. Gallen](https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8)
 
-### Ermittlung der Heizlast für Neubauten: 
+### Ermittlung der Heizlast für Neubauten:
 
 Heizlast (kW) = beheizte Fläche (m²) * Heizlast pro m²
 
 Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT
-  
+
 - plus ca. 250 W pro Person für den Warmwasserbedarf5
 
 Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
@@ -387,8 +377,10 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
       Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
 
 ## Wärmepumpen Regelung
+
 Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
 SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zustände abdeckt: 0:0, 0:1, 1:0 und 1:1. Die Betriebszustände sehen so aus:
+
 1. Nicht heizen, Sperrung, wie sie z. B. für die Sperrzeiten in Heiztarifen gebraucht wird
 
 2. Normalbetrieb mit einer Leistung, die Wärme auch für eventuelle Sperrzeiten produziert
@@ -398,8 +390,6 @@ SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zust�
 4. Anlaufbefehl mit vorher hinterlegten Parametern für Leistung, z. B. für höhere Vorlauftemperaturen
 
 Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
-
-
 
 # Stromverbrauch
 
@@ -430,17 +420,15 @@ Gesamterzeugung CH: 67 TWh
 
 # Versorgungsnetz in der Schweiz
 
-|Netzebene | Kraftwerke | Vebraucher |Spannung |
-|----------|---------|-------------|---------|
-|1 Übertragungsnetz|Pumpspeicher, Kernkraft, Wasserkraft|Schwerindustrie, SBB| Höchstspannung 220/380 kV |
-|2|Übertragungsnetz
-|3 Überregionale Verteilnetze|Wasserkraft|Industrie| Hochspannung 36 bis 220 kV
-|4|Übertragungsnetz
-|5 Regionale Verteilnetze|Thermisch | Dienstleistungsbauten | Mittelspannung 1 bis 36 kV
-|6|Übertragungsnetz
-|7 lokale Verteilnetze |Wind, Photovoltaik, Biogas|Büros, Wohnen |Niederspannung 400 / 230 V 
-
-
+| Netzebene                    | Kraftwerke                           | Vebraucher            | Spannung                   |
+| ---------------------------- | ------------------------------------ | --------------------- | -------------------------- |
+| 1 Übertragungsnetz           | Pumpspeicher, Kernkraft, Wasserkraft | Schwerindustrie, SBB  | Höchstspannung 220/380 kV  |
+| 2                            | Übertragungsnetz                     |                       |                            |
+| 3 Überregionale Verteilnetze | Wasserkraft                          | Industrie             | Hochspannung 36 bis 220 kV |
+| 4                            | Übertragungsnetz                     |                       |                            |
+| 5 Regionale Verteilnetze     | Thermisch                            | Dienstleistungsbauten | Mittelspannung 1 bis 36 kV |
+| 6                            | Übertragungsnetz                     |                       |                            |
+| 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
 
 # Abkürzungen und Namen
 
@@ -514,23 +502,24 @@ HAK Hausanschlusskasten
 
 ZEV Zusammenschluss zum Eigenverbrauch hinter dem HAK, es müssen eigene Zähler eingebautt werden. zevvi.ch
 
-vZEV Virtueller Zusammenschluss zum Eigenverbrauch in der selben Netzebene 1 ab 2016
+vZEV Virtueller Zusammenschluss zum Eigenverbrauch in der selben Netzebene 7 ab 2016
 
 EVG Eigenverbrauchsgemeinschaft, Die EVG besteht aus Eigentümer/Betreiber der Solaranlage und mehreren Endverbrauchern. EW kann Zählers stellen bzw einen zusätzlichen für die PV Anlage anbieten. EW Infrastruktur wird genutzt.
 
 LEG lokale Elektrizitätsgemeinschaft können sich Solarstrom-Produzentinnen, Speicher-Betreiber sowie Endverbraucherinnen und Endverbraucher innerhalb des gleichen Gemeindegebiets zusammenschliessen und so lokal produzierten Strom lokal verbrauchen. Am 9. Juni 2024 hat das Schweizer Stimmvolk dem revidierten Stromversorgungsgesetz zugestimmt. Somit wird es künftig möglich sein, lokal erzeugte Elektrizität über das öffentliche Netz innerhalb eines Quartiers oder einer Gemeinde zu vermarkten. gemeindeleg.ch / leg-register.ch
+
 - Örtliche Nähe: Die Teilnehmenden (Solarstrom-Produzenten, Speicher-Betreiberinnen und Endverbraucher) müssen sich im gleichen Netzgebiet, auf der gleichen Netzebene und im gleichen Gemeindegebiet befinden.
 - Definierte Mindestleistung: Solaranlagen in der LEG müssen eine Mindestleistung von 20 Prozent* im Verhältnis zur Anschlussleistung aller LEG-Endverbraucherinnen und Endverbraucher aufweisen.
 - Geeignete Messausstattung: Alle Teilnehmenden müssen mit einem kommunikativen, digitalen Stromzähler (Smart Meter) ausgestattet sein.
 
 Pixpro solarmarkt
 
-
 # Energie Formen und Quellen
 
 Es gilt die Energieerhaltung.
 
 Energieformen:
+
 - Chemisch
 - Kinetisch
 - Elektrisch
@@ -553,50 +542,54 @@ Nutzenergie: Energie die genutz wird, Wärme eines Föhnes, Energie mit der der 
 
 Verfügbarkeit:
 
-|Recource|Reserven|Dauer|
-|-----|----------|------|
-|Erdöl| 230 GT|
-|Kohle| 230 GT|
-|Erdgas| 188 Billionen m3 | 3 Billionen m3
-|Uran|1,8 Mt | 14 Mt | 41300 t/Jahr | 50 - 150 a
+| Recource | Reserven         | Dauer          |
+| -------- | ---------------- | -------------- |
+| Erdöl    | 230 GT           |                |
+| Kohle    | 230 GT           |                |
+| Erdgas   | 188 Billionen m3 | 3 Billionen m3 |
+| Uran     | 1,8 Mt           | 14 Mt          |
 
 ## Vorteile / Nachteile Erneuerbare Energien
 
-
 ### Photovoltaik
-|Vorteile|Nachteile|
-|-------|---------|
-| Einfache Installation   | Produktion nur tagsüber
-| Kostengünstig 0.13 CHF / WP         | Wirkungsgrad gering
-| Betrieb Emmisionsfrei   | Abhängigkeit von China
+
+| Vorteile                    | Nachteile               |
+| --------------------------- | ----------------------- |
+| Einfache Installation       | Produktion nur tagsüber |
+| Kostengünstig 0.13 CHF / WP | Wirkungsgrad gering     |
+| Betrieb Emmisionsfrei       | Abhängigkeit von China  |
 
 ### Solarthermie
-|Vorteile|Nachteile|
-|-------|---------|
-| Wirkungsgrad höher als PV (~60 % Kollektorwirkungsgrad bei dT=40K)  | Schwierigere Installation als PV
-| Gut Speicherbar           | Nur Wärme
+
+| Vorteile                                                           | Nachteile                        |
+| ------------------------------------------------------------------ | -------------------------------- |
+| Wirkungsgrad höher als PV (~60 % Kollektorwirkungsgrad bei dT=40K) | Schwierigere Installation als PV |
+| Gut Speicherbar                                                    | Nur Wärme                        |
 
 ### Windkraft
-|Vorteile|Nachteile|
-|-------|---------|
-| Produziert auch nachts, wenn PV nicht produziert | Gesellschaftliche Akzeptanz geringer als bei PV und Solarthermie
-| Hohe Leistung          | Beeinträchtigung Landschaftsbild
+
+| Vorteile                                         | Nachteile                                                        |
+| ------------------------------------------------ | ---------------------------------------------------------------- |
+| Produziert auch nachts, wenn PV nicht produziert | Gesellschaftliche Akzeptanz geringer als bei PV und Solarthermie |
+| Hohe Leistung                                    | Beeinträchtigung Landschaftsbild                                 |
 
 ### Wasserkraft
-|Vorteile|Nachteile|
-|-------|---------|
-| Schwarzstartfähig (d.h. kann Netz nach Black Out wieder hochfahren)    | Grösserer Eingriff ins Ökosystem
-| Langzeitspeicherung von Energie möglich  | Geringe Energiedichte
-| Steuerbar   |
-| Immer Verfügbar | 
+
+| Vorteile                                                            | Nachteile                        |
+| ------------------------------------------------------------------- | -------------------------------- |
+| Schwarzstartfähig (d.h. kann Netz nach Black Out wieder hochfahren) | Grösserer Eingriff ins Ökosystem |
+| Langzeitspeicherung von Energie möglich                             | Geringe Energiedichte            |
+| Steuerbar                                                           |                                  |
+| Immer Verfügbar                                                     |                                  |
 
 ### Biomasse
-|Vorteile|Nachteile|
-|-------|---------|
-| Verwertung Bioabfälle  | Hohe Investitionen
-| Vielseitig nutzbar (Strom, Wärme) | Komplexe Technik 
-| Speicherbar => Grundlastfähig   | Anlage muss dicht sein, sonst können 
-Klimagase entweichen
+
+| Vorteile                          | Nachteile                            |
+| --------------------------------- | ------------------------------------ |
+| Verwertung Bioabfälle             | Hohe Investitionen                   |
+| Vielseitig nutzbar (Strom, Wärme) | Komplexe Technik                     |
+| Speicherbar => Grundlastfähig     | Anlage muss dicht sein, sonst können |
+| Klimagase entweichen              |                                      |
 
 ## Sonnenenergie
 
@@ -645,38 +638,37 @@ Importe: 13 t / Kopf
 - 23% Industrie
 - 33% Verkehr (ohne int. Flüge)
 
-
 ### Konsequenzen
 
 - Extremwetterereignisse nehmen zu
 - Meeresspiegel steigt
 - Ökosystem kann sich nicht mehr schnell genug anpassen => 
-Artensterben
+  Artensterben
 - Gesundheitsrisiken 
 - Die Auswirkungen machen sich besonders in Entwicklungs- und 
-Schwellenländern bemerkbar => mehr Migration
+  Schwellenländern bemerkbar => mehr Migration
 
 ### Kipppunkte
 
 - An einem Kipppunkt fällt ein System von einem Zustand irreversibel in 
-einen anderen
+  einen anderen
 - Wird ein Kipppunkt erreicht, lässt sich dieser auf sehr lange Zeit nicht 
-mehr rückgängig machen, auch wenn die Emissionen reduziert werden
+  mehr rückgängig machen, auch wenn die Emissionen reduziert werden
 - Einige Kipppunkte beschleunigen die CO2 Emissionen und damit den 
-Klimawandel („positive Rückkopplung“ = Ein Effekt verstärkt seine 
-eigene Ursache) 
+  Klimawandel („positive Rückkopplung“ = Ein Effekt verstärkt seine 
+  eigene Ursache) 
 - Arktischer Eisschild reflektiert viel Sonnenlicht direkt zurück ins All => 
-Verkleinerung des Eisschildes bedeutet weniger Reflektion
+  Verkleinerung des Eisschildes bedeutet weniger Reflektion
 - Permafrostboden könnte auftauen und gigantische Mengen 
-gebundenes CO2
-freisetzen
+  gebundenes CO2
+  freisetzen
 
 ### Pariser Klimaziele
 
 - Vereinbart 2015 auf der Weltklimakonferenz in Paris 
 - Die Erderwärmung soll auf deutlich unter 2.0 °C, besser 1.5°
-gegenüber dem Vorindustriellen Zeitalter begrenzt werden (aktuell 
-bereits bei 1.1° im globalen Durchschnitt, 1.6° auf dem Festland1))
+  gegenüber dem Vorindustriellen Zeitalter begrenzt werden (aktuell 
+  bereits bei 1.1° im globalen Durchschnitt, 1.6° auf dem Festland1))
 - Ärmere Länder sollen finanziell unterstützt werden 
 - Es gibt keine Strafen für Zielverfehlungen…
 
@@ -688,25 +680,24 @@ bereits bei 1.1° im globalen Durchschnitt, 1.6° auf dem Festland1))
 - - Sanierung und Neubau von Grosskraftwerken (inkl. Kernkraft)
 - Energieaussenpolitik 
 - Ziele: bis 2050 die Treibhausgasemissionen auf Netto-Null senken (Netto-Null = Emissionen maximal so hoch, wie die natürlichen und technischen 
-Aufnahmekapazitäten der Schweiz) 
+  Aufnahmekapazitäten der Schweiz) 
 - Ziel für 2050 Netto-Null, für 2030 halbieren 
-gegenüber 1990
+  gegenüber 1990
 - Planetare Belastbarkeitsgrenze: 0,6 t / Kopf
 
 ### Massnahmen
 
-
 - Liberalisierung Strommarkt (Stromversorgungsgesetz)
-21.02.2025 
+  21.02.2025 
 - Seit 2018 Netzzuschlag von 2.3 Rp. für Netzzuschlagfonds für 
-Energieeffizienzmassnahmen
+  Energieeffizienzmassnahmen
 - Gebäudeprogramm, finanziert u.a. durch CO2 Abgabe 
 - Gebäudesanierung kann steuerlich geltend gemacht werden
 - Emissionsobergrenzen für Verkehr (Reduktion von 130 g CO2
-/km auf 95 g CO2
-/km)
+  /km auf 95 g CO2
+  /km)
 - Wettbewerbliche Ausschreibungen (Förderung von besonders sparsamen 
-Massnahmen)
+  Massnahmen)
 - Investitionsbeiträge für PV (pronovo) und Wasserkraft > 10 MW 
 - Nationales Interesse (Gerichtsentscheide bei Konflikt EE vs. Naturschutz)
 - Kürzere Bewilligungsverfahren (für EE Anlagen und Netzausbau)
@@ -715,25 +706,29 @@ Massnahmen)
 ### Co2 Gesetz Schweiz
 
 Ziele:
+
 - CO2 Ausstoss bis 2030 halbieren gegenüber 1990 (ca. 800.000 TJ)
 - ¾ der Massnahmen zur CO2 Reduktion im Inland
 
 Steuerwerkzeuge:
+
 - Abgabe auf jede Tonne CO2
 - Anpassung der Abgabe je nach erreichter Verminderung
 - Einnahmen gehen zu 1/3 an Bevölkerung via Krankenkasse, 1/3 an 
-Wirtschaft und AHV, 1/3 an Gebäudeprogamm
+  Wirtschaft und AHV, 1/3 an Gebäudeprogamm
 
 ### [Energiegesetz 9.6.2024](https://www.fedlex.admin.ch/eli/fga/2023/2301/de)
 
 [Energieproduktion EE ohne Wasserkraft 2022 ca. 7.7 TWh](
 https://de.statista.com/statistik/daten/studie/329694/umfrage/stromerzeugung-in-der-schweiz-nach-energietraeger/)
 Vorgaben im Gesetz: 
+
 - 2035 mind 35 TWh
 - 2050 mind 45 TWh
 - bei 300 m2 Gebäudefläche ist eine Solaranlage Plicht
 
 Lokale Eletrizitätsgemeinschaften LEG um Energie innerhalb dieser Gemienschaft abzusetzen Voraussetzungen sind:
+
 - im gleichen Netzgebiet
 - gleiche Netzebene
 - örtliche nahe beieinander am Netz angeschlossen sind
@@ -742,73 +737,79 @@ Lokale Eletrizitätsgemeinschaften LEG um Energie innerhalb dieser Gemienschaft 
 Verbrauchsziele: der Verbrauch ist pro Person und Jahr 2000 bis 2035 um 43% und bis 2050 um 53 % zu senken.
 
 # Übersicht Vorschriften, Normen, Standards
+
 - Vorschriften: z.B. Energiegesetz, kantonale Vorschriften
 - Verordnungen: z.B. NIV (Niederspannungs-InstallationsVerordnung) mit Art. 14
 - Normen: ISO (International), SIA (Ingenieur- und 
-Architektenvereins), ElectroSuisse z.B. NIN 
-(Niederspannungs-Installations-Norm)
+  Architektenvereins), ElectroSuisse z.B. NIN 
+  (Niederspannungs-Installations-Norm)
 - Standards: z.B. Minergie, GEAK 
 
-## Vorschriften 
+## Vorschriften
+
 - Energiedirektorenkonferenz (EnDK): Forum der Energiebereichsleiter 
-der einzelnen Kantone. Koordinieren Energiefragen und kantonale 
-Interessen
+  der einzelnen Kantone. Koordinieren Energiefragen und kantonale 
+  Interessen
 - Erlässt „Mustervorschriften der Kantone im Energiebereich“ (MuKE) => 
-Leitfaden für kantonale Energievorschriften
+  Leitfaden für kantonale Energievorschriften
 - Um was geht’s in MuKE 2014? (Skript S.59)
 - Neubauten müssen angemessenen Anteil an Stromverbrauch selbst 
-produzieren
+  produzieren
 - Min. 10% der Heizenergie muss aus erneuerbaren Quellen kommen nach 
-Heizungswechsel
+  Heizungswechsel
 - Einführung GEAK 
 - U-Grenzwerte für Bauteile
 
 ## Gebäudeenergieausweis der Kantone (GEAK)
+
 - Gibt die Energieeffizienz der Gebäudehülle und den standardmässigen
-Energieverbrauch eines Gebäudes an
+  Energieverbrauch eines Gebäudes an
 - Bewertungsskala von A bis G, zeigt Verbesserungspotenziale auf
 - Wird von einem GEAK Experten bewertet
 - Gut geeignet für Modernisierungsmassnahmen
 - Schafft schweizweit eine Vergleichbarkeit
 - Zusätze von GEAK plus:
 - Beratungsbericht mit Beschreibung konkreter Modernisierungsmassnahmen in bis zu 
-drei Varianten
+  drei Varianten
 - Priorisierung der Massnahmen
 - GEAK wird vom Gebäudeprogramm in SG und AR nicht gefördert, in TG 
-pauschal, AI fördert 
+  pauschal, AI fördert 
 - www.geak.ch
 
 ## Minergie - Standard
+
 - Freiwilliger Baustandard für Energieeffizienz
 - Gültig für Neubauten und Sanierungen
 - Hauptansatzpunkte sind die Gebäudehülle, Lufterneuerung und 
-geringer Energiebedarf
+  geringer Energiebedarf
 - Ziele:
 - Verbesserung der Wohnqualität durch warme Oberflächentemperatur, 
 - Werterhalt von Gebäuden, 
 - geringere Heizkosten und Unabhängigkeit von Energiepreisen
 - Verminderter CO2
--Ausstoss
+  -Ausstoss
 - Abstufungen: Minergie < Minergie-P < Minergie-A
 - Finanzielle Anreize und Förderungen: Förderung - Minergie
 
 ## Gebäudeprogramm
+
 - Energieförderportal St. Gallen: Förderportal (sg.ch)
 - Kantonale Förderprogramme: https://portal.dasgebaeudeprogramm.ch/
 - Gefördert werden Heizungs- und Gebäudesanierungen, PV und 
-weitere Massnahmen
+  weitere Massnahmen
 - Die geförderten Massnahmen hängen von der jeweiligen 
-Gemeinde ab (z.B. St. Gallen kein PV [wird eigenständig von der 
-Stadt gefördert], dafür in Wattwil)
+  Gemeinde ab (z.B. St. Gallen kein PV [wird eigenständig von der 
+  Stadt gefördert], dafür in Wattwil)
 
-## Fördermassnahmen PV und Solarthermie 
+## Fördermassnahmen PV und Solarthermie
+
 - Montagearten: Freistehend, Angebaut, Integriert
 - Förderung auf Bundes-, Kantons- und Gemeindeebene
 - Für jede Gemeinde sind ein grosser Teil der Förderprogamme
-einsehbar unter: [www.energiefranken.ch](https://www.energiefranken.ch/de) (Achtung: Gemeindeförderungen werden oft nicht aufgeführt)
+  einsehbar unter: [www.energiefranken.ch](https://www.energiefranken.ch/de) (Achtung: Gemeindeförderungen werden oft nicht aufgeführt)
 - Pronovo
 - Energiefonds Stadt St. Gallen
-Antrag Fördergelder: [Login | Kundenportal Pronovo](https://kundenportal.pronovo.ch/)
+  Antrag Fördergelder: [Login | Kundenportal Pronovo](https://kundenportal.pronovo.ch/)
 - Rechner Förderbeitrag: [www.pronovo.ch](https://pronovo.ch/)
 
 # Links
@@ -818,4 +819,3 @@ https://www.geoportal.ch/
 https://www.uvek-gis.admin.ch/BFE/sonnendach/
 
 https://solargis.com/resources/free-maps-and-gis-data
-
