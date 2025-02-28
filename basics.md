@@ -116,7 +116,7 @@ Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
 
 Kosten = $W * Tarif$
 
-Wirkungsgrad [Faktor] $\eta = P_{Nutzen} / P_{Aufwand} = \eta_1*\eta_2*\eta_n $
+Wirkungsgrad [Faktor] $\eta = P_{Nutzen} / P_{Aufwand} = W_{Nutzen} / W_{Aufwand} = \eta_1*\eta_2*\eta_n $
 
 Wandlungsverlust + $\eta$ = 100%
 
