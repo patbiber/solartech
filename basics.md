@@ -1,43 +1,43 @@
 # Solarteur Wissen ☀️ 👷
 
-# Arbeit
+# Arbeit / Energie
 
-Arbeit [Ws, J, Nm] $W = P * t = m * g * h = m * a * s$ 
+### Arbeit [Ws, J, Nm] $W = P * t = m * g * h = m * a * s$ 
+
+### Wärmemenge $Q$ [J, kJ] = $m \cdot c \cdot \Delta T$
+
+### Mechanische Energie $P$ oder $E$ [Nm, kg*m2/s2] = $F$ * $s$
+
+### Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
+
+Strahlungsenergie $Q$ [J, lms, lmh]
 
 - 1 cal = 4.154 J
 - 1 Ws = 1 J 
 - 1 kWh = 3'600'000 J = 3.6 MJ
 - 1 PS = 735 W 
 
-# Energie / Leistung 
-
-Mechanische Energie $P$ oder $E$ [Nm, kg*m2/s2] = $F$ * $s$
-
-Thermische Energie / Wärmemenge $Q$ oder $P$ [J, kJ] = $m \cdot c \cdot \Delta T$
-
-Strahlungsenergie $Q$ [J, lms, lmh]
-
-Leistung [W] $P = W / t$
+Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ / $c_{H2O}$ 4190 [J/(kg·K)]
 
 Kraft [N] $F$ = $m$ * $a$
 
-Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ / $c_{H2O}$ 4190 [J/(kg·K)]
+Beschleunigung [m/s2] $a$ / Erdanziehung $g$ = 9.81 [m/s2]
 
 Zeit [s] $t$
 
 Weg [m] $s$ / Höhe [m] $h$
 
-Masse [kg] $m$
+Masse [kg] $m$ = $Q / (c*\Delta T  * \eta)$
 
 Temperatur Grad Kelvin [K] $T$
-
-Beschleunigung [m/s2] $a$ / Erdanziehung $g$ = 9.81 [m/s2]
 
 1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
 
 1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
 
-## Elektrische Arbeit und Leistung
+# Leistung 
+
+Leistung [W] $P = W / t$
 
 Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R = I²*R$
 
@@ -48,10 +48,6 @@ Leistung Drehstrom Dreiphasig [W] $P = \sqrt{3} * U * I * cos\phi $
 Leistungsfaktoktor $cos\phi = P /S$
 
 *Gleichstrom: $cos\phi$ = 1*
-
-Leistung [W] $P = W / t$
-
-Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
 
 Kosten = $W * Tarif$
 
