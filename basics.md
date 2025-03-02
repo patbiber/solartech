@@ -1,31 +1,73 @@
-# Elektrotechnik für Solarteure Basics ☀️ 👷
+# Solarteur Wissen ☀️ 👷
 
-# Energie und Arbeit
+# Arbeit
 
-Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
-
-Elektrische Energie $W$ [Ws, VAs, kWh] = Leistung [W] $P$ * Zeit [s] $t$
-
-Meschanische Energie $W$ oder E [Nm, kg*m2/s2] = Kraft [N] $F$ * Weg [m] $s$
-
-Thermische Energie $Q$ oder $W$ [J, kJ] = $m \cdot c \cdot \Delta t$
-
-Strahlungsenergie $Q$ [J, lms, lmh]
-
-$P = W / t$
+Arbeit [Ws, J, Nm] $W = P * t = m * g * h = m * a * s$ 
 
 - 1 cal = 4.154 J
 - 1 Ws = 1 J 
 - 1 kWh = 3'600'000 J = 3.6 MJ
 - 1 PS = 735 W 
 
-Kraft [N] $F$ = Masse [kg] $m$ * Beschleunigung  [m/s2] $a$
+# Energie / Leistung 
 
-Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ (z. B. Wasser: 4.18 [kJ/(kg·K)]
+Mechanische Energie $P$ oder $E$ [Nm, kg*m2/s2] = $F$ * $s$
+
+Thermische Energie / Wärmemenge $Q$ oder $P$ [J, kJ] = $m \cdot c \cdot \Delta T$
+
+Strahlungsenergie $Q$ [J, lms, lmh]
+
+Leistung [W] $P = W / t$
+
+Kraft [N] $F$ = $m$ * $a$
+
+Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ / $c_{H2O}$ 4190 [J/(kg·K)]
+
+Zeit [s] $t$
+
+Weg [m] $s$ / Höhe [m] $h$
+
+Masse [kg] $m$
+
+Temperatur Grad Kelvin [K] $T$
+
+Beschleunigung [m/s2] $a$ / Erdanziehung $g$ = 9.81 [m/s2]
 
 1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
 
 1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
+
+## Elektrische Arbeit und Leistung
+
+Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R = I²*R$
+
+Leistung Wechselstrom Einphasig [W] $P = U * I * cos\phi$
+
+Leistung Drehstrom Dreiphasig [W] $P = \sqrt{3} * U * I * cos\phi $
+
+Leistungsfaktoktor $cos\phi = P /S$
+
+*Gleichstrom: $cos\phi$ = 1*
+
+Leistung [W] $P = W / t$
+
+Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
+
+Kosten = $W * Tarif$
+
+Wirkungsgrad [Faktor] $\eta =  \frac{Nutzen}{Aufwand} = P_{ab} / P_{auf} = W_{ab} / W_{auf} = \eta_1*\eta_2*\eta_n $
+
+Wandlungsverlust + $\eta$ = 100%
+
+bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
+
+1 - Verluste = Wirkungsgrad
+
+
+Nutzenergie: E-Car Energie auf dem Rad 
+
+Endenergie: Energie aus der Steckdose
+
 
 ## Der einfache Stromkreis ⚡
 
@@ -74,63 +116,25 @@ Der  Kehrwert des Gesammtwiederstand ist die Summe der Kerhwerte der Einzelwiede
 $R_{tot} = 1 / (1/R_1 + 1/R_2 + 1/R_3) = R_{Einzel}/
 n$
 
-## Drehstrom
+## Leiterberechnung
 
-### Sternschaltung
+Leitwert $ [\Omega] R_l = (\rho  * l) / A $
 
-![Sternschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sternschaltung.svg/250px-Sternschaltung.svg.png)
+spezifischer Leitwiederstand zbsp für Kupfer $\rho_cu= 0.0175 \frac{\Omega * mm2}{m}$
 
-$I = I_p$
+Leiter [m]$l$ = 2 x Leitungslänge
 
-$U = \sqrt3 * U_p$ = 400V
+Spezifische Leitfähigkeit $\gamma = 1 / \rho $
 
-$U_p$ = 230 V
+Spanungsabfall [V] $U_v = U_{RL1}+U_{RL2} = U_{tot}-U_{L}=R_1*I=(R_{L1}+R_{L2})*I $
 
-[Wikipedia Sternschaltung](https://de.wikipedia.org/wiki/Sternschaltung)
+nach NIN max 4% zwischen HAK und Verbraucher (9.2V bei 230V)
 
-### Dreickschaltung
+![Leitwiederstand](Leiterberechnung.png)
 
-![Dreieckschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dreieckschaltung.svg/330px-Dreieckschaltung.svg.png)
+Leitungsverlust $P_v = U_v2 /R_l = I2 * R_l$
 
-$U = U_p$
-
-$I = \sqrt3 * I_p$
-
-[Wikipedia Dreieckschaltung](https://de.wikipedia.org/wiki/Dreieckschaltung)
-
-## Elektrische Arbeit und Leistung
-
-Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R = I²*R$
-
-Leistung Wechselstrom Einphasig [W] $P = U * I * cos\phi$
-
-Leistung Drehstrom Dreiphasig [W] $P = \sqrt{3} * U * I * cos\phi $
-
-Leistungsfaktoktor $cos\phi = P /S$
-
-*Gleichstrom: $cos\phi$ = 1*
-
-Leistung [W] $P = W / t$
-
-Arbeit [Ws] *Praxis [kWh]* $W = P * t = U * I * t * cos\phi$
-
-Kosten = $W * Tarif$
-
-Wirkungsgrad [Faktor] $\eta = P_{Nutzen} / P_{Aufwand} = W_{Nutzen} / W_{Aufwand} = \eta_1*\eta_2*\eta_n $
-
-Wandlungsverlust + $\eta$ = 100%
-
-1 - Verluste = Wirkungsgrad
-
-bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
-
-Nutzenergie: Energie auf dem Rad 
-
-Endenergie: Energie aus der Steckdose
-
-(Bsp E-Car)
-
-## Erlaubte Stromdichte für Leitungs Querschnitt
+### Erlaubte Stromdichte für Leitungs Querschnitt
 
 | Stromdurchfluss [A] | Querschnitt [mm²] |
 | ------------------- | ----------------- |
@@ -184,6 +188,31 @@ $I * U * cos\phi= P$
 ### Temperatur Korrektur für Leerlaufspannung Voc [V]
 
 Effektive Leerlaufspannung $U$ [V]= Leerlaufspannung $U_{oc}$ [V] @ 25 °C * Tempereaturkoeffizient $V_{oc}$ [%/°K] * $\Delta t$
+
+# Drehstrom
+
+### Sternschaltung
+
+![Sternschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sternschaltung.svg/250px-Sternschaltung.svg.png)
+
+$I = I_p$
+
+$U = \sqrt3 * U_p$ = 400V
+
+$U_p$ = 230 V
+
+[Wikipedia Sternschaltung](https://de.wikipedia.org/wiki/Sternschaltung)
+
+### Dreickschaltung
+
+![Dreieckschaltung](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dreieckschaltung.svg/330px-Dreieckschaltung.svg.png)
+
+$U = U_p$
+
+$I = \sqrt3 * I_p$
+
+[Wikipedia Dreieckschaltung](https://de.wikipedia.org/wiki/Dreieckschaltung)
+
 
 ### Geometrie Dachschräge
 
