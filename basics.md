@@ -2,11 +2,11 @@
 
 # Arbeit / Energie
 
-### Arbeit [Ws, J, Nm] $W = P * t = m * g * h = m * a * s$ 
+### Arbeit [Ws, J, Nm] $W = P * t
 
 ### Wärmemenge $Q$ [J, kJ] = $m \cdot c \cdot \Delta T$
 
-### Mechanische Energie $P$ oder $E$ [Nm, kg*m2/s2] = $F$ * $s$
+### Mechanische Energie $P$ oder $E$ [Nm, kg*m2/s2] = $F * s = m * a * s = m * g *h$
 
 ### Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 
@@ -850,6 +850,139 @@ Verbrauchsziele: der Verbrauch ist pro Person und Jahr 2000 bis 2035 um 43% und 
   Antrag Fördergelder: [Login | Kundenportal Pronovo](https://kundenportal.pronovo.ch/)
 - Rechner Förderbeitrag: [www.pronovo.ch](https://pronovo.ch/)
 
+# Schutzmassnahmen in der Hausinstallation nach NIN
+
+### Basisschutz 
+
+Die maximale 
+Berührungsspannung ist bei Gleichspannung 120 V (für Spielzeug, Kesselanlagen, Labor,
+etc. 60 V) und bei Wechselspannung 50 V (für Spielzeug, Kesselanlagen, Labor, etc. 
+25 V). Aktive Teile einer Installation mit höheren Spannungen müssen gegen zufällige 
+Berührung geschützt sein. Dies kann mittels Abschrankungen oder Isolierung erreicht 
+werden. 
+
+### Fehlerschutz
+
+Stromstärke Wirkung auf Personen
+- 0.005mA Wahrnehmbarkeit mit der Zunge
+- 1mA Reizschwelle Kribbeln, Gefühl wie eingeschlafene Hand
+- 15mA Krampfschwelle Loslassgrenze, Muskelverkrampfungen
+- 50mA Gefahrenschwelle Verkrampfungen Atemmuskulatur, Herzkammerflimmern
+- 80mA Todesschwelle Herzkammerflimmern, Tod
+
+Mechanismen für den Personenschutz in der elektrotechnischen Installation sollen bewir
+ken, dass
+- der Berührungsstrom durch den menschlichen Körper möglichst klein ist.
+- die Berührungsspannung möglichst klein ist.
+- der gefährliche Zustand möglichst kurz bestehen bleibt.
+
+SELV Safety Extra Low Voltage Transformatoren
+Keine Verbindung zum 
+Schutzleiter. Die Ausgangsspannung bei Wechselspannung 
+übersteigt 50 V nicht. Bei Gleichspannung liegt die Ausgangsspannung unter 120 V.
+
+PELV
+Protective Extra Low Voltage Transformator
+Trennstelle, mit 
+der die Ausgangsseite des Trafos 
+vom Schutzleiter sicher getrennt 
+werden kann.
+
+FELV Transformator (Funktional Extra Low Voltage) gibt es keine 
+Trennstelle, mit der die Ausgangsseite des Trafos vom Schutzleiter sicher getrennt werden kann. Die Ausgangsseite ist demnach immer mit Schutzleiter Anschluss.
+
+## 1 Überlastschutz
+
+Elektrotechnische Betriebsmittel wie Leitungen, Motoren, etc. müssen gegen Überlastung geschützt werden. Bei Überlast besteht die Gefahr einer Überhitzung und somit 
+einem Brandfall. Schutzelemente für Überlast beinhalten einen elektrothermischen Auslösemechanismus (Bimetall). 
+
+Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Thermorelais
+
+## 2 Kurzschlussschutz
+
+Jeder Stromkreis muss so geschützt werden, dass im Kurzschlussfall die hohen Ströme 
+schnell und gefahrlos abgeschaltet werden, um weitere Schäden zu vermeiden. Zu beachten ist, dass beim Schalten von hohen Strömen (in der Nähe von z.B. Transformatoren > 10 kA) Lichtbogen bestehen bleiben können und somit der Stromfluss nicht unterbrochen wird. Schutzelemente für Kurzschluss beinhalten einen elektromagnetischen 
+Auslösemechanismus (Magnetspule).
+
+Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Leistungsschalter
+
+## 3 Fehlerstromschutz
+
+Gemäss den aktuellen Regeln der Technik (NIN) wird heute für viele Anlageteile (z.B. 
+Beleuchtungen, Steckdosen, Baustelleninstallationen, etc.) ein Fehlerstromschutz verlangt. Fehlerströme sind Ströme, die infolge Defekts eines Betriebsmittels nicht auf dem 
+vorgesehenen Strompfad (Neutralleiter) zur Spannungsquelle zurück fliessen.
+
+Schutzelemente → Fehlerstromschutzschalter RCD (FI)
+
+## 4 Störlichtbogen-Schutzeinrichtung
+
+Für den erweiterten Brandschutz können Geräte eingesetzt werden, die Störlichtbögen 
+(ausgelöst z.B. durch Wackelkontakte) erkennen und die betroffenen Stromkreise abschalten. Der Einsatz wird in kritischen Umgebungen empfohlen.
+
+Schutzelemente → Brandschutzschalter AFDD
+
+## 5 Selektivität
+
+Tritt in elektrischen Anlagen ein Fehler auf, darf nur diejenige Schutzeinrichtung ansprechen, die der Fehlerquelle unmittelbar vorgeschaltet ist.
+
+## Schutzklassen
+Schutzklasse
+![Schutzklasse](Schutzklasse.png)
+
+IP Schutzarten Bild
+![IP Schutzarten Bild](IP_Schutzarten_Bild.png)
+
+IP Schutzarten
+![IP Schutzarten](IP_Schutzarten.png)
+
+# Betriebsmittel für Schutzzwecke
+## 1 Schmelzsicherungen
+Eine Schmelzsicherung schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss. Die Auslösung basiert auf der Stromwärme, die eine Sollbruchstelle innerhalb der Sicherung zum Schmelzen bringt. Als 
+Funkenlöscher wird Quarzsand eingesetzt.
+
+## 2 Leitungsschutzschalter
+Ein Leitungsschutzschalter schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss und können nach einer 
+Auslösung wieder eingeschaltet werden. Sie besitzen einen 
+thermischen und einen magnetischen Auslöser. Bei Überlastung erwärmt sich das Bimetall und löst den Leitungsschutzschalter aus. Bei hohen Kurzschlussströmen entklinkt der elektromagnetische Auslöser das Schaltschloss 
+unverzögert. Der Schlaganker trennt das Schaltstück, ehe 
+der Kurzschlussstrom seinen Höchstwert erreichen kann.
+- Typ B
+o für Leitungsschutz bei Verbrauchern wie Heizung, 
+Kochherd, Boiler, etc.
+o Unverzögerte Auslösung beim 3- bis 5-fachen Bemessungsstrom
+- Typ C
+o für Leitungsschutz bei Verbrauchern, die grosse
+Einschaltströme verursachen wie zum Beispiel Motoren, etc.
+o Unverzögerte Auslösung beim 5- bis 10-fachen Bemessungsstrom
+- Typ D
+o für Leitungsschutz bei Verbrauchern mit Schweranlauf
+o Unverzögerte Auslösung beim 10- bis 20-fachen 
+Bemessungsstrom
+
+Energiebegrenzungsklasse und Schaltvermögen sind auf 
+Leitungsschutzschaltern durch Bildzeichen angegeben. 
+Leitungsschutzschalter der Energiebegrenzungsklasse 3 
+haben die beste (kürzeste) Kurzschlussstrombegrenzung.
+
+## 3 Fehlerstromschutzschalter FI
+Der RCD (Residual Current protective Device) vergleicht 
+die gleichzeitig in den Leitern L1, L2, L3 und N fliessenden Ströme. Fehlt in der Summe ein Teil des Stromes, 
+weil er über den Schutzleiter (PE) oder die Erde fliesst, 
+schaltet der RCD aus, sobald die Fehlerstromstärke den 
+zulässigen Wert (steht auf dem RCD) überschreitet. 
+Die Auslösung basiert auf dem elektromagnetischen 
+Prinzip (Summenstrommessung).
+Es gelten folgende max. Werte für die Fehlerstromstärke
+- Personenschutz 30mA (10mA)
+- Sachenschutz 300mA
+## 4 Brandschutzschalter
+Brandschutzschalter bieten Schutz vor seriellen und parallelen 
+Fehlerlichtbögen. Dafür sorgt ein Mikroprozessor, der kontinuierlich viele Strom- und Spannungsparameter überwacht. Erkennt er 
+charakteristische Strom- und Spannungsverläufe, die auf einen 
+Fehlerlichtbogen hindeuten, schaltet er den Stromkreis ab.
+
+
+
 # Links
 
 https://www.geoportal.ch/
@@ -857,3 +990,4 @@ https://www.geoportal.ch/
 https://www.uvek-gis.admin.ch/BFE/sonnendach/
 
 https://solargis.com/resources/free-maps-and-gis-data
+
