@@ -4,11 +4,11 @@
 
 Arbeit, Energie, Wärmemenge [Ws, J, Nm, kg * m2 / s2] $W, E , Q$ = Kraft [N] $F$ * Weg [m] $s$ = Leistung [W] $P$ * Zeit [s] $t$ =  $m \cdot c \cdot \Delta t$
 
-Elektrische Energie $W$ [Ws, VAs, kWh]
+Elektrische Energie $W$ [Ws, VAs, kWh] = Leistung [W] $P$ * Zeit [s] $t$
 
-Meschanische Energie $W$ oder E [Nm, kg*m2/s2]
+Meschanische Energie $W$ oder E [Nm, kg*m2/s2] = Kraft [N] $F$ * Weg [m] $s$
 
-Thermische Energie $Q$ oder $W$ [J, kJ]
+Thermische Energie $Q$ oder $W$ [J, kJ] = $m \cdot c \cdot \Delta t$
 
 Strahlungsenergie $Q$ [J, lms, lmh]
 
