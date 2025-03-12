@@ -141,7 +141,7 @@ Leitungsverlust $P_v = U_v2 /R_l = I2 * R_l$
 | 69                  | 16 (Erdung)       |
 | 50                  | 16 (Erdung)       |
 | 40                  | 10                |
-| 32                  | 6                 |
+| 32                  | 8                 |
 | 25                  | 6                 |
 | 20                  | 4                 |
 | 16                  | 2,5               |
@@ -194,6 +194,16 @@ Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausri
 ![Bestrahlung](bestrahlung-geneigte-ebene-bern.jpg)
 
 ![Schema Inselanlage](Schema_Inselanlage.jpg)
+
+- Kurzschlussstrom ISC
+- Leerlaufsspannung UOC
+- Maximale Leistung PMPP
+- Betriebsstrom IMPP
+- Betriebsspannung UMPP
+- Füllfaktor FF
+- Wirkungsgrad 𝜂𝜂
+
+Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 
 ### Aufbau einer kristallinen Silizium-Solarzelle
 Die klassische kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
