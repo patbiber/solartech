@@ -2,7 +2,7 @@
 
 # Arbeit / Energie
 
-### Arbeit [Ws, J, Nm] $W = P * t
+### Arbeit [Ws, J, Nm] $W = P * t$
 
 ### Wärmemenge $Q$ [J, kJ] = $m \cdot c \cdot \Delta T$
 
@@ -180,6 +180,36 @@ bsp: 16 A * 230 V = 3.68 kW
 $I * U * cos\phi= P$
 
 # Solar Panel Auslegung
+
+1000 W/m2 Globalstrahlung Gh oder GHI im Mittelland davon bei AM 1.5 max 835 W/m2 direkte Strahlung Bn oder DNI der rest divuse Strahlung Dh oder GHI
+bis 1500 w/m2 im Hochgebirge
+
+https://everywhere.solar/
+https://solargis.com/resources/free-maps-and-gis-data
+
+![Winkel](winkelbezeichnung-solartechnik.jpg)
+
+Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausrichtung – in der Schweiz ca. 35°S.
+
+![Bestrahlung](bestrahlung-geneigte-ebene-bern.jpg)
+
+![Schema Inselanlage](Schema_Inselanlage.jpg)
+
+### Aufbau einer kristallinen Silizium-Solarzelle
+Die klassische kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
+
+
+Die dem Sonnenlicht zugewandte Schicht ist mit Phosphor negativ dotiert, die darunterliegende Schicht ist mit Bor positiv dotiert. An der Grenzschicht entsteht ein elektrisches Feld, dass zur Trennung der durch das Sonnenlicht freigesetzten Ladungen (Elektronen und Löcher) führt. Um der Solarzelle Strom entnehmen zu können, müssen auf der Vorder- und der Rückseite metallische Kontakte aufgebracht werden. In der Regel wird hierzu die Siebdrucktechnik eingesetzt.
+
+
+Auf der Rückseite ist das Anbringen einer ganzflächigen Kontaktschicht durch Aluminium- oder Silberpaste möglich. Die Vorderseite muss hingegen möglichst lichtdurchlässig sein. Hier werden die Kontakte meist in Form eines dünnen Gitters oder einer Baumstruktur aufgebracht. Durch Abschneiden oder Aufdampfen einer dünnen Schicht (Antireflexschicht) aus Siliziumnitrid oder Titandioxid auf der Vorderseite der Solarzelle lässt sich die Lichtreflexion verringern.
+
+Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlaufspannung (UOC) von 0.60 bis 0.70V und einen Kurzschlussstrom (ISC) von 10 bis 11A. Hierbei handelt es sich um Gleichstrom.
+
+### Klassifizierung der Zellen
+- kristallinen Siliziumzellen (die als ca. 200 Mikrometer dicke Wafer im Modul miteinander verlötet werden) Palykristalin und Monokristalin
+- Dünnschichtzellen (bei denen eine minimal dicke Zellschicht auf die Frontglasfolie aufgedampft / aufgedruckt wird) 
+- nano-strukturierten Zellen (bei denen nanometerkleine Zellen gebildet und miteinander verschalten werden)
 
 ### Temperatur Korrektur für Leerlaufspannung Voc [V]
 
