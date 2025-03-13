@@ -235,7 +235,66 @@ $ UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n $
 
 $ UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n $
 
-### Aufbau einer kristallinen Silizium-Solarzelle
+### maximale Kurzschlussstrom
+
+$ ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n $
+
+Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
+
+### MPP Fenster
+
+Ist der MPP des Photovoltaikgenerators innerhalb des MPP-Fensters arbeitet der Wechselrichter im optimalen Betriebspunkt.
+
+![MPP Bereich](MPP_Bereich.png)
+
+Ist die Strang- (String-) Spannung zu tief, kann der Wechselrichter den Generator nicht im MPP betreiben.
+Die Ursachen hierfür können sein:
+- Zu lange Kabel (Spannungsfall)
+- Zu hohe Temperaturen
+- Zu kurze Stränge / Strings
+
+Ist die Strang- (String-) Spannung zu hoch besteht die Gefahr einer Überspannung. Diese Situation ist gefährlich und muss unter allen Umständen verhindert werden.
+Die Ursachen hierfür können sein:
+- Zu tiefe Temperaturen
+- Zu lange Stränge / Strings
+
+Ist der Strang- (String-) Strom oder die Leistung zu hoch, wird diese vom Wechselrichter abgeregelt.
+Nicht alle Hersteller kommunizieren jedoch eine klare Grenze.
+Die Ursachen hierfür können sein:
+- Zu viele parallele Stränge / Strings
+- Zu hohe Einstrahlung
+- Falsche Überdimensionierung
+
+## Strangsicherung
+
+#### Maximaler Strom:
+$I_{max} = I_{SC Modul} * 1.25$
+
+#### Maximaler Rückstrom:
+$I_{Rück} = I{SC Modul} * 1.25 * (n-1)$
+
+#### Maximale Sicherungsgrösse IN
+$1.5 * ISC < IN < 2.4 * ISC$
+
+#### Strangsicherung Spannungsfestigkeit
+$U_{Sicherung} > 1.2 * UOC_{Strang}$
+
+Strangs- Stringsicherung notwendig wenn $I_{Rück} $ grösser als die zulässige Rückstrombelastbarkeit der Module.
+
+
+Weil der Kurzschlussstrom ISC und der Betriebsstrom IMPP eines Photovoltaikmoduls sehr nahe beieinanderliegen, lässt sich die Schutzmassnahme «Schutz durch automatische Abschaltung» nicht so einfach realisieren, wie dies in der üblichen AC-Hausinstallation möglich ist.
+Ein Photovoltaikmodul muss aber nicht grundsätzlich geschützt werden, denn es kann beliebig lange im Kurzschluss betrieben werden, ohne einen Schaden davon zu tragen.
+Erst wenn mehrere Stränge / Strings parallel geschaltet werden besteht die reelle Gefahr, dass der nun vorhandene Kurzschlussstrom in einem Strang zu einer mechanischen Beschädigung der Photovoltaikmodule beiträgt. Davor muss ein Strang / String mittels Strangsicherungen geschützt werden (früher wurde diese Funktion von zusätzlichen Dioden übernommen).
+Bei parallel geschalteten Strängen / Strings gibt es nun zwei zulässige Optionen:
+1. Alle Betriebsmittel im Strang / String werden auf den maximal vorhandenen Strom dimensioniert
+2. Es kommen Stringsicherungen zum Einsatz, sobald der Strom grösser ist als die Rückstrombelastbarkeit.
+
+Die folgenden Fehler könnten unter anderem zur Reduzierung der offenen Klemmenspannung eines Strangs und damit zu einem Rückstrom bei Parallelschaltung führen:
+- Kurzschluss eines oder mehrerer Module,
+- Kurzschluss einer oder mehrerer Zellen im Modul,
+- doppelter Erdschluss eines Moduls bzw. der Verkabelung.
+
+## Aufbau einer kristallinen Silizium-Solarzelle
 Die klassische kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
 
 
