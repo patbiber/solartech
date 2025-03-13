@@ -195,15 +195,45 @@ Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausri
 
 ![Schema Inselanlage](Schema_Inselanlage.jpg)
 
-- Kurzschlussstrom ISC
-- Leerlaufsspannung UOC
-- Maximale Leistung PMPP
+- Kurzschlussstrom ISC (short circuit)
+- Leerlaufsspannung UOC (open circuit)
+- Maximale Leistung PMPP (maximum power point)
 - Betriebsstrom IMPP
 - Betriebsspannung UMPP
 - Füllfaktor FF
 - Wirkungsgrad 𝜂𝜂
 
 Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
+
+## maximale Leerlaufspannung
+
+$ UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*kT_{NIN}*n$
+
+
+### Variante 1:
+Man berechnet die maximale Leerlaufspannung mithilfe des Temperaturkoeffizienten des Photovoltaikmoduls unter Berücksichtigung der minimalen Temperatur am Anlageort.
+Der Temperaturkoeffizient $kt_{UOC}$ kann auf dem Datenblatt des Modulherstellers abgelesen werden, idR bewegt er sich bei kristallinen Modulen um - 0.32 %/°K.
+Die minimale Temperatur ist seit der neusten NIN 2020 normativ vorgegeben:
+- Anlagestandort < 800m.ü.M, Neigung < 15° 0°C
+- Anlagestandort < 800m.ü.M, Neigung > 15° - 5°C
+- Anlagestandort > 800 bis 1’500m.ü.M - 15°C
+- Anlagestandort > 1’500m.ü.M - 25°C
+
+
+### Variante 2:
+Man berechnet die maximale Leerlaufspannung mithilfe des normativen Korrekturfaktors in Abhängigkeit der Höhe des Anlagestandortes.
+Die NIN 2020 gibt auch hier normative Vorgaben für diesen Korrekturfaktor $KT_ {NIN}$:
+- Anlagestandort < 800 m.ü.M Faktor 1.15
+- Anlagestandort > 800 bis 1’5000m.ü.M Faktor 1.20
+- Anlagestandort > 1'500 m.ü.M Faktor 1.25
+
+### maximale MPP-Spannung: 
+
+$ UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n $
+
+### minimale MPP-Spannung:
+
+$ UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n $
 
 ### Aufbau einer kristallinen Silizium-Solarzelle
 Die klassische kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
