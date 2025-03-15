@@ -223,9 +223,9 @@ Die minimale Temperatur ist seit der neusten NIN 2020 normativ vorgegeben:
 ### Variante 2:
 Man berechnet die maximale Leerlaufspannung mithilfe des normativen Korrekturfaktors in Abhängigkeit der Höhe des Anlagestandortes.
 Die NIN 2020 gibt auch hier normative Vorgaben für diesen Korrekturfaktor $KT_ {NIN}$:
-- Anlagestandort < 800 m.ü.M Faktor 1.15
-- Anlagestandort > 800 bis 1’5000m.ü.M Faktor 1.20
-- Anlagestandort > 1'500 m.ü.M Faktor 1.25
+- Anlagestandort < 800 m.ü.M Faktor **1.15**
+- Anlagestandort > 800 bis 1’5000m.ü.M Faktor **1.20**
+- Anlagestandort > 1'500 m.ü.M Faktor **1.25**
 
 ### maximale MPP-Spannung: 
 
@@ -240,6 +240,8 @@ $ UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n $
 $ ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n $
 
 Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
+
+Immer **1.25**
 
 ### MPP Fenster
 
