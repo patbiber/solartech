@@ -205,6 +205,14 @@ Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausri
 
 Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 
+## Auslegung Wechselrichter
+
+• Maximale DC Leistung
+• Maximale Eingangsspannung des Strings (UOCmax )
+• Minimale Startspannung des Strings (UOCmin )
+• Min./Max. MPP Spannung UMPPmax, UMPPmin
+• Maximaler Eingangsstrom ISCmax
+
 ## maximale Leerlaufspannung
 
 $ UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*kT_{NIN}*n$
@@ -326,11 +334,48 @@ n-Schicht (negativer Bereich): Wird mit Phosphor dotiert, das fünf Valenzelektr
 
 p-n-Übergang-Technologie Die klassische Silizium-Solarzelle basiert auf einer p-n-Übergang-Technologie, wobei die p-Schicht (Bor-dotiert) meist als Grundsubstrat dient und die n-Schicht (Phosphor-dotiert) aufgebracht wird.
 
-# Blitzschutz Überstromschutz
+# Blitzschutz / Überstromschutz
 
-10 mm2
+LPS Lightnig Protection System
 
-16 mm2 für Blitzschutz
+Bei bestehendem Blitzschutz muss die PVA an diesen angebunden werden, auf kürzestem 
+Weg und nicht quer (Beschädigung durch Dachlawine!)
+
+Prinzip des Faraday Käfigs
+
+Definiert in den Niederspannungs Installations Normen NIN
+
+|Blitzschutz  Klassen |Maschenweite | Radius Blitzkugel | Abstand Ableitung | Gebäude|
+|---------------------|-------------|-------------------|-------------------|--------|
+| 1                   | 5 x 5m      | 20                | 10     | Rechencenter, Explosionsgefärdetet Gebäude|
+| 2                   | 10 x 10 m   | 30                | 10     | Gebäude mit über 300 Personen, hohe Gebäude, Spitaler, Museen, Altersheime, mehr als 20 Pers. die auf fremde Hilfe angewiesen sind, Fermenter|
+| 3                   | 15 x 15 m   | 45                | 20     | Hotels, Grosse  Gebäude mit Werkstatt und Staub, Pensionen mehr als 20 Pers die nicht auf fremde Hilfe angewiesen sind |
+
+Objekte Grösser als 2 m2 müssen an Blitzschutz angebunden sein
+
+![Kontaktkorrosion_Mat_Blitzschutz.png](Kontaktkorrosion_Mat_Blitzschutz.png)
+
+Blitzschutz Leitungen nie Parallel der Traufe
+Alle 1 m befestigt
+
+## Ueberstromschutz SPD
+
+Ueberstromschutz bei Gebäudeintritt HAK (AC) GAK (DC) max 30 m von Eintritt
+Verbindung zur Erdung via Pot
+
+**Typ 1 Blitzschutz** Potentialausgleich Cu 16 mm2 Restpannung $U_{rest}$ 4kV 
+
+**Typ 2** Potentialausgleich Cu 10 mm2 Geräteschutz $U_{rest}$ 2.5 kV 
+
+**Typ 3 Gerätefeinschutz $U_{rest}$ 1.5 kV** Server etc.
+
+Geschütze und ungeschützte DC Leitungen sind räumlich zu trennen, mindestens 
+mit Trennsteg im Kabelkanal
+
+- Blitzeinschläge
+- Industrielle Überspannungen
+- ESD (Elektrostatische Entladungen)
+- NEMP (Nuclear Electro-Magnetic Puls)
 
 # Drehstrom
 
