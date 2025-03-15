@@ -207,11 +207,19 @@ Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 
 ## Auslegung Wechselrichter
 
-• Maximale DC Leistung
-• Maximale Eingangsspannung des Strings (UOCmax )
-• Minimale Startspannung des Strings (UOCmin )
-• Min./Max. MPP Spannung UMPPmax, UMPPmin
-• Maximaler Eingangsstrom ISCmax
+- Maximale DC Leistung
+- Maximale Eingangsspannung des Strings (UOCmax )
+- Minimale Startspannung des Strings (UOCmin )
+- Min./Max. MPP Spannung UMPPmax, UMPPmin
+- Maximaler Eingangsstrom ISCmax
+- $cos \phi$ induktiv + / kapazitiv -
+- Q (U) $cos \phi$ der Spannung Nachführend
+- Nennleistung maximal bei $cos \phi$ 1 gleich Scheinleistung (VA)
+- Netznennspannung 1 * 230 V / 3* 400 V
+- Netzfrequenz 50 HZ für Europa
+- Anzahl MPP Tracker
+- Höhehnlage Gebäude
+
 
 ## maximale Leerlaufspannung
 
