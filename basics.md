@@ -214,10 +214,10 @@ $ UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*k
 Man berechnet die maximale Leerlaufspannung mithilfe des Temperaturkoeffizienten des Photovoltaikmoduls unter Berücksichtigung der minimalen Temperatur am Anlageort.
 Der Temperaturkoeffizient $kt_{UOC}$ kann auf dem Datenblatt des Modulherstellers abgelesen werden, idR bewegt er sich bei kristallinen Modulen um - 0.32 %/°K.
 Die minimale Temperatur ist seit der neusten NIN 2020 normativ vorgegeben:
-- Anlagestandort < 800m.ü.M, Neigung < 15° 0°C
-- Anlagestandort < 800m.ü.M, Neigung > 15° - 5°C
-- Anlagestandort > 800 bis 1’500m.ü.M - 15°C
-- Anlagestandort > 1’500m.ü.M - 25°C
+- Anlagestandort < 800m.ü.M, Neigung < 15° **0°C**
+- Anlagestandort < 800m.ü.M, Neigung > 15° **-5°C**
+- Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
+- Anlagestandort > 1’500m.ü.M **-25°C**
 
 
 ### Variante 2:
@@ -235,13 +235,13 @@ $ UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n $
 
 $ UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n $
 
-### maximale Kurzschlussstrom
+### maximaler Kurzschlussstrom
 
 $ ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n $
 
 Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
 
-Immer **1.25**
+NIN Faktor **1.25**
 
 ### MPP Fenster
 
@@ -315,6 +315,22 @@ Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlau
 ### Temperatur Korrektur für Leerlaufspannung Voc [V]
 
 Effektive Leerlaufspannung $U$ [V]= Leerlaufspannung $U_{oc}$ [V] @ 25 °C * Tempereaturkoeffizient $V_{oc}$ [%/°K] * $\Delta t$
+
+## Solar Zellen Prinzip
+
+Dotierung - Bor postive dotierung Löcher, Pohphor negative dotierung zuviel Elektronen
+
+p-Schicht (positiver Bereich): Wird durch Bor-Dotierung erzeugt. Bor hat drei Valenzelektronen, wodurch Elektronenlöcher (positive Ladungsträger) entstehen.
+
+n-Schicht (negativer Bereich): Wird mit Phosphor dotiert, das fünf Valenzelektronen hat, wodurch freie Elektronen (negative Ladungsträger) entstehen.
+
+p-n-Übergang-Technologie Die klassische Silizium-Solarzelle basiert auf einer p-n-Übergang-Technologie, wobei die p-Schicht (Bor-dotiert) meist als Grundsubstrat dient und die n-Schicht (Phosphor-dotiert) aufgebracht wird.
+
+# Blitzschutz Überstromschutz
+
+10 mm2
+
+16 mm2 für Blitzschutz
 
 # Drehstrom
 
@@ -601,6 +617,8 @@ Gesamterzeugung CH: 67 TWh
 AC Wechselstrom 
 
 DC Gleichstrom
+
+Diode 
 
 EnFV Energieförderverordnung
 
