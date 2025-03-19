@@ -410,17 +410,17 @@ $I = \sqrt3 * I_p$
 [Wikipedia Dreieckschaltung](https://de.wikipedia.org/wiki/Dreieckschaltung)
 
 
-### Geometrie Dachschräge
+# Geometrie Dachschräge
 
-$l_{Dach}=b / cos(\Theta)$
+$l_{Dach}=l_{plan} / cos(\Theta)$
 
-$b=l_{Dach} * cos(\Theta)$
+$l_{plan}=l_{Dach} * cos(\Theta)$
 
-b ist die Breite bis zum First vom Grundriss
+$l_{plan}$ ist das Mass vom Grundriss
 
 $\Theta$ ist die Dachschräge
 
-$l_{Dach}$ ist die effektive Länge des Daches von der Traufe bis zum First
+$l_{Dach}$ ist die effektive Länge des Daches
 
 [Wikipedia Trigonometrische Funktion ](https://de.wikipedia.org/wiki/Trigonometrische_Funktion)
 
