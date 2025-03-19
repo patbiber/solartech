@@ -207,11 +207,17 @@ Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 
 ## Auslegung Wechselrichter
 
-- Maximale DC Leistung
-- Maximale Eingangsspannung des Strings (UOCmax )
-- Minimale Startspannung des Strings (UOCmin )
-- Min./Max. MPP Spannung UMPPmax, UMPPmin
-- Maximaler Eingangsstrom ISCmax
+
+## Grundkriterien Auslegung
+
+1. Gesamt Leerlaufspannung Generator / Solar Module $UOC_{Module tot}$ **<** Maximal Spannung Wechselrichter $UWR_{max} bzw Eingang$
+
+2. Maximale MPP-Spannung Generator / Solar Module $UMPP_{Module tot}$ **<** Maximal MPP Spannung Wechselrichter $UWRMPP_{max}$
+
+3. Minimale MPP-Spannung Generator / Solar Modul $UMPP_{Module tot}$ **>** Minimale MPP Spannung Wechselrichter $UWRMPP_{min}$ / Startpannung
+
+4. Maximale Kurzschlussstrom Generator / Solar Modul ISC **<** Maximialer Eingangsstrom $IWR_{max}$
+
 - $cos \phi$ induktiv + / kapazitiv -
 - Q (U) $cos \phi$ der Spannung Nachführend
 - Nennleistung maximal bei $cos \phi$ 1 gleich Scheinleistung (VA)
@@ -219,7 +225,6 @@ Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 - Netzfrequenz 50 HZ für Europa
 - Anzahl MPP Tracker
 - Höhehnlage Gebäude
-
 
 ## maximale Leerlaufspannung
 
@@ -384,6 +389,28 @@ mit Trennsteg im Kabelkanal
 - Industrielle Überspannungen
 - ESD (Elektrostatische Entladungen)
 - NEMP (Nuclear Electro-Magnetic Puls)
+
+# Strombelastbarkeit 
+
+![Leiterbelastbarkeit.png](Leiterbelastbarkeit.png)
+
+ A1: Aderleitung im 
+Elektroinstallationsrohr in einer 
+wärmegedämmten Wand
+
+B1: Aderleitung im 
+Elektroinstallationsrohr auf einer 
+Holzwand
+
+F: Aderleitung frei in 
+der Luft
+
+![GAK](GAK.png)
+1. Überspannungschutz
+2. DC-Hauptschalter
+3. Strangüberwachung
+4. Strangsicherung / Stangdioden
+
 
 # Drehstrom
 
