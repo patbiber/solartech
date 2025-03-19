@@ -114,11 +114,11 @@ n$
 
 ## Leiterberechnung
 
-Leitwert $ [\Omega] R_l = (\rho  * l) / A $
+Leitwert $[\Omega]R_l=(\rho *l)/A$
 
 spezifischer Leitwiederstand zbsp für Kupfer $\rho_cu= 0.0175 \frac{\Omega * mm2}{m}$
 
-Leiter [m]$l$ = 2 x Leitungslänge
+Leiter [m] $l$ = 2 x Leitungslänge
 
 Spezifische Leitfähigkeit $\gamma = 1 / \rho $
 
@@ -223,7 +223,7 @@ Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 
 ## maximale Leerlaufspannung
 
-$ UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*kT_{NIN}*n$
+$UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*kT_{NIN}*n$
 
 
 ### Variante 1:
@@ -245,15 +245,15 @@ Die NIN 2020 gibt auch hier normative Vorgaben für diesen Korrekturfaktor $KT_ 
 
 ### maximale MPP-Spannung: 
 
-$ UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n $
+$UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n $
 
 ### minimale MPP-Spannung:
 
-$ UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n $
+$UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n $
 
 ### maximaler Kurzschlussstrom
 
-$ ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n $
+$ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n $
 
 Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
 
