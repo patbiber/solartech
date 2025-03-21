@@ -207,6 +207,61 @@ Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
 
 ## Auslegung Wechselrichter
 
+### Wechselrichterarten
+
+![Wechselrichterarten.png](Wechselrichterarten.png)
+
+### Wechseltrichtertypen
+
+#### Modulwechselrichter
+- Einsatz meist bei Kleinstanlagen (Balkonmodule /
+Tisch)
+- Nur einphasig erhältlich (max. Unsymmetrie 3.6kVA)
+- Kommunikation über PLC (Power Line Communication)
+- Module sind Parallel- statt Serie, keine hohe DC-Spg.
+- MPP-Tracking auf Modulebene
+- Abschaltung der Anlage bis Modulebene möglich
+- Viel elektronische Geräte, erhöht Serviceaufwand
+- Relativ teuer, nicht weit verbreitet
+
+#### Strangwechselrichter
+-Einsatz bei kleinen Photovoltaik-Anlagen
+-Wechselrichter verfügt über nur einen MPP-Tracker
+-Ein- oder dreiphasig erhältlich
+-Meist ohne galvanische Trennung
+-Wenn galvanische Trennung, dann oft mit HF-Trafo
+-Früher am weitesten verbreitet
+
+#### Multistrangwechselrichter
+-Einsatz bei mittleren bis grossen Photovoltaik-Anlagen
+-Wechselrichter verfügt über mehrere MPP-Tracker
+-Ein- oder dreiphasig erhältlich
+-Meist ohne galvanische Trennung
+-Wenn galvanische Trennung, dann oft mit HF-Trafo
+-Ideal für eine Ost-West-Anlage
+-Aktuell am weitesten verbreitet
+
+#### Strangwechselrichter mit Leistungsoptimierer
+-Einsatz bei kleinen bis grossen Photovoltaik-Anlagen
+-Wechselrichter verfügt über keinen MPP-Tracker
+-MPP-Tracking erfolgt auf Modulebene (Optimizer)
+-Abschaltung der Anlage bis Modulebene möglich
+-Ein- oder dreiphasig erhältlich
+-Meist ohne galvanische Trennung
+-Kommunikation über PLC (Power Line Communication)
+-Ideal für verschatete Anlagen
+-Viel elektronische Geräte, erhöht Serviceaufwand
+
+#### Zentralwechselrichter
+- Einsatz bei grossen Photovoltaik-Anlagen
+- Wechselrichter verfügt über mehrere MPP-Tracker
+- Oft in Kombination mit DC-Sammelkästen
+- Geringe Netzrückwirkungen
+- Meist direkt MS-Einspeisung über eigenen Trafo
+- Master-Slave- oder Team-Konzepte möglich
+- Wartung meistens über den Hersteller
+- Hohe Zuverlässigkeit / meist hohe Kosten
+
 
 ## Grundkriterien Auslegung
 
