@@ -463,7 +463,11 @@ $A = (l * h )/2$
 
 ## Kreis
 
-$A = (d²*\pi)/ 4$
+$A = (d²*\pi)/ 4 = r2 * \pi$
+
+$r = \sqrt{A/\pi}$
+
+$d = 2*r$
 
 # Heizleistung und Wärmeübertragung
 
@@ -752,7 +756,11 @@ VKF Vereinigung Kantonaler Feuerversicherungen
 
 VNB Verteilnetzbetreiber
 
-NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc.
+NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc. DC-Stecker pressen
+
+NIV Art.7 Bewilligung für natürliche Personen
+
+NIV Art.9 Bewilligung für Betriebe
 
 NOCT Normal Operating Cell Temperature (20°C, 1 m/s Wind, 800 W/m2, 1,5 AM Atmosphärendick / Spektrum) Testkondition für Modulmessungung
 
