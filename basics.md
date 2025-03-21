@@ -756,7 +756,7 @@ VKF Vereinigung Kantonaler Feuerversicherungen
 
 VNB Verteilnetzbetreiber
 
-NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc. DC-Stecker pressen
+NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc. DC-Stecker pressen die Grenze ist der AC Schalter zum vom WR Verteiler.
 
 NIV Art.7 Bewilligung für natürliche Personen
 
@@ -775,6 +775,8 @@ HAK Hausanschlusskasten
 ZEV Zusammenschluss zum Eigenverbrauch hinter dem HAK, es müssen eigene Zähler eingebautt werden. Zähler müssen geicht sein. zevvi.ch. Müssen Messmittel für elektrische Energie und Leistung (EMmV) entsprechen. Zähler müssen von Metas abgenommen werden.
 
 METAS Eidgenössischen Institut für Metrologie Die Eichgültigkeitsdauer für elektronische Elektrizitätszähler beträgt zehn Jahre, für elektromechanische Zähler fünfzehn Jahre. Nach Ablauf dieser Fristen ist eine Nacheichung durch eine vom Eidgenössischen Institut für Metrologie (METAS) ermächtigte Eichstelle erforderlich. 
+
+TAG Technisches Anschlussgesuch bei Änderung grösser als 3,7 kW
 
 vZEV Virtueller Zusammenschluss zum Eigenverbrauch in der selben Netzebene 7 ab 2016
 
