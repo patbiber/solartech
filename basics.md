@@ -466,6 +466,18 @@ der Luft
 3. Strangüberwachung
 4. Strangsicherung / Stangdioden
 
+# Ablauf PV Anlage Bewilligung
+
+a) Baugesuch / Bauanzeige
+
+1. TAG (Technisches Anschluss Gesuch) | Jeder
+2. IA (Installationsanzeige) | Vor Fertigstellung | NIV 7 oder NIV 9
+3. Apparatebestellung | Kunde ohne Smartmeter | Vor Baustart
+4. MPP (Mess und Prüfprotokoll) nach Abschluss der Installation | für SiNa
+5. SiNa Sicherheitsnachweis | nach Abschluss der Installation | periodisch | Aenderung der Anlage
+5. Externe Abnamekontrolle Beglaubigung MPP und SiNa
+6. Pronovo Herkunftsnachweis und EIV (Einmavergütung) Beantragen
+
 
 # Drehstrom
 
@@ -813,9 +825,13 @@ VNB Verteilnetzbetreiber
 
 NIV-14 Niederspannungs-Installationsordnung Artikel 14 erlaubt die Installation spezifischen elektrischen Anlagen inbesondere Photovoltaik anlagen und andere wie USV-Anlagen etc. DC-Stecker pressen die Grenze ist der AC Schalter zum vom WR Verteiler.
 
+NA-Schutz Netz und Anlageschutz schaltet die Anlage ab, wenn die Spannung im Netz oder die Frequenz nicht mehr stimmt
+
 NIV Art.7 Bewilligung für natürliche Personen
 
 NIV Art.9 Bewilligung für Betriebe
+
+NA-Schutz Netz und Anlageschutz schaltet die Anlage ab, wenn die Spannung im Netz oder die Frequenz nicht mehr stimmt
 
 NOCT Normal Operating Cell Temperature (20°C, 1 m/s Wind, 800 W/m2, 1,5 AM Atmosphärendick / Spektrum) Testkondition für Modulmessungung
 
