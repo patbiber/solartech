@@ -293,7 +293,7 @@ Trennstelle, mit der die Ausgangsseite des Trafos vom Schutzleiter sicher getren
 Elektrotechnische Betriebsmittel wie Leitungen, Motoren, etc. müssen gegen Überlastung geschützt werden. Bei Überlast besteht die Gefahr einer Überhitzung und somit 
 einem Brandfall. Schutzelemente für Überlast beinhalten einen elektrothermischen Auslösemechanismus (Bimetall). 
 
-Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Thermorelais
+Schutzelemente → Schmelzsicherungen, LS Leitungsschutzschalter, Thermorelais
 
 ### 2 Kurzschlussschutz
 
