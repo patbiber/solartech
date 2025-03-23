@@ -466,7 +466,48 @@ der Luft
 3. Strangüberwachung
 4. Strangsicherung / Stangdioden
 
-# Ablauf PV Anlage Bewilligung
+# Batteriespeicher
+
+- Energiemenge und Energiedichte
+- Leistungsabgabe
+- State of Charge (SOC)
+- Batteriemanagementsystem (BMS)
+- Eigenverbrauchsoptimierung
+- meist Lithium-Ionen-Akkus
+
+#### NMC (LiNiMnCoO2 / Lithium-Nickel-Mangan-Cobalt-Oxid)
+
+- 150-220 Wh/kg
+- E-Mobilität
+- Weniger stabil, Gefahr von Thermal Runaway
+- Kobalt ist teuer und problematisch in der Beschaffung (oft aus dem Kongo, ethisch bedenklich)
+
+#### LFP (Lithium-Eisenphosphat / LiFePO4)
+- 90-120 Wh/kg 
+- Huawei, Sonnen, BYOD
+- Sehr stabil, schwer entflammbar
+- Günstiger (Eisen und Phosphat sind billig & verfügbar)
+- Umweltfreundlicher, ohne kritische Rohstoffe
+
+# Optimierung und Monitoring
+- Verbrauchsverhalten der Produktion anpassen
+- Lasten intelligent schalten und der Produktion anpassen
+- Energie speichern (Batterie, Uni-/Bidirektionales Laden)
+- Mehrere Verbrauchsparteien an Produktion teilhaben lassen: ZEV, vZEV, LEG
+#### Komponenenten
+- Lastmanagement (z.B. SolarLog, Loxone, solarmanager, SMA, Fronius Ohm Pilot, etc.)
+- Energiemessung am Übergabepunkt
+
+### Prinzipschema
+
+#### Insel PV-Anlage
+![Inselschema.png](Inselschema.png)
+
+#### Netzgekoppelte PV-Anlage
+![Netzgekoppelt.png](Netzgekoppelt.png)
+
+
+### Ablauf PV Anlage Bewilligung
 
 a) Baugesuch / Bauanzeige
 
