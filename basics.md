@@ -2,13 +2,13 @@
 
 # Arbeit / Energie
 
-### Arbeit [Ws, J, Nm] $W = P * t$
+Arbeit [Ws, J, Nm] $W = P * t$
 
-### Wärmemenge $Q$ [J, kJ] = $m \cdot c \cdot \Delta T$
+Wärmemenge [J, Ws] $Q = m \cdot c \cdot \Delta T$
 
-### Mechanische Energie $P$ oder $E$ [Nm, kg*m2/s2] = $F * s = m * a * s = m * g *h$
+Mechanische Energie [Nm, kg*m2/s2] $ P = F * s = m * a * s = m * g *h$
 
-### Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
+Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 
 Strahlungsenergie $Q$ [J, lms, lmh]
 
