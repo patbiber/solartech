@@ -81,13 +81,20 @@ Stomstärke Ampère [A] $I=\frac{U}{R}$
 
 Wiederstand Ohm [ $\Omega$ ] $R=\frac{U}{I}=(\rho*l)/A$
 
+Leitung [m] = 2 * l
+
 $\rho$ = spezifischer Wiederstand [ $\Omega$ mm²/m]
 
-l = Leitungslänge [m]
+l = Leiterlänge [m]
 
-$A$= Stromdichte [A / mm²]
+$A = r2 * \pi$ = Leiterquerschnitt [mm²]
 
 Leitwert Siemens [S] $G = 1/R$
+
+Spannungsabfall $\Delta U = U_{RL1} + U_{RL2} = (R_{L1}+R_{L2})*I=2*((\rho*l*I)/A)$
+
+
+
 
 ### Serieschaltung
 
