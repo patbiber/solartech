@@ -247,7 +247,7 @@ Der  Kehrwert des Gesammtwiederstand ist die Summe der Kehrwerte der Einzelwiede
 $R_{tot} = 1 / (1/R_1 + 1/R_2 + 1/R_3) = R_{Einzel}/
 n$
 
-# Schutzmassnahmen in der Hausinstallation nach NIN
+## Schutzmassnahmen in der Hausinstallation nach NIN
 
 ### Basisschutz 
 
@@ -288,14 +288,14 @@ werden kann.
 FELV Transformator (Funktional Extra Low Voltage) gibt es keine 
 Trennstelle, mit der die Ausgangsseite des Trafos vom Schutzleiter sicher getrennt werden kann. Die Ausgangsseite ist demnach immer mit Schutzleiter Anschluss.
 
-## 1 Überlastschutz
+### 1 Überlastschutz
 
 Elektrotechnische Betriebsmittel wie Leitungen, Motoren, etc. müssen gegen Überlastung geschützt werden. Bei Überlast besteht die Gefahr einer Überhitzung und somit 
 einem Brandfall. Schutzelemente für Überlast beinhalten einen elektrothermischen Auslösemechanismus (Bimetall). 
 
 Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Thermorelais
 
-## 2 Kurzschlussschutz
+### 2 Kurzschlussschutz
 
 Jeder Stromkreis muss so geschützt werden, dass im Kurzschlussfall die hohen Ströme 
 schnell und gefahrlos abgeschaltet werden, um weitere Schäden zu vermeiden. Zu beachten ist, dass beim Schalten von hohen Strömen (in der Nähe von z.B. Transformatoren > 10 kA) Lichtbogen bestehen bleiben können und somit der Stromfluss nicht unterbrochen wird. Schutzelemente für Kurzschluss beinhalten einen elektromagnetischen 
@@ -303,7 +303,7 @@ Auslösemechanismus (Magnetspule).
 
 Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Leistungsschalter
 
-## 3 Fehlerstromschutz
+### 3 Fehlerstromschutz
 
 Gemäss den aktuellen Regeln der Technik (NIN) wird heute für viele Anlageteile (z.B. 
 Beleuchtungen, Steckdosen, Baustelleninstallationen, etc.) ein Fehlerstromschutz verlangt. Fehlerströme sind Ströme, die infolge Defekts eines Betriebsmittels nicht auf dem 
@@ -311,18 +311,18 @@ vorgesehenen Strompfad (Neutralleiter) zur Spannungsquelle zurück fliessen.
 
 Schutzelemente → Fehlerstromschutzschalter RCD (FI)
 
-## 4 Störlichtbogen-Schutzeinrichtung
+### 4 Störlichtbogen-Schutzeinrichtung
 
 Für den erweiterten Brandschutz können Geräte eingesetzt werden, die Störlichtbögen 
 (ausgelöst z.B. durch Wackelkontakte) erkennen und die betroffenen Stromkreise abschalten. Der Einsatz wird in kritischen Umgebungen empfohlen.
 
 Schutzelemente → Brandschutzschalter AFDD
 
-## 5 Selektivität
+### 5 Selektivität
 
 Tritt in elektrischen Anlagen ein Fehler auf, darf nur diejenige Schutzeinrichtung ansprechen, die der Fehlerquelle unmittelbar vorgeschaltet ist.
 
-## Schutzklassen
+### Schutzklassen
 Schutzklasse
 ![Schutzklasse](Schutzklasse.png)
 
@@ -333,11 +333,11 @@ IP Schutzarten
 ![IP Schutzarten](IP_Schutzarten.png)
 
 ## Betriebsmittel für Schutzzwecke
-## 1 Schmelzsicherungen
+### 1 Schmelzsicherungen
 Eine Schmelzsicherung schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss. Die Auslösung basiert auf der Stromwärme, die eine Sollbruchstelle innerhalb der Sicherung zum Schmelzen bringt. Als 
 Funkenlöscher wird Quarzsand eingesetzt.
 
-## 2 Leitungsschutzschalter
+### 2 Leitungsschutzschalter
 Ein Leitungsschutzschalter schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss und können nach einer 
 Auslösung wieder eingeschaltet werden. Sie besitzen einen 
 thermischen und einen magnetischen Auslöser. Bei Überlastung erwärmt sich das Bimetall und löst den Leitungsschutzschalter aus. Bei hohen Kurzschlussströmen entklinkt der elektromagnetische Auslöser das Schaltschloss 
@@ -361,7 +361,7 @@ Leitungsschutzschaltern durch Bildzeichen angegeben.
 Leitungsschutzschalter der Energiebegrenzungsklasse 3 
 haben die beste (kürzeste) Kurzschlussstrombegrenzung.
 
-## 3 Fehlerstromschutzschalter FI
+### 3 Fehlerstromschutzschalter FI
 Der RCD (Residual Current protective Device) vergleicht 
 die gleichzeitig in den Leitern L1, L2, L3 und N fliessenden Ströme. Fehlt in der Summe ein Teil des Stromes, 
 weil er über den Schutzleiter (PE) oder die Erde fliesst, 
@@ -372,7 +372,7 @@ Prinzip (Summenstrommessung).
 Es gelten folgende max. Werte für die Fehlerstromstärke
 - Personenschutz 30mA (10mA)
 - Sachenschutz 300mA
-## 4 Brandschutzschalter
+### 4 Brandschutzschalter
 Brandschutzschalter bieten Schutz vor seriellen und parallelen 
 Fehlerlichtbögen. Dafür sorgt ein Mikroprozessor, der kontinuierlich viele Strom- und Spannungsparameter überwacht. Erkennt er 
 charakteristische Strom- und Spannungsverläufe, die auf einen 
@@ -481,7 +481,7 @@ http://www.asa-inside.chhttp://www.esti.ch
 http://www.batisec.chhttp://www.vsei.ch
 http://www.suva.ch
 
-# Gesetzliche Grundlagen
+## Gesetzliche Grundlagen
 Gesetzespyramide
 
 Europa- und auch weltweit gibt es Bestrebungen, technische Normen und Regelungen zu
