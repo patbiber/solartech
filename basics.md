@@ -1,5 +1,75 @@
 # Solarteur Wissen ☀️ 👷
 
+## 5 Sicherheitsregeln
+Bei Arbeiten an elektrischen Anlagen sind die 5 + 5 Regeln (SUVA 84042.d) zwingend
+anzuwenden. Für das spannungsfreie Arbeiten an einer Anlage gelten konsequent folgende fünf Sicherheitsregeln.
+### 1. Freischalten
+Freischalten aller Teile der Anlage, an denen gearbeitet
+werden soll.
+- LS-Schalter abschalten
+- Schmelzsicherung entfernen
+- Allpoliger Hauptschalter betätigen
+### 2. Gegen Wiedereinschalten sichern
+- Betätigungsmechanismus von Schaltgeräten durch
+Schloss sichern
+- Sicherungseinsätze mitnehmen
+- Verbotsschilder anbringen
+### 3. Spannungsfreiheit feststellen
+- Spannungsfreiheit durch Fachkraft feststellen
+- Überprüfung mit zweipoligem Spannungsprüfer
+### 4. Erden und kurzschliessen
+- Zuerst immer erden, dann mit den kurzzuschliessenden aktiven Teilen verbinden (muss von der Arbeitsstelle aus sichtbar sein)
+- Diese Regel Nr. 4 entfällt bei Anlagen mit Spannung
+< 1000 V (Ausnahme Freileitungen)
+### 5. Benachbarte unter Spannung stehende Teile abdecken oder abschranken
+- Anlagen < 1000 V
+Abdecken mit isolierenden Tüchern, Schläuchen,
+Formstücken, etc.
+- Anlagen > 1000 V
+Zusätzlich Absperrtafeln, Seile, Warntafeln, etc.
+- Körperschutz
+Schutzhelm mit Gesichtsschutz, eng anliegende
+Kleidung, Handschuhe, etc.
+
+# Stromverbrauch
+
+Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbraucht etwa 5000 kWh pro Jahr ohne WP und E-Auto.
+
+- Typischer Zwei-Personen-Haushalt:
+    -In einem Mehrfamilienhaus: 2750 kWh/Jahr
+    -In einem Einfamilienhaus: 3550 kWh/Jahr2
+
+- Ein-Personen-Haushalt:
+    -In einem Mehrfamilienhaus: 2200 kWh/Jahr
+    -In einem Einfamilienhaus: 2700 kWh/Jahr2
+
+- Vier-Personen-Haushalt:
+    -In einem Mehrfamilienhaus: 3850 kWh/Jahr
+    -In einem Einfamilienhaus: 5200 kWh/Jahr
+
+[Stromverbrauch eines
+typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559) 
+
+Gesamtverbrauch Schweiz: 65 TWh = 10 hoch 12 W
+
+Gesamterzeugung CH: 67 TWh
+
+8% sind Erneuerbar
+
+30% Atom
+
+# Versorgungsnetz in der Schweiz
+
+| Netzebene                    | Kraftwerke                           | Vebraucher            | Spannung                   |
+| ---------------------------- | ------------------------------------ | --------------------- | -------------------------- |
+| 1 Übertragungsnetz           | Pumpspeicher, Kernkraft, Wasserkraft | Schwerindustrie, SBB  | Höchstspannung 220/380 kV  |
+| 2                            | Übertragungsnetz                     |                       |                            |
+| 3 Überregionale Verteilnetze | Wasserkraft                          | Industrie             | Hochspannung 36 bis 220 kV |
+| 4                            | Übertragungsnetz                     |                       |                            |
+| 5 Regionale Verteilnetze     | Thermisch                            | Dienstleistungsbauten | Mittelspannung 1 bis 36 kV |
+| 6                            | Übertragungsnetz                     |                       |                            |
+| 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
+
 # Arbeit / Energie
 
 Arbeit [Ws, J, Nm] $W = P * t$
@@ -67,13 +137,13 @@ Endenergie: Energie aus der Steckdose
 
 ## Der einfache Stromkreis ⚡
 
-### Stromarten 🤘 AC/DC
+## Stromarten 🤘 AC/DC
 
 🔋 Gleichstrom (Direct Curren) DC -
 
 🔌 Wechselstrom (Alternating Current) AC ~
 
-### Ohmsches Gesetz Ω
+## Ohmsches Gesetz Ω
 
 Spannung Volt [V] $U=R*I$
 
@@ -81,55 +151,23 @@ Stomstärke Ampère [A] $I=\frac{U}{R}$
 
 Wiederstand Ohm [ $\Omega$ ] $R=\frac{U}{I}=(\rho*l)/A$
 
+### Leiterberechnung
+
 Leitung [m] = 2 * l
 
 $\rho$ = spezifischer Wiederstand [ $\Omega$ mm²/m]
 
-l = Leiterlänge [m]
+Leiter [m] $l$ = 2 x Leitungslänge
 
 $A = r2 * \pi$ = Leiterquerschnitt [mm²]
 
 Leitwert Siemens [S] $G = 1/R$
 
-Spannungsabfall $\Delta U = U_{RL1} + U_{RL2} = (R_{L1}+R_{L2})*I=2*((\rho*l*I)/A)$
-
-
-
-
-### Serieschaltung
-
-Alle Wiederstände sind vom selben Strom druchflossen:
-$I_{tot} = I_2 = I_3 = I_3$
-
-Die Spannung wird von den Wiederständen proportional geteilt:
-$U_{tot} = U_1 + U_2 + U_3$
-
-Die Widerstände werde addiert: 
-$R_{tot} = R_1 + R_2 + R_3$
-
-### Parallelschaltung
-
-Der Strom fliesst proportional:
-$I_{tot} = I_1 + I_2 + I_3$
-
-Die Spannung ist an allen Wiederständen gleich:
-$U_{tot} = U_1=U_2=U_3$
-
-Der  Kehrwert des Gesammtwiederstand ist die Summe der Kerhwerte der Einzelwiederstände: 
-$R_{tot} = 1 / (1/R_1 + 1/R_2 + 1/R_3) = R_{Einzel}/
-n$
-
-## Leiterberechnung
-
-Leitwert $[\Omega]R_l=(\rho *l)/A$
+Spannungsabfall  [V] $\Delta U = U_{RL1} + U_{RL2} = (R_{L1}+R_{L2})*I=2*((\rho*l*I)/A)$
 
 spezifischer Leitwiederstand zbsp für Kupfer $\rho_cu= 0.0175 \frac{\Omega * mm2}{m}$
 
-Leiter [m] $l$ = 2 x Leitungslänge
-
 Spezifische Leitfähigkeit $\gamma = 1 / \rho $
-
-Spanungsabfall [V] $U_v = U_{RL1}+U_{RL2} = U_{tot}-U_{L}=R_1*I=(R_{L1}+R_{L2})*I $
 
 nach NIN max 4% zwischen HAK und Verbraucher (9.2V bei 230V)
 
@@ -186,9 +224,51 @@ bsp: 16 A * 230 V = 3.68 kW
 40 Ampère Sicherung * 230 V * 3 Phasen = 27600 VA -> 27,6 kWP max Leistung der Solaranlage 
 $I * U * cos\phi= P$
 
-# Solar Panel Auslegung
+### Serieschaltung
 
-1000 W/m2 Globalstrahlung Gh oder GHI im Mittelland davon bei AM 1.5 max 835 W/m2 direkte Strahlung Bn oder DNI der rest divuse Strahlung Dh oder GHI
+Alle Wiederstände sind vom selben Strom druchflossen:
+$I_{tot} = I_2 = I_3 = I_3$
+
+Die Spannung wird von den Wiederständen proportional geteilt:
+$U_{tot} = U_1 + U_2 + U_3$
+
+Die Widerstände werde addiert: 
+$R_{tot} = R_1 + R_2 + R_3$
+
+### Parallelschaltung
+
+Der Strom fliesst proportional:
+$I_{tot} = I_1 + I_2 + I_3$
+
+Die Spannung ist an allen Wiederständen gleich:
+$U_{tot} = U_1=U_2=U_3$
+
+Der  Kehrwert des Gesammtwiederstand ist die Summe der Kehrwerte der Einzelwiederstände: 
+$R_{tot} = 1 / (1/R_1 + 1/R_2 + 1/R_3) = R_{Einzel}/
+n$
+
+# Solarzelle 
+
+Die kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
+
+Die dem Sonnenlicht zugewandte Schicht ist mit Phosphor negativ dotiert, die darunterliegende Schicht ist mit Bor positiv dotiert. An der Grenzschicht entsteht ein elektrisches Feld, dass zur Trennung der durch das Sonnenlicht freigesetzten Ladungen (Elektronen und Löcher) führt. 
+
+p-Schicht (positiver Bereich): Wird durch Bor-Dotierung erzeugt. Bor hat drei Valenzelektronen, wodurch Elektronenlöcher (positive Ladungsträger) entstehen.
+
+n-Schicht (negativer Bereich): Wird mit Phosphor dotiert, das fünf Valenzelektronen hat, wodurch freie Elektronen (negative Ladungsträger) entstehen.
+
+Auf der Rückseite ist das Anbringen einer ganzflächigen Kontaktschicht durch Aluminium- oder Silberpaste möglich. Die Vorderseite muss hingegen möglichst lichtdurchlässig sein. Hier werden die Kontakte meist in Form eines dünnen Gitters oder einer Baumstruktur aufgebracht. Durch Abschneiden oder Aufdampfen einer dünnen Schicht (Antireflexschicht) aus Siliziumnitrid oder Titandioxid auf der Vorderseite der Solarzelle lässt sich die Lichtreflexion verringern.
+
+Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlaufspannung (UOC) von 0.60 bis 0.70V und einen Kurzschlussstrom (ISC) von 10 bis 11A. Hierbei handelt es sich um Gleichstrom.
+
+### Klassifizierung der Zellen
+- kristallinen Siliziumzellen (die als ca. 200 Mikrometer dicke Wafer im Modul miteinander verlötet werden) Palykristalin und Monokristalin
+- Dünnschichtzellen (bei denen eine minimal dicke Zellschicht auf die Frontglasfolie aufgedampft / aufgedruckt wird) 
+- nano-strukturierten Zellen (bei denen nanometerkleine Zellen gebildet und miteinander verschalten werden)
+
+## Solar Panel Auslegung
+
+1000 W/m2 Globalstrahlung (Gh oder GHI) im Mittelland, davon bei AM 1.5 max 835 W/m2 direkte Strahlung (Bn oder DNI) der rRst divuse Strahlung (Dh oder GHI)
 bis 1500 w/m2 im Hochgebirge
 
 https://everywhere.solar/
@@ -200,25 +280,19 @@ Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausri
 
 ![Bestrahlung](bestrahlung-geneigte-ebene-bern.jpg)
 
-![Schema Inselanlage](Schema_Inselanlage.jpg)
+### Reihenabstand
 
-- Kurzschlussstrom ISC (short circuit)
-- Leerlaufsspannung UOC (open circuit)
-- Maximale Leistung PMPP (maximum power point)
-- Betriebsstrom IMPP
-- Betriebsspannung UMPP
-- Füllfaktor FF
-- Wirkungsgrad 𝜂𝜂
+![Reihenabstand](Reihenabstand.png)
 
-Einzelne Zelle: UOC, 0.60 bis 0.70V; ISC, 10 bis 11A
+$R=(sin\alpha/tan\beta + cos \alpha)*L$
 
 ## Auslegung Wechselrichter
 
 ### Wechselrichterarten
 
-![Wechselrichterarten.png](Wechselrichterarten.png)
+![Wechselrichterarten](Wechselrichterarten.png)
 
-### Wechseltrichtertypen
+### Wechselrichtertypen
 
 #### Modulwechselrichter
 - Einsatz meist bei Kleinstanlagen (Balkonmodule /
@@ -232,32 +306,32 @@ Tisch)
 - Relativ teuer, nicht weit verbreitet
 
 #### Strangwechselrichter
--Einsatz bei kleinen Photovoltaik-Anlagen
--Wechselrichter verfügt über nur einen MPP-Tracker
--Ein- oder dreiphasig erhältlich
--Meist ohne galvanische Trennung
--Wenn galvanische Trennung, dann oft mit HF-Trafo
--Früher am weitesten verbreitet
+- Einsatz bei kleinen Photovoltaik-Anlagen
+- Wechselrichter verfügt über nur einen MPP-Tracker
+- Ein- oder dreiphasig erhältlich
+- Meist ohne galvanische Trennung
+- Wenn galvanische Trennung, dann oft mit HF-Trafo
+- Früher am weitesten verbreitet
 
 #### Multistrangwechselrichter
--Einsatz bei mittleren bis grossen Photovoltaik-Anlagen
--Wechselrichter verfügt über mehrere MPP-Tracker
--Ein- oder dreiphasig erhältlich
--Meist ohne galvanische Trennung
--Wenn galvanische Trennung, dann oft mit HF-Trafo
--Ideal für eine Ost-West-Anlage
--Aktuell am weitesten verbreitet
+- Einsatz bei mittleren bis grossen Photovoltaik-Anlagen
+- Wechselrichter verfügt über mehrere MPP-Tracker
+- Ein- oder dreiphasig erhältlich
+- Meist ohne galvanische Trennung
+- Wenn galvanische Trennung, dann oft mit HF-Trafo
+- Ideal für eine Ost-West-Anlage
+- Aktuell am weitesten verbreitet
 
 #### Strangwechselrichter mit Leistungsoptimierer
--Einsatz bei kleinen bis grossen Photovoltaik-Anlagen
--Wechselrichter verfügt über keinen MPP-Tracker
--MPP-Tracking erfolgt auf Modulebene (Optimizer)
--Abschaltung der Anlage bis Modulebene möglich
--Ein- oder dreiphasig erhältlich
--Meist ohne galvanische Trennung
--Kommunikation über PLC (Power Line Communication)
--Ideal für verschatete Anlagen
--Viel elektronische Geräte, erhöht Serviceaufwand
+- Einsatz bei kleinen bis grossen Photovoltaik-Anlagen
+- Wechselrichter verfügt über keinen MPP-Tracker
+- MPP-Tracking erfolgt auf Modulebene (Optimizer)
+- Abschaltung der Anlage bis Modulebene möglich
+- Ein- oder dreiphasig erhältlich
+- Meist ohne galvanische Trennung
+- Kommunikation über PLC (Power Line Communication)
+- Ideal für verschatete Anlagen
+- Viel elektronische Geräte, erhöht Serviceaufwand
 
 #### Zentralwechselrichter
 - Einsatz bei grossen Photovoltaik-Anlagen
@@ -280,6 +354,13 @@ Tisch)
 
 4. Maximale Kurzschlussstrom Generator / Solar Modul ISC **<** Maximialer Eingangsstrom $IWR_{max}$
 
+- Kurzschlussstrom ISC (short circuit)
+- Leerlaufsspannung UOC (open circuit)
+- Maximale Leistung PMPP (maximum power point)
+- Betriebsstrom IMPP
+- Betriebsspannung UMPP
+- Füllfaktor FF
+- Wirkungsgrad 𝜂𝜂
 - $cos \phi$ induktiv + / kapazitiv -
 - Q (U) $cos \phi$ der Spannung Nachführend
 - Nennleistung maximal bei $cos \phi$ 1 gleich Scheinleistung (VA)
@@ -379,36 +460,6 @@ Die folgenden Fehler könnten unter anderem zur Reduzierung der offenen Klemmens
 - Kurzschluss einer oder mehrerer Zellen im Modul,
 - doppelter Erdschluss eines Moduls bzw. der Verkabelung.
 
-## Aufbau einer kristallinen Silizium-Solarzelle
-Die klassische kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
-
-
-Die dem Sonnenlicht zugewandte Schicht ist mit Phosphor negativ dotiert, die darunterliegende Schicht ist mit Bor positiv dotiert. An der Grenzschicht entsteht ein elektrisches Feld, dass zur Trennung der durch das Sonnenlicht freigesetzten Ladungen (Elektronen und Löcher) führt. Um der Solarzelle Strom entnehmen zu können, müssen auf der Vorder- und der Rückseite metallische Kontakte aufgebracht werden. In der Regel wird hierzu die Siebdrucktechnik eingesetzt.
-
-
-Auf der Rückseite ist das Anbringen einer ganzflächigen Kontaktschicht durch Aluminium- oder Silberpaste möglich. Die Vorderseite muss hingegen möglichst lichtdurchlässig sein. Hier werden die Kontakte meist in Form eines dünnen Gitters oder einer Baumstruktur aufgebracht. Durch Abschneiden oder Aufdampfen einer dünnen Schicht (Antireflexschicht) aus Siliziumnitrid oder Titandioxid auf der Vorderseite der Solarzelle lässt sich die Lichtreflexion verringern.
-
-Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlaufspannung (UOC) von 0.60 bis 0.70V und einen Kurzschlussstrom (ISC) von 10 bis 11A. Hierbei handelt es sich um Gleichstrom.
-
-### Klassifizierung der Zellen
-- kristallinen Siliziumzellen (die als ca. 200 Mikrometer dicke Wafer im Modul miteinander verlötet werden) Palykristalin und Monokristalin
-- Dünnschichtzellen (bei denen eine minimal dicke Zellschicht auf die Frontglasfolie aufgedampft / aufgedruckt wird) 
-- nano-strukturierten Zellen (bei denen nanometerkleine Zellen gebildet und miteinander verschalten werden)
-
-### Temperatur Korrektur für Leerlaufspannung Voc [V]
-
-Effektive Leerlaufspannung $U$ [V]= Leerlaufspannung $U_{oc}$ [V] @ 25 °C * Tempereaturkoeffizient $V_{oc}$ [%/°K] * $\Delta t$
-
-## Solar Zellen Prinzip
-
-Dotierung - Bor postive dotierung Löcher, Pohphor negative dotierung zuviel Elektronen
-
-p-Schicht (positiver Bereich): Wird durch Bor-Dotierung erzeugt. Bor hat drei Valenzelektronen, wodurch Elektronenlöcher (positive Ladungsträger) entstehen.
-
-n-Schicht (negativer Bereich): Wird mit Phosphor dotiert, das fünf Valenzelektronen hat, wodurch freie Elektronen (negative Ladungsträger) entstehen.
-
-p-n-Übergang-Technologie Die klassische Silizium-Solarzelle basiert auf einer p-n-Übergang-Technologie, wobei die p-Schicht (Bor-dotiert) meist als Grundsubstrat dient und die n-Schicht (Phosphor-dotiert) aufgebracht wird.
-
 # Blitzschutz / Überstromschutz
 
 LPS Lightnig Protection System
@@ -473,6 +524,24 @@ der Luft
 3. Strangüberwachung
 4. Strangsicherung / Stangdioden
 
+#### Insel PV-Anlage
+![Inselschema.png](Inselschema.png)
+
+#### Netzgekoppelte PV-Anlage
+![Netzgekoppelt.png](Netzgekoppelt.png)
+
+
+
+# Optimierung und Monitoring
+- Verbrauchsverhalten der Produktion anpassen
+- Lasten intelligent schalten und der Produktion anpassen
+- Energie speichern (Batterie, Uni-/Bidirektionales Laden)
+- Mehrere Verbrauchsparteien an Produktion teilhaben lassen: ZEV, vZEV, LEG
+#### Komponenenten
+- Lastmanagement (z.B. SolarLog, Loxone, solarmanager, SMA, Fronius Ohm Pilot, etc.)
+- Energiemessung am Übergabepunkt
+
+
 # Batteriespeicher
 
 - Energiemenge und Energiedichte
@@ -495,23 +564,6 @@ der Luft
 - Sehr stabil, schwer entflammbar
 - Günstiger (Eisen und Phosphat sind billig & verfügbar)
 - Umweltfreundlicher, ohne kritische Rohstoffe
-
-# Optimierung und Monitoring
-- Verbrauchsverhalten der Produktion anpassen
-- Lasten intelligent schalten und der Produktion anpassen
-- Energie speichern (Batterie, Uni-/Bidirektionales Laden)
-- Mehrere Verbrauchsparteien an Produktion teilhaben lassen: ZEV, vZEV, LEG
-#### Komponenenten
-- Lastmanagement (z.B. SolarLog, Loxone, solarmanager, SMA, Fronius Ohm Pilot, etc.)
-- Energiemessung am Übergabepunkt
-
-### Prinzipschema
-
-#### Insel PV-Anlage
-![Inselschema.png](Inselschema.png)
-
-#### Netzgekoppelte PV-Anlage
-![Netzgekoppelt.png](Netzgekoppelt.png)
 
 
 ### Ablauf PV Anlage Bewilligung
@@ -772,44 +824,7 @@ SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zust�
 
 Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
 
-# Stromverbrauch
 
-Durchschnittlicher Verbrauch: Ein durchschnittlicher Schweizer Haushalt verbraucht etwa 5000 kWh pro Jahr ohne WP und E-Auto.
-
--Typischer Zwei-Personen-Haushalt:
-    -In einem Mehrfamilienhaus: 2750 kWh/Jahr
-    -In einem Einfamilienhaus: 3550 kWh/Jahr2
-
--Ein-Personen-Haushalt:
-    -In einem Mehrfamilienhaus: 2200 kWh/Jahr
-    -In einem Einfamilienhaus: 2700 kWh/Jahr2
-
--Vier-Personen-Haushalt:
-    -In einem Mehrfamilienhaus: 3850 kWh/Jahr
-    -In einem Einfamilienhaus: 5200 kWh/Jahr
-
-[Stromverbrauch eines
-typischen Haushalts Energie Schweiz](https://pubdb.bfe.admin.ch/de/publication/download/10559) 
-
-Gesamtverbrauch Schweiz: 65 TWh = 10 hoch 12 W
-
-Gesamterzeugung CH: 67 TWh
-
-8% sind Erneuerbar
-
-30% Atom
-
-# Versorgungsnetz in der Schweiz
-
-| Netzebene                    | Kraftwerke                           | Vebraucher            | Spannung                   |
-| ---------------------------- | ------------------------------------ | --------------------- | -------------------------- |
-| 1 Übertragungsnetz           | Pumpspeicher, Kernkraft, Wasserkraft | Schwerindustrie, SBB  | Höchstspannung 220/380 kV  |
-| 2                            | Übertragungsnetz                     |                       |                            |
-| 3 Überregionale Verteilnetze | Wasserkraft                          | Industrie             | Hochspannung 36 bis 220 kV |
-| 4                            | Übertragungsnetz                     |                       |                            |
-| 5 Regionale Verteilnetze     | Thermisch                            | Dienstleistungsbauten | Mittelspannung 1 bis 36 kV |
-| 6                            | Übertragungsnetz                     |                       |                            |
-| 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
 
 # Abkürzungen und Namen
 
@@ -1434,39 +1449,7 @@ tung
 |Brand| Die Stromwärme entzündet Materialien, Funken entzünden explosionsartig Staub. -> Verbrennungen Vergiftungen|
 |Sekundärunfälle| Sturz von Leiter, Sturz von Baugerüst, Reflexbedingte Rückzugbewegungen Schnitte an Finger, Hand, Arm|
 
-## 5 Sicherheitsregeln
-Bei Arbeiten an elektrischen Anlagen sind die 5 + 5 Regeln (SUVA 84042.d) zwingend
-anzuwenden. Für das spannungsfreie Arbeiten an einer Anlage gelten konsequent fol-
-gende fünf Sicherheitsregeln.
-### 1. Freischalten
-Freischalten aller Teile der Anlage, an denen gearbeitet
-werden soll.
--LS-Schalter abschalten
--Schmelzsicherung entfernen
--Allpoliger Hauptschalter betätigen
-### 2. Gegen Wiedereinschalten sichern
-- Betätigungsmechanismus von Schaltgeräten durch
-Schloss sichern
-- Sicherungseinsätze mitnehmen
-- Verbotsschilder anbringen
-### 3. Spannungsfreiheit feststellen
-- Spannungsfreiheit durch Fachkraft feststellen
-- Überprüfung mit zweipoligem Spannungsprüfer
-### 4. Erden und kurzschliessen
-- Zuerst immer erden, dann mit den kurzzuschlies-
-senden aktiven Teilen verbinden (muss von der Arbeitsstelle aus sichtbar sein)
-- Diese Regel Nr. 4 entfällt bei Anlagen mit Spannung
-< 1000 V (Ausnahme Freileitungen)
-### 5. Benachbarte unter Spannung stehende Teile
-abdecken oder abschranken
-- Anlagen < 1000 V
-Abdecken mit isolierenden Tüchern, Schläuchen,
-Formstücken, etc.
-- Anlagen > 1000 V
-Zusätzlich Absperrtafeln, Seile, Warntafeln, etc.
-- Körperschutz
-Schutzhelm mit Gesichtsschutz, eng anliegende
-Kleidung, Handschuhe, etc.
+
 
 Informative Web-Links (Quellenangaben)
 http://www.ekas.chhttp://www.electrosuisse.ch
