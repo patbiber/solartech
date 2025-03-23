@@ -9,18 +9,22 @@ werden soll.
 - LS-Schalter abschalten
 - Schmelzsicherung entfernen
 - Allpoliger Hauptschalter betätigen
+
 ### 2. Gegen Wiedereinschalten sichern
 - Betätigungsmechanismus von Schaltgeräten durch
 Schloss sichern
 - Sicherungseinsätze mitnehmen
 - Verbotsschilder anbringen
+
 ### 3. Spannungsfreiheit feststellen
 - Spannungsfreiheit durch Fachkraft feststellen
 - Überprüfung mit zweipoligem Spannungsprüfer
+
 ### 4. Erden und kurzschliessen
 - Zuerst immer erden, dann mit den kurzzuschliessenden aktiven Teilen verbinden (muss von der Arbeitsstelle aus sichtbar sein)
 - Diese Regel Nr. 4 entfällt bei Anlagen mit Spannung
 < 1000 V (Ausnahme Freileitungen)
+
 ### 5. Benachbarte unter Spannung stehende Teile abdecken oder abschranken
 - Anlagen < 1000 V
 Abdecken mit isolierenden Tüchern, Schläuchen,
