@@ -247,6 +247,388 @@ Der  Kehrwert des Gesammtwiederstand ist die Summe der Kehrwerte der Einzelwiede
 $R_{tot} = 1 / (1/R_1 + 1/R_2 + 1/R_3) = R_{Einzel}/
 n$
 
+# Schutzmassnahmen in der Hausinstallation nach NIN
+
+### Basisschutz 
+
+Die maximale 
+Berührungsspannung ist bei Gleichspannung 120 V (für Spielzeug, Kesselanlagen, Labor,
+etc. 60 V) und bei Wechselspannung 50 V (für Spielzeug, Kesselanlagen, Labor, etc. 
+25 V). Aktive Teile einer Installation mit höheren Spannungen müssen gegen zufällige 
+Berührung geschützt sein. Dies kann mittels Abschrankungen oder Isolierung erreicht 
+werden. 
+
+### Fehlerschutz
+
+Stromstärke Wirkung auf Personen
+- 0.005mA Wahrnehmbarkeit mit der Zunge
+- 1mA Reizschwelle Kribbeln, Gefühl wie eingeschlafene Hand
+- 15mA Krampfschwelle Loslassgrenze, Muskelverkrampfungen
+- 50mA Gefahrenschwelle Verkrampfungen Atemmuskulatur, Herzkammerflimmern
+- 80mA Todesschwelle Herzkammerflimmern, Tod
+
+Mechanismen für den Personenschutz in der elektrotechnischen Installation sollen bewir
+ken, dass
+- der Berührungsstrom durch den menschlichen Körper möglichst klein ist.
+- die Berührungsspannung möglichst klein ist.
+- der gefährliche Zustand möglichst kurz bestehen bleibt.
+
+SELV Safety Extra Low Voltage Transformatoren
+Keine Verbindung zum 
+Schutzleiter. Die Ausgangsspannung bei Wechselspannung 
+übersteigt 50 V nicht. Bei Gleichspannung liegt die Ausgangsspannung unter 120 V.
+
+PELV
+Protective Extra Low Voltage Transformator
+Trennstelle, mit 
+der die Ausgangsseite des Trafos 
+vom Schutzleiter sicher getrennt 
+werden kann.
+
+FELV Transformator (Funktional Extra Low Voltage) gibt es keine 
+Trennstelle, mit der die Ausgangsseite des Trafos vom Schutzleiter sicher getrennt werden kann. Die Ausgangsseite ist demnach immer mit Schutzleiter Anschluss.
+
+## 1 Überlastschutz
+
+Elektrotechnische Betriebsmittel wie Leitungen, Motoren, etc. müssen gegen Überlastung geschützt werden. Bei Überlast besteht die Gefahr einer Überhitzung und somit 
+einem Brandfall. Schutzelemente für Überlast beinhalten einen elektrothermischen Auslösemechanismus (Bimetall). 
+
+Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Thermorelais
+
+## 2 Kurzschlussschutz
+
+Jeder Stromkreis muss so geschützt werden, dass im Kurzschlussfall die hohen Ströme 
+schnell und gefahrlos abgeschaltet werden, um weitere Schäden zu vermeiden. Zu beachten ist, dass beim Schalten von hohen Strömen (in der Nähe von z.B. Transformatoren > 10 kA) Lichtbogen bestehen bleiben können und somit der Stromfluss nicht unterbrochen wird. Schutzelemente für Kurzschluss beinhalten einen elektromagnetischen 
+Auslösemechanismus (Magnetspule).
+
+Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Leistungsschalter
+
+## 3 Fehlerstromschutz
+
+Gemäss den aktuellen Regeln der Technik (NIN) wird heute für viele Anlageteile (z.B. 
+Beleuchtungen, Steckdosen, Baustelleninstallationen, etc.) ein Fehlerstromschutz verlangt. Fehlerströme sind Ströme, die infolge Defekts eines Betriebsmittels nicht auf dem 
+vorgesehenen Strompfad (Neutralleiter) zur Spannungsquelle zurück fliessen.
+
+Schutzelemente → Fehlerstromschutzschalter RCD (FI)
+
+## 4 Störlichtbogen-Schutzeinrichtung
+
+Für den erweiterten Brandschutz können Geräte eingesetzt werden, die Störlichtbögen 
+(ausgelöst z.B. durch Wackelkontakte) erkennen und die betroffenen Stromkreise abschalten. Der Einsatz wird in kritischen Umgebungen empfohlen.
+
+Schutzelemente → Brandschutzschalter AFDD
+
+## 5 Selektivität
+
+Tritt in elektrischen Anlagen ein Fehler auf, darf nur diejenige Schutzeinrichtung ansprechen, die der Fehlerquelle unmittelbar vorgeschaltet ist.
+
+## Schutzklassen
+Schutzklasse
+![Schutzklasse](Schutzklasse.png)
+
+IP Schutzarten Bild
+![IP Schutzarten Bild](IP_Schutzarten_Bild.png)
+
+IP Schutzarten
+![IP Schutzarten](IP_Schutzarten.png)
+
+## Betriebsmittel für Schutzzwecke
+## 1 Schmelzsicherungen
+Eine Schmelzsicherung schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss. Die Auslösung basiert auf der Stromwärme, die eine Sollbruchstelle innerhalb der Sicherung zum Schmelzen bringt. Als 
+Funkenlöscher wird Quarzsand eingesetzt.
+
+## 2 Leitungsschutzschalter
+Ein Leitungsschutzschalter schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss und können nach einer 
+Auslösung wieder eingeschaltet werden. Sie besitzen einen 
+thermischen und einen magnetischen Auslöser. Bei Überlastung erwärmt sich das Bimetall und löst den Leitungsschutzschalter aus. Bei hohen Kurzschlussströmen entklinkt der elektromagnetische Auslöser das Schaltschloss 
+unverzögert. Der Schlaganker trennt das Schaltstück, ehe 
+der Kurzschlussstrom seinen Höchstwert erreichen kann.
+#### Typ B
+- für Leitungsschutz bei Verbrauchern wie Heizung, 
+Kochherd, Boiler, etc.
+-- Unverzögerte Auslösung beim 3- bis 5-fachen Bemessungsstrom
+#### Typ C
+- für Leitungsschutz bei Verbrauchern, die grosse
+Einschaltströme verursachen wie zum Beispiel Motoren, etc.
+- Unverzögerte Auslösung beim 5- bis 10-fachen Bemessungsstrom
+#### Typ D
+- für Leitungsschutz bei Verbrauchern mit Schweranlauf
+- Unverzögerte Auslösung beim 10- bis 20-fachen 
+Bemessungsstrom
+
+Energiebegrenzungsklasse und Schaltvermögen sind auf 
+Leitungsschutzschaltern durch Bildzeichen angegeben. 
+Leitungsschutzschalter der Energiebegrenzungsklasse 3 
+haben die beste (kürzeste) Kurzschlussstrombegrenzung.
+
+## 3 Fehlerstromschutzschalter FI
+Der RCD (Residual Current protective Device) vergleicht 
+die gleichzeitig in den Leitern L1, L2, L3 und N fliessenden Ströme. Fehlt in der Summe ein Teil des Stromes, 
+weil er über den Schutzleiter (PE) oder die Erde fliesst, 
+schaltet der RCD aus, sobald die Fehlerstromstärke den 
+zulässigen Wert (steht auf dem RCD) überschreitet. 
+Die Auslösung basiert auf dem elektromagnetischen 
+Prinzip (Summenstrommessung).
+Es gelten folgende max. Werte für die Fehlerstromstärke
+- Personenschutz 30mA (10mA)
+- Sachenschutz 300mA
+## 4 Brandschutzschalter
+Brandschutzschalter bieten Schutz vor seriellen und parallelen 
+Fehlerlichtbögen. Dafür sorgt ein Mikroprozessor, der kontinuierlich viele Strom- und Spannungsparameter überwacht. Erkennt er 
+charakteristische Strom- und Spannungsverläufe, die auf einen 
+Fehlerlichtbogen hindeuten, schaltet er den Stromkreis ab.
+
+## Sicherheit bei Arbeiten an elektrischen Anlagen
+### 1. Warum Arbeitssicherheit?
+Jeder schwere Unfall, jede arbeitsbedingte Krankheit ist eine menschliche Belastung.
+Zusätzlich entstehen auch Probleme im Betrieb
+
+- Der verunfallte oder erkrankte Mitarbeiter fehlt auf der Baustelle
+- Es kommt zu Engpässen, Terminproblemen, Stress
+- Die Kunden ärgern sich über Terminverschiebungen
+- Es kommt vielleicht gar zum Verlust von Aufträgen.
+
+**Jeder Abwesenheitstag kostet das Unternehmen 600 bis 1000 Franken.**
+
+Mit dem Aufbau eines betrieblichen Sicherheitssystems engagieren sich die Betriebe für
+sichere und gesunde Arbeitsplätze. Sie können damit
+
+- Menschliches Leid verhindern
+- Die direkten und indirekten Unfallkosten wie Ausfallstunden, administrative
+- Umtriebe usw. reduzieren
+- Steigende Versicherungsprämien vermeiden
+- Die gesetzlichen Verpflichtungen gegenüber Ihren Mitarbeitenden nachhaltig er-
+füllen
+- Ihre Mitarbeitenden zu sicherem und gesundheitsbewusstem Verhalten motivie-
+ren und ausbilden
+- Eine lebendige Sicherheitskultur im Unternehmen schaffen
+- Haftpflichtansprüche oder gar strafrechtliche Folgen vermeiden
+- Konkurrenzfähig bleiben
+
+## Gesetzliche Grundlagen
+
+Die Schweizer Gesetzgebung verpflichtet Unternehmen zu einer aktiven Rolle in der Un-
+fallverhütung. Für die Sicherheit und den Gesundheitsschutz der Arbeitnehmerinnen und
+Arbeitnehmer sind insbesondere folgende Gesetze (zusammen mit den dazugehörigen
+Ausführungsbestimmungen) von Bedeutung am Arbeitsplatz und in der Freizeit.
+- Unfallversicherungsgesetz (UVG) -> Unfallversicherung, Arbeitssicherheit, Nichtbetriebsunfall
+- Arbeitsgesetz (ArG) -> Arbeits- und Ruhezeiten, Sonderschutz für Frauen und Jugendliche, Gesundheitschutz, Plangenehmigung
+- Bundesgesetz über die Sicherheit von Produkten (PrSG) ->Inverkehrbringen von gewerblichen und beruflichen Produkten, Gewährleistung der Sicherheit von Produkten, Erleichterung des grenzüberschreitenden freien Warenverkehrs
+
+## EKAS
+In seiner Botschaft zum UVG hat der Bundesrat die Eidge-
+nössische Koordinationskommission für Arbeitssi-
+cherheit EKAS als zentrale Informations- und Koordinati-
+onsstelle für Sicherheit und Gesundheitsschutz am Arbeits-
+platz definiert. Sie koordiniert die Präventionsmassnah-
+men, die Aufgabenbereiche im Vollzug und die einheitliche
+Anwendung der Vorschriften. Ihre Beschlüsse sind verbindlich.
+Für die Aufsicht über die Umsetzung der Vorschriften im Bereich Arbeitssicherheit – aber
+auch für die wichtige Beratung der Betriebe – sind so genannte «Durchführungsorga-
+ne» zuständig.
+In erster Linie sind die Kantone und die Suva mit der Beratung und Überwachung der
+Betriebe beauftragt. Die Suva führt hierfür ein eigenes Departement «Gesundheits-
+schutz». In zweiter Linie wirken das SECO und Fachorganisationen bei der Durchfüh-
+rung mit.
+
+
+## Massnahmen zur Verhütung von Unfällen
+
+### 1 Technische Massnahmen
+Die technischen Massnahmen decken Installation, Be-
+trieb und Instandhaltung von Anlageteilen und Be-
+triebsmitteln ab.
+- Montagehinweise / -vorschriften für die Erstel-
+lung von elektrischen Installationen
+- Einsatz von mechanischen Schutzvorrichtungen
+bei Maschinen, Produktionsanlagen, etc.
+- Sofortige Reparatur von defekten Betriebsmitteln
+
+### 2 Organisatorische Massnahmen
+Die organisatorischen Massnahmen sorgen für die rich-
+tige Schulung und Anwendung von entsprechenden Vor-
+schriften und Materialeinsätzen.
+- Anwendung der aktuellen Gesetze und Verord-
+nungen
+- Installationen nach den aktuellen „Regeln der
+Technik“ (Installationsvorschriften)
+- Einsatz von Material mit entsprechenden Sicher-
+heitszeichen
+
+### 3 Persönliche Massnahmen
+- Vorsichtiges und konzentriertes Arbeiten ohne
+Einfluss von Drogen jeglicher Art
+- Instandhaltung der persönlichen Schutzausrüs-
+tung
+- Richtiger Umgang mit Leitern
+
+## Unfallgefahren bei Arbeiten an elektrischen Anlagen
+
+
+|GefahrenFolgen | Beispiele|
+|---------------|----------|
+|Durchströmung|Der Strom fliesst durch den menschlichen Körper. Folgen davon sind Innere Verbrennungen mit z.T. Langzeitschäden|
+|Lichtbogen|Der Strom tritt via Funkenbogen in den menschlichen Körper ein und / oder aus. Folgen davon sind Gefährdung der Augen , Verbrennungen an Ein- / Austrittsstelle |
+|Abschmelzende Materialien |  - Verbrennungen durch heisses (abgesprengtes) Material, Gefährdung der Augen|
+|Brand| Die Stromwärme entzündet Materialien, Funken entzünden explosionsartig Staub. -> Verbrennungen Vergiftungen|
+|Sekundärunfälle| Sturz von Leiter, Sturz von Baugerüst, Reflexbedingte Rückzugbewegungen Schnitte an Finger, Hand, Arm|
+
+
+
+Informative Web-Links (Quellenangaben)
+http://www.ekas.chhttp://www.electrosuisse.ch
+http://www.asa-inside.chhttp://www.esti.ch
+http://www.batisec.chhttp://www.vsei.ch
+http://www.suva.ch
+
+# Gesetzliche Grundlagen
+Gesetzespyramide
+
+Europa- und auch weltweit gibt es Bestrebungen, technische Normen und Regelungen zu
+vereinheitlichen. Dies hat zur Folge, dass Handelshemmnisse beseitigt werden und be-
+stehende Schranken im Warenverkehr fallen. Im Bereich der Elektrotechnik nehmen
+folgende Institutionen diese Harmonisierungsaufgaben wahr
+
+### International 
+
+IEC International Electrotechnical Commission
+
+### Europa 
+
+CENELEC Comité Européen de Normalisation Électrotechnique
+
+ETSI European Telecommunications Standards Institute
+
+### National
+
+CES Comité Electrotechnique Suisse
+
+SICTA Swiss Information and Communications Technology Association
+
+Die in der Schweiz vorhandenen technischen Normenwerke (Regeln der Technik) basie-
+ren auf unseren geltenden Gesetzen und Verordnungen.
+Achtung → es sind immer die neusten Ausgaben zu berücksichtigen.
+### Basis
+SR 101
+Bundesverfassung der Schweizerischen
+Eidgenossenschaft vom 18. April 1999
+### Gesetze
+SR 734.0
+Bundesgesetz vom 24. Juni 1902 betref-
+fend die elektrischen Schwach- und Stark-
+stromanlagen (Elektrizitätsgesetz, EleG)
+
+SR 930.11
+Bundesgesetz vom 12. Juni 2009 über die
+Produktesicherheit (PrSG)
+
+SR 832.20
+Bundesgesetz vom 20. März 1981 über die
+Unfallversicherung (UVG)
+
+SR 734.7
+Bundesgesetz vom 23. März 2007 über die
+Stromversorgung (Stromversorgungsge-
+setz, StromVG)
+### Verordnungen
+SR 734.2
+Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverord-
+nung)
+
+SR 734.27
+Verordnung vom 7. November 2001 über elektrische Niederspannungsinstallationen
+(Niederspannungs-Installationsverordnung, NIV)
+
+SR 734.26
+Verordnung vom 9. April 1997 über elektrische Niederspannungserzeugnisse (NEV)
+
+SR 734.31
+Verordnung vom 30. März 1994 über elektrische Leitungen (Leitungsverordnung, LeV)
+
+SR 734.24
+Verordnung vom 7. Dezember 1992 über das Eidgenössische Starkstrominspektorat
+
+SR 734.5
+Verordnung vom 18. November 2009 über die elektromagnetische Verträglichkeit
+(VEMV)
+
+SR 734.71
+Stromversorgungsverordnung vom 14. März 2008 (StromVV)
+
+SR930.111
+Verordnung vom 19. Mai 2010 über die Produktesicherheit (PrSV)
+
+SR 832.202
+Verordnung vom 20. Dezember 1982 über die Unfallversicherung (UVV)
+
+## Regeln der Technik
+ 
+### NIN Niederspannungs-Installationsnorm 2020
+
+### Niederspannungs-Installationsverordnung NIV
+regelt die Voraussetzungen für das Arbeiten an elektrischen Niederspannungsinstallationen (elektrische Installationen) und
+die Kontrolle dieser Installationen.
+
+In der NIV sind definiert
+- Allgemeine Bestimmungen und Anforderungen an die Sicherheit von elektrischen
+Installationen
+- Welche Bedingungen erfüllt sein müssen, um vom Eidgenössischen Starkstromin-
+spektorat ESTI eine Bewilligung für die Installationen von elektrischen Anlagen im
+- Niederspannungsbereich zu erhalten.
+Grundsätze für die Ausführung von elektrischen Installationen.
+- Welche Bedingungen erfüllt sein müssen, um vom Eidgenössischen Starkstromin-
+spektorat ESTI eine Bewilligung für die Kontrolle von elektrischen Anlagen im Nieder-
+spannungsbereich zu erhalten.
+- Ebenfalls ist die Periodizität der Kontrolle von elektrischen Anlagen in einem Anhang
+der NIV angegeben.
+
+Die NIV SR 734.27 ist seit 1. Januar 2002 in Kraft (aktueller Stand 1. Juni 2019).
+
+#### Regeln der Technik
+Als Regeln der Technik gelten für Elektroinstallationen im Niederspannungsbereich die
+Niederspannungs-Installationsnorm NIN 2020. Diese ist in gekürzter Fassung mit den
+wesentlichen Normen und Richtlinien in der NIN-Compact (NIN-C) zusammengefasst.
+Beide Regelwerke werden von der electrosuisse erstellt und herausgegeben.
+In der NIN / NIN-C sind harmonisierte Normen nach IEC und CENELEC und die ergän-
+zenden schweizerischen Regeln wiedergegeben.
+NIN und NIN-C basieren auf der Niederspannungs-Installationsverordnung NIV (Art. 3
+Grundlegende Anforderungen an die Sicherheit), die besagt, dass
+elektrische Installationen nach den anerkannten Regeln der Technik erstellt, geän-
+dert, in Stand gehalten und kontrolliert werden müssen. Sie dürfen bei bestim-
+mungsgemässem und möglichst auch bei voraussehbarem unsachgemässem Betrieboder Gebrauch sowie in voraussehbaren Störungsfällen weder Personen noch Sachen
+gefährden.
+als anerkannte Regeln der Technik insbesondere die Normen von IEC und CENELEC
+gelten. Wo international harmonisierte Normen fehlen, gelten die schweizerischen
+Normen.
+Bei Nichtbestehen von spezifischen technischen Normen sinngemäss anwendbare
+Normen oder allfällige technische Weisungen zu berücksichtigen sind.
+
+#### Erstprüfung von elektrischen Installationen
+Bei neuerstellten elektrischen Installationen muss vor Inbetriebnahme ein Erstprüfung
+durchgeführt werden. Diese umfasst eine Sichtprüfung und verschiedene Messungen und
+Funktionskontrollen gemäss einer definierten Kriterienliste (NIN-C 2020 / Normenteil 6).
+
+#### Sicherheitsnachweis von elektrischen Installationen
+
+Gemäss Niederspannungs-Installationsverordnung NIV (Art. 35 – 38) muss die Sicherheit von elektrischen Installationen nachgewiesen werden. Als sicher können Anlagen
+eingestuft werden, die nach den anerkannten Regeln der Technik (NIN / NIN-C) instal-
+liert worden sind und bei denen keine Fehlerzustände vorliegen. Sicherheitsnachweise
+(SiNa) müssen erstellt werden bei
+Neuinstallationen, Ergänzungen und Erweiterungen von elektrischen Anlagen
+Periodisch gemäss Anhang zur NIV SR 734.27.
+Gemäss NIV Art. 37 (Anforderungen an den Sicherheitsnachweis) muss der Sicherheits-
+nachweis mindestens folgende Angaben enthalten
+Adresse der Installation und des Eigentümers
+Beschreibung der Installation einschliesslich allfälliger Besonderheiten
+Kontrollperiode
+Name und Adresse des Installateurs
+Ergebnisse der betriebsinternen Schlusskontrolle
+Name und Adresse des Inhabers der Kontrollbewilligung und Ergebnis seiner Kontrolle bei Abnahmekontrollen nach Artikel 35 Absatz 3 und periodischen Kontrollen nach
+Artikel 36.
+Der Sicherheitsnachweis muss von der Person, welche die Kontrolle durchgeführt hat,
+und vom Inhaber der Installationsbewilligung sowie gegebenenfalls vom Inhaber der
+Kontrollbewilligung, unterzeichnet werden.
+
 # Solarzelle 
 
 Die kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
@@ -1222,388 +1604,6 @@ Verbrauchsziele: der Verbrauch ist pro Person und Jahr 2000 bis 2035 um 43% und 
 - Energiefonds Stadt St. Gallen
   Antrag Fördergelder: [Login | Kundenportal Pronovo](https://kundenportal.pronovo.ch/)
 - Rechner Förderbeitrag: [www.pronovo.ch](https://pronovo.ch/)
-
-# Schutzmassnahmen in der Hausinstallation nach NIN
-
-### Basisschutz 
-
-Die maximale 
-Berührungsspannung ist bei Gleichspannung 120 V (für Spielzeug, Kesselanlagen, Labor,
-etc. 60 V) und bei Wechselspannung 50 V (für Spielzeug, Kesselanlagen, Labor, etc. 
-25 V). Aktive Teile einer Installation mit höheren Spannungen müssen gegen zufällige 
-Berührung geschützt sein. Dies kann mittels Abschrankungen oder Isolierung erreicht 
-werden. 
-
-### Fehlerschutz
-
-Stromstärke Wirkung auf Personen
-- 0.005mA Wahrnehmbarkeit mit der Zunge
-- 1mA Reizschwelle Kribbeln, Gefühl wie eingeschlafene Hand
-- 15mA Krampfschwelle Loslassgrenze, Muskelverkrampfungen
-- 50mA Gefahrenschwelle Verkrampfungen Atemmuskulatur, Herzkammerflimmern
-- 80mA Todesschwelle Herzkammerflimmern, Tod
-
-Mechanismen für den Personenschutz in der elektrotechnischen Installation sollen bewir
-ken, dass
-- der Berührungsstrom durch den menschlichen Körper möglichst klein ist.
-- die Berührungsspannung möglichst klein ist.
-- der gefährliche Zustand möglichst kurz bestehen bleibt.
-
-SELV Safety Extra Low Voltage Transformatoren
-Keine Verbindung zum 
-Schutzleiter. Die Ausgangsspannung bei Wechselspannung 
-übersteigt 50 V nicht. Bei Gleichspannung liegt die Ausgangsspannung unter 120 V.
-
-PELV
-Protective Extra Low Voltage Transformator
-Trennstelle, mit 
-der die Ausgangsseite des Trafos 
-vom Schutzleiter sicher getrennt 
-werden kann.
-
-FELV Transformator (Funktional Extra Low Voltage) gibt es keine 
-Trennstelle, mit der die Ausgangsseite des Trafos vom Schutzleiter sicher getrennt werden kann. Die Ausgangsseite ist demnach immer mit Schutzleiter Anschluss.
-
-## 1 Überlastschutz
-
-Elektrotechnische Betriebsmittel wie Leitungen, Motoren, etc. müssen gegen Überlastung geschützt werden. Bei Überlast besteht die Gefahr einer Überhitzung und somit 
-einem Brandfall. Schutzelemente für Überlast beinhalten einen elektrothermischen Auslösemechanismus (Bimetall). 
-
-Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Thermorelais
-
-## 2 Kurzschlussschutz
-
-Jeder Stromkreis muss so geschützt werden, dass im Kurzschlussfall die hohen Ströme 
-schnell und gefahrlos abgeschaltet werden, um weitere Schäden zu vermeiden. Zu beachten ist, dass beim Schalten von hohen Strömen (in der Nähe von z.B. Transformatoren > 10 kA) Lichtbogen bestehen bleiben können und somit der Stromfluss nicht unterbrochen wird. Schutzelemente für Kurzschluss beinhalten einen elektromagnetischen 
-Auslösemechanismus (Magnetspule).
-
-Schutzelemente → Schmelzsicherungen, Leitungsschutzschalter, Leistungsschalter
-
-## 3 Fehlerstromschutz
-
-Gemäss den aktuellen Regeln der Technik (NIN) wird heute für viele Anlageteile (z.B. 
-Beleuchtungen, Steckdosen, Baustelleninstallationen, etc.) ein Fehlerstromschutz verlangt. Fehlerströme sind Ströme, die infolge Defekts eines Betriebsmittels nicht auf dem 
-vorgesehenen Strompfad (Neutralleiter) zur Spannungsquelle zurück fliessen.
-
-Schutzelemente → Fehlerstromschutzschalter RCD (FI)
-
-## 4 Störlichtbogen-Schutzeinrichtung
-
-Für den erweiterten Brandschutz können Geräte eingesetzt werden, die Störlichtbögen 
-(ausgelöst z.B. durch Wackelkontakte) erkennen und die betroffenen Stromkreise abschalten. Der Einsatz wird in kritischen Umgebungen empfohlen.
-
-Schutzelemente → Brandschutzschalter AFDD
-
-## 5 Selektivität
-
-Tritt in elektrischen Anlagen ein Fehler auf, darf nur diejenige Schutzeinrichtung ansprechen, die der Fehlerquelle unmittelbar vorgeschaltet ist.
-
-## Schutzklassen
-Schutzklasse
-![Schutzklasse](Schutzklasse.png)
-
-IP Schutzarten Bild
-![IP Schutzarten Bild](IP_Schutzarten_Bild.png)
-
-IP Schutzarten
-![IP Schutzarten](IP_Schutzarten.png)
-
-## Betriebsmittel für Schutzzwecke
-## 1 Schmelzsicherungen
-Eine Schmelzsicherung schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss. Die Auslösung basiert auf der Stromwärme, die eine Sollbruchstelle innerhalb der Sicherung zum Schmelzen bringt. Als 
-Funkenlöscher wird Quarzsand eingesetzt.
-
-## 2 Leitungsschutzschalter
-Ein Leitungsschutzschalter schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss und können nach einer 
-Auslösung wieder eingeschaltet werden. Sie besitzen einen 
-thermischen und einen magnetischen Auslöser. Bei Überlastung erwärmt sich das Bimetall und löst den Leitungsschutzschalter aus. Bei hohen Kurzschlussströmen entklinkt der elektromagnetische Auslöser das Schaltschloss 
-unverzögert. Der Schlaganker trennt das Schaltstück, ehe 
-der Kurzschlussstrom seinen Höchstwert erreichen kann.
-#### Typ B
-- für Leitungsschutz bei Verbrauchern wie Heizung, 
-Kochherd, Boiler, etc.
--- Unverzögerte Auslösung beim 3- bis 5-fachen Bemessungsstrom
-#### Typ C
-- für Leitungsschutz bei Verbrauchern, die grosse
-Einschaltströme verursachen wie zum Beispiel Motoren, etc.
-- Unverzögerte Auslösung beim 5- bis 10-fachen Bemessungsstrom
-#### Typ D
-- für Leitungsschutz bei Verbrauchern mit Schweranlauf
-- Unverzögerte Auslösung beim 10- bis 20-fachen 
-Bemessungsstrom
-
-Energiebegrenzungsklasse und Schaltvermögen sind auf 
-Leitungsschutzschaltern durch Bildzeichen angegeben. 
-Leitungsschutzschalter der Energiebegrenzungsklasse 3 
-haben die beste (kürzeste) Kurzschlussstrombegrenzung.
-
-## 3 Fehlerstromschutzschalter FI
-Der RCD (Residual Current protective Device) vergleicht 
-die gleichzeitig in den Leitern L1, L2, L3 und N fliessenden Ströme. Fehlt in der Summe ein Teil des Stromes, 
-weil er über den Schutzleiter (PE) oder die Erde fliesst, 
-schaltet der RCD aus, sobald die Fehlerstromstärke den 
-zulässigen Wert (steht auf dem RCD) überschreitet. 
-Die Auslösung basiert auf dem elektromagnetischen 
-Prinzip (Summenstrommessung).
-Es gelten folgende max. Werte für die Fehlerstromstärke
-- Personenschutz 30mA (10mA)
-- Sachenschutz 300mA
-## 4 Brandschutzschalter
-Brandschutzschalter bieten Schutz vor seriellen und parallelen 
-Fehlerlichtbögen. Dafür sorgt ein Mikroprozessor, der kontinuierlich viele Strom- und Spannungsparameter überwacht. Erkennt er 
-charakteristische Strom- und Spannungsverläufe, die auf einen 
-Fehlerlichtbogen hindeuten, schaltet er den Stromkreis ab.
-
-## Sicherheit bei Arbeiten an elektrischen Anlagen
-### 1. Warum Arbeitssicherheit?
-Jeder schwere Unfall, jede arbeitsbedingte Krankheit ist eine menschliche Belastung.
-Zusätzlich entstehen auch Probleme im Betrieb
-
-- Der verunfallte oder erkrankte Mitarbeiter fehlt auf der Baustelle
-- Es kommt zu Engpässen, Terminproblemen, Stress
-- Die Kunden ärgern sich über Terminverschiebungen
-- Es kommt vielleicht gar zum Verlust von Aufträgen.
-
-**Jeder Abwesenheitstag kostet das Unternehmen 600 bis 1000 Franken.**
-
-Mit dem Aufbau eines betrieblichen Sicherheitssystems engagieren sich die Betriebe für
-sichere und gesunde Arbeitsplätze. Sie können damit
-
-- Menschliches Leid verhindern
-- Die direkten und indirekten Unfallkosten wie Ausfallstunden, administrative
-- Umtriebe usw. reduzieren
-- Steigende Versicherungsprämien vermeiden
-- Die gesetzlichen Verpflichtungen gegenüber Ihren Mitarbeitenden nachhaltig er-
-füllen
-- Ihre Mitarbeitenden zu sicherem und gesundheitsbewusstem Verhalten motivie-
-ren und ausbilden
-- Eine lebendige Sicherheitskultur im Unternehmen schaffen
-- Haftpflichtansprüche oder gar strafrechtliche Folgen vermeiden
-- Konkurrenzfähig bleiben
-
-## Gesetzliche Grundlagen
-
-Die Schweizer Gesetzgebung verpflichtet Unternehmen zu einer aktiven Rolle in der Un-
-fallverhütung. Für die Sicherheit und den Gesundheitsschutz der Arbeitnehmerinnen und
-Arbeitnehmer sind insbesondere folgende Gesetze (zusammen mit den dazugehörigen
-Ausführungsbestimmungen) von Bedeutung am Arbeitsplatz und in der Freizeit.
-- Unfallversicherungsgesetz (UVG) -> Unfallversicherung, Arbeitssicherheit, Nichtbetriebsunfall
-- Arbeitsgesetz (ArG) -> Arbeits- und Ruhezeiten, Sonderschutz für Frauen und Jugendliche, Gesundheitschutz, Plangenehmigung
-- Bundesgesetz über die Sicherheit von Produkten (PrSG) ->Inverkehrbringen von gewerblichen und beruflichen Produkten, Gewährleistung der Sicherheit von Produkten, Erleichterung des grenzüberschreitenden freien Warenverkehrs
-
-## EKAS
-In seiner Botschaft zum UVG hat der Bundesrat die Eidge-
-nössische Koordinationskommission für Arbeitssi-
-cherheit EKAS als zentrale Informations- und Koordinati-
-onsstelle für Sicherheit und Gesundheitsschutz am Arbeits-
-platz definiert. Sie koordiniert die Präventionsmassnah-
-men, die Aufgabenbereiche im Vollzug und die einheitliche
-Anwendung der Vorschriften. Ihre Beschlüsse sind verbindlich.
-Für die Aufsicht über die Umsetzung der Vorschriften im Bereich Arbeitssicherheit – aber
-auch für die wichtige Beratung der Betriebe – sind so genannte «Durchführungsorga-
-ne» zuständig.
-In erster Linie sind die Kantone und die Suva mit der Beratung und Überwachung der
-Betriebe beauftragt. Die Suva führt hierfür ein eigenes Departement «Gesundheits-
-schutz». In zweiter Linie wirken das SECO und Fachorganisationen bei der Durchfüh-
-rung mit.
-
-
-## Massnahmen zur Verhütung von Unfällen
-
-### 1 Technische Massnahmen
-Die technischen Massnahmen decken Installation, Be-
-trieb und Instandhaltung von Anlageteilen und Be-
-triebsmitteln ab.
-- Montagehinweise / -vorschriften für die Erstel-
-lung von elektrischen Installationen
-- Einsatz von mechanischen Schutzvorrichtungen
-bei Maschinen, Produktionsanlagen, etc.
-- Sofortige Reparatur von defekten Betriebsmitteln
-
-### 2 Organisatorische Massnahmen
-Die organisatorischen Massnahmen sorgen für die rich-
-tige Schulung und Anwendung von entsprechenden Vor-
-schriften und Materialeinsätzen.
-- Anwendung der aktuellen Gesetze und Verord-
-nungen
-- Installationen nach den aktuellen „Regeln der
-Technik“ (Installationsvorschriften)
-- Einsatz von Material mit entsprechenden Sicher-
-heitszeichen
-
-### 3 Persönliche Massnahmen
-- Vorsichtiges und konzentriertes Arbeiten ohne
-Einfluss von Drogen jeglicher Art
-- Instandhaltung der persönlichen Schutzausrüs-
-tung
-- Richtiger Umgang mit Leitern
-
-## Unfallgefahren bei Arbeiten an elektrischen Anlagen
-
-
-|GefahrenFolgen | Beispiele|
-|---------------|----------|
-|Durchströmung|Der Strom fliesst durch den menschlichen Körper. Folgen davon sind Innere Verbrennungen mit z.T. Langzeitschäden|
-|Lichtbogen|Der Strom tritt via Funkenbogen in den menschlichen Körper ein und / oder aus. Folgen davon sind Gefährdung der Augen , Verbrennungen an Ein- / Austrittsstelle |
-|Abschmelzende Materialien |  - Verbrennungen durch heisses (abgesprengtes) Material, Gefährdung der Augen|
-|Brand| Die Stromwärme entzündet Materialien, Funken entzünden explosionsartig Staub. -> Verbrennungen Vergiftungen|
-|Sekundärunfälle| Sturz von Leiter, Sturz von Baugerüst, Reflexbedingte Rückzugbewegungen Schnitte an Finger, Hand, Arm|
-
-
-
-Informative Web-Links (Quellenangaben)
-http://www.ekas.chhttp://www.electrosuisse.ch
-http://www.asa-inside.chhttp://www.esti.ch
-http://www.batisec.chhttp://www.vsei.ch
-http://www.suva.ch
-
-# Gesetzliche Grundlagen
-Gesetzespyramide
-
-Europa- und auch weltweit gibt es Bestrebungen, technische Normen und Regelungen zu
-vereinheitlichen. Dies hat zur Folge, dass Handelshemmnisse beseitigt werden und be-
-stehende Schranken im Warenverkehr fallen. Im Bereich der Elektrotechnik nehmen
-folgende Institutionen diese Harmonisierungsaufgaben wahr
-
-### International 
-
-IEC International Electrotechnical Commission
-
-### Europa 
-
-CENELEC Comité Européen de Normalisation Électrotechnique
-
-ETSI European Telecommunications Standards Institute
-
-### National
-
-CES Comité Electrotechnique Suisse
-
-SICTA Swiss Information and Communications Technology Association
-
-Die in der Schweiz vorhandenen technischen Normenwerke (Regeln der Technik) basie-
-ren auf unseren geltenden Gesetzen und Verordnungen.
-Achtung → es sind immer die neusten Ausgaben zu berücksichtigen.
-### Basis
-SR 101
-Bundesverfassung der Schweizerischen
-Eidgenossenschaft vom 18. April 1999
-### Gesetze
-SR 734.0
-Bundesgesetz vom 24. Juni 1902 betref-
-fend die elektrischen Schwach- und Stark-
-stromanlagen (Elektrizitätsgesetz, EleG)
-
-SR 930.11
-Bundesgesetz vom 12. Juni 2009 über die
-Produktesicherheit (PrSG)
-
-SR 832.20
-Bundesgesetz vom 20. März 1981 über die
-Unfallversicherung (UVG)
-
-SR 734.7
-Bundesgesetz vom 23. März 2007 über die
-Stromversorgung (Stromversorgungsge-
-setz, StromVG)
-### Verordnungen
-SR 734.2
-Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverord-
-nung)
-
-SR 734.27
-Verordnung vom 7. November 2001 über elektrische Niederspannungsinstallationen
-(Niederspannungs-Installationsverordnung, NIV)
-
-SR 734.26
-Verordnung vom 9. April 1997 über elektrische Niederspannungserzeugnisse (NEV)
-
-SR 734.31
-Verordnung vom 30. März 1994 über elektrische Leitungen (Leitungsverordnung, LeV)
-
-SR 734.24
-Verordnung vom 7. Dezember 1992 über das Eidgenössische Starkstrominspektorat
-
-SR 734.5
-Verordnung vom 18. November 2009 über die elektromagnetische Verträglichkeit
-(VEMV)
-
-SR 734.71
-Stromversorgungsverordnung vom 14. März 2008 (StromVV)
-
-SR930.111
-Verordnung vom 19. Mai 2010 über die Produktesicherheit (PrSV)
-
-SR 832.202
-Verordnung vom 20. Dezember 1982 über die Unfallversicherung (UVV)
-
-## Regeln der Technik
- 
-### NIN Niederspannungs-Installationsnorm 2020
-
-### Niederspannungs-Installationsverordnung NIV
-regelt die Voraussetzungen für das Arbeiten an elektrischen Niederspannungsinstallationen (elektrische Installationen) und
-die Kontrolle dieser Installationen.
-
-In der NIV sind definiert
-- Allgemeine Bestimmungen und Anforderungen an die Sicherheit von elektrischen
-Installationen
-- Welche Bedingungen erfüllt sein müssen, um vom Eidgenössischen Starkstromin-
-spektorat ESTI eine Bewilligung für die Installationen von elektrischen Anlagen im
-- Niederspannungsbereich zu erhalten.
-Grundsätze für die Ausführung von elektrischen Installationen.
-- Welche Bedingungen erfüllt sein müssen, um vom Eidgenössischen Starkstromin-
-spektorat ESTI eine Bewilligung für die Kontrolle von elektrischen Anlagen im Nieder-
-spannungsbereich zu erhalten.
-- Ebenfalls ist die Periodizität der Kontrolle von elektrischen Anlagen in einem Anhang
-der NIV angegeben.
-
-Die NIV SR 734.27 ist seit 1. Januar 2002 in Kraft (aktueller Stand 1. Juni 2019).
-
-#### Regeln der Technik
-Als Regeln der Technik gelten für Elektroinstallationen im Niederspannungsbereich die
-Niederspannungs-Installationsnorm NIN 2020. Diese ist in gekürzter Fassung mit den
-wesentlichen Normen und Richtlinien in der NIN-Compact (NIN-C) zusammengefasst.
-Beide Regelwerke werden von der electrosuisse erstellt und herausgegeben.
-In der NIN / NIN-C sind harmonisierte Normen nach IEC und CENELEC und die ergän-
-zenden schweizerischen Regeln wiedergegeben.
-NIN und NIN-C basieren auf der Niederspannungs-Installationsverordnung NIV (Art. 3
-Grundlegende Anforderungen an die Sicherheit), die besagt, dass
-elektrische Installationen nach den anerkannten Regeln der Technik erstellt, geän-
-dert, in Stand gehalten und kontrolliert werden müssen. Sie dürfen bei bestim-
-mungsgemässem und möglichst auch bei voraussehbarem unsachgemässem Betrieboder Gebrauch sowie in voraussehbaren Störungsfällen weder Personen noch Sachen
-gefährden.
-als anerkannte Regeln der Technik insbesondere die Normen von IEC und CENELEC
-gelten. Wo international harmonisierte Normen fehlen, gelten die schweizerischen
-Normen.
-Bei Nichtbestehen von spezifischen technischen Normen sinngemäss anwendbare
-Normen oder allfällige technische Weisungen zu berücksichtigen sind.
-
-#### Erstprüfung von elektrischen Installationen
-Bei neuerstellten elektrischen Installationen muss vor Inbetriebnahme ein Erstprüfung
-durchgeführt werden. Diese umfasst eine Sichtprüfung und verschiedene Messungen und
-Funktionskontrollen gemäss einer definierten Kriterienliste (NIN-C 2020 / Normenteil 6).
-
-#### Sicherheitsnachweis von elektrischen Installationen
-
-Gemäss Niederspannungs-Installationsverordnung NIV (Art. 35 – 38) muss die Sicherheit von elektrischen Installationen nachgewiesen werden. Als sicher können Anlagen
-eingestuft werden, die nach den anerkannten Regeln der Technik (NIN / NIN-C) instal-
-liert worden sind und bei denen keine Fehlerzustände vorliegen. Sicherheitsnachweise
-(SiNa) müssen erstellt werden bei
-Neuinstallationen, Ergänzungen und Erweiterungen von elektrischen Anlagen
-Periodisch gemäss Anhang zur NIV SR 734.27.
-Gemäss NIV Art. 37 (Anforderungen an den Sicherheitsnachweis) muss der Sicherheits-
-nachweis mindestens folgende Angaben enthalten
-Adresse der Installation und des Eigentümers
-Beschreibung der Installation einschliesslich allfälliger Besonderheiten
-Kontrollperiode
-Name und Adresse des Installateurs
-Ergebnisse der betriebsinternen Schlusskontrolle
-Name und Adresse des Inhabers der Kontrollbewilligung und Ergebnis seiner Kontrolle bei Abnahmekontrollen nach Artikel 35 Absatz 3 und periodischen Kontrollen nach
-Artikel 36.
-Der Sicherheitsnachweis muss von der Person, welche die Kontrolle durchgeführt hat,
-und vom Inhaber der Installationsbewilligung sowie gegebenenfalls vom Inhaber der
-Kontrollbewilligung, unterzeichnet werden.
 
 # Links
 
