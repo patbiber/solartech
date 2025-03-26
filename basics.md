@@ -990,7 +990,15 @@ $I = \sqrt3 * I_p$
 [Wikipedia Dreieckschaltung](https://de.wikipedia.org/wiki/Dreieckschaltung)
 
 
-# Geometrie Dachschräge
+# Dach
+
+## Ziegel
+
+Default in Zürich Zwang ZZ Breite: 215 mm Länge 320 - 378 cm
+
+[Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
+
+## Geometrie Dachschräge
 
 $l_{Dach}=l_{plan} / cos(\Theta)$
 
