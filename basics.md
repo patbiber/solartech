@@ -992,9 +992,19 @@ $I = \sqrt3 * I_p$
 
 # Dach
 
+PV-Planung Dach:
+- Dachaufnahme vor Ort
+- Alter – Zustand – Erwartete Lebensdauer
+- Schichtaufbau abklären
+- Unterdach, Nageldichtband, Sondierung
+- Statik prüfen
+
+Schneefang,  
+Obligatorisch wenn der Darunterliegende Bereich öffentlich zugägnglich ist.
+
 ### 1. Dacheindeckung / Dachlattung
 UV-beständig, nichtbrennbar, dicht gegen frei abfliessendes Wasser
-- Ziegel, 
+- Ziegel,
 oft in ZH Breite: 215 mm Länge 320 - 378 cm [Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
 - Eternit, Achtung bis 1992 wurde Abest verbaut
 - Blech: Doppelfalzblechdach, Leisten-Blechdach, Trapez-Blechdach, Sandwich-Blechdach, Kalzip-Blechdach
