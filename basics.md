@@ -992,20 +992,119 @@ $I = \sqrt3 * I_p$
 
 # Dach
 
-
 ### 1. Dacheindeckung / Dachlattung
-### Ziegel 
+UV-beständig, nichtbrennbar, dicht gegen frei abfliessendes Wasser
+- Ziegel, 
 oft in ZH Breite: 215 mm Länge 320 - 378 cm [Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
+- Eternit, Achtung bis 1992 wurde Abest verbaut
+- Blech: Doppelfalzblechdach, Leisten-Blechdach, Trapez-Blechdach, Sandwich-Blechdach, Kalzip-Blechdach
+- Solar
+
 ### 2. Konterlattung / Dürchlüftungsraum
+
+Minimaler Durchlüftungsraum zwischen Unterdach und Deckung (Norm SIA 232/1)
+
+- Eine örtlich begrenzte Reduktion der Höhe oder Breite ist bis max. 50% des erforderlichen
+Querschnitts zulässig.
+- Wird eine dachintegrierte PV-Anlage geplant, soll die Konterlattenhöhe mind. 60mm betragen
+oder eine «Stufe» höher als in der Tabelle aufgeführt.
+-Lüftungsgitter reduzieren den Lüftungsquerschnitt um bis 50%
+
+![Konterlattung](Konterlattung.png)
+
+- Die Befestigung der Konterlatte muss
+bei Folienunterdächern zwingend durch
+Nagelbänder (links) oder
+Nageldichtungen (rechts) abgedichtet
+werden
+- Konterlatten dienen als Montageebene
+für die Lattung des Deckmaterials
+- Bildet die Durchlüftungsebene zwischen
+Unterdach und Deckmaterial
+- Bei undichten Dächern kann
+eintretendes Wasser abfliessen
+- Ermöglicht einen Luftstrom und trocknet
+angefallene Feuchtigkeit (z.B. durch
+Spritzwasser, Schmelzwasser oder
+Kondensat) wieder aus
+- Die Hinterlüftung verbessert den
+sommerlichen Wärmeschutz
+
+Einschraubtiefe 8 x Durchmesser
 
 ### 3. Unterdach
 
-### 4. Wärmedämmung 
-evtl auch Sparren, evtl auch noch zusätzliche Dämmung
+Angaben der Hersteller beachten
 
+- Schutz vor Witterung während der Bauphase «3 Monate frei bewitterbar»
+- Schutz bei eindringendem Wasser
+  - Defektes Deckmaterial
+  - Rückschwellwasser
+  - Tiefe Dachneigung
+- Regenwasserdicht & Diffusionsoffen
+- Bei wärmegedämmten sowie bewohnten Dächern ist ein Unterdach Pflicht SIA 232
+
+#### Unterdach für «normale Beanspruchung» 20°
+- Diese Unterdächer müssen dicht sein gegen frei
+abfliessendes Meteorwasser
+- In der Regel mit flachen Platten (oder Unterdachfolien die
+nur überlappt sind) ausgeführt
+- Z.B. Faserzementplatten, Holzfaserplatten, Holz-
+Weichfaserplatten
+- Die horizontalen und vertikalen Fugen sind «nur»
+Überlappend ausgeführt
+- Nageldichtungen werden empfohlen
+- Dachdurchbrüche werden mit systemzugehörigen
+Anschlussbändern ausgeführt
+
+#### Unterdach für «erhöhte Beanspruchung» 18°
+- Diese Unterdächer müssen bei Stauwasser bis 50 mm
+wasserdicht sein
+- Mögliche Ausführungsvarianten sind:
+- Unterdachfolie, Überlappungen werden mit
+Kautschuckbändern oder Leim verklebt oder mit
+systemzugehörigen Klebebändern überklebt
+- Holzweichfaserplatten, Stossfugen geleimt
+- Nagelbänder oder Nageldichtungen sind bei Folienunterdächer
+zwingend vorgeschrieben (Abdichtung von Durchdringungen
+durch Befestigungsmaterial)
+- Dachdurchdringungen jeglicher Art (z.B. Leitungen) müssen
+mit systemzugehörigen Komponenten so abgedichtet werden,
+dass die Qualität des Unterdaches (Stauwasser bis 50 mm)
+gewährleistet ist. (Unterdachanschlüsse müssen min. 50 mm
+aufgebordet werden)
+
+#### Unterdach für «ausserordentliche Beanspruchung» 15°
+- Diese Unterdächer müssen bei Wasserstau über 50 mm
+und einem zu erwartenden Wasserdruck, dicht sein. 50mm
+über Deckmaterial
+- Mögliche Ausführungsvarianten sind:
+- Unterdachfolien werden bei Überlappungen
+thermisch (mit Heissluft) verschweisst oder
+Chemisch (mit Quellmittel) «Quellverschweisst» (ist
+Systemabhängig).
+- Nagelbänder und Nageldichtungen sind bei
+Folienunterdächern zwingend vorgeschrieben
+- Dachdurchdringungen jeglicher Art (z.B. Leitungen) müssen
+mit systemzugehörigen Komponenten so abgedichtet
+werden, dass die Qualität des Unterdaches (Stauwasser
+über 50 mm und Wasserdruck) bestehen bleibt
+- Unterdachanschlüsse werden mehr als 50 mm über das
+Deckmaterial stauwasserdicht geführ
+
+### 4. Wärmedämmung 
+evtl auch zwischen Sparren
+
+U Wert unter 0.2 W/m2K. Neubauten 0,17 W/m2K, 140 bis 240 mm Isolation je nach Dämmmaterial.
+
+Lamda Wert $\lambda$ [W/m K]
+
+- Mineralfaserstoffe wie Steinwolle oder Glaswolle (Foto)
+- Holzfaserdämmung
+- Polyurethanplatten (Unterdach-Elemente und Platten)
+- Zellulose
 
 ### 5. Dampfbremse
-macht Haus Winddicht
 
 Die Dampfbremse wird warmseitig (raumseitig) der
 Wärmedämmung verlegt
