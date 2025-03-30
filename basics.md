@@ -992,11 +992,53 @@ $I = \sqrt3 * I_p$
 
 # Dach
 
-## Ziegel
 
-Default in Zürich Zwang ZZ Breite: 215 mm Länge 320 - 378 cm
+### 1. Dacheindeckung / Dachlattung
+### Ziegel 
+oft in ZH Breite: 215 mm Länge 320 - 378 cm [Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
+### 2. Konterlattung / Dürchlüftungsraum
 
-[Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
+### 3. Unterdach
+
+### 4. Wärmedämmung 
+evtl auch Sparren, evtl auch noch zusätzliche Dämmung
+
+
+### 5. Dampfbremse
+macht Haus Winddicht
+
+Die Dampfbremse wird warmseitig (raumseitig) der
+Wärmedämmung verlegt
+- Sie dient als Luftdichtung bei einem Gebäude
+- Sie verhindert, dass Raumfeuchtigkeit in die
+Wärmedämmung gelangt
+- Leckagen, müssen unbedingt verhindert werden
+- Durchdurchdringungen (z.B. Solarleitung) müssen
+zwingend luftdicht angeschlossen werden
+- Leckagen und unsachgemässe Durchdringungen
+führen an solchen Stellen zu dauerhaften
+Kondenswasserschäden in der Konstruktion
+
+SD-Wert (Wasserdampf-diffusionsäquivalente Luftschichtdicke) in Meter
+
+Wie verhindert man Kondenswasserbildung bei
+Durchdringungen von Dampfbremsen?
+1. Rohr an Dampfbremse anschliessen (abkleben)
+2. Wärmedämmung muss satt am Rohr anliegen,
+keine Lufträume stehen lassen (kalt & warm trennen)
+3. Unterdach sauber anschliessen (abdichten)
+4. Keine Hohlräume im Rohr / Ausdämmen
+Feuchtigkeitswanderung verhindern
+
+### 6. Holzschalung
+
+### 7. Sparren
+Flumserdach und Walliserdach haben Sparren unten an der Dämmung. Flumserdach hat 30° Schrauben von der Konterlattung zum Sparren. Walliserdach hat 90° Schruaben mit Latten in der äusseren Dämmung.
+
+
+
+
+#
 
 ## Geometrie Dachschräge
 
