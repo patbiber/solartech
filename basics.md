@@ -1160,12 +1160,7 @@ Feuchtigkeitswanderung verhindern
 ### 6. Holzschalung
 
 ### 7. Sparren
-Flumserdach und Walliserdach haben Sparren unten an der Dämmung. Flumserdach hat 30° Schrauben von der Konterlattung zum Sparren. Walliserdach hat 90° Schruaben mit Latten in der äusseren Dämmung.
-
-
-
-
-#
+Flumserdach und Walliserdach haben Sparren unten an der Dämmung. Flumserdach hat 30° Schrauben von der Konterlattung zum Sparren. Walliserdach hat 90° Schrauben mit Latten in der äusseren Dämmung.
 
 ## Geometrie Dachschräge
 
@@ -1184,6 +1179,18 @@ $l_{Dach}$ ist die effektive Länge des Daches
 ![Trigonometrische Funktion](https://upload.wikimedia.org/wikipedia/commons/5/56/RechtwinkligesDreieck.svg)
 
 ![Trigonometrische Funktion](https://wikimedia.org/api/rest_v1/media/math/render/svg/bba659bb417359e2b6a733d5fcc549027eade0c2)
+
+## Flachdach
+
+#### Varianten 
+Umkehrdach, Verbunddach, Duodach, Plusdach, Kaltdach (Dach mit Durchlüftungsschicht), Doppeldach
+
+1.5 % Gefälle min zur Entwässerung
+
+von Oben nach unten, Bsp: Kies, Abdichtung, Isolation, Dampfbremse, Betton
+
+#### Abdichtungen
+Elastomerbitumen (PYE), Thermpoplatische Polyolefine (TPO), PVC, Ethylen-Propylen-Dien-Kautschuk (EPDM), Flüssigkunststoff
 
 # Fläche
 
