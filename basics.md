@@ -992,6 +992,24 @@ $I = \sqrt3 * I_p$
 
 # Dach
 
+### Dachformen
+
+- Satteldach
+- Pultdach
+- Walmdach
+- Krüppelwalmdach
+- Mansardendach
+- Zeltdach
+- Kegeldach
+- Zwiebeldach
+- Sheddach
+- Flachdach
+- Kuppeldach
+- Tonnendach
+
+Gaube, Traufe, First, Ort, Grat
+
+
 PV-Planung Dach:
 - Dachaufnahme vor Ort
 - Alter – Zustand – Erwartete Lebensdauer
