@@ -1192,6 +1192,25 @@ von Oben nach unten, Bsp: Kies, Abdichtung, Isolation, Dampfbremse, Betton
 #### Abdichtungen
 Elastomerbitumen (PYE), Thermpoplatische Polyolefine (TPO), PVC, Ethylen-Propylen-Dien-Kautschuk (EPDM), Flüssigkunststoff
 
+## Befestigung
+
+### Ausdehnung
+
+- Aluminuiun 2,4 mm/(m*100K)
+- Stahl 1,2 mm/(m*100K)
+- Kupfer 1,7 mm/(m*100K)
+- Glas 0.5 mm/(m*100K)
+- Glasfaserverstärkter Kunststoff GFK 5 bis 15 mm/(m*100K)
+
+## Sicherheit
+
+Kollektivschutz (Geländer) vor persönlichem Schutz
+
+Absturzsicherung ab 2 m zur Dachkante, ab 2 m Höhe Gerüst ab 2 Manntage
+
+Arbeiten < 2 Manntage draussen bis 3m Leiter dann Absturzsicherung PSAgA Persönlicher Schutz gegen Absturz oder Gerüst
+
+
 # Fläche
 
 ## Dreieck
