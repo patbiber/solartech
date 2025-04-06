@@ -1240,7 +1240,38 @@ Gebäudeeigentümer haftet
 
 ## Kennzeichnung für Feuerwehr bei der HW
 
+Zuerst AC Last abschalten dann schaltete der WR ab, dann DC Last, dann DC Generatoren haben am Tag jedoch spannung. 
 
+## Instandhaltung PV
+
+### Inspektion
+- Wechselrichter Fehlermeldungen und Updates
+- Ueberspannungschutz ausgelöst nach Gewitter?
+- Sichtprüfung
+ - Montagesystem
+ - Module
+ - Eindeckung
+ - An und Abschlüsse auf dem Dach
+- Ertragskontrolle
+
+evtl: 
+- Themographie 
+- Stringmessung
+
+### Wartung
+
+- Ausführung der nötigen Instandsetzungen und Reparaturen
+
+### Verbeserung
+
+- Modulreinigung
+- Entfernung von Verschattungsursachen
+- Nachträglicher Einbau von Schneefänger
+
+## Recycling PV Module
+
+durch die Firma SENS-eRecycling mit vorgezogenen Recycling gebühren.
+Module nethalten keine Schadstoffe.
 
 # Fläche
 
