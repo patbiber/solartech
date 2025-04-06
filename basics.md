@@ -149,11 +149,11 @@ Endenergie: Energie aus der Steckdose
 
 ## Ohmsches Gesetz Ω
 
-Spannung Volt [V] $U=R*I = P / I = \squ (P.R)$
+Spannung Volt [V] $U=R*I = P / I = \sqrt (P.R)$
 
-Stomstärke Ampère [A] $I=\frac{U}{R}$
+Stomstärke Ampère [A] $I=\frac{U}{R} = P/U = \sqrt (P/R)$
 
-Wiederstand Ohm [ $\Omega$ ] $R=\frac{U}{I}=(\rho*l)/A$
+Wiederstand Ohm [ $\Omega$ ] $R=\frac{U}{I}= P/I2 = U2/P  =(\rho*l)/A$
 
 ### Leiterberechnung
 
