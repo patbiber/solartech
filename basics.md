@@ -149,7 +149,7 @@ Endenergie: Energie aus der Steckdose
 
 ## Ohmsches Gesetz Ω
 
-Spannung Volt [V] $U=R*I$
+Spannung Volt [V] $U=R*I = P / I = \squ (P.R)$
 
 Stomstärke Ampère [A] $I=\frac{U}{R}$
 
