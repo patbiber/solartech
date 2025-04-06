@@ -664,6 +664,9 @@ https://solargis.com/resources/free-maps-and-gis-data
 
 Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausrichtung – in der Schweiz ca. 35°S.
 
+Etragsoptimierte Ausrichtung nach Süden 15° - 30°.
+Eigenverbrauchsoptimierung Ost-West 10° - 20°
+
 ![Bestrahlung](bestrahlung-geneigte-ebene-bern.jpg)
 
 ### Reihenabstand
@@ -671,6 +674,8 @@ Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausri
 ![Reihenabstand](Reihenabstand.png)
 
 $R=(sin\alpha/tan\beta + cos \alpha)*L$
+
+tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 
 ## Auslegung Wechselrichter
 
@@ -1182,6 +1187,10 @@ $l_{Dach}$ ist die effektive Länge des Daches
 
 ## Flachdach
 
+Dachhaut muss unbedingt geschützt werden.
+zBsp mit Schutzfilz.
+Begrünte Dächer erhöhen Retention, dafür erhöter Wartungaufwand der PV, PV auftsänderung muss min 50 cm hoch sein. Keins substrat wenn möglich unter der PV Anlage besser Kies.
+
 #### Varianten 
 Umkehrdach, Verbunddach, Duodach, Plusdach, Kaltdach (Dach mit Durchlüftungsschicht), Doppeldach
 
@@ -1192,7 +1201,16 @@ von Oben nach unten, Bsp: Kies, Abdichtung, Isolation, Dampfbremse, Betton
 #### Abdichtungen
 Elastomerbitumen (PYE), Thermpoplatische Polyolefine (TPO), PVC, Ethylen-Propylen-Dien-Kautschuk (EPDM), Flüssigkunststoff
 
+## Fasade
+
+Konsolen mit 45° - 75° Neigung verbessern den Wirkungsgrad zu 90° Montage. Nur bei Ueberdachungsfunktion.
+
 ## Befestigung
+
+- Klemmsystem einfach oder Kreuschienen Verbund, Viertelklemmung
+- Einlegesystem
+- Indach System, geschuppt überlappend, in Rinne entwässernd oder mit Abschlussblech. Auf Lüftung achten.
+
 
 ### Ausdehnung
 
@@ -1202,13 +1220,26 @@ Elastomerbitumen (PYE), Thermpoplatische Polyolefine (TPO), PVC, Ethylen-Propyle
 - Glas 0.5 mm/(m*100K)
 - Glasfaserverstärkter Kunststoff GFK 5 bis 15 mm/(m*100K)
 
+## Durchdringungen
+
+Elektrorohre müssen dicht sein damit keine Konvenktion und Kondensation stattfindet.
+
 ## Sicherheit
+
+### ABS Arbeitssicherheit
 
 Kollektivschutz (Geländer) vor persönlichem Schutz
 
 Absturzsicherung ab 2 m zur Dachkante, ab 2 m Höhe Gerüst ab 2 Manntage
 
-Arbeiten < 2 Manntage draussen bis 3m Leiter dann Absturzsicherung PSAgA Persönlicher Schutz gegen Absturz oder Gerüst
+Arbeiten < 2 Manntage draussen bis 3m Leiter dann Absturzsicherung PSAgA Persönlicher Schutz gegen Absturz oder Gerüst.
+
+### Schneefang
+
+Gebäudeeigentümer haftet
+
+## Kennzeichnung für Feuerwehr bei der HW
+
 
 
 # Fläche
