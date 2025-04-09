@@ -1,39 +1,47 @@
 # Solarteur Wissen ☀️ 👷
 
 ## 5 Sicherheitsregeln
+
 Bei Arbeiten an elektrischen Anlagen sind die 5 + 5 Regeln (SUVA 84042.d) zwingend
 anzuwenden. Für das spannungsfreie Arbeiten an einer Anlage gelten konsequent folgende fünf Sicherheitsregeln.
+
 ### 1. Freischalten
+
 Freischalten aller Teile der Anlage, an denen gearbeitet
 werden soll.
+
 - LS-Schalter abschalten
 - Schmelzsicherung entfernen
 - Allpoliger Hauptschalter betätigen
 
 ### 2. Gegen Wiedereinschalten sichern
+
 - Betätigungsmechanismus von Schaltgeräten durch
-Schloss sichern
+  Schloss sichern
 - Sicherungseinsätze mitnehmen
 - Verbotsschilder anbringen
 
 ### 3. Spannungsfreiheit feststellen
+
 - Spannungsfreiheit durch Fachkraft feststellen
 - Überprüfung mit zweipoligem Spannungsprüfer
 
 ### 4. Erden und kurzschliessen
+
 - Zuerst immer erden, dann mit den kurzzuschliessenden aktiven Teilen verbinden (muss von der Arbeitsstelle aus sichtbar sein)
 - Diese Regel Nr. 4 entfällt bei Anlagen mit Spannung
-< 1000 V (Ausnahme Freileitungen)
+  < 1000 V (Ausnahme Freileitungen)
 
 ### 5. Benachbarte unter Spannung stehende Teile abdecken oder abschranken
+
 - Anlagen < 1000 V
-Abdecken mit isolierenden Tüchern, Schläuchen,
-Formstücken, etc.
+  Abdecken mit isolierenden Tüchern, Schläuchen,
+  Formstücken, etc.
 - Anlagen > 1000 V
-Zusätzlich Absperrtafeln, Seile, Warntafeln, etc.
+  Zusätzlich Absperrtafeln, Seile, Warntafeln, etc.
 - Körperschutz
-Schutzhelm mit Gesichtsschutz, eng anliegende
-Kleidung, Handschuhe, etc.
+  Schutzhelm mit Gesichtsschutz, eng anliegende
+  Kleidung, Handschuhe, etc.
 
 # Stromverbrauch
 
@@ -109,7 +117,7 @@ Temperatur Grad Kelvin [K] $T$
 
 1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
 
-# Leistung 
+# Leistung
 
 Leistung [W] $P = W / t$
 
@@ -133,11 +141,9 @@ bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
 
 1 - Verluste = Wirkungsgrad
 
-
 Nutzenergie: E-Car Energie auf dem Rad 
 
 Endenergie: Energie aus der Steckdose
-
 
 ## Der einfache Stromkreis ⚡
 
@@ -253,7 +259,7 @@ n$
 
 ## Schutzmassnahmen in der Hausinstallation nach NIN
 
-### Basisschutz 
+### Basisschutz
 
 Die maximale 
 Berührungsspannung ist bei Gleichspannung 120 V (für Spielzeug, Kesselanlagen, Labor,
@@ -265,6 +271,7 @@ werden.
 ### Fehlerschutz
 
 Stromstärke Wirkung auf Personen
+
 - 0.005mA Wahrnehmbarkeit mit der Zunge
 - 1mA Reizschwelle Kribbeln, Gefühl wie eingeschlafene Hand
 - 15mA Krampfschwelle Loslassgrenze, Muskelverkrampfungen
@@ -273,6 +280,7 @@ Stromstärke Wirkung auf Personen
 
 Mechanismen für den Personenschutz in der elektrotechnischen Installation sollen bewir
 ken, dass
+
 - der Berührungsstrom durch den menschlichen Körper möglichst klein ist.
 - die Berührungsspannung möglichst klein ist.
 - der gefährliche Zustand möglichst kurz bestehen bleibt.
@@ -327,6 +335,7 @@ Schutzelemente → Brandschutzschalter AFDD
 Tritt in elektrischen Anlagen ein Fehler auf, darf nur diejenige Schutzeinrichtung ansprechen, die der Fehlerquelle unmittelbar vorgeschaltet ist.
 
 ### Schutzklassen
+
 Schutzklasse
 ![Schutzklasse](Schutzklasse.png)
 
@@ -337,28 +346,35 @@ IP Schutzarten
 ![IP Schutzarten](IP_Schutzarten.png)
 
 ## Betriebsmittel für Schutzzwecke
+
 ### 1 Schmelzsicherungen
+
 Eine Schmelzsicherung schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss. Die Auslösung basiert auf der Stromwärme, die eine Sollbruchstelle innerhalb der Sicherung zum Schmelzen bringt. Als 
 Funkenlöscher wird Quarzsand eingesetzt.
 
 ### 2 Leitungsschutzschalter
+
 Ein Leitungsschutzschalter schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss und können nach einer 
 Auslösung wieder eingeschaltet werden. Sie besitzen einen 
 thermischen und einen magnetischen Auslöser. Bei Überlastung erwärmt sich das Bimetall und löst den Leitungsschutzschalter aus. Bei hohen Kurzschlussströmen entklinkt der elektromagnetische Auslöser das Schaltschloss 
 unverzögert. Der Schlaganker trennt das Schaltstück, ehe 
 der Kurzschlussstrom seinen Höchstwert erreichen kann.
+
 #### Typ B
+
 - für Leitungsschutz bei Verbrauchern wie Heizung, 
-Kochherd, Boiler, etc.
--- Unverzögerte Auslösung beim 3- bis 5-fachen Bemessungsstrom
-#### Typ C
+  Kochherd, Boiler, etc.
+  -- Unverzögerte Auslösung beim 3- bis 5-fachen Bemessungsstrom
+  
+  #### Typ C
 - für Leitungsschutz bei Verbrauchern, die grosse
-Einschaltströme verursachen wie zum Beispiel Motoren, etc.
+  Einschaltströme verursachen wie zum Beispiel Motoren, etc.
 - Unverzögerte Auslösung beim 5- bis 10-fachen Bemessungsstrom
-#### Typ D
+  
+  #### Typ D
 - für Leitungsschutz bei Verbrauchern mit Schweranlauf
 - Unverzögerte Auslösung beim 10- bis 20-fachen 
-Bemessungsstrom
+  Bemessungsstrom
 
 Energiebegrenzungsklasse und Schaltvermögen sind auf 
 Leitungsschutzschaltern durch Bildzeichen angegeben. 
@@ -366,6 +382,7 @@ Leitungsschutzschalter der Energiebegrenzungsklasse 3
 haben die beste (kürzeste) Kurzschlussstrombegrenzung.
 
 ### 3 Fehlerstromschutzschalter FI
+
 Der RCD (Residual Current protective Device) vergleicht 
 die gleichzeitig in den Leitern L1, L2, L3 und N fliessenden Ströme. Fehlt in der Summe ein Teil des Stromes, 
 weil er über den Schutzleiter (PE) oder die Erde fliesst, 
@@ -374,16 +391,21 @@ zulässigen Wert (steht auf dem RCD) überschreitet.
 Die Auslösung basiert auf dem elektromagnetischen 
 Prinzip (Summenstrommessung).
 Es gelten folgende max. Werte für die Fehlerstromstärke
+
 - Personenschutz 30mA (10mA)
 - Sachenschutz 300mA
-### 4 Brandschutzschalter
-Brandschutzschalter bieten Schutz vor seriellen und parallelen 
-Fehlerlichtbögen. Dafür sorgt ein Mikroprozessor, der kontinuierlich viele Strom- und Spannungsparameter überwacht. Erkennt er 
-charakteristische Strom- und Spannungsverläufe, die auf einen 
-Fehlerlichtbogen hindeuten, schaltet er den Stromkreis ab.
+  
+  ### 4 Brandschutzschalter
+  
+  Brandschutzschalter bieten Schutz vor seriellen und parallelen 
+  Fehlerlichtbögen. Dafür sorgt ein Mikroprozessor, der kontinuierlich viele Strom- und Spannungsparameter überwacht. Erkennt er 
+  charakteristische Strom- und Spannungsverläufe, die auf einen 
+  Fehlerlichtbogen hindeuten, schaltet er den Stromkreis ab.
 
 ## Sicherheit bei Arbeiten an elektrischen Anlagen
+
 ### 1. Warum Arbeitssicherheit?
+
 Jeder schwere Unfall, jede arbeitsbedingte Krankheit ist eine menschliche Belastung.
 Zusätzlich entstehen auch Probleme im Betrieb
 
@@ -402,9 +424,9 @@ sichere und gesunde Arbeitsplätze. Sie können damit
 - Umtriebe usw. reduzieren
 - Steigende Versicherungsprämien vermeiden
 - Die gesetzlichen Verpflichtungen gegenüber Ihren Mitarbeitenden nachhaltig er-
-füllen
+  füllen
 - Ihre Mitarbeitenden zu sicherem und gesundheitsbewusstem Verhalten motivie-
-ren und ausbilden
+  ren und ausbilden
 - Eine lebendige Sicherheitskultur im Unternehmen schaffen
 - Haftpflichtansprüche oder gar strafrechtliche Folgen vermeiden
 - Konkurrenzfähig bleiben
@@ -415,11 +437,13 @@ Die Schweizer Gesetzgebung verpflichtet Unternehmen zu einer aktiven Rolle in de
 fallverhütung. Für die Sicherheit und den Gesundheitsschutz der Arbeitnehmerinnen und
 Arbeitnehmer sind insbesondere folgende Gesetze (zusammen mit den dazugehörigen
 Ausführungsbestimmungen) von Bedeutung am Arbeitsplatz und in der Freizeit.
+
 - Unfallversicherungsgesetz (UVG) -> Unfallversicherung, Arbeitssicherheit, Nichtbetriebsunfall
 - Arbeitsgesetz (ArG) -> Arbeits- und Ruhezeiten, Sonderschutz für Frauen und Jugendliche, Gesundheitschutz, Plangenehmigung
 - Bundesgesetz über die Sicherheit von Produkten (PrSG) ->Inverkehrbringen von gewerblichen und beruflichen Produkten, Gewährleistung der Sicherheit von Produkten, Erleichterung des grenzüberschreitenden freien Warenverkehrs
 
 ## EKAS
+
 In seiner Botschaft zum UVG hat der Bundesrat die Eidge-
 nössische Koordinationskommission für Arbeitssi-
 cherheit EKAS als zentrale Informations- und Koordinati-
@@ -435,49 +459,50 @@ Betriebe beauftragt. Die Suva führt hierfür ein eigenes Departement «Gesundhe
 schutz». In zweiter Linie wirken das SECO und Fachorganisationen bei der Durchfüh-
 rung mit.
 
-
 ## Massnahmen zur Verhütung von Unfällen
 
 ### 1 Technische Massnahmen
+
 Die technischen Massnahmen decken Installation, Be-
 trieb und Instandhaltung von Anlageteilen und Be-
 triebsmitteln ab.
+
 - Montagehinweise / -vorschriften für die Erstel-
-lung von elektrischen Installationen
+  lung von elektrischen Installationen
 - Einsatz von mechanischen Schutzvorrichtungen
-bei Maschinen, Produktionsanlagen, etc.
+  bei Maschinen, Produktionsanlagen, etc.
 - Sofortige Reparatur von defekten Betriebsmitteln
 
 ### 2 Organisatorische Massnahmen
+
 Die organisatorischen Massnahmen sorgen für die rich-
 tige Schulung und Anwendung von entsprechenden Vor-
 schriften und Materialeinsätzen.
+
 - Anwendung der aktuellen Gesetze und Verord-
-nungen
+  nungen
 - Installationen nach den aktuellen „Regeln der
-Technik“ (Installationsvorschriften)
+  Technik“ (Installationsvorschriften)
 - Einsatz von Material mit entsprechenden Sicher-
-heitszeichen
+  heitszeichen
 
 ### 3 Persönliche Massnahmen
+
 - Vorsichtiges und konzentriertes Arbeiten ohne
-Einfluss von Drogen jeglicher Art
+  Einfluss von Drogen jeglicher Art
 - Instandhaltung der persönlichen Schutzausrüs-
-tung
+  tung
 - Richtiger Umgang mit Leitern
 
 ## Unfallgefahren bei Arbeiten an elektrischen Anlagen
 
-
-|GefahrenFolgen | Beispiele|
-|---------------|----------|
-|Durchströmung|Der Strom fliesst durch den menschlichen Körper. Folgen davon sind Innere Verbrennungen mit z.T. Langzeitschäden|
-|Lichtbogen|Der Strom tritt via Funkenbogen in den menschlichen Körper ein und / oder aus. Folgen davon sind Gefährdung der Augen , Verbrennungen an Ein- / Austrittsstelle |
-|Abschmelzende Materialien |  - Verbrennungen durch heisses (abgesprengtes) Material, Gefährdung der Augen|
-|Brand| Die Stromwärme entzündet Materialien, Funken entzünden explosionsartig Staub. -> Verbrennungen Vergiftungen|
-|Sekundärunfälle| Sturz von Leiter, Sturz von Baugerüst, Reflexbedingte Rückzugbewegungen Schnitte an Finger, Hand, Arm|
-
-
+| GefahrenFolgen            | Beispiele                                                                                                                                                       |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Durchströmung             | Der Strom fliesst durch den menschlichen Körper. Folgen davon sind Innere Verbrennungen mit z.T. Langzeitschäden                                                |
+| Lichtbogen                | Der Strom tritt via Funkenbogen in den menschlichen Körper ein und / oder aus. Folgen davon sind Gefährdung der Augen , Verbrennungen an Ein- / Austrittsstelle |
+| Abschmelzende Materialien | - Verbrennungen durch heisses (abgesprengtes) Material, Gefährdung der Augen                                                                                    |
+| Brand                     | Die Stromwärme entzündet Materialien, Funken entzünden explosionsartig Staub. -> Verbrennungen Vergiftungen                                                     |
+| Sekundärunfälle           | Sturz von Leiter, Sturz von Baugerüst, Reflexbedingte Rückzugbewegungen Schnitte an Finger, Hand, Arm                                                           |
 
 Informative Web-Links (Quellenangaben)
 http://www.ekas.chhttp://www.electrosuisse.ch
@@ -486,6 +511,7 @@ http://www.batisec.chhttp://www.vsei.ch
 http://www.suva.ch
 
 ## Gesetzliche Grundlagen
+
 Gesetzespyramide
 
 Europa- und auch weltweit gibt es Bestrebungen, technische Normen und Regelungen zu
@@ -493,11 +519,11 @@ vereinheitlichen. Dies hat zur Folge, dass Handelshemmnisse beseitigt werden und
 stehende Schranken im Warenverkehr fallen. Im Bereich der Elektrotechnik nehmen
 folgende Institutionen diese Harmonisierungsaufgaben wahr
 
-### International 
+### International
 
 IEC International Electrotechnical Commission
 
-### Europa 
+### Europa
 
 CENELEC Comité Européen de Normalisation Électrotechnique
 
@@ -512,11 +538,15 @@ SICTA Swiss Information and Communications Technology Association
 Die in der Schweiz vorhandenen technischen Normenwerke (Regeln der Technik) basie-
 ren auf unseren geltenden Gesetzen und Verordnungen.
 Achtung → es sind immer die neusten Ausgaben zu berücksichtigen.
+
 ### Basis
+
 SR 101
 Bundesverfassung der Schweizerischen
 Eidgenossenschaft vom 18. April 1999
+
 ### Gesetze
+
 SR 734.0
 Bundesgesetz vom 24. Juni 1902 betref-
 fend die elektrischen Schwach- und Stark-
@@ -534,7 +564,9 @@ SR 734.7
 Bundesgesetz vom 23. März 2007 über die
 Stromversorgung (Stromversorgungsge-
 setz, StromVG)
+
 ### Verordnungen
+
 SR 734.2
 Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverord-
 nung)
@@ -566,29 +598,32 @@ SR 832.202
 Verordnung vom 20. Dezember 1982 über die Unfallversicherung (UVV)
 
 ## Regeln der Technik
- 
+
 ### NIN Niederspannungs-Installationsnorm 2020
 
 ### Niederspannungs-Installationsverordnung NIV
+
 regelt die Voraussetzungen für das Arbeiten an elektrischen Niederspannungsinstallationen (elektrische Installationen) und
 die Kontrolle dieser Installationen.
 
 In der NIV sind definiert
+
 - Allgemeine Bestimmungen und Anforderungen an die Sicherheit von elektrischen
-Installationen
+  Installationen
 - Welche Bedingungen erfüllt sein müssen, um vom Eidgenössischen Starkstromin-
-spektorat ESTI eine Bewilligung für die Installationen von elektrischen Anlagen im
+  spektorat ESTI eine Bewilligung für die Installationen von elektrischen Anlagen im
 - Niederspannungsbereich zu erhalten.
-Grundsätze für die Ausführung von elektrischen Installationen.
+  Grundsätze für die Ausführung von elektrischen Installationen.
 - Welche Bedingungen erfüllt sein müssen, um vom Eidgenössischen Starkstromin-
-spektorat ESTI eine Bewilligung für die Kontrolle von elektrischen Anlagen im Nieder-
-spannungsbereich zu erhalten.
+  spektorat ESTI eine Bewilligung für die Kontrolle von elektrischen Anlagen im Nieder-
+  spannungsbereich zu erhalten.
 - Ebenfalls ist die Periodizität der Kontrolle von elektrischen Anlagen in einem Anhang
-der NIV angegeben.
+  der NIV angegeben.
 
 Die NIV SR 734.27 ist seit 1. Januar 2002 in Kraft (aktueller Stand 1. Juni 2019).
 
 #### Regeln der Technik
+
 Als Regeln der Technik gelten für Elektroinstallationen im Niederspannungsbereich die
 Niederspannungs-Installationsnorm NIN 2020. Diese ist in gekürzter Fassung mit den
 wesentlichen Normen und Richtlinien in der NIN-Compact (NIN-C) zusammengefasst.
@@ -608,6 +643,7 @@ Bei Nichtbestehen von spezifischen technischen Normen sinngemäss anwendbare
 Normen oder allfällige technische Weisungen zu berücksichtigen sind.
 
 #### Erstprüfung von elektrischen Installationen
+
 Bei neuerstellten elektrischen Installationen muss vor Inbetriebnahme ein Erstprüfung
 durchgeführt werden. Diese umfasst eine Sichtprüfung und verschiedene Messungen und
 Funktionskontrollen gemäss einer definierten Kriterienliste (NIN-C 2020 / Normenteil 6).
@@ -633,7 +669,7 @@ Der Sicherheitsnachweis muss von der Person, welche die Kontrolle durchgeführt 
 und vom Inhaber der Installationsbewilligung sowie gegebenenfalls vom Inhaber der
 Kontrollbewilligung, unterzeichnet werden.
 
-# Solarzelle 
+# Solarzelle
 
 Die kristalline Silizium-Solarzelle setzt sich aus zwei unterschiedlich dotierten Silizium-Schichten zusammen.
 
@@ -648,6 +684,7 @@ Auf der Rückseite ist das Anbringen einer ganzflächigen Kontaktschicht durch A
 Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlaufspannung (UOC) von 0.60 bis 0.70V und einen Kurzschlussstrom (ISC) von 10 bis 11A. Hierbei handelt es sich um Gleichstrom.
 
 ### Klassifizierung der Zellen
+
 - kristallinen Siliziumzellen (die als ca. 200 Mikrometer dicke Wafer im Modul miteinander verlötet werden) Palykristalin und Monokristalin
 - Dünnschichtzellen (bei denen eine minimal dicke Zellschicht auf die Frontglasfolie aufgedampft / aufgedruckt wird) 
 - nano-strukturierten Zellen (bei denen nanometerkleine Zellen gebildet und miteinander verschalten werden)
@@ -686,8 +723,9 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 ### Wechselrichtertypen
 
 #### Modulwechselrichter
+
 - Einsatz meist bei Kleinstanlagen (Balkonmodule /
-Tisch)
+  Tisch)
 - Nur einphasig erhältlich (max. Unsymmetrie 3.6kVA)
 - Kommunikation über PLC (Power Line Communication)
 - Module sind Parallel- statt Serie, keine hohe DC-Spg.
@@ -697,6 +735,7 @@ Tisch)
 - Relativ teuer, nicht weit verbreitet
 
 #### Strangwechselrichter
+
 - Einsatz bei kleinen Photovoltaik-Anlagen
 - Wechselrichter verfügt über nur einen MPP-Tracker
 - Ein- oder dreiphasig erhältlich
@@ -705,6 +744,7 @@ Tisch)
 - Früher am weitesten verbreitet
 
 #### Multistrangwechselrichter
+
 - Einsatz bei mittleren bis grossen Photovoltaik-Anlagen
 - Wechselrichter verfügt über mehrere MPP-Tracker
 - Ein- oder dreiphasig erhältlich
@@ -714,6 +754,7 @@ Tisch)
 - Aktuell am weitesten verbreitet
 
 #### Strangwechselrichter mit Leistungsoptimierer
+
 - Einsatz bei kleinen bis grossen Photovoltaik-Anlagen
 - Wechselrichter verfügt über keinen MPP-Tracker
 - MPP-Tracking erfolgt auf Modulebene (Optimizer)
@@ -725,6 +766,7 @@ Tisch)
 - Viel elektronische Geräte, erhöht Serviceaufwand
 
 #### Zentralwechselrichter
+
 - Einsatz bei grossen Photovoltaik-Anlagen
 - Wechselrichter verfügt über mehrere MPP-Tracker
 - Oft in Kombination mit DC-Sammelkästen
@@ -733,7 +775,6 @@ Tisch)
 - Master-Slave- oder Team-Konzepte möglich
 - Wartung meistens über den Hersteller
 - Hohe Zuverlässigkeit / meist hohe Kosten
-
 
 ## Grundkriterien Auslegung
 
@@ -744,7 +785,6 @@ Tisch)
 3. Minimale MPP-Spannung Generator / Solar Modul $UMPP_{Module tot}$ **>** Minimale MPP Spannung Wechselrichter $UWRMPP_{min}$ / Startpannung
 
 4. Maximale Kurzschlussstrom Generator / Solar Modul ISC **<** Maximialer Eingangsstrom $IWR_{max}$
-
 - Kurzschlussstrom ISC (short circuit)
 - Leerlaufsspannung UOC (open circuit)
 - Maximale Leistung PMPP (maximum power point)
@@ -764,25 +804,27 @@ Tisch)
 
 $UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*kT_{NIN}*n$
 
-
 ### Variante 1:
+
 Man berechnet die maximale Leerlaufspannung mithilfe des Temperaturkoeffizienten des Photovoltaikmoduls unter Berücksichtigung der minimalen Temperatur am Anlageort.
 Der Temperaturkoeffizient $kt_{UOC}$ kann auf dem Datenblatt des Modulherstellers abgelesen werden, idR bewegt er sich bei kristallinen Modulen um - 0.32 %/°K.
 Die minimale Temperatur ist seit der neusten NIN 2020 normativ vorgegeben:
+
 - Anlagestandort < 800m.ü.M, Neigung < 15° **0°C**
 - Anlagestandort < 800m.ü.M, Neigung > 15° **-5°C**
 - Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
 - Anlagestandort > 1’500m.ü.M **-25°C**
 
-
 ### Variante 2:
+
 Man berechnet die maximale Leerlaufspannung mithilfe des normativen Korrekturfaktors in Abhängigkeit der Höhe des Anlagestandortes.
 Die NIN 2020 gibt auch hier normative Vorgaben für diesen Korrekturfaktor $KT_ {NIN}$:
+
 - Anlagestandort < 800 m.ü.M Faktor **1.15**
 - Anlagestandort > 800 bis 1’5000m.ü.M Faktor **1.20**
 - Anlagestandort > 1'500 m.ü.M Faktor **1.25**
 
-### maximale MPP-Spannung: 
+### maximale MPP-Spannung:
 
 $UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n$
 
@@ -806,18 +848,21 @@ Ist der MPP des Photovoltaikgenerators innerhalb des MPP-Fensters arbeitet der W
 
 Ist die Strang- (String-) Spannung zu tief, kann der Wechselrichter den Generator nicht im MPP betreiben.
 Die Ursachen hierfür können sein:
+
 - Zu lange Kabel (Spannungsfall)
 - Zu hohe Temperaturen
 - Zu kurze Stränge / Strings
 
 Ist die Strang- (String-) Spannung zu hoch besteht die Gefahr einer Überspannung. Diese Situation ist gefährlich und muss unter allen Umständen verhindert werden.
 Die Ursachen hierfür können sein:
+
 - Zu tiefe Temperaturen
 - Zu lange Stränge / Strings
 
 Ist der Strang- (String-) Strom oder die Leistung zu hoch, wird diese vom Wechselrichter abgeregelt.
 Nicht alle Hersteller kommunizieren jedoch eine klare Grenze.
 Die Ursachen hierfür können sein:
+
 - Zu viele parallele Stränge / Strings
 - Zu hohe Einstrahlung
 - Falsche Überdimensionierung
@@ -825,28 +870,33 @@ Die Ursachen hierfür können sein:
 ## Strangsicherung
 
 #### Maximaler Strom:
+
 $I_{max} = I_{SC Modul} * 1.25$
 
 #### Maximaler Rückstrom:
+
 $I_{Rück} = I{SC Modul} * 1.25 * (n-1)$
 
 #### Maximale Sicherungsgrösse IN
+
 $1.5 * ISC < IN < 2.4 * ISC$
 
 #### Strangsicherung Spannungsfestigkeit
+
 $U_{Sicherung} > 1.2 * UOC_{Strang}$
 
 Strangs- Stringsicherung notwendig wenn $I_{Rück} $ grösser als die zulässige Rückstrombelastbarkeit der Module.
-
 
 Weil der Kurzschlussstrom ISC und der Betriebsstrom IMPP eines Photovoltaikmoduls sehr nahe beieinanderliegen, lässt sich die Schutzmassnahme «Schutz durch automatische Abschaltung» nicht so einfach realisieren, wie dies in der üblichen AC-Hausinstallation möglich ist.
 Ein Photovoltaikmodul muss aber nicht grundsätzlich geschützt werden, denn es kann beliebig lange im Kurzschluss betrieben werden, ohne einen Schaden davon zu tragen.
 Erst wenn mehrere Stränge / Strings parallel geschaltet werden besteht die reelle Gefahr, dass der nun vorhandene Kurzschlussstrom in einem Strang zu einer mechanischen Beschädigung der Photovoltaikmodule beiträgt. Davor muss ein Strang / String mittels Strangsicherungen geschützt werden (früher wurde diese Funktion von zusätzlichen Dioden übernommen).
 Bei parallel geschalteten Strängen / Strings gibt es nun zwei zulässige Optionen:
+
 1. Alle Betriebsmittel im Strang / String werden auf den maximal vorhandenen Strom dimensioniert
 2. Es kommen Stringsicherungen zum Einsatz, sobald der Strom grösser ist als die Rückstrombelastbarkeit.
 
 Die folgenden Fehler könnten unter anderem zur Reduzierung der offenen Klemmenspannung eines Strangs und damit zu einem Rückstrom bei Parallelschaltung führen:
+
 - Kurzschluss eines oder mehrerer Module,
 - Kurzschluss einer oder mehrerer Zellen im Modul,
 - doppelter Erdschluss eines Moduls bzw. der Verkabelung.
@@ -862,11 +912,11 @@ Prinzip des Faraday Käfigs
 
 Definiert in den Niederspannungs Installations Normen NIN
 
-|Blitzschutz  Klassen |Maschenweite | Radius Blitzkugel | Abstand Ableitung | Gebäude|
-|---------------------|-------------|-------------------|-------------------|--------|
-| 1                   | 5 x 5m      | 20                | 10     | Rechencenter, Explosionsgefärdetet Gebäude|
-| 2                   | 10 x 10 m   | 30                | 10     | Gebäude mit über 300 Personen, hohe Gebäude, Spitaler, Museen, Altersheime, mehr als 20 Pers. die auf fremde Hilfe angewiesen sind, Fermenter|
-| 3                   | 15 x 15 m   | 45                | 20     | Hotels, Grosse  Gebäude mit Werkstatt und Staub, Pensionen mehr als 20 Pers die nicht auf fremde Hilfe angewiesen sind |
+| Blitzschutz  Klassen | Maschenweite | Radius Blitzkugel | Abstand Ableitung | Gebäude                                                                                                                                       |
+| -------------------- | ------------ | ----------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                    | 5 x 5m       | 20                | 10                | Rechencenter, Explosionsgefärdetet Gebäude                                                                                                    |
+| 2                    | 10 x 10 m    | 30                | 10                | Gebäude mit über 300 Personen, hohe Gebäude, Spitaler, Museen, Altersheime, mehr als 20 Pers. die auf fremde Hilfe angewiesen sind, Fermenter |
+| 3                    | 15 x 15 m    | 45                | 20                | Hotels, Grosse  Gebäude mit Werkstatt und Staub, Pensionen mehr als 20 Pers die nicht auf fremde Hilfe angewiesen sind                        |
 
 Objekte Grösser als 2 m2 müssen an Blitzschutz angebunden sein
 
@@ -894,7 +944,7 @@ mit Trennsteg im Kabelkanal
 - ESD (Elektrostatische Entladungen)
 - NEMP (Nuclear Electro-Magnetic Puls)
 
-# Strombelastbarkeit 
+# Strombelastbarkeit
 
 ![Leiterbelastbarkeit.png](Leiterbelastbarkeit.png)
 
@@ -910,28 +960,30 @@ F: Aderleitung frei in
 der Luft
 
 ![GAK](GAK.png)
+
 1. Überspannungschutz
 2. DC-Hauptschalter
 3. Strangüberwachung
 4. Strangsicherung / Stangdioden
 
 #### Insel PV-Anlage
+
 ![Inselschema.png](Inselschema.png)
 
 #### Netzgekoppelte PV-Anlage
+
 ![Netzgekoppelt.png](Netzgekoppelt.png)
 
-
-
 # Optimierung und Monitoring
+
 - Verbrauchsverhalten der Produktion anpassen
 - Lasten intelligent schalten und der Produktion anpassen
 - Energie speichern (Batterie, Uni-/Bidirektionales Laden)
 - Mehrere Verbrauchsparteien an Produktion teilhaben lassen: ZEV, vZEV, LEG
-#### Komponenenten
+  
+  #### Komponenenten
 - Lastmanagement (z.B. SolarLog, Loxone, solarmanager, SMA, Fronius Ohm Pilot, etc.)
 - Energiemessung am Übergabepunkt
-
 
 # Batteriespeicher
 
@@ -942,6 +994,8 @@ der Luft
 - Eigenverbrauchsoptimierung
 - meist Lithium-Ionen-Akkus
 
+Bsp: Fronoius Symo Gen24/plus Batterianschluss 22 A, max Ladeleistung kann nur erbracht werden wenn die Nennspannung der BYOD Batterie genug gross ist.
+
 #### NMC (LiNiMnCoO2 / Lithium-Nickel-Mangan-Cobalt-Oxid)
 
 - 150-220 Wh/kg
@@ -950,12 +1004,12 @@ der Luft
 - Kobalt ist teuer und problematisch in der Beschaffung (oft aus dem Kongo, ethisch bedenklich)
 
 #### LFP (Lithium-Eisenphosphat / LiFePO4)
+
 - 90-120 Wh/kg 
 - Huawei, Sonnen, BYOD
 - Sehr stabil, schwer entflammbar
 - Günstiger (Eisen und Phosphat sind billig & verfügbar)
 - Umweltfreundlicher, ohne kritische Rohstoffe
-
 
 ### Ablauf PV Anlage Bewilligung
 
@@ -966,9 +1020,8 @@ a) Baugesuch / Bauanzeige
 3. Apparatebestellung | Kunde ohne Smartmeter | Vor Baustart
 4. MPP (Mess und Prüfprotokoll) nach Abschluss der Installation | für SiNa
 5. SiNa Sicherheitsnachweis | nach Abschluss der Installation | periodisch | Aenderung der Anlage
-5. Externe Abnamekontrolle Beglaubigung MPP und SiNa
-6. Pronovo Herkunftsnachweis und EIV (Einmavergütung) Beantragen
-
+6. Externe Abnamekontrolle Beglaubigung MPP und SiNa
+7. Pronovo Herkunftsnachweis und EIV (Einmavergütung) Beantragen
 
 # Drehstrom
 
@@ -994,7 +1047,6 @@ $I = \sqrt3 * I_p$
 
 [Wikipedia Dreieckschaltung](https://de.wikipedia.org/wiki/Dreieckschaltung)
 
-
 # Dach
 
 ### Dachformen
@@ -1014,8 +1066,8 @@ $I = \sqrt3 * I_p$
 
 Gaube, Traufe, First, Ort, Grat
 
-
 PV-Planung Dach:
+
 - Dachaufnahme vor Ort
 - Alter – Zustand – Erwartete Lebensdauer
 - Schichtaufbau abklären
@@ -1026,9 +1078,11 @@ Schneefang,
 Obligatorisch wenn der Darunterliegende Bereich öffentlich zugägnglich ist.
 
 ### 1. Dacheindeckung / Dachlattung
+
 UV-beständig, nichtbrennbar, dicht gegen frei abfliessendes Wasser
+
 - Ziegel,
-oft in ZH Breite: 215 mm Länge 320 - 378 cm [Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
+  oft in ZH Breite: 215 mm Länge 320 - 378 cm [Steildach Massbuch](zz_techn_brochuere_Dach_Steildach-Massbuch_DE.pdf)
 - Eternit, Achtung bis 1992 wurde Abest verbaut
 - Blech: Doppelfalzblechdach, Leisten-Blechdach, Trapez-Blechdach, Sandwich-Blechdach, Kalzip-Blechdach
 - Solar
@@ -1038,30 +1092,30 @@ oft in ZH Breite: 215 mm Länge 320 - 378 cm [Steildach Massbuch](zz_techn_broch
 Minimaler Durchlüftungsraum zwischen Unterdach und Deckung (Norm SIA 232/1)
 
 - Eine örtlich begrenzte Reduktion der Höhe oder Breite ist bis max. 50% des erforderlichen
-Querschnitts zulässig.
+  Querschnitts zulässig.
 - Wird eine dachintegrierte PV-Anlage geplant, soll die Konterlattenhöhe mind. 60mm betragen
-oder eine «Stufe» höher als in der Tabelle aufgeführt.
--Lüftungsgitter reduzieren den Lüftungsquerschnitt um bis 50%
+  oder eine «Stufe» höher als in der Tabelle aufgeführt.
+  -Lüftungsgitter reduzieren den Lüftungsquerschnitt um bis 50%
 
 ![Konterlattung](Konterlattung.png)
 
 - Die Befestigung der Konterlatte muss
-bei Folienunterdächern zwingend durch
-Nagelbänder (links) oder
-Nageldichtungen (rechts) abgedichtet
-werden
+  bei Folienunterdächern zwingend durch
+  Nagelbänder (links) oder
+  Nageldichtungen (rechts) abgedichtet
+  werden
 - Konterlatten dienen als Montageebene
-für die Lattung des Deckmaterials
+  für die Lattung des Deckmaterials
 - Bildet die Durchlüftungsebene zwischen
-Unterdach und Deckmaterial
+  Unterdach und Deckmaterial
 - Bei undichten Dächern kann
-eintretendes Wasser abfliessen
+  eintretendes Wasser abfliessen
 - Ermöglicht einen Luftstrom und trocknet
-angefallene Feuchtigkeit (z.B. durch
-Spritzwasser, Schmelzwasser oder
-Kondensat) wieder aus
+  angefallene Feuchtigkeit (z.B. durch
+  Spritzwasser, Schmelzwasser oder
+  Kondensat) wieder aus
 - Die Hinterlüftung verbessert den
-sommerlichen Wärmeschutz
+  sommerlichen Wärmeschutz
 
 Einschraubtiefe 8 x Durchmesser
 
@@ -1078,54 +1132,58 @@ Angaben der Hersteller beachten
 - Bei wärmegedämmten sowie bewohnten Dächern ist ein Unterdach Pflicht SIA 232
 
 #### Unterdach für «normale Beanspruchung» 20°
+
 - Diese Unterdächer müssen dicht sein gegen frei
-abfliessendes Meteorwasser
+  abfliessendes Meteorwasser
 - In der Regel mit flachen Platten (oder Unterdachfolien die
-nur überlappt sind) ausgeführt
+  nur überlappt sind) ausgeführt
 - Z.B. Faserzementplatten, Holzfaserplatten, Holz-
-Weichfaserplatten
+  Weichfaserplatten
 - Die horizontalen und vertikalen Fugen sind «nur»
-Überlappend ausgeführt
+  Überlappend ausgeführt
 - Nageldichtungen werden empfohlen
 - Dachdurchbrüche werden mit systemzugehörigen
-Anschlussbändern ausgeführt
+  Anschlussbändern ausgeführt
 
 #### Unterdach für «erhöhte Beanspruchung» 18°
+
 - Diese Unterdächer müssen bei Stauwasser bis 50 mm
-wasserdicht sein
+  wasserdicht sein
 - Mögliche Ausführungsvarianten sind:
 - Unterdachfolie, Überlappungen werden mit
-Kautschuckbändern oder Leim verklebt oder mit
-systemzugehörigen Klebebändern überklebt
+  Kautschuckbändern oder Leim verklebt oder mit
+  systemzugehörigen Klebebändern überklebt
 - Holzweichfaserplatten, Stossfugen geleimt
 - Nagelbänder oder Nageldichtungen sind bei Folienunterdächer
-zwingend vorgeschrieben (Abdichtung von Durchdringungen
-durch Befestigungsmaterial)
+  zwingend vorgeschrieben (Abdichtung von Durchdringungen
+  durch Befestigungsmaterial)
 - Dachdurchdringungen jeglicher Art (z.B. Leitungen) müssen
-mit systemzugehörigen Komponenten so abgedichtet werden,
-dass die Qualität des Unterdaches (Stauwasser bis 50 mm)
-gewährleistet ist. (Unterdachanschlüsse müssen min. 50 mm
-aufgebordet werden)
+  mit systemzugehörigen Komponenten so abgedichtet werden,
+  dass die Qualität des Unterdaches (Stauwasser bis 50 mm)
+  gewährleistet ist. (Unterdachanschlüsse müssen min. 50 mm
+  aufgebordet werden)
 
 #### Unterdach für «ausserordentliche Beanspruchung» 15°
+
 - Diese Unterdächer müssen bei Wasserstau über 50 mm
-und einem zu erwartenden Wasserdruck, dicht sein. 50mm
-über Deckmaterial
+  und einem zu erwartenden Wasserdruck, dicht sein. 50mm
+  über Deckmaterial
 - Mögliche Ausführungsvarianten sind:
 - Unterdachfolien werden bei Überlappungen
-thermisch (mit Heissluft) verschweisst oder
-Chemisch (mit Quellmittel) «Quellverschweisst» (ist
-Systemabhängig).
+  thermisch (mit Heissluft) verschweisst oder
+  Chemisch (mit Quellmittel) «Quellverschweisst» (ist
+  Systemabhängig).
 - Nagelbänder und Nageldichtungen sind bei
-Folienunterdächern zwingend vorgeschrieben
+  Folienunterdächern zwingend vorgeschrieben
 - Dachdurchdringungen jeglicher Art (z.B. Leitungen) müssen
-mit systemzugehörigen Komponenten so abgedichtet
-werden, dass die Qualität des Unterdaches (Stauwasser
-über 50 mm und Wasserdruck) bestehen bleibt
+  mit systemzugehörigen Komponenten so abgedichtet
+  werden, dass die Qualität des Unterdaches (Stauwasser
+  über 50 mm und Wasserdruck) bestehen bleibt
 - Unterdachanschlüsse werden mehr als 50 mm über das
-Deckmaterial stauwasserdicht geführ
+  Deckmaterial stauwasserdicht geführ
 
-### 4. Wärmedämmung 
+### 4. Wärmedämmung
+
 evtl auch zwischen Sparren
 
 U Wert unter 0.2 W/m2K. Neubauten 0,17 W/m2K, 140 bis 240 mm Isolation je nach Dämmmaterial.
@@ -1141,30 +1199,33 @@ Lamda Wert $\lambda$ [W/m K]
 
 Die Dampfbremse wird warmseitig (raumseitig) der
 Wärmedämmung verlegt
+
 - Sie dient als Luftdichtung bei einem Gebäude
 - Sie verhindert, dass Raumfeuchtigkeit in die
-Wärmedämmung gelangt
+  Wärmedämmung gelangt
 - Leckagen, müssen unbedingt verhindert werden
 - Durchdurchdringungen (z.B. Solarleitung) müssen
-zwingend luftdicht angeschlossen werden
+  zwingend luftdicht angeschlossen werden
 - Leckagen und unsachgemässe Durchdringungen
-führen an solchen Stellen zu dauerhaften
-Kondenswasserschäden in der Konstruktion
+  führen an solchen Stellen zu dauerhaften
+  Kondenswasserschäden in der Konstruktion
 
 SD-Wert (Wasserdampf-diffusionsäquivalente Luftschichtdicke) in Meter
 
 Wie verhindert man Kondenswasserbildung bei
 Durchdringungen von Dampfbremsen?
+
 1. Rohr an Dampfbremse anschliessen (abkleben)
 2. Wärmedämmung muss satt am Rohr anliegen,
-keine Lufträume stehen lassen (kalt & warm trennen)
+   keine Lufträume stehen lassen (kalt & warm trennen)
 3. Unterdach sauber anschliessen (abdichten)
 4. Keine Hohlräume im Rohr / Ausdämmen
-Feuchtigkeitswanderung verhindern
+   Feuchtigkeitswanderung verhindern
 
 ### 6. Holzschalung
 
 ### 7. Sparren
+
 Flumserdach und Walliserdach haben Sparren unten an der Dämmung. Flumserdach hat 30° Schrauben von der Konterlattung zum Sparren. Walliserdach hat 90° Schrauben mit Latten in der äusseren Dämmung.
 
 ## Geometrie Dachschräge
@@ -1191,7 +1252,8 @@ Dachhaut muss unbedingt geschützt werden.
 zBsp mit Schutzfilz.
 Begrünte Dächer erhöhen Retention, dafür erhöter Wartungaufwand der PV, PV auftsänderung muss min 50 cm hoch sein. Keins substrat wenn möglich unter der PV Anlage besser Kies.
 
-#### Varianten 
+#### Varianten
+
 Umkehrdach, Verbunddach, Duodach, Plusdach, Kaltdach (Dach mit Durchlüftungsschicht), Doppeldach
 
 1.5 % Gefälle min zur Entwässerung
@@ -1199,6 +1261,7 @@ Umkehrdach, Verbunddach, Duodach, Plusdach, Kaltdach (Dach mit Durchlüftungssch
 von Oben nach unten, Bsp: Kies, Abdichtung, Isolation, Dampfbremse, Betton
 
 #### Abdichtungen
+
 Elastomerbitumen (PYE), Thermpoplatische Polyolefine (TPO), PVC, Ethylen-Propylen-Dien-Kautschuk (EPDM), Flüssigkunststoff
 
 ## Fasade
@@ -1210,7 +1273,6 @@ Konsolen mit 45° - 75° Neigung verbessern den Wirkungsgrad zu 90° Montage. Nu
 - Klemmsystem einfach oder Kreuschienen Verbund, Viertelklemmung
 - Einlegesystem
 - Indach System, geschuppt überlappend, in Rinne entwässernd oder mit Abschlussblech. Auf Lüftung achten.
-
 
 ### Ausdehnung
 
@@ -1245,16 +1307,18 @@ Zuerst AC Last abschalten dann schaltete der WR ab, dann DC Last, dann DC Genera
 ## Instandhaltung PV
 
 ### Inspektion
+
 - Wechselrichter Fehlermeldungen und Updates
 - Ueberspannungschutz ausgelöst nach Gewitter?
 - Sichtprüfung
- - Montagesystem
- - Module
- - Eindeckung
- - An und Abschlüsse auf dem Dach
+  - Montagesystem
+  - Module
+  - Eindeckung
+  - An und Abschlüsse auf dem Dach
 - Ertragskontrolle
 
 evtl: 
+
 - Themographie 
 - Stringmessung
 
@@ -1474,8 +1538,6 @@ SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zust�
 4. Anlaufbefehl mit vorher hinterlegten Parametern für Leistung, z. B. für höhere Vorlauftemperaturen
 
 Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
-
-
 
 # Abkürzungen und Namen
 
@@ -1881,4 +1943,3 @@ https://www.geoportal.ch/
 https://www.uvek-gis.admin.ch/BFE/sonnendach/
 
 https://solargis.com/resources/free-maps-and-gis-data
-
