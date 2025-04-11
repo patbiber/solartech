@@ -1587,6 +1587,8 @@ und tritt gegen aussen mit der Marke SENS eRecycling auf.
 
 STC Standart Test Conditions  (25°C, 1000 W/m2, 1,5 AM Atmosphärendick / Spektrum) Testkondition für Modulmessungung
 
+NOCT (20° C Umgebung, 45°C Zelle, 800 W/m2, 1,5 AM, Wind 1 m/s, Spektrum Beleuchtung gem IEC 904-3 Teil III)
+
 SIA Schweizerischer Ingenieur- und Architektenverein
 
 UV Unterverteilung
@@ -1643,15 +1645,15 @@ Es gilt die Energieerhaltung.
 
 Energieformen:
 
-- Chemisch
-- Kinetisch
-- Elektrisch
-- Thermisch
-- Strahlungsenergie
-- Lageenergie
-- Rotation
-- Kernenergie
-- Photosynthese
+- chemisch
+- kinetisch
+- elektrisch
+- thermisch
+- strahlungsenergie
+- potentielle /Lageenergie
+- rotation
+- kernenergie
+- photosynthese
 
 Bsp: Kohlekraftwerk: Chemisch -> Thermisch -> Kinetisch -> Elektrisch
 
