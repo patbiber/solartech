@@ -461,6 +461,11 @@ rung mit.
 
 ## Massnahmen zur Verhütung von Unfällen
 
+S Subsitution
+T Technische Massnahmen
+O Organisatorische Massnahmen
+P Persönliche Massnahmen
+
 ### 1 Technische Massnahmen
 
 Die technischen Massnahmen decken Installation, Be-
