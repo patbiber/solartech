@@ -125,7 +125,7 @@ Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R
 
 Leistung Wechselstrom Einphasig [W] $P = U * I * cos\phi$
 
-Leistung Drehstrom Dreiphasig [W] $P = \sqrt{3} * U * I * cos\phi $
+Leistung Drehstrom Dreiphasig [W] $P = \sqrt{3} * U * I * cos\phi$
 
 Leistungsfaktoktor $cos\phi = P /S$
 
@@ -133,7 +133,7 @@ Leistungsfaktoktor $cos\phi = P /S$
 
 Kosten = $W * Tarif$
 
-Wirkungsgrad [Faktor] $\eta =  \frac{Nutzen}{Aufwand} = P_{ab} / P_{auf} = W_{ab} / W_{auf} = \eta_1*\eta_2*\eta_n $
+Wirkungsgrad [Faktor] $\eta =  \frac{Nutzen}{Aufwand} = P_{ab} / P_{auf} = W_{ab} / W_{auf} = \eta_1*\eta_2*\eta_n$
 
 Wandlungsverlust + $\eta$ = 100%
 

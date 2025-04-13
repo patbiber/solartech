@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "basics.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "basics"
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"P =",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
