@@ -177,7 +177,7 @@ Spannungsabfall  [V] $\Delta U = U_{RL1} + U_{RL2} = (R_{L1}+R_{L2})*I=2*((\rho*
 
 spezifischer Leitwiederstand zbsp für Kupfer $\rho_cu= 0.0175 \frac{\Omega * mm2}{m}$
 
-Spezifische Leitfähigkeit $\gamma = 1 / \rho $
+Spezifische Leitfähigkeit $\gamma = 1 / \rho$
 
 nach NIN max 4% zwischen HAK und Verbraucher (9.2V bei 230V)
 
