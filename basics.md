@@ -88,7 +88,7 @@ Arbeit [Ws, J, Nm] $W = P * t$
 
 Wärmemenge [J, Ws] $Q = m \cdot c \cdot \Delta T$
 
-Mechanische Energie [Nm, kg*m2/s2] $ P = F * s = m * a * s = m * g *h$
+Mechanische Energie [Nm, kg*m2/s2] $P = F * s = m * a * s = m * g *h$
 
 Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 
@@ -890,7 +890,7 @@ $1.5 * ISC < IN < 2.4 * ISC$
 
 $U_{Sicherung} > 1.2 * UOC_{Strang}$
 
-Strangs- Stringsicherung notwendig wenn $I_{Rück} $ grösser als die zulässige Rückstrombelastbarkeit der Module.
+Strangs- Stringsicherung notwendig wenn $I_{Rück}$ grösser als die zulässige Rückstrombelastbarkeit der Module.
 
 Weil der Kurzschlussstrom ISC und der Betriebsstrom IMPP eines Photovoltaikmoduls sehr nahe beieinanderliegen, lässt sich die Schutzmassnahme «Schutz durch automatische Abschaltung» nicht so einfach realisieren, wie dies in der üblichen AC-Hausinstallation möglich ist.
 Ein Photovoltaikmodul muss aber nicht grundsätzlich geschützt werden, denn es kann beliebig lange im Kurzschluss betrieben werden, ohne einen Schaden davon zu tragen.
