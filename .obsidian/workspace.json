@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "basics.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"P =",
+                "query": "\"RCD",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
