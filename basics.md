@@ -910,6 +910,9 @@ Die folgenden Fehler könnten unter anderem zur Reduzierung der offenen Klemmens
 
 LPS Lightnig Protection System
 
+Der Überspannungsschutz hebt das Potential des Gebäudes auf das Potential des
+Blitzes, dadurch gibt es keine Potentialdifferenz zwischen den einzelnen metallischen Bauteilen und entsprechend keine (zerstörenden) Ausgleichsströme.
+
 Erde 16 mm2 Draht oder Seil ohne LPS 10 mm2
 
 Kupfer Alu / Blank gelb-grün
