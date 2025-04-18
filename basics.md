@@ -352,7 +352,7 @@ IP Schutzarten
 Eine Schmelzsicherung schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss. Die Auslösung basiert auf der Stromwärme, die eine Sollbruchstelle innerhalb der Sicherung zum Schmelzen bringt. Als 
 Funkenlöscher wird Quarzsand eingesetzt.
 
-### 2 Leitungsschutzschalter
+### 2 Leitungsschutzschalter LS
 
 Ein Leitungsschutzschalter schützt die nachgeschaltete Leitung vor Überlast und Kurzschluss und können nach einer 
 Auslösung wieder eingeschaltet werden. Sie besitzen einen 
