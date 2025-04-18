@@ -910,6 +910,8 @@ Die folgenden Fehler könnten unter anderem zur Reduzierung der offenen Klemmens
 
 LPS Lightnig Protection System
 
+Erde 16 mm2 Draht oder Seil ohne LPS 10 mm2
+
 Bei bestehendem Blitzschutz muss die PVA an diesen angebunden werden, auf kürzestem 
 Weg und nicht quer (Beschädigung durch Dachlawine!)
 

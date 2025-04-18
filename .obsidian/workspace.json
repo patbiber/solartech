@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "basics.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"P =",
+                "query": "Blitz",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -171,6 +171,7 @@
   },
   "active": "ef996a82ec61e4ed",
   "lastOpenFiles": [
+    "gitignore",
     "Untitled.canvas",
     "basics.md"
   ]
