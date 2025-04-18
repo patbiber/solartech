@@ -929,6 +929,10 @@ Definiert in den Niederspannungs Installations Normen NIN
 
 Objekte Grösser als 2 m2 müssen an Blitzschutz angebunden sein
 
+## Potentialausgleich Pot
+
+Korrosion, also elektrochemische Spannungsreihe beachten bei Befestigung der Kontaktklemme and der UK 
+
 ![Kontaktkorrosion_Mat_Blitzschutz.png](Kontaktkorrosion_Mat_Blitzschutz.png)
 
 Blitzschutz Leitungen nie Parallel der Traufe

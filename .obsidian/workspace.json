@@ -53,11 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "Blitz",
-=======
-                "query": "\"RCD",
->>>>>>> 3236e3ae0f67821a76e7038ed9e1b40fed2363aa
+                "query": "Potential",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
