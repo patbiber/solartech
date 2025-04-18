@@ -913,6 +913,8 @@ LPS Lightnig Protection System
 Der Überspannungsschutz hebt das Potential des Gebäudes auf das Potential des
 Blitzes, dadurch gibt es keine Potentialdifferenz zwischen den einzelnen metallischen Bauteilen und entsprechend keine (zerstörenden) Ausgleichsströme.
 
+Geht auf den zentralen Erdungspunkt. Dieser geht auf den Gebäudeerder.
+
 Erde 16 mm2 Draht oder Seil ohne LPS 10 mm2
 
 Kupfer Alu / Blank gelb-grün
