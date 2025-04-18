@@ -949,10 +949,13 @@ Ueberstromschutz bei Gebäudeintritt HAK (AC) GAK (DC) max 30 m von Eintritt
 Verbindung zur Erdung via Pot
 
 **Typ 1 Blitzschutz** Potentialausgleich Cu 16 mm2 Restpannung $U_{rest}$ 4kV 
+beim Gebäudeeintritt, wenn Blitzschutz vorhanden
 
 **Typ 2** Potentialausgleich Cu 10 mm2 Geräteschutz $U_{rest}$ 2.5 kV 
+beim Gebäudeeintritt, wenn kein Blitzschutz vorhanden
 
 **Typ 3 Gerätefeinschutz $U_{rest}$ 1.5 kV** Server etc.
+in sensiblen, elektronischen Geräten
 
 Geschütze und ungeschützte DC Leitungen sind räumlich zu trennen, mindestens 
 mit Trennsteg im Kabelkanal
