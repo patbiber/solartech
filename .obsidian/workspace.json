@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Blitz",
+                "query": "GAK",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,15 +169,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dca1ba2f3b845230",
+  "active": "f9539ebd1fcffce6",
   "lastOpenFiles": [
+    "basics.md",
     "Schema_PV.png",
     "PV-Schema.bmp",
     "Verschaltung_Modul.png",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",
-    "basics.md",
     "gitignore",
     "Untitled.canvas"
   ]

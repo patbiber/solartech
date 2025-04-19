@@ -790,6 +790,11 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 
 ## Grundkriterien Auslegung
 
+$U_{GenMax} = U_{OC STC} * n * KF$ -->Maximale Leerlaufspannung von Datenblatt nicht überschritten
+$U_{GenMPP} = U_{MPP STC} * n * KF$ -->Maximale MPP Spannung liegt im Bereich der Tracker
+$I_{SCMax} = I_{SC STC} * 1.25$ --> Maximale Kurzschlussstrom wird nicht überschritten 
+$I_{MPPMax} = I_{MPP STC}* 1.25$ --> Maximale Eingangsstrom pro MPP Tracker wird nicht überschritten
+
 1. Gesamt Leerlaufspannung Generator / Solar Module $UOC_{Module tot}$ **<** Maximal Spannung Wechselrichter $UWR_{max} bzw Eingang$
 
 2. Maximale MPP-Spannung Generator / Solar Module $UMPP_{Module tot}$ **<** Maximal MPP Spannung Wechselrichter $UWRMPP_{max}$
@@ -851,6 +856,7 @@ $ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n$
 Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
 
 NIN Faktor **1.25**
+
 
 ### MPP Fenster
 
