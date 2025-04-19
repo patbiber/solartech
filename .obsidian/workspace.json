@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "basics.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,6 +170,10 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "Verschaltung_Modul.png",
+    "Verschaltung_Modul.png.crdownload",
+    "verschattung_und verschaltung_Halbzellen.jpg",
+    "verschattung_und verschaltung_Halbzellen.jpg.crdownload",
     "basics.md",
     "gitignore",
     "Untitled.canvas"
