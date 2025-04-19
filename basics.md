@@ -1002,6 +1002,18 @@ der Luft
 
 ![Netzgekoppelt.png](Netzgekoppelt.png)
 
+![[Schema_PV.png]]
+
+1. Solarmodule (PV-Generator)
+2. DC-(String)-Leitung
+3. Dioden (wird heute nahezu nicht mehr angewendet)
+4. Trennmesser (wird heute nahezu nicht mehr angewendet)
+5. Stringsicherungen
+6. DC Wartungsschalter
+7. Überspannungsableiter
+8. DC-(Array)-Leitung
+9. Wechselrichter
+
 # Optimierung und Monitoring
 
 - Verbrauchsverhalten der Produktion anpassen

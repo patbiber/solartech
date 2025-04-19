@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "basics.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -170,6 +170,8 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "Schema_PV.png",
+    "PV-Schema.bmp",
     "Verschaltung_Modul.png",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg",
