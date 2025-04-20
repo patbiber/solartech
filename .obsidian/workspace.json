@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "KAbel",
+                "query": "O",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,

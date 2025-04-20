@@ -821,46 +821,56 @@ $I_{MPPMax} = I_{MPP STC}* 1.25$ --> Maximale Eingangsstrom pro MPP Tracker wird
 
 ## maximale Leerlaufspannung
 
-$UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UOC_{Modul}*kT_{NIN}*n$
-
 ### Variante 1:
 
 Man berechnet die maximale Leerlaufspannung mithilfe des Temperaturkoeffizienten des Photovoltaikmoduls unter Berücksichtigung der minimalen Temperatur am Anlageort.
 Der Temperaturkoeffizient $kt_{UOC}$ kann auf dem Datenblatt des Modulherstellers abgelesen werden, idR bewegt er sich bei kristallinen Modulen um - 0.32 %/°K.
 Die minimale Temperatur ist seit der neusten NIN 2020 normativ vorgegeben:
 
+$UOC_{max}=UOC_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n$
+
+T min:
 - Anlagestandort < 800m.ü.M, Neigung < 15° **0°C**
 - Anlagestandort < 800m.ü.M, Neigung > 15° **-5°C**
 - Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
 - Anlagestandort > 1’500m.ü.M **-25°C**
-
+T STC: **25°C**
 ### Variante 2:
 
 Man berechnet die maximale Leerlaufspannung mithilfe des normativen Korrekturfaktors in Abhängigkeit der Höhe des Anlagestandortes.
 Die NIN 2020 gibt auch hier normative Vorgaben für diesen Korrekturfaktor $KT_ {NIN}$:
 
+$UOC_{max}=UOC_{Modul}*kT_{NIN}*n$
+
 - Anlagestandort < 800 m.ü.M Faktor **1.15**
 - Anlagestandort > 800 bis 1’5000m.ü.M Faktor **1.20**
 - Anlagestandort > 1'500 m.ü.M Faktor **1.25**
 
-### maximale Leerlaufspannung OC0 und MPP-Spannung:
-
-$UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n$
-
-$U_{gen max}=U_{OCmodulSTC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n$
-
-T STC = 25
-### minimale Leerlaufspannung OC0 MPP-Spannung:
+#### maximale MPP-Spannung:
+$UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n=UMPP_{Modul STC}* KT_{NIN}*n$
+#### minimale Leerlaufspannung MPP-Spannung:
 
 $UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n$
 
+T Max: 75 °C
+
+### Minimale Anzahl Module
+
+$n= U_{min} / U_{mpp Modul}$
 ### maximaler Kurzschlussstrom
+
+$ISC_max = ISC_Modul * 1.25$
 
 $ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n$
 
 Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
 
 NIN Faktor **1.25**
+
+### Maximaler Betriebstrom
+
+$IDC_max = IDC_Modul * 1.25$
+
 
 ### WR Leistung
 Leistungsfaktor für Wechselstrom $cos \phi = P / S$
