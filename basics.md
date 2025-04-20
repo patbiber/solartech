@@ -815,7 +815,7 @@ $I_{MPPMax} = I_{MPP STC}* 1.25$ --> Maximale Eingangsstrom pro MPP Tracker wird
 - Netznennspannung 1 * 230 V / 3* 400 V
 - Netzfrequenz 50 HZ für Europa
 - Anzahl MPP Tracker
-- Höhehnlage Gebäude
+- Höhenlage Gebäude
 
 ## maximale Leerlaufspannung
 
@@ -841,11 +841,14 @@ Die NIN 2020 gibt auch hier normative Vorgaben für diesen Korrekturfaktor $KT_ 
 - Anlagestandort > 800 bis 1’5000m.ü.M Faktor **1.20**
 - Anlagestandort > 1'500 m.ü.M Faktor **1.25**
 
-### maximale MPP-Spannung:
+### maximale Leerlaufspannung OC0 und MPP-Spannung:
 
 $UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n$
 
-### minimale MPP-Spannung:
+$U_{gen max}=U_{OCmodulSTC}*(1+(T_{min}-T_{STC})*(kT_{UOC}/100))*n$
+
+T STC = 25
+### minimale Leerlaufspannung OC0 MPP-Spannung:
 
 $UMPP_{min}=UMPP_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{UOC}/100))*n$
 
@@ -857,7 +860,12 @@ Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen
 
 NIN Faktor **1.25**
 
+### WR Leistung
+Leistungsfaktor für Wechselstrom $cos \phi = P / S$
+Scheinleistung $S=P/cos \phi  = U * I$
+Wirkleistung $P=U*I*cos \phi = S*cos \phi$
 
+Ohmsche Verbraucher und DC immer cos phi 1
 ### MPP Fenster
 
 Ist der MPP des Photovoltaikgenerators innerhalb des MPP-Fensters arbeitet der Wechselrichter im optimalen Betriebspunkt.
@@ -887,15 +895,15 @@ Die Ursachen hierfür können sein:
 
 ## Strangsicherung
 
-#### Maximaler Strom:
-
+Maximale Strom:
 $I_{max} = I_{SC Modul} * 1.25$
-
-#### Maximaler Rückstrom:
-
+muss kleiner sein als
+Maximaler Rückstrom:
 $I_{Rück} = I{SC Modul} * 1.25 * (n-1)$
 
 #### Maximale Sicherungsgrösse IN
+
+Maximale Strangsicherung
 
 $1.5 * ISC < IN < 2.4 * ISC$
 
@@ -918,6 +926,8 @@ Die folgenden Fehler könnten unter anderem zur Reduzierung der offenen Klemmens
 - Kurzschluss eines oder mehrerer Module,
 - Kurzschluss einer oder mehrerer Zellen im Modul,
 - doppelter Erdschluss eines Moduls bzw. der Verkabelung.
+
+
 
 # Blitzschutz / Überstromschutz
 
@@ -979,6 +989,13 @@ mit Trennsteg im Kabelkanal
 - NEMP (Nuclear Electro-Magnetic Puls)
 
 # Strombelastbarkeit
+
+### Kabeldicke Strombelastbarkeit
+
+- 2.5 mm2 max. 16A
+- 4.0 mm2 max. 20A
+- 6.0 mm2 max. 25A
+- 10.0 mm2 max. 40A
 
 ![Leiterbelastbarkeit.png](Leiterbelastbarkeit.png)
 
