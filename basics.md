@@ -696,6 +696,8 @@ Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlau
 
 ## Solar Panel Auslegung
 
+*Die Herstellerangaben sind verbindlich und müssen eingehalten werden.*
+
 1000 W/m2 Globalstrahlung (Gh oder GHI) im Mittelland, davon bei AM 1.5 max 835 W/m2 direkte Strahlung (Bn oder DNI) der rRst divuse Strahlung (Dh oder GHI)
 bis 1500 w/m2 im Hochgebirge
 
