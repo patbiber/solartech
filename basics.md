@@ -694,6 +694,10 @@ Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlau
 - Dünnschichtzellen (bei denen eine minimal dicke Zellschicht auf die Frontglasfolie aufgedampft / aufgedruckt wird) 
 - nano-strukturierten Zellen (bei denen nanometerkleine Zellen gebildet und miteinander verschalten werden)
 
+**Der Strom in einem Solarmodul wird  von der Einstrahlung beeinflusst.
+Die Spannung in einem Solarmodul wird  von der Temperatur beeinflusst**
+
+![[IUP_Kurve.png]]
 ## Solar Panel Auslegung
 
 *Die Herstellerangaben sind verbindlich und müssen eingehalten werden.*
@@ -971,7 +975,8 @@ Objekte Grösser als 2 m2 müssen an Blitzschutz angebunden sein
 
 ## Potentialausgleich Pot
 
-Korrosion, also elektrochemische Spannungsreihe beachten bei Befestigung der Kontaktklemme and der UK 
+Korrosion, also elektrochemische Spannungsreihe beachten bei Befestigung der Kontaktklemme and der UK.
+**Chromstahlklemme als "Neutralisator" verwenden.**
 
 ![Kontaktkorrosion_Mat_Blitzschutz.png](Kontaktkorrosion_Mat_Blitzschutz.png)
 
