@@ -697,7 +697,7 @@ Eine aktuelle Standard-Solarzelle aus kristallinem Silizium liefert eine Leerlau
 **Der Strom in einem Solarmodul wird  von der Einstrahlung beeinflusst.
 Die Spannung in einem Solarmodul wird  von der Temperatur beeinflusst**
 
-![[IUP_Kurve.png]]
+![IUP_Kurve.png](IUP_Kurve.png)
 ## Solar Panel Auslegung
 
 *Die Herstellerangaben sind verbindlich und müssen eingehalten werden.*
@@ -721,9 +721,9 @@ Eigenverbrauchsoptimierung Ost-West 10° - 20°
 
 Ein Halbzellenmodul hat ebenfalls drei Bypassdioden. Wandert der Schatten über die lange Seite des Moduls ganzflächig über das Modul, verhält sich das Modul exakt genauso, wie es von einem Vollzellenmodul bekannt ist. Im Halbzellenmodul ist jeweils ein Zellstring nach oben und einer nach unten parallel geschaltet und mit einer Bypassdiode geschützt (linkes Bild A). Drei dieser Zell-Doppelstrings sind in Reihe geschaltet. Wenn die untere Hälfte des Moduls verschattet ist (mittleres Bild B), arbeiten alle oberen Zellstrings normal weiter (Bypassdioden sind nicht aktiv) – das Modul hat die halbe Leistung. Bei einem Vollzellenmodul würde die Leistung dagegen einbrechen. Wenn, wie im mittleren Bild, nur zwei der drei unteren Strings verschattet sind, kann zwar auch String 6 zur Leistung beitragen. Da String 1 und 3 aber die Stromstärke auf die Hälfte begrenzen, sind auch hier nur 50 Prozent Modulleistung möglich (bei einem Vollzellenmodul wäre es ein Drittel; der 50 Prozent Arbeitspunkt ist beim Halbzellenmodul der Punkt mit der max. Leistungsabgabe). Wenn, wie im Bild ganz rechts zu sehen, nur einer der sechs Substrings verschattet ist, entsperrt die Bypassdiode an den Zellstrings 1 und 2. String 3,4,5 und 6 tragen zur Modulleistung bei, die dann bei wie beim Vollzeller bei zwei Dritteln liegt. Das ist die Betrachtung, wenn ein einzelnes Modul an einen Wechselrichter angeschlossen ist. Relevanter für die Praxis ist die Betrachtung eines Modulstrings. Im Modulstring sind alle Module und innerhalb der Module noch viel mehr Zell-Doppelstrings in Reihe geschaltet. Wenn 50 Prozent oder mehr der Module z.B. in der unteren Hälfte der Module im Modulstring verschattet sind, erbringt der Modulstring insgesamt die Hälfte der Nennleistung. Wenn weniger als 50 Prozent der Module z.B. in der unteren Hälften verschattet sind, wird die gesamte Leistung im Strang durch die unverschatteten Module bestimmt. Die verschatteten Module werden durch die Bypassdioden ausgenommen.
 
-![[verschattung_und verschaltung_Halbzellen.jpg]]
+![Verschattung](verschattung_und_verschaltung_Halbzellen.jpg)
 
-![[Verschaltung_Modul.png]]
+![Verschaltung](Verschaltung_Modul.png)
 ### Reihenabstand
 
 ![Reihenabstand](Reihenabstand.png)
@@ -1042,7 +1042,7 @@ der Luft
 
 ![Netzgekoppelt.png](Netzgekoppelt.png)
 
-![[Schema_PV.png]]
+![Schema_PV](Schema_PV.png)
 
 1. Solarmodule (PV-Generator)
 2. DC-(String)-Leitung
