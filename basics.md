@@ -1054,6 +1054,8 @@ der Luft
 8. DC-(Array)-Leitung
 9. Wechselrichter
 
+![komplettes Schema PV](komplettes_schema.png)
+
 # Optimierung und Monitoring
 
 - Verbrauchsverhalten der Produktion anpassen
