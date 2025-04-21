@@ -708,9 +708,10 @@ bis 1500 w/m2 im Hochgebirge
 https://everywhere.solar/
 https://solargis.com/resources/free-maps-and-gis-data
 
+Einstrahlung Ausrichtung
 ![Winkel](winkelbezeichnung-solartechnik.jpg)
 
-Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausrichtung – in der Schweiz ca. 35°S.
+Die folgende Abbildung zeigt den Jahresertrag im Verhältnis zur optimalen Ausrichtung – in der Schweiz ca. 35° S. 
 
 Etragsoptimierte Ausrichtung nach Süden 15° - 30°.
 Eigenverbrauchsoptimierung Ost-West 10° - 20°
