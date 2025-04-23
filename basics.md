@@ -1313,6 +1313,10 @@ Flumserdach und Walliserdach haben Sparren unten an der Dämmung. Flumserdach ha
 
 ## Geometrie Dachschräge
 
+Modulabstand dass es nicht über den Dachforst ragt:
+
+**Dachabstand First = Höhe Modulkonstruktion / tan (Dachschräge)**
+
 $l_{Dach}=l_{plan} / cos(\Theta)$
 
 $l_{plan}=l_{Dach} * cos(\Theta)$
