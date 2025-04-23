@@ -813,17 +813,17 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 - Höhenlage Gebäude
 
 
-1. Gesamt Leerlaufspannung Solar Modul  
+1. Gesamt Leerlaufspannung  $O_{OC0}$
 
    $U_{GenMax} = U_{OC STC} * n * KF$ -->Maximale Leerlaufspannung von WR Datenblatt nicht überschritten.
 
    WR ändern oder Strings Parallel Schalten
 
-2. Maximale MPP-Spannung  Solar Module $UMPP_{Module tot}$ 
+2. Maximale MPP-Spannung  $UMPP_{max}$
 
    $U_{GenMPP} = U_{MPP STC} * n * KF$ -->Maximale MPP Spannung liegt im Bereich der Tracker 
 
-   $UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-25)*(kT_{UOC}/100))*n=UMPP_{Modul STC}* KT_{NIN}*n$
+   $UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-25)*(kT_{UOC}/100))*n$
 
    T min:
    - Anlagestandort < 800m.ü.M, Neigung < 15° **0°C**
@@ -831,12 +831,12 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
    - Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
    - Anlagestandort > 1’500m.ü.M **-25°C**
 
-3. Minimale MPP-Spannung  Solar Modul $UMPP_{Module tot}$ 
+3. Minimale MPP-Spannung  $UMPP_{min}$ 
    $UWRMPP_{min}$ / Startpannung nicht unterschreiten
 
    $UMPP_{min}=UMPP_{Modul STC}*(1+(75-25)*(kT_{UOC}/100))*n$
 
-4. Maximale Kurzschlussstrom Solar Modul ISC 
+4. Maximale Kurzschlussstrom $I_{SC}$ 
 
    $I_{SCMax} = I_{SC STC} * 1.25$ --> Maximale Kurzschlussstrom wird nicht überschritten 
 
@@ -891,7 +891,7 @@ NIN Faktor **1.25**
 
 ### Maximaler Betriebstrom
 
-$IDC_max = IDC_Modul * 1.25$
+$IDC_{max} = IDC_{Modul} * 1.25$
 
 
 ### WR Leistung
