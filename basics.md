@@ -815,13 +815,20 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 
 1. Maximale DC Leistung
 
-2. Gesamt Leerlaufspannung  $O_{OC0}$
+2. Maximale Eingangspannung / Gesamt Leerlaufspannung der Module $U_{OCMax}$
 
-   $U_{GenMax} = U_{OC STC} * n * KF$ -->Maximale Leerlaufspannung von WR Datenblatt nicht überschritten.
+   $U_{OCMax} = U_{OC STC} * n * KF$ -->Maximale Eingangspannung von WR Datenblatt nicht überschritten.
 
    WR ändern oder Strings Parallel Schalten
 
-3. Maximale MPP-Spannung  $UMPP_{max}$
+3. Minimale Eingangspannung $U_{OCMin}$ Startspannung
+
+4. Minimale MPP-Spannung  $UMPP_{min}$ 
+   $UWRMPP_{min}$ 
+
+   $UMPP_{min}=UMPP_{Modul STC}*(1+(75-25)*(kT_{UOC}/100))*n$
+
+6. Maximale MPP-Spannung  $UMPP_{max}$
 
    $U_{GenMPP} = U_{MPP STC} * n * KF$ -->Maximale MPP Spannung liegt im Bereich der Tracker 
 
@@ -833,15 +840,11 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
    - Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
    - Anlagestandort > 1’500m.ü.M **-25°C**
 
-4. Minimale MPP-Spannung  $UMPP_{min}$ 
-   $UWRMPP_{min}$ / Startpannung nicht unterschreiten
-
-   $UMPP_{min}=UMPP_{Modul STC}*(1+(75-25)*(kT_{UOC}/100))*n$
-
-5. Maximale Kurzschlussstrom $I_{SC}$ 
+6. Maximale Kurzschlussstrom $I_{SC}$ 
 
    $I_{SCMax} = I_{SC STC} * 1.25$ --> Maximale Kurzschlussstrom wird nicht überschritten 
 
+MPP Tracker müssen an einem String sein and dem die Module die gleiche Ausrichtung haben.
 
 ## maximale Leerlaufspannung
 
