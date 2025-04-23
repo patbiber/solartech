@@ -795,20 +795,8 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 - Wartung meistens über den Hersteller
 - Hohe Zuverlässigkeit / meist hohe Kosten
 
-## Grundkriterien Auslegung
+## Grundkriterien WR Auslegung
 
-$U_{GenMax} = U_{OC STC} * n * KF$ -->Maximale Leerlaufspannung von Datenblatt nicht überschritten
-$U_{GenMPP} = U_{MPP STC} * n * KF$ -->Maximale MPP Spannung liegt im Bereich der Tracker
-$I_{SCMax} = I_{SC STC} * 1.25$ --> Maximale Kurzschlussstrom wird nicht überschritten 
-$I_{MPPMax} = I_{MPP STC}* 1.25$ --> Maximale Eingangsstrom pro MPP Tracker wird nicht überschritten
-
-1. Gesamt Leerlaufspannung Generator / Solar Module $UOC_{Module tot}$ **<** Maximal Spannung Wechselrichter $UWR_{max} bzw Eingang$
-
-2. Maximale MPP-Spannung Generator / Solar Module $UMPP_{Module tot}$ **<** Maximal MPP Spannung Wechselrichter $UWRMPP_{max}$
-
-3. Minimale MPP-Spannung Generator / Solar Modul $UMPP_{Module tot}$ **>** Minimale MPP Spannung Wechselrichter $UWRMPP_{min}$ / Startpannung
-
-4. Maximale Kurzschlussstrom Generator / Solar Modul ISC **<** Maximialer Eingangsstrom $IWR_{max}$
 - Kurzschlussstrom ISC (short circuit)
 - Leerlaufsspannung UOC (open circuit)
 - Maximale Leistung PMPP (maximum power point)
@@ -823,6 +811,35 @@ $I_{MPPMax} = I_{MPP STC}* 1.25$ --> Maximale Eingangsstrom pro MPP Tracker wird
 - Netzfrequenz 50 HZ für Europa
 - Anzahl MPP Tracker
 - Höhenlage Gebäude
+
+
+1. Gesamt Leerlaufspannung Solar Modul  
+
+   $U_{GenMax} = U_{OC STC} * n * KF$ -->Maximale Leerlaufspannung von WR Datenblatt nicht überschritten.
+
+   WR ändern oder Strings Parallel Schalten
+
+2. Maximale MPP-Spannung  Solar Module $UMPP_{Module tot}$ 
+
+   $U_{GenMPP} = U_{MPP STC} * n * KF$ -->Maximale MPP Spannung liegt im Bereich der Tracker 
+
+   $UMPP_{max}=UMPP_{Modul STC}*(1+(T_{min}-25)*(kT_{UOC}/100))*n=UMPP_{Modul STC}* KT_{NIN}*n$
+
+   T min:
+   - Anlagestandort < 800m.ü.M, Neigung < 15° **0°C**
+   - Anlagestandort < 800m.ü.M, Neigung > 15° **-5°C**
+   - Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
+   - Anlagestandort > 1’500m.ü.M **-25°C**
+
+3. Minimale MPP-Spannung  Solar Modul $UMPP_{Module tot}$ 
+   $UWRMPP_{min}$ / Startpannung nicht unterschreiten
+
+   $UMPP_{min}=UMPP_{Modul STC}*(1+(75-25)*(kT_{UOC}/100))*n$
+
+4. Maximale Kurzschlussstrom Solar Modul ISC 
+
+   $I_{SCMax} = I_{SC STC} * 1.25$ --> Maximale Kurzschlussstrom wird nicht überschritten 
+
 
 ## maximale Leerlaufspannung
 
