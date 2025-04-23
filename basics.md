@@ -813,13 +813,15 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 - Höhenlage Gebäude
 
 
-1. Gesamt Leerlaufspannung  $O_{OC0}$
+1. Maximale DC Leistung
+
+2. Gesamt Leerlaufspannung  $O_{OC0}$
 
    $U_{GenMax} = U_{OC STC} * n * KF$ -->Maximale Leerlaufspannung von WR Datenblatt nicht überschritten.
 
    WR ändern oder Strings Parallel Schalten
 
-2. Maximale MPP-Spannung  $UMPP_{max}$
+3. Maximale MPP-Spannung  $UMPP_{max}$
 
    $U_{GenMPP} = U_{MPP STC} * n * KF$ -->Maximale MPP Spannung liegt im Bereich der Tracker 
 
@@ -831,12 +833,12 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
    - Anlagestandort > 800 bis 1’500m.ü.M **-15°C**
    - Anlagestandort > 1’500m.ü.M **-25°C**
 
-3. Minimale MPP-Spannung  $UMPP_{min}$ 
+4. Minimale MPP-Spannung  $UMPP_{min}$ 
    $UWRMPP_{min}$ / Startpannung nicht unterschreiten
 
    $UMPP_{min}=UMPP_{Modul STC}*(1+(75-25)*(kT_{UOC}/100))*n$
 
-4. Maximale Kurzschlussstrom $I_{SC}$ 
+5. Maximale Kurzschlussstrom $I_{SC}$ 
 
    $I_{SCMax} = I_{SC STC} * 1.25$ --> Maximale Kurzschlussstrom wird nicht überschritten 
 
