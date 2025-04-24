@@ -824,7 +824,6 @@ tiefster Sonnenstand 21 Dezember keine gegenseitige Verschattung
 3. Minimale Eingangspannung $U_{OCMin}$ Startspannung
 
 4. Minimale MPP-Spannung  $UMPP_{min}$ 
-   $UWRMPP_{min}$ 
 
    $UMPP_{min}=UMPP_{Modul STC}*(1+(75-25)*(kT_{UOC}/100))*n$
 
