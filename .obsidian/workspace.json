@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WR ",
+                "query": "leistung  Dreh",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 296.49999618530273
   },
   "right": {
     "id": "c87d1f548a0ce682",
@@ -170,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dca1ba2f3b845230",
+  "active": "f9539ebd1fcffce6",
   "lastOpenFiles": [
     "komplettes_schema.png",
     "verschattung_und_verschaltung_Halbzellen.jpg",
