@@ -82,6 +82,17 @@ Gesamterzeugung CH: 67 TWh
 | 6                            | Übertragungsnetz                     |                       |                            |
 | 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
 
+# Volumen
+
+Δ𝑽= 𝒎 ∙ (𝒗𝟐 − 𝒗𝟏)
+
+Δ𝑽  Volumenänderung in dm3
+
+m Wassermenge (Masse) in kg
+
+v1 Spez. Vol. vor der Erwärmung in dm3/kg
+
+v2 Spez. Vol. nach der Erwärmung in dm3/kg
 
 # Kraft
 
