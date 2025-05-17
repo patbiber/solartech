@@ -109,7 +109,7 @@ Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 - 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
 - 1 PS = 735 W 
 
-Beschleunigung [m/s2] $a= (v_{end} - v_{anfang} ) / t $   
+Beschleunigung [m/s2] $a= (v_{end} - v_{anfang} ) / t$   
 - Erdanziehung $g$ = 9.81 [m/s2]
 
 Zeit [s] $t=s/v$
