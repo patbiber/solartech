@@ -82,6 +82,12 @@ Gesamterzeugung CH: 67 TWh
 | 6                            | Übertragungsnetz                     |                       |                            |
 | 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
 
+
+# Kraft
+
+Kraft [N] $F$ = $m$ * $a$
+
+
 # Arbeit / Energie
 
 Arbeit [Ws, J, Nm] $W = P * t$
@@ -94,8 +100,7 @@ Tepmaratur [K]$\Delta \theta = Q /(m * c)$
 
 Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$ = Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
 
-
-Mechanische Energie [Nm, kg*m2/s2] $P = F * s = m * a * s = m * g *h$
+Mechanische Arbeit [Nm, J] $W = F * s = m * a * s = m * g *h$
 
 Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 
@@ -103,8 +108,6 @@ Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 - 1 Ws = 1 J 
 - 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
 - 1 PS = 735 W 
-
-Kraft [N] $F$ = $m$ * $a$
 
 Beschleunigung [m/s2] $a$ / Erdanziehung $g$ = 9.81 [m/s2]
 
