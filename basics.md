@@ -109,13 +109,16 @@ Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 - 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
 - 1 PS = 735 W 
 
-Beschleunigung [m/s2] $a$ / Erdanziehung $g$ = 9.81 [m/s2]
+Beschleunigung [m/s2] $a= (v_{end} - v_{anfang} ) / t $   
+- Erdanziehung $g$ = 9.81 [m/s2]
 
 Zeit [s] $t$
 
+Geschwindigeit [m/s] $v = s/t$
+
 Weg [m] $s$ / Höhe [m] $h$
 
-Masse [kg] $m$ = $Q / (c*\Delta T  * \eta)$
+Masse [kg] $m = V * Dichte =Q / (c*\Delta T  * \eta)$
 
 1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
 
@@ -132,6 +135,8 @@ Wärmemenge [kJ] $Q = \phi * t$
 Zeit [s] $t = Q / \phi$
 
 Leistung [W] $P = W / t$
+
+Leistung [W] $P = F * v$
 
 Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R = I²*R$
 
