@@ -88,11 +88,11 @@ Arbeit [Ws, J, Nm] $W = P * t$
 
 Wärmemenge [kJ] $Q = m \cdot c \cdot \Delta \theta$
 
-Masse [kg] $m = Q / c * \Delta \theta$
+Masse [kg] $m = Q /(c * \Delta \theta)$
 
-Tepmaratur [K]$\Delta \theta = Q / m * c$
+Tepmaratur [K]$\Delta \theta = Q /(m * c)$
 
-Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / m* \Delta \theta$ = Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
+Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$ = Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
 
 
 Mechanische Energie [Nm, kg*m2/s2] $P = F * s = m * a * s = m * g *h$
