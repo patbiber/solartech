@@ -94,6 +94,8 @@ v1 Spez. Vol. vor der Erwärmung in dm3/kg
 
 v2 Spez. Vol. nach der Erwärmung in dm3/kg
 
+![AusdehnungWasser](AusdehnungWasser.png)
+
 # Kraft
 
 Kraft [N] $F$ = $m$ * $a$
