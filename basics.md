@@ -96,7 +96,7 @@ Wärmemenge [kJ] $Q = m \cdot c \cdot \Delta \theta$
 
 Masse [kg] $m = Q /(c * \Delta \theta)$
 
-Tepmaratur [K]$\Delta \theta = Q /(m * c)$
+Temperatur [K]$\Delta \theta = Q /(m * c)$
 
 Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$ = Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
 
@@ -112,7 +112,7 @@ Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 Beschleunigung [m/s2] $a= (v_{end} - v_{anfang} ) / t $   
 - Erdanziehung $g$ = 9.81 [m/s2]
 
-Zeit [s] $t$
+Zeit [s] $t=s/v$
 
 Geschwindigeit [m/s] $v = s/t$
 
