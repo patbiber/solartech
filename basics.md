@@ -1647,6 +1647,18 @@ SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zust�
 
 Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
 
+# Warmwasser
+
+## Grössenbestimmung des Warmwasserspeichers $V_SP$
+
+Warmwasserbedarf $V_B$
+
+Warmwasseranlage $V_v$
+
+Ausstossverlust Leitung $V_L$
+
+Warmwasserverlust
+
 # Abkürzungen und Namen
 
 AC Wechselstrom 
