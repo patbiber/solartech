@@ -86,20 +86,23 @@ Gesamterzeugung CH: 67 TWh
 
 Arbeit [Ws, J, Nm] $W = P * t$
 
-Wärmemenge [J, Ws] $Q = m \cdot c \cdot \Delta T$
+Wärmemenge [kJ] $Q = m \cdot c \cdot \Delta \theta$
+
+Masse [kg] $m = Q / c * \Delta \theta$
+
+Tepmaratur [K]$\Delta \theta = Q / m * c$
+
+Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / m* \Delta \theta$ = Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
+
 
 Mechanische Energie [Nm, kg*m2/s2] $P = F * s = m * a * s = m * g *h$
 
 Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 
-Strahlungsenergie $Q$ [J, lms, lmh]
-
 - 1 cal = 4.154 J
 - 1 Ws = 1 J 
-- 1 kWh = 3'600'000 J = 3.6 MJ
+- 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
 - 1 PS = 735 W 
-
-Spezifische Wärmekapazität des Mediums [J/(kg·K)] $c$ / $c_{H2O}$ 4190 [J/(kg·K)]
 
 Kraft [N] $F$ = $m$ * $a$
 
@@ -111,13 +114,19 @@ Weg [m] $s$ / Höhe [m] $h$
 
 Masse [kg] $m$ = $Q / (c*\Delta T  * \eta)$
 
-Temperatur Grad Kelvin [K] $T$
-
 1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
 
 1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
 
 # Leistung
+
+Wärmeleistung [kW] $\phi = Q / t$
+
+- 1 kW = 3600 kJ/h
+
+Wärmemenge [kJ] $Q = \phi * t$
+
+Zeit [s] $t = Q / \phi$
 
 Leistung [W] $P = W / t$
 
@@ -1646,6 +1655,8 @@ SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zust�
 4. Anlaufbefehl mit vorher hinterlegten Parametern für Leistung, z. B. für höhere Vorlauftemperaturen
 
 Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
+
+
 
 # Warmwasser
 
