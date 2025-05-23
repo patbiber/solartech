@@ -82,19 +82,6 @@ Gesamterzeugung CH: 67 TWh
 | 6                            | Übertragungsnetz                     |                       |                            |
 | 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
 
-# Volumen
-
-Δ𝑽= 𝒎 ∙ (𝒗𝟐 − 𝒗𝟏)
-
-Δ𝑽  Volumenänderung in dm3
-
-m Wassermenge (Masse) in kg
-
-v1 Spez. Vol. vor der Erwärmung in dm3/kg
-
-v2 Spez. Vol. nach der Erwärmung in dm3/kg
-
-![AusdehnungWasser](AusdehnungWasser.png)
 
 # Kraft
 
@@ -174,6 +161,38 @@ bsp: 0.92 * 0.93 * 0.8 = 0.684 --> 68%
 Nutzenergie: E-Car Energie auf dem Rad 
 
 Endenergie: Energie aus der Steckdose
+
+# Wärmelehre
+
+## Volumenänderung / Expansion
+
+Δ𝑽= 𝒎 ∙ (𝒗𝟐 − 𝒗𝟏)
+
+Δ𝑽  Volumenänderung in dm3
+
+m Wassermenge (Masse) in kg
+
+v1 Spez. Vol. vor der Erwärmung in dm3/kg
+
+v2 Spez. Vol. nach der Erwärmung in dm3/kg
+
+![AusdehnungWasser](AusdehnungWasser.png)
+
+## Grössenbestimmung des Warmwasserspeichers $V_{SP}$
+
++ Warmwasserbedarf $V_B$ gemäss Tabelle S. 25
+(Wohnungsgrösse/Anzahl Personen/Komfortstufe) 
++ Wärmeverlust der Warmwasseranlage $V_v$
+-Auskühlung während der Standzeit VE in % von VB
+(≤ 200 l = 15%; ≤ 500 l = 8%; ≤ 1000 l = 6%; ≥ 1000 l = 5%)
++ Aussstossverlust der Einzelleitung $V_{LA}$ in % von VB
+(EFH = 20%; MFH = 10 – 15%) 
++ Warmwasserverlust der Misch- und Kaltwasserzone $V_Z$
+-Mischzone (Glattrohrwärmetauscher ca. 10 – 20 % vom $V_B$) 
++ Kaltwasserzone (Keramikheizeinsatz ca. 5 – 10% vom $V_B$)
+
+![BWWSpeicher](BWWSpeicher.jpeg)
+
 
 ## Der einfache Stromkreis ⚡
 
