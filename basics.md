@@ -92,7 +92,7 @@ Kraft [N] $F$ = $m$ * $a$
 
 Arbeit [Ws, J, Nm] $W = P * t$
 
-Wärmemenge [kJ] $Q = m * c * \Delta \theta = s * \Delta \theta = r * \Delta \theta$
+Wärmemenge [kJ] $Q = m * c * \Delta \theta = s * m = r * m$
 
 Masse [kg] $m = Q /(c * \Delta \theta)$
 
