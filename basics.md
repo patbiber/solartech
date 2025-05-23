@@ -92,13 +92,20 @@ Kraft [N] $F$ = $m$ * $a$
 
 Arbeit [Ws, J, Nm] $W = P * t$
 
-Wärmemenge [kJ] $Q = m \cdot c \cdot \Delta \theta$
+Wärmemenge [kJ] $Q = m * c * \Delta \theta = s * \Delta \theta = r * \Delta \theta$
 
 Masse [kg] $m = Q /(c * \Delta \theta)$
 
 Temperatur [K]$\Delta \theta = Q /(m * c)$
 
-Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$ = Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
+Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$
+- Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
+- eis = 2.09 [KJ/(kg*k)]
+- Dampf = 1.872 [KJ/(kg*k)]
+
+Enthalpie
+- $s$ Schmelzenthalpie 332 [KJ/kg]
+- $r$ Verdampfungsenthalpie = 2256 [KJ/Kg]
 
 Mechanische Arbeit [Nm, J] $W = F * s = m * a * s = m * g *h$
 
@@ -163,6 +170,10 @@ Nutzenergie: E-Car Energie auf dem Rad
 Endenergie: Energie aus der Steckdose
 
 # Wärmelehre
+
+## Änderung Agregatszustände
+
+
 
 ## Volumenänderung / Expansion
 
