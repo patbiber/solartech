@@ -171,10 +171,6 @@ Endenergie: Energie aus der Steckdose
 
 # Wärmelehre
 
-## Änderung Agregatszustände
-
-
-
 ## Volumenänderung / Expansion
 
 Δ𝑽= 𝒎 ∙ (𝒗𝟐 − 𝒗𝟏)
@@ -188,6 +184,12 @@ v1 Spez. Vol. vor der Erwärmung in dm3/kg
 v2 Spez. Vol. nach der Erwärmung in dm3/kg
 
 ![AusdehnungWasser](AusdehnungWasser.png)
+
+## Druck
+
+Vordruck $p_v$ [bar] = Anlagenhöhe $h_p$ + 0.3
+
+10 mWs = 1 bar
 
 ## Grössenbestimmung des Warmwasserspeichers $V_{SP}$
 
@@ -203,6 +205,28 @@ v2 Spez. Vol. nach der Erwärmung in dm3/kg
 + Kaltwasserzone (Keramikheizeinsatz ca. 5 – 10% vom $V_B$)
 
 ![BWWSpeicher](BWWSpeicher.jpeg)
+
+# Mischgesetz
+
+Mischkreuz wenn 3 Temparaturen gegebne sind und die Masse
+
+$Q_{tot} = Q_1 + Q_2$
+
+$\Delta \theta = Q /(m * c)$
+
+$\Delta \theta_{tot} = (m_1* \Delta \theta_1 + m_2 \Delta \theta_2)/m_{tot}$
+
+Klatwasser:
+
+$\theta_1 = ((m_1+m2)*\theta_m - m_2*\theta_2)/m_1$
+
+$m_1 = (m_2*(\theta_2-theta_m))/(\theta_m- \theta_1)$
+
+Warmwasser: 
+
+$\theta_2=((m_1+m_2)*\theta_m-m1*\theta_1)/m2$
+
+$m_2 = (m_1*(\theta_m-theta_1))/(\theta_2- \theta_m)$
 
 
 ## Der einfache Stromkreis ⚡
