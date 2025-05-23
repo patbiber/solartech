@@ -100,7 +100,7 @@ Temperatur [K]$\Delta \theta = Q /(m * c)$
 
 Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$
 - Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
-- eis = 2.09 [KJ/(kg*k)]
+- Eis = 2.09 [KJ/(kg*k)]
 - Dampf = 1.872 [KJ/(kg*k)]
 
 Enthalpie
