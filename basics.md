@@ -228,6 +228,12 @@ $\theta_2=((m_1+m_2)*\theta_m-m1*\theta_1)/m2$
 
 $m_2 = (m_1*(\theta_m-theta_1))/(\theta_2- \theta_m)$
 
+### Hidraulische Schaltunge
+
+![Hidraulische Schaltungen 1](Hidraulische_Schaltungen_1.png)
+
+![Hidraulische Schaltungen 2](Hidraulische_Schaltungen_1.png)
+
 
 ## Der einfache Stromkreis ⚡
 
