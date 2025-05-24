@@ -256,6 +256,11 @@ $l0 = \Delta l/(\alpha / \Delta \theta) $
 
 $\alpha = \Delta l /(l0 * \Delta \theta)$
 
+![Ausdehnung1](Ausdehnung1.jpeg)
+
+![Ausdehnung2](Ausdehnung2.jpeg)
+
+
 ## Der einfache Stromkreis ⚡
 
 ## Stromarten 🤘 AC/DC
