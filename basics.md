@@ -232,8 +232,29 @@ $m_2 = (m_1*(\theta_m-theta_1))/(\theta_2- \theta_m)$
 
 ![Hidraulische Schaltungen 1](Hidraulische_Schaltungen_1.png)
 
-![Hidraulische Schaltungen 2](Hidraulische_Schaltungen_1.png)
+![Hidraulische Schaltungen 2](Hidraulische_Schaltungen_2.png)
 
+### Druckverlust
+
+$\Phi = m. * c * \Delta \theta$
+
+$m.=(\Phi*3600)/(c*\Delta \theta)$ = (kW * s/h) / (kJ/kg h * K)
+
+### Volumenstrom
+
+Volumestrom [m3/s] $V.=A*w$
+
+Geschwindigkeit [m/s] $w=V./A$
+
+### Längenänderung
+
+$∆𝑙= 𝑙0 ∙ 𝛼 ∙ ∆𝜗$
+
+$𝑙𝑡 = 𝑙0 ∙ (1 + 𝛼 ∙ ∆𝜗)$ 
+
+$l0 = \Delta l/(\alpha / \Delta \theta) $
+
+$\alpha = \Delta l /(l0 * \Delta \theta)$
 
 ## Der einfache Stromkreis ⚡
 
