@@ -82,39 +82,7 @@ Gesamterzeugung CH: 67 TWh
 | 6                            | Übertragungsnetz                     |                       |                            |
 | 7 lokale Verteilnetze        | Wind, Photovoltaik, Biogas           | Büros, Wohnen         | Niederspannung 400 / 230 V |
 
-
-# Kraft
-
-Kraft [N] $F$ = $m$ * $a$
-
-
-# Arbeit / Energie
-
-Arbeit [Ws, J, Nm] $W = P * t$
-
-Wärmemenge [kJ] $Q = m * c * \Delta \theta = s * m = r * m$
-
-Masse [kg] $m = Q /(c * \Delta \theta)$
-
-Temperatur [K]$\Delta \theta = Q /(m * c)$
-
-Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$
-- Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
-- Eis = 2.09 [KJ/(kg*k)]
-- Dampf = 1.872 [KJ/(kg*k)]
-
-Enthalpie
-- $s$ Schmelzenthalpie 332 [KJ/kg]
-- $r$ Verdampfungsenthalpie = 2256 [KJ/Kg]
-
-Mechanische Arbeit [Nm, J] $W = F * s = m * a * s = m * g *h$
-
-Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
-
-- 1 cal = 4.154 J
-- 1 Ws = 1 J 
-- 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
-- 1 PS = 735 W 
+# Geschwindigkeit und Beschleunigung
 
 Beschleunigung [m/s2] $a= (v_{end} - v_{anfang} ) / t$   
 - Erdanziehung $g$ = 9.81 [m/s2]
@@ -127,9 +95,10 @@ Weg [m] $s$ / Höhe [m] $h$
 
 Masse [kg] $m = V * Dichte =Q / (c*\Delta T  * \eta)$
 
-1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
+# Kraft
 
-1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
+Kraft [N] $F$ = $m$ * $a$
+
 
 # Leistung
 
@@ -169,7 +138,114 @@ Nutzenergie: E-Car Energie auf dem Rad
 
 Endenergie: Energie aus der Steckdose
 
+# Energie -> Arbeit
+
+Arbeit [J, Ws, Nm] $W = P * t$
+
+Wärmemenge [kJ] $Q = m * c * \Delta \theta = s * m = r * m$
+
+Masse [kg] $m = Q /(c * \Delta \theta)$
+
+Temperatur [K]$\Delta \theta = Q /(m * c)$
+
+Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$
+- Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
+- Eis = 2.09 [KJ/(kg*k)]
+- Dampf = 1.872 [KJ/(kg*k)]
+
+Enthalpie
+- $s$ Schmelzenthalpie 332 [KJ/kg]
+- $r$ Verdampfungsenthalpie = 2256 [KJ/Kg]
+
+Mechanische Arbeit [Nm, J] $W = F * s = m * a * s = m * g *h$
+
+Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
+
+- 1 cal = 4.154 J
+- 1 Ws = 1 J 
+- 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
+- 1 PS = 735 W 
+
+1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
+
+1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
+
 # Wärmelehre
+
+## Brennwert
+
+Brennwert $Q = m * Hi$
+
+Heizwert [kJ/kg] [kJ/m3] $Hi$ 
+
+Brennwert [kJ/kg] [kJ/m3] $Hs$ (früher $H_o$) $= Hi + Q_{kondesat}$
+
+![Brennwert](Brennwert.png)
+(Pelets nicht auf der Liste)
+
+Stickoxide NOx schädigen die Ozonschicht
+
+Rückführung von Flammengasen reduziert NOx
+
+CO2 fördert den Triebhauseffekt
+
+### Wärmedurchgang und Wärmeleistung
+
+Wärmeleistung durch Baukonstruktion $\dot{Q}= U * A * (T_i -T_e)$
+
+$T_i - T_e$ = Temperaturdifferenz [K]
+
+Wärmedurchgangskoeffizient $U$ [W/m2 K] = $1 / (1/h_1+d_1/\lambda_1+d_n/\lambda_n+1/h_e)$
+
+Wärmeleitzahl $\lambda$[W/m K]
+
+Wärmeübergangszahl innen $h_i$ [W/m2 K] = 1/8 W/m2 K
+
+$R_{si}=1/h_i$=0.125 m2K/W
+
+Wärmeübergangszahl aussen $h_e$ [W/m2 K] = 1/25 W/m2 K
+
+$R_{se}=1/h_e$=0.04 m2K/W
+
+Für Bauteile im Erdreich $R_{se}$=0
+
+[Lambda-Werte-Waremedurchgangswerte](Lambda-Werte-Waremedurchgangswerte.pdf)
+
+**Wärmeleistungsbedarf** $Q_T= A*U*\Delta T$
+
+Raum Wärmeleistungsbedarf $\dot{Q} = \dot{Q}_{TR}+ \dot{Q}_{LR}- \dot{Q}_{IR}$
+
+- $\dot{Q}_{TR}$ Transmissions-Wärmeleistungsbedarf
+- $\dot{Q}_{LR}$ Lüftungs-Wärmeleistungsbedarf
+- $\dot{Q}_{IR}$ Interne Wärme
+
+## Dimensionierung
+
+### Neubau 
+
+SIA 384.201 oder Ableitung aus SIA 380/1 plus allgemeine Zuschläge
+
+### Sanierung
+
+Ermittlung aus Brennstoffverbrauch oder Messungen
+
+$\Phi_{HL}=(Verbrauch*H_s*\eta) / t_{voll}$ 
+
+- $H_s$ Brennwert
+
+- $\eta$ Jahresnutzungsgrad
+
+![Vollaststunden](Vollaststunden.png)
+
+### Kontrolle der spezifischen Heizleistung
+
+Heizlast $\Phi_{HL}= KW * EBF$
+
+- KW Kontrollwert [W/m2]
+- EBF Energiebezugsfläche (Fläache mit Innenwänden bis Isolation)
+
+![Kontrollwerte](Kontrollwerte.png)
+
 
 ## Volumenänderung / Expansion
 
@@ -185,13 +261,43 @@ v2 Spez. Vol. nach der Erwärmung in dm3/kg
 
 ![AusdehnungWasser](AusdehnungWasser.png)
 
+Dichteanomie des Wassers, bei 4°C hat es die grösste dichte mit 1 kg / dm3
+
 ## Druck
 
 Vordruck $p_v$ [bar] = Anlagenhöhe $h_p$ + 0.3
 
 10 mWs = 1 bar
 
-## Grössenbestimmung des Warmwasserspeichers $V_{SP}$
+## Expansionsgefäss Dimensionierung
+
+$V_N = V_A * f * x$
+
+- $V_N$ Ausdehnungsvolumen
+- $V_A$ Anlageinhalt
+- Thermischer Ausdehnungsfaktor
+- x Zuschlagsfaktor
+
+![Thermische_Ausdehnungsfaktor](Thermische_Ausdehnungsfaktor.png)
+
+## Heizkurfe
+
+Steilheit Heizkurfe $S=\Delta T_{VL} / \Delta T_{AT}$
+
+## Heizgrenze
+
++15° bei schlechter Wärmedämmung
++12° bei guter Wärmedämmung
+
+## Brauchwarmwasserspeicher BWW
+
+Betriebsarten sind Einzelzapfstellensysteme, Einzelversorgung und Zentralversorgung.
+
+Durchfluss Wassererwärmer oder Speicher Wassererwärmer mit Heizregister oder Magrosysteme mit Plattenwärmetauscher.
+
+Gemäss Energiegesetz sind reine Elektro-Speicherwassererwärmer in ganzjährig bewohnten Wohnbauten nicht mehr zugelassen.
+
+Warmwasserspeichers $V_{SP}= V_B +Vv + V_{LA} + V_Z + V_B $
 
 + Warmwasserbedarf $V_B$ gemäss Tabelle S. 25
 (Wohnungsgrösse/Anzahl Personen/Komfortstufe) 
@@ -205,6 +311,8 @@ Vordruck $p_v$ [bar] = Anlagenhöhe $h_p$ + 0.3
 + Kaltwasserzone (Keramikheizeinsatz ca. 5 – 10% vom $V_B$)
 
 ![BWWSpeicher](BWWSpeicher.jpeg)
+
+![SolarWarmwasser](SolarWarmwasser.png)
 
 # Mischgesetz
 
@@ -231,6 +339,8 @@ $m_2 = (m_1*(\theta_m-theta_1))/(\theta_2- \theta_m)$
 ### Hidraulische Schaltunge
 
 ![Hidraulische Schaltungen 1](Hidraulische_Schaltungen_1.png)
+
+Warmwasser Solar
 
 ![Hidraulische Schaltungen 2](Hidraulische_Schaltungen_2.png)
 

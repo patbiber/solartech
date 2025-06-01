@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kreis",
+                "query": "h_1",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -145,19 +145,19 @@
               "state": {
                 "file": "basics.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of basics"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,16 +171,24 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "Thermische_Ausdehnungsfaktor.png",
+    "Kontrollwerte.png",
+    "Screenshot 2025-05-31 151729.png",
+    "Kontrollwerte.jpeg",
+    "Vollaststunden.png",
+    "Lambda-Werte-Waremedurchgangswerte.pdf",
+    "GWT Script angepasst 31.pdf",
+    "GWT Script angepasst 30.pdf",
+    "GWT Script angepasst 29.pdf",
+    "GWT Script angepasst 28.pdf",
+    "SolarWarmwasser.png",
+    "Brennwert.png",
     "AusdehnungWasser.png",
     "komplettes_schema.png",
     "verschattung_und_verschaltung_Halbzellen.jpg",
     "IUP_Kurve.png",
     "basics.md",
-    "Schema_PV.png",
-    "PV-Schema.bmp",
-    "Verschaltung_Modul.png",
     "Verschaltung_Modul.png.crdownload",
-    "verschattung_und verschaltung_Halbzellen.jpg",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",
     "gitignore",
     "Untitled.canvas"
