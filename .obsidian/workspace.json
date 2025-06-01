@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "h_1",
+                "query": "misch",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -171,6 +171,7 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "mischkeuz.png",
     "Thermische_Ausdehnungsfaktor.png",
     "Kontrollwerte.png",
     "Screenshot 2025-05-31 151729.png",
@@ -186,7 +187,6 @@
     "AusdehnungWasser.png",
     "komplettes_schema.png",
     "verschattung_und_verschaltung_Halbzellen.jpg",
-    "IUP_Kurve.png",
     "basics.md",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",

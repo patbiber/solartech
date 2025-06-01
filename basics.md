@@ -246,6 +246,13 @@ Heizlast $\Phi_{HL}= KW * EBF$
 
 ![Kontrollwerte](Kontrollwerte.png)
 
+## Heizungswasser
+
+Anforderungen für das Heizungswasser
+- pH-Wert 8,3 – 9,5 (bei Aluminium pH-Wert <8,5)
+- Härte <0,1mol/m3, <1°fH, 0,56°dH
+- Keine freie Gase
+
 
 ## Volumenänderung / Expansion
 
@@ -316,27 +323,31 @@ Warmwasserspeichers $V_{SP}= V_B +Vv + V_{LA} + V_Z + V_B $
 
 # Mischgesetz
 
-Mischkreuz wenn 3 Temparaturen gegebne sind und die Masse
+Mischkreuz wenn 3 Temperaturen gegeben sind und die Masse
+
+![Mischkreuz](mischkeuz.png)
 
 $Q_{tot} = Q_1 + Q_2$
 
-$\Delta \theta = Q /(m * c)$
+$\Delta T = Q /(m * c)$
 
-$\Delta \theta_{tot} = (m_1* \Delta \theta_1 + m_2 \Delta \theta_2)/m_{tot}$
+$\Delta T_m = (m_1 * c_1 * T_1 + m_2 * c_2 * T2)/(m_1 * c_1 + m_2 * c_2)$
 
-Klatwasser:
+$\Delta T_{tot} = (m_1* \Delta T_1 + m_2 \Delta T_2)/m_{tot}$
 
-$\theta_1 = ((m_1+m2)*\theta_m - m_2*\theta_2)/m_1$
+Kaltwasser:
 
-$m_1 = (m_2*(\theta_2-theta_m))/(\theta_m- \theta_1)$
+$T_1 = ((m_1+m_2)*T_m - m_2*T_2)/m_1$
+
+$m_1 = (m_2*(T_2-T_m))/(T_m- T_1)$
 
 Warmwasser: 
 
-$\theta_2=((m_1+m_2)*\theta_m-m1*\theta_1)/m2$
+$T_2=((m_1+m_2)*T_m-m1*T_1)/m2$
 
-$m_2 = (m_1*(\theta_m-theta_1))/(\theta_2- \theta_m)$
+$m_2 = (m_1*(T_m-T_1))/(T_2- T_m)$
 
-### Hidraulische Schaltunge
+### Hydraulische Schaltungen
 
 ![Hidraulische Schaltungen 1](Hidraulische_Schaltungen_1.png)
 
@@ -346,9 +357,9 @@ Warmwasser Solar
 
 ### Druckverlust
 
-$\Phi = m. * c * \Delta \theta$
+$\Phi = m. * c * \Delta T$
 
-$m.=(\Phi*3600)/(c*\Delta \theta)$ = (kW * s/h) / (kJ/kg h * K)
+$m.=(\Phi*3600)/(c*\Delta T)$ = (kW * s/h) / (kJ/kg h * K)
 
 ### Volumenstrom
 
@@ -362,9 +373,9 @@ $∆𝑙= 𝑙0 ∙ 𝛼 ∙ ∆𝜗$
 
 $𝑙𝑡 = 𝑙0 ∙ (1 + 𝛼 ∙ ∆𝜗)$ 
 
-$l0 = \Delta l/(\alpha / \Delta \theta) $
+$l0 = \Delta l/(\alpha / \Delta T) $
 
-$\alpha = \Delta l /(l0 * \Delta \theta)$
+$\alpha = \Delta l /(l0 * \Delta T)$
 
 ![Ausdehnung1](Ausdehnung1.jpeg)
 
