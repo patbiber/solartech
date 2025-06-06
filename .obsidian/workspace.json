@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Heizlast",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 487.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dca1ba2f3b845230",
+  "active": "f9539ebd1fcffce6",
   "lastOpenFiles": [
     "Reibungsverlust.jpeg",
     "mischkeuz.png",

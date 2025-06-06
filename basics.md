@@ -400,6 +400,140 @@ lt = Körperlänge nach der Temperaturänderung [m]
 ![Ausdehnung2](Ausdehnung2.jpeg)
 
 
+### Rohrmasse und Max. Durchfluss
+
+| Gewinderohr (") | Nennweite (DN) | Außendurchmesser (mm) | Max. Durchfluss (l/s) |
+| --------------- | -------------- | --------------------- | --------------------- |
+| 3/8"            | DN 10          | 17,2                  | 0,33                  |
+| 1/2"            | DN 15          | 21,3                  | 0,83                  |
+| 3/4"            | DN 20          | 26,9                  | 1,33                  |
+| 1"              | DN 25          | 33,7                  | 2,50                  |
+| 1 1/4"          | DN 32          | 42,4                  | 3,83                  |
+| 1 1/2"          | DN 40          | 48,3                  | 5,00                  |
+| 2"              | DN 50          | 60,3                  | 8,33                  |
+| 2 1/2"          | DN 65          | 76,1                  | 13,33                 |
+
+
+
+
+## Stromverbrauch der Wärmepumpe
+
+Für grössere
+Leistungen sollte nach Kap. 3.2 vorgegangen werden Dimensionierung
+von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publication/download/165.
+
+### Mittelland
+
+- Mit Warmwasser Warmwasserbereitung ganzjährig Kessel
+  
+  $Q_H$ = Verbrauch / 300
+
+- Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
+  
+  $Q_H$ = Verbrauch / 265
+
+### Über 800 m ü.M.
+
+- Mit Warmwasser Warmwasserbereitung ganzjährig Kessel
+  
+  $Q_H$ = Verbrauch / 330
+
+- Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
+  
+  $Q_H$ = Verbrauch / 295
+
+$Q_H$ = erforderlicher Heizleistungsbedarf bei Auslegetemperatur [kW]
+
+Verbrauch in Liter Öl 
+
+- 1 kg Öl entspricht ca. 1.19 Liter
+- 1 Betriebs-m3 Gas entspricht ca. 0.93 Liter Öl
+
+Zur Kontrolle der Resultate kann die spezifische Heizlei stung herangezogen werden. Sie errechnet sich aus der Heizleistung dividiert durch die Energiebezugsfläche (beheizte Bruttogeschossfläche):
+
+| Gebäudetyp                              | W/m2      |
+| --------------------------------------- | --------- |
+| Herkömmlich wärmegedämmte Wohnhäuser    | 50 ... 70 |
+| Gut wärmegedämmte bestehende Wohnhäuser | 40 ... 50 |
+| Neubauten gemäss heutigen Vorschriften  | 30 ... 40 |
+| Herkömmliche Dienstleistungsbauten      | 60 ... 80 |
+
+brauche auch https://biber.solar/heat-pump-calculator/
+
+---
+
+## Heizleistung von Fosilen Heizungen
+
+Heizenergie [MJ] $Q_F = m * H_s$
+
+Heizleistung [kWh] $P = Q / t = m * H_s / t$
+
+Masse $m$ [kg]
+
+Heizwert $H_s$ [MJ/kg] oder [kWh/kg]
+
+- Oel Extraleicht: 42,9 [MJ/kg]
+- Erdgas:  37 [MJ/m³] / 10,305 [kWh/m³]
+
+kWh = MJ / 3.6
+
+$m = Q / H_s$
+
+Anpassung Heizwert https://pubdb.bfe.admin.ch/de/publication/download/7442
+
+Werte Gas: https://www.svgw.ch/media/9858/g10001_d_werte2022.pdf
+
+### Umrechnung auf benötigte Leistung mit WP
+
+$Q_{WPel}=Q_{WP}*\eta$ 
+
+$Q_{WP}$= Benötige Wäremeleistung (EW Sperrfrist beachten)
+
+$Q_{WPel}$= Elektrische Aufnameleistung
+
+$\eta$= Wirkungsgrad 
+
+### Berechnung des jährlichen Energiebedarfs für Heizung
+
+Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
+
+- Heizlast: Die benötigte Wärmeleistung des Hauses in kW
+- 28: Differenz zwischen -8°C (Auslegungstemperatur) und 20°C (gewünschte - Raumtemperatur)
+- 16: Angenommene tägliche Betriebsdauer der Heizung in Stunden
+- HGT: Heizgradtage des Standorts
+- [Heizgradtage HGT Schweiz](https://opendata.swiss/de/dataset/monatliche-heizgradtage-in-der-schweiz-gewichtet/resource/fc492ffc-1eb6-4919-af54-16998eaf7eaa)
+  - [Heizgradtage HGT Ortschaften](https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage)
+- [Heizgradtage HGT St. Gallen](https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8)
+
+### Ermittlung der Heizlast für Neubauten:
+
+Heizlast (kW) = beheizte Fläche (m²) * Heizlast pro m²
+
+Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT
+
+- plus ca. 250 W pro Person für den Warmwasserbedarf5
+
+Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
+
+      Heizlast: 140 m² * 35 W/m² = 4.9 kW
+      HGT für Zürich: 32672
+      Warmwasserbedarf: 4 * 250 W = 1 kW
+      Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
+
+## Wärmepumpen Regelung
+
+Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
+SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zustände abdeckt: 0:0, 0:1, 1:0 und 1:1. Die Betriebszustände sehen so aus:
+
+1. Nicht heizen, Sperrung, wie sie z. B. für die Sperrzeiten in Heiztarifen gebraucht wird
+
+2. Normalbetrieb mit einer Leistung, die Wärme auch für eventuelle Sperrzeiten produziert
+
+3. Erhöhter Normalbetrieb nach vorher hinterlegten Parametern als "Einschaltempfehlung". Die WP-Steuerung kann dennoch entscheiden, dass jetzt nicht eingeschaltet wird.
+
+4. Anlaufbefehl mit vorher hinterlegten Parametern für Leistung, z. B. für höhere Vorlauftemperaturen
+
+Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
 ## Der einfache Stromkreis ⚡
 
 ## Stromarten 🤘 AC/DC
@@ -1714,207 +1848,8 @@ $r = \sqrt{A/\pi}$
 
 $d = 2*r$
 
-# Heizleistung und Wärmeübertragung
 
-Heizleistung [W] $P = \frac{Q}{t}$
 
-## Heizleistung bei Massefluss
-
-1 [J] = 1 [Ws]
-1 [MJ] = 1 * 10 ^6 J 
-kWh = MJ / 3.6
-
-Wärmeenergie $Q [J][Ws] = m \cdot c \cdot \Delta t$
-
-- $m$: Masse des Mediums [Kilogramm (kg)]
-- $c$: Spezifische Wärmekapazität des Mediums [J/(kg·K)] (z. B. Wasser: $c$ approx 4.18, [kJ/(kg·K)]
-- $\Delta t$: Temperaturänderung [K]
-
-Wärmeleistung $P [W] = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
-
-- $t$: Zeit [s]
-
-### Rohrmasse und Max. Durchfluss
-
-| Gewinderohr (") | Nennweite (DN) | Außendurchmesser (mm) | Max. Durchfluss (l/s) |
-| --------------- | -------------- | --------------------- | --------------------- |
-| 3/8"            | DN 10          | 17,2                  | 0,33                  |
-| 1/2"            | DN 15          | 21,3                  | 0,83                  |
-| 3/4"            | DN 20          | 26,9                  | 1,33                  |
-| 1"              | DN 25          | 33,7                  | 2,50                  |
-| 1 1/4"          | DN 32          | 42,4                  | 3,83                  |
-| 1 1/2"          | DN 40          | 48,3                  | 5,00                  |
-| 2"              | DN 50          | 60,3                  | 8,33                  |
-| 2 1/2"          | DN 65          | 76,1                  | 13,33                 |
-
-## Heizleistung bei Wärmeübertragung durch eine Fläche
-
-Wenn Wärme durch eine Fläche (z. B. durch eine Wand) übertragen wird, lautet die Formel:
-
-Wärmeleistung [W] $P = A \cdot k \cdot \Delta t$
-
-- $A$: Fläche der Wärmeübertragung [m²]
-- $k$: Wärmedurchgangskoeffizient [W/(m²·K)] (Materialabhängig)
-- $\Delta t$: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K]
-
-Wärmedunrchgangskoeffizient [W/(m²·K)] $k = 1 / (1 / \alpha_i + \sum{d / \lambda} + 1 / \alpha_i)$
-
-## Wärmepumpenleistung
-
-Heizleistung $P_{heiz} [kW] = P_{el} * E_{WP}$
-
-$P_{el} = P_{heiz} / E_{WP}$
-
-$E_{WP}$ = Leistungszahl
-
-Erdsonde ca 90 Watt / m Sondenlänge
-
-## Stromverbrauch der Wärmepumpe
-
-Die elektrische Energie $E_{{el}}$, die von der Wärmepumpe verbraucht wird, hängt von der Effizienz der Wärmepumpe ab. Diese Effizienz wird durch die **Jahresarbeitszahl (JAZ)** beschrieben:
-
-$$
-E_{{el}} = \frac{Q_{{Heiz}}}{{JAZ}} \cdot t
-$$
-
-- $E_{{el}}$: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
-- $Q_{{Heiz}}$: Heizleistung der Wärmepumpe [kW]
-- ${JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
-- $t$: Zeit, in der die Wärmepumpe läuft [h].
-
-Ermittlung der Heizleistung aus dem Energie-
-verbrauch von Öl- oder Gaskessel
-Die erforderliche Heizleistung kann 
-aufgrund des jährlichen Brennstoffverbrauchs Die Berechnungen basieren auf 20 °C Raumlufttemperatur bis 100 kW. Für grössere
-Leistungen sollte nach Kap. 3.2 vorgegangen werden Dimensionierung
-von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publication/download/165.
-
-### Mittelland
-
-- Mit Warmwasser Warmwasserbereitung ganzjährig Kessel
-  
-  $Q_H$ = Verbrauch / 300
-
-- Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
-  
-  $Q_H$ = Verbrauch / 265
-
-### Über 800 m ü.M.
-
-- Mit Warmwasser Warmwasserbereitung ganzjährig Kessel
-  
-  $Q_H$ = Verbrauch / 330
-
-- Ohne Warmwasser Warmwasserbereitung ganzjährig elektrisch
-  
-  $Q_H$ = Verbrauch / 295
-
-$Q_H$ = erforderlicher Heizleistungsbedarf bei Auslegetemperatur [kW]
-
-Verbrauch in Liter Öl 
-
-- 1 kg Öl entspricht ca. 1.19 Liter
-- 1 Betriebs-m3 Gas entspricht ca. 0.93 Liter Öl
-
-Zur Kontrolle der Resultate kann die spezifische Heizlei stung herangezogen werden. Sie errechnet sich aus der Heizleistung dividiert durch die Energiebezugsfläche (beheizte Bruttogeschossfläche):
-
-| Gebäudetyp                              | W/m2      |
-| --------------------------------------- | --------- |
-| Herkömmlich wärmegedämmte Wohnhäuser    | 50 ... 70 |
-| Gut wärmegedämmte bestehende Wohnhäuser | 40 ... 50 |
-| Neubauten gemäss heutigen Vorschriften  | 30 ... 40 |
-| Herkömmliche Dienstleistungsbauten      | 60 ... 80 |
-
-brauche auch https://biber.solar/heat-pump-calculator/
-
----
-
-## Heizleistung von Fosilen Heizungen
-
-Heizenergie [MJ] $Q_F = m * H_s$
-
-Heizleistung [kWh] $P = Q / t = m * H_s / t$
-
-Masse $m$ [kg]
-
-Heizwert $H_s$ [MJ/kg] oder [kWh/kg]
-
-- Oel Extraleicht: 42,9 [MJ/kg]
-- Erdgas:  37 [MJ/m³] / 10,305 [kWh/m³]
-
-kWh = MJ / 3.6
-
-$m = Q / H_s$
-
-Anpassung Heizwert https://pubdb.bfe.admin.ch/de/publication/download/7442
-
-Werte Gas: https://www.svgw.ch/media/9858/g10001_d_werte2022.pdf
-
-### Umrechnung auf benötigte Leistung mit WP
-
-$Q_{WPel}=Q_{WP}*\eta$ 
-
-$Q_{WP}$= Benötige Wäremeleistung (EW Sperrfrist beachten)
-
-$Q_{WPel}$= Elektrische Aufnameleistung
-
-$\eta$= Wirkungsgrad 
-
-### Berechnung des jährlichen Energiebedarfs für Heizung
-
-Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT Dabei gilt:
-
-- Heizlast: Die benötigte Wärmeleistung des Hauses in kW
-- 28: Differenz zwischen -8°C (Auslegungstemperatur) und 20°C (gewünschte - Raumtemperatur)
-- 16: Angenommene tägliche Betriebsdauer der Heizung in Stunden
-- HGT: Heizgradtage des Standorts
-- [Heizgradtage HGT Schweiz](https://opendata.swiss/de/dataset/monatliche-heizgradtage-in-der-schweiz-gewichtet/resource/fc492ffc-1eb6-4919-af54-16998eaf7eaa)
-  - [Heizgradtage HGT Ortschaften](https://www.hev-schweiz.ch/vermieten/nebenkostenabrechnungen/heizgradtage)
-- [Heizgradtage HGT St. Gallen](https://opendata.swiss/de/dataset/heizgradtage-st-galler-stadtwerke/resource/da5ab61c-1b50-4d1f-83b5-f429723e60b8)
-
-### Ermittlung der Heizlast für Neubauten:
-
-Heizlast (kW) = beheizte Fläche (m²) * Heizlast pro m²
-
-Energiebedarf (kWh) = (Heizlast / 28) * 16 * HGT
-
-- plus ca. 250 W pro Person für den Warmwasserbedarf5
-
-Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
-
-      Heizlast: 140 m² * 35 W/m² = 4.9 kW
-      HGT für Zürich: 32672
-      Warmwasserbedarf: 4 * 250 W = 1 kW
-      Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
-
-## Wärmepumpen Regelung
-
-Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
-SG Ready ist ein simples binäres Zweidraht-Zustandssystem, das folglich 4 Zustände abdeckt: 0:0, 0:1, 1:0 und 1:1. Die Betriebszustände sehen so aus:
-
-1. Nicht heizen, Sperrung, wie sie z. B. für die Sperrzeiten in Heiztarifen gebraucht wird
-
-2. Normalbetrieb mit einer Leistung, die Wärme auch für eventuelle Sperrzeiten produziert
-
-3. Erhöhter Normalbetrieb nach vorher hinterlegten Parametern als "Einschaltempfehlung". Die WP-Steuerung kann dennoch entscheiden, dass jetzt nicht eingeschaltet wird.
-
-4. Anlaufbefehl mit vorher hinterlegten Parametern für Leistung, z. B. für höhere Vorlauftemperaturen
-
-Bei der Verwendung der Einschaltempfehlung mit erhöhten Temperaturkurven. Diese Variante hat gegenüber dem Anschaltzwang den Vorteil, dass die Wärmepumpensteuerung das letzte Wort hat und bei überlaufenden Wärmespeichern und geschätzter Nutzlosigkeit des Laufes trotzdem nicht einschaltet. Sie hat den Nachteil, dass sie keinen größeren Plan berücksichtigen kann, zum Beispiel mit Prognosedaten. 
-
-
-
-# Warmwasser
-
-## Grössenbestimmung des Warmwasserspeichers $V_SP$
-
-Warmwasserbedarf $V_B$
-
-Warmwasseranlage $V_v$
-
-Ausstossverlust Leitung $V_L$
-
-Warmwasserverlust
 
 # Abkürzungen und Namen
 
