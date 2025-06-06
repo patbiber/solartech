@@ -432,45 +432,12 @@ Wärmeleistung $P [W] = \frac{Q}{t} = \frac{m \cdot c \cdot \Delta t}{t}$
 | 2"              | DN 50          | 60,3                  | 8,33                  |
 | 2 1/2"          | DN 65          | 76,1                  | 13,33                 |
 
-## Heizleistung bei Wärmeübertragung durch eine Fläche
 
-Wenn Wärme durch eine Fläche (z. B. durch eine Wand) übertragen wird, lautet die Formel:
 
-Wärmeleistung [W] $P = A \cdot k \cdot \Delta t$
-
-- $A$: Fläche der Wärmeübertragung [m²]
-- $k$: Wärmedurchgangskoeffizient [W/(m²·K)] (Materialabhängig)
-- $\Delta t$: Temperaturdifferenz zwischen den beiden Seiten der Fläche [K]
-
-Wärmedunrchgangskoeffizient [W/(m²·K)] $k = 1 / (1 / \alpha_i + \sum{d / \lambda} + 1 / \alpha_i)$
-
-## Wärmepumpenleistung
-
-Heizleistung $P_{heiz} [kW] = P_{el} * E_{WP}$
-
-$P_{el} = P_{heiz} / E_{WP}$
-
-$E_{WP}$ = Leistungszahl
-
-Erdsonde ca 90 Watt / m Sondenlänge
 
 ## Stromverbrauch der Wärmepumpe
 
-Die elektrische Energie $E_{{el}}$, die von der Wärmepumpe verbraucht wird, hängt von der Effizienz der Wärmepumpe ab. Diese Effizienz wird durch die **Jahresarbeitszahl (JAZ)** beschrieben:
-
-$$
-E_{{el}} = \frac{Q_{{Heiz}}}{{JAZ}} \cdot t
-$$
-
-- $E_{{el}}$: Elektrischer Energieverbrauch der Wärmepumpe [kWh]
-- $Q_{{Heiz}}$: Heizleistung der Wärmepumpe [kW]
-- ${JAZ}$: Jahresarbeitszahl (dimensionslos), beschreibt das Verhältnis von erzeugter Wärmeenergie zu eingesetzter elektrischer Energie.
-- $t$: Zeit, in der die Wärmepumpe läuft [h].
-
-Ermittlung der Heizleistung aus dem Energie-
-verbrauch von Öl- oder Gaskessel
-Die erforderliche Heizleistung kann 
-aufgrund des jährlichen Brennstoffverbrauchs Die Berechnungen basieren auf 20 °C Raumlufttemperatur bis 100 kW. Für grössere
+Für grössere
 Leistungen sollte nach Kap. 3.2 vorgegangen werden Dimensionierung
 von Wärmepumpen Bundesamt für Energie https://pubdb.bfe.admin.ch/de/publication/download/165.
 
