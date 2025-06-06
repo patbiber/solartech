@@ -357,25 +357,43 @@ Warmwasser Solar
 
 ### Druckverlust
 
-$\Phi = m. * c * \Delta T$
+$\Phi = \dot m * c * \Delta T$
 
-$m.=(\Phi*3600)/(c*\Delta T)$ = (kW * s/h) / (kJ/kg h * K)
+$\dot m = (kW * s/h) / (kJ/kg h * K) = (Phi * 3600) / (c * \Delta T)$  
 
+$Δ𝑝= Σ(𝑅 ∙ 𝑙 + 𝑍)$
+
+$Δ_{𝑝𝑅}= 𝑅 ∙ 𝑙$
+
+ΔpR = Druckverlust [Pa oder mbar]
+R = Rohrreibungsverlust [Pa/m oder mbar/m]
+l = Rohrlänge [m]
+
+Richtwert Vordimensionierung 50 Pa / m
+
+![Reibungsverlust](Reibungsverlust.jpeg)
 ### Volumenstrom
 
 Volumestrom [m3/s] $V.=A*w$
 
-Geschwindigkeit [m/s] $w=V./A$
+Fliessgeschwindigkeit [m/s] $w=V./A$
 
 ### Längenänderung
 
-$∆𝑙= 𝑙0 ∙ 𝛼 ∙ ∆𝜗$
+$∆𝑙= 𝑙_0 ∙ 𝛼 ∙ ∆𝜗$
 
-$𝑙𝑡 = 𝑙0 ∙ (1 + 𝛼 ∙ ∆𝜗)$ 
+$𝑙𝑡 = 𝑙_0 ∙ (1 + 𝛼 ∙ ∆𝜗)$ 
 
-$l0 = \Delta l/(\alpha / \Delta T) $
+$l_0 = \Delta l/(\alpha / \Delta T)$
 
 $\alpha = \Delta l /(l0 * \Delta T)$
+
+$\Delta l$ = Längenänderung fester Stoffes bei Temperaturänderung [mm oder m]
+l0 = Körperlänge vor der Temperaturänderung [m]
+$\alpha$ = LängenausdehnungszahI (Tabelle) [mm/mK oder m/mK]
+$\Delta T$ = Temperaturänderung, um die der Körper erwärmt oder abgekühlt wird [K]
+lt = Körperlänge nach der Temperaturänderung [m]
+
 
 ![Ausdehnung1](Ausdehnung1.jpeg)
 

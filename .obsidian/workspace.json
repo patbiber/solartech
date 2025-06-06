@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "misch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -171,6 +171,7 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "Reibungsverlust.jpeg",
     "mischkeuz.png",
     "Thermische_Ausdehnungsfaktor.png",
     "Kontrollwerte.png",
@@ -186,7 +187,6 @@
     "Brennwert.png",
     "AusdehnungWasser.png",
     "komplettes_schema.png",
-    "verschattung_und_verschaltung_Halbzellen.jpg",
     "basics.md",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",
