@@ -102,17 +102,14 @@ Kraft [N] $F$ = $m$ * $a$
 
 # Leistung
 
+
+Leistung [W] $P = W / t = F * v$
+
 Wärmeleistung [kW] $\Phi = Q / t$
 
-- 1 kW = 3600 kJ/h
+- 1 kW = 1 kJ/s = 3600 kJ/h
 
-Wärmemenge [kJ] $Q = \phi * t$
-
-Zeit [s] $t = Q / \phi$
-
-Leistung [W] $P = W / t$
-
-Leistung [W] $P = F * v$
+Zeit [s] $t = Q / \Phi$
 
 Leistung Gleichstrom / Scheinleistung [VA] / Omsche Last [W] $P = U * I = U2 / R = I²*R$
 
@@ -140,7 +137,18 @@ Endenergie: Energie aus der Steckdose
 
 # Energie -> Arbeit
 
-Arbeit [J, Ws, Nm] $W = P * t$
+-  1 Ws = 1 J 
+- 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
+- 1kWh = 3'600'00 Ws
+- 1 Ws = 0.000000278 kWh
+-  1 cal = 4.154 J
+- 1 PS = 735 W 
+- 1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
+- 1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
+
+Arbeit [J, Ws, Nm, kWh] $W = P * t$
+
+Wärmemenge [kJ] $Q = \Phi * t$
 
 Wärmemenge [kJ] $Q = m * c * \Delta \theta = s * m = r * m$
 
@@ -161,14 +169,7 @@ Mechanische Arbeit [Nm, J] $W = F * s = m * a * s = m * g *h$
 
 Elektrische Arbeit [Ws] *Praxis [kWh]* $W = U * I * t * cos\phi$
 
-- 1 cal = 4.154 J
-- 1 Ws = 1 J 
-- 1 kWh = 3'600'000 J = 3600 KJ= 3.6 MJ
-- 1 PS = 735 W 
 
-1 kg ÖE = 41,868 MJ = 10'000 kcal = 11,63 kWh = 1.428 SKE
-
-1 kg SKE = 0.7 kg ÖE = 7'000 kcal = 29'3076 MJ = 8,141 kWh
 
 # Wärmelehre
 
@@ -304,18 +305,14 @@ Durchfluss Wassererwärmer oder Speicher Wassererwärmer mit Heizregister oder M
 
 Gemäss Energiegesetz sind reine Elektro-Speicherwassererwärmer in ganzjährig bewohnten Wohnbauten nicht mehr zugelassen.
 
-Warmwasserspeichers $V_{SP}= V_B +Vv + V_{LA} + V_Z + V_B $
+Warmwasserspeichers $V_{SP}= V_B +Vv + V_{LA} + V_Z + V_{KW}$
 
 + Warmwasserbedarf $V_B$ gemäss Tabelle S. 25
 (Wohnungsgrösse/Anzahl Personen/Komfortstufe) 
-+ Wärmeverlust der Warmwasseranlage $V_v$
--Auskühlung während der Standzeit VE in % von VB
-(≤ 200 l = 15%; ≤ 500 l = 8%; ≤ 1000 l = 6%; ≥ 1000 l = 5%)
-+ Aussstossverlust der Einzelleitung $V_{LA}$ in % von VB
-(EFH = 20%; MFH = 10 – 15%) 
-+ Warmwasserverlust der Misch- und Kaltwasserzone $V_Z$
--Mischzone (Glattrohrwärmetauscher ca. 10 – 20 % vom $V_B$) 
-+ Kaltwasserzone (Keramikheizeinsatz ca. 5 – 10% vom $V_B$)
++ Wärmeverlust der Warmwasseranlage $V_v$ :  in % von VB (≤ 200 l = 15%; ≤ 500 l = 8%; ≤ 1000 l = 6%; ≥ 1000 l = 5%)
++ Aussstossverlust der Einzelleitung $V_{LA}$ in % von VB (EFH = 20%; MFH = 10 – 15%) 
++ Warmwasserverlust der Misch- und Kaltwasserzone $V_Z$ = -Mischzone (Glattrohrwärmetauscher ca. 10 – 20 % vom $V_B$) 
++ Kaltwasserzone $V_{KW}$ (Keramikheizeinsatz ca. 5 – 10% vom $V_B$)
 
 ![BWWSpeicher](BWWSpeicher.jpeg)
 

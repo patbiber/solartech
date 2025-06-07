@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Heizlast",
+                "query": "leistung",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
