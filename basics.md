@@ -377,6 +377,16 @@ Volumestrom [m3/s] $\dot V=A*w$
 
 Fliessgeschwindigkeit [m/s] $w=\dot V/A$
 
+##Massenstrom
+
+$\dot m=\Phi/(c * \Delta T)$
+
+$\Phi$[kW]
+
+$\dot m$ [kg/s]
+
+c [4.187 KJ / kg K]
+
 ### Längenänderung
 
 $∆𝑙= 𝑙_0 ∙ 𝛼 ∙ ∆𝜗$
