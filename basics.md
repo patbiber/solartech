@@ -157,7 +157,7 @@ Masse [kg] $m = Q /(c * \Delta \theta)$
 Temperatur [K]$\Delta \theta = Q /(m * c)$
 
 Spezifische Wärmekapazität des Mediums [KJ/kg K] $c = Q / (m* \Delta \theta)$
-- Wasser: 4.187 KJ/kg K /  4190 [J/(kg·K)]
+- Wasser: 4.187 [KJ/kg K] /  4190 [J/(kg·K)]
 - Eis = 2.09 [KJ/(kg*k)]
 - Dampf = 1.872 [KJ/(kg*k)]
 
@@ -352,11 +352,13 @@ Warmwasser Solar
 
 ![Hidraulische Schaltungen 2](Hidraulische_Schaltungen_2.png)
 
-### Druckverlust
+### Druckverlust Rohrnetzberechnung
 
-$\Phi = \dot m * c * \Delta T$
+Wärmeleistung [kW ]$\Phi = \dot Q = \dot m * c * \Delta T$
 
-$\dot m = (kW * s/h) / (kJ/kg h * K) = (Phi * 3600) / (c * \Delta T)$  
+Massenstrom [kg/h] $\dot m = (kW * s/h) / (kJ/kg K * K) = (\Phi * 3600) / (c * \Delta T)$  
+
+c Wasser: 4.187 [KJ/kg K] 
 
 $Δ𝑝= Σ(𝑅 ∙ 𝑙 + 𝑍)$
 
@@ -371,9 +373,9 @@ Richtwert Vordimensionierung 50 Pa / m
 ![Reibungsverlust](Reibungsverlust.jpeg)
 ### Volumenstrom
 
-Volumestrom [m3/s] $V.=A*w$
+Volumestrom [m3/s] $\dot V=A*w$
 
-Fliessgeschwindigkeit [m/s] $w=V./A$
+Fliessgeschwindigkeit [m/s] $w=\dot V/A$
 
 ### Längenänderung
 
