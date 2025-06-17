@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Druckver",
+                "query": "PSA",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -169,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dca1ba2f3b845230",
+  "active": "f9539ebd1fcffce6",
   "lastOpenFiles": [
     "Druckverlust.xlsx",
     "Reibungsverlust.jpeg",

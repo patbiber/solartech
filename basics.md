@@ -1821,6 +1821,75 @@ Absturzsicherung ab 2 m zur Dachkante, ab 2 m Höhe Gerüst ab 2 Manntage
 
 Arbeiten < 2 Manntage draussen bis 3m Leiter dann Absturzsicherung PSAgA Persönlicher Schutz gegen Absturz oder Gerüst.
 
+**PSAgA** steht für **Persönliche Schutzausrüstung gegen Absturz**. Sie ist Teil der Persönlichen Schutzausrüstung (PSA) und wird verwendet, um Personen vor dem Absturz aus Höhen zu schützen – z. B. bei Arbeiten auf Dächern, Gerüsten oder Masten.
+
+---
+
+### 📚 **Rechtliche Regelungen der PSAgA (Schweiz)**
+
+In der Schweiz ist die PSAgA durch mehrere Gesetze und Normen geregelt:
+
+#### **1. Arbeitsgesetz (ArG)**
+
+- Bundesgesetz über die Arbeit in Industrie, Gewerbe und Handel (ArG; SR 822.11)
+    
+- Schreibt vor, dass der Arbeitgeber für den Schutz der Gesundheit der Arbeitnehmenden sorgen muss.
+    
+
+#### **2. Verordnung über die Unfallverhütung (VUV)**
+
+- VUV (SR 832.30)
+    
+- Artikel 3 und 11: Arbeitgeber müssen Gefährdungen beurteilen und geeignete Schutzmaßnahmen treffen, inkl. PSAgA, wenn technische und organisatorische Maßnahmen nicht ausreichen.
+    
+
+#### **3. EKAS-Richtlinien (insb. Richtlinie 6512)**
+
+- Die **EKAS-Richtlinie 6512** regelt konkret den Einsatz von PSAgA.
+    
+- Themen: Auswahl, Einsatz, Schulung, Wartung und Kontrolle der Ausrüstung.
+    
+
+#### **4. Normen (EN-Normen)**
+
+- Beispiele:
+    
+    - **EN 363**: System für den Schutz gegen Absturz
+        
+    - **EN 361**: Auffanggurte
+        
+    - **EN 362**: Verbindungselemente
+        
+    - **EN 355**: Falldämpfer
+        
+
+---
+
+### 🛠️ **Was gehört zur PSAgA?**
+
+- **Auffanggurt**
+    
+- **Verbindungsmittel** (mit Falldämpfer)
+    
+- **Auffanggerät** (z. B. mit mitlaufendem Seil)
+    
+- **Anschlagmittel** (z. B. Bandschlinge, Stahlseil)
+    
+- **Helm mit Kinnriemen** (ergänzend, schützt vor herabfallenden Gegenständen)
+    
+
+---
+
+### 📌 **Einsatzbedingungen**
+
+- PSAgA ist **nur zulässig**, wenn:
+    
+    - **Kollektive Schutzmaßnahmen** (z. B. Geländer) **nicht möglich** sind.
+        
+    - Die Anwender geschult und die Ausrüstung geprüft ist.
+        
+    - Ein **Rettungskonzept** vorhanden ist.
+
 ### Schneefang
 
 Gebäudeeigentümer haftet
