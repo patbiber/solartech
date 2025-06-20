@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PSA",
+                "query": "Wärmepum",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
                 "file": "basics.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "flac"
               },
               "icon": "lucide-list",
               "title": "Outline of basics"

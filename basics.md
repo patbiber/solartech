@@ -548,6 +548,24 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
       Warmwasserbedarf: 4 * 250 W = 1 kW
       Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
 
+### Wärmepumpen Dimensionierung
+
+
+QK = QH -QEL
+
+35 W/m
+
+70 kWh/m
+
+(QH * (1-(1/JAZ)))/Qspez)
+
+QH = Heizenergie
+
+QSpez = 70 kWh/a m
+
+
+
+
 ## Wärmepumpen Regelung
 
 Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
