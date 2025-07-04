@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Wärmepum",
+                "query": "massens",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
                 "file": "basics.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": "flac"
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of basics"
@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 487.5
+    "width": 259.5
   },
   "left-ribbon": {
     "hiddenItems": {

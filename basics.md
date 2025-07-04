@@ -377,7 +377,7 @@ Volumestrom [m3/s] $\dot V=A*w$
 
 Fliessgeschwindigkeit [m/s] $w=\dot V/A$
 
-##Massenstrom
+## Massenstrom
 
 $\dot m=\Phi/(c * \Delta T)$
 
