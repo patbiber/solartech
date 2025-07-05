@@ -432,6 +432,11 @@ Faktor Verbrauchsdeckung $\alpha$
 
 EFH 50 l pro Person
 
+![ST_Anlage](ST_Anlage.jpg)
+
+### Approximative Fläche 
+![Approximative Fläche ](ST_approx_A.png)
+
 # Heizleistung und Wärmeübertragung
 
 Heizleistung [W] $P = \frac{Q}{t}$
