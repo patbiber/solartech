@@ -408,6 +408,30 @@ lt = Körperlänge nach der Temperaturänderung [m]
 
 ![Ausdehnung2](Ausdehnung2.jpeg)
 
+
+# Solarthermie ST
+
+## Berechnung Kollektorfläche
+
+Kollerktorfläche [m2] $A_k = (Q_{WEE} * \alpha ) / q$ 
+
+Jährlicher Wärmebedarf [kWh/a] $Q_{WWE}=(m*c*\Delta T * 365)/3600$
+
+- $m$: Masse des Mediums [Kilogramm (kg)]
+- $c$: Spezifische Wärmekapazität Wasser: 4.187, [kJ/(kg·K)]
+- $\Delta T$: Temperaturänderung [K]
+
+Mittlerer jährlicher Nutzwärmeertrag [kWh/(m2*a)] $q$q
+
+- Mittelland EFH 500 kWh/(m2*a) / MFH 650 kWh/(m2*a)
+- Alpen EFH 650 kWh/(m2*a)  / MFH 900 kWh/(m2*a)
+
+Faktor Verbrauchsdeckung $\alpha$
+- EFH 0.45 − 0.65
+- MFH 0.30 − 0.50
+
+EFH 50 l pro Person
+
 # Heizleistung und Wärmeübertragung
 
 Heizleistung [W] $P = \frac{Q}{t}$
