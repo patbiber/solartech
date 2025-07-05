@@ -437,6 +437,45 @@ EFH 50 l pro Person
 ### Approximative Fläche 
 ![Approximative Fläche ](ST_approx_A.png)
 
+## Solar Speicher
+
+Speichervolumen [l] $V_{SP} = A_K * V_S + V_Z$ 
+
+Installierte Kollektorfläche [m2]$A_K$ 
+
+Solar Volumen $V_s$ [l/m2]= 30 - 60 l/m2 
+
+Zusatzheitzvoluen $V_Z = V_B * f$
+
+$f$ : 
+- Gas oder Öl: 0.5 x Tagesbedarf / 
+-  Wärmepumpe und Elektro: 1.0 x Tagesbedarf
+
+ab 6m2 Wärmetauscherfläche zwingen Aussenliegend WT oder be Nachrüsten
+
+### Approximativer Pufferpseicher
+
+![ST_Puffer_approx](ST_Puffer_approx.png)
+
+## Wärmetauscher
+
+Wärmetauscher Fläche $A_{WT} = (A_K * \dot Q_K) / (k * \Delta T)$
+
+Kollektorfläche $A_K$
+
+Spezifische Kollektorleistung ca 650 [W/m2]$\dot Q $ 
+
+Wärmetauscher Kennwerte [W / (m2 K)]
+
+## Leitungsnetz
+
+Fliessgeschwindigkeit Glykol 0.6 bis [1 m/s]
+
+100 Pa = 1mBar
+
+Druckverlust plus 20 %
+
+
 # Heizleistung und Wärmeübertragung
 
 Heizleistung [W] $P = \frac{Q}{t}$
