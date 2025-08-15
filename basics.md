@@ -622,6 +622,13 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 $ \dot Q = ( B_a * CGV * \eta )  / t_{voll} $
 
+
+### Speicher 
+
+[m3] $ V= (Q*3600)/( p *c* \Delta )$
+
+
+
 QK = QH -QEL
 
 35 W/m
