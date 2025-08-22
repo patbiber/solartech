@@ -623,6 +623,10 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 Verdampfung (Q0) + Strom (Pel) = Kondensation (Qc)
 
+Kältemittel
+
+![Kältemittel](WP_Kältemittel.jpeg)
+
 ### Log PH Diagramm
 
 ![Log ph](WP_log_ph.jpeg)
