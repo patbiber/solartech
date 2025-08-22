@@ -807,6 +807,8 @@ Sicherheitseinrichtungen
 
 ![WP_sole](WP_sole.jpeg)
 
+![Sicherheitseitseinrichtung](Sicherheitseinrichtungen.png)
+
 ## Wärmepumpen Regelung
 
 Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
