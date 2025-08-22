@@ -619,12 +619,31 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 ## Wärmepumpen Grundlagen
 
-$COP = \dot Q / P_{auf} = P_{ab} / P_{auf}$
+$COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$
 
 $JAZ = Q_a / E_a$
 
 $E_a = Q_a / JAZ$
 
+$Q_a=P_{el}+Q_{a EWS}
+
+$Q_{a EWS} = Q_a - E_a$
+
+$Länge_{EWS}=Q_a*(1-(1/JAZ))/Q_{spez EWS}$
+
+Qa = Jahreswärmebedarf in kWh/a
+
+Ea = Jahresstrombedarf in kWh/a
+
+JAZ = Jahresarbeitszahl
+
+Qa EWS = Umweltwärmebedarf in kWh/a
+
+Ea = Jahresstrombedarf in kWh/a
+
+Entzugsleistung Erdwärmekollektoren $Q_{spez EWS}$
+
+![WP_Q_ews.png](WP_Q_ews.png)
 
 ![WP Basic](WP_basic.jpeg)
 
