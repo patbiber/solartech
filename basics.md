@@ -619,7 +619,16 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 ## Wärmepumpen Grundlagen
 
+$COP = \dot Q / P_{auf} = P_{ab} / P_{auf}$
+
+$JAZ = Q_a / E_a$
+
+$E_a = Q_a / JAZ$
+
+
 ![WP Basic](WP_basic.jpeg)
+
+![Agregatzustände](WP_agregatzustädne.jpeg)
 
 Verdampfung (Q0) + Strom (Pel) = Kondensation (Qc)
 
@@ -644,6 +653,24 @@ Ueberhitzung
 ### Sanierung
 
 $ \dot Q = ( B_a * CGV * \eta )  / t_{voll} $
+
+Qneu = Wärmeleistung Wärmepumpe neu in kW
+
+Ba = Brennstoff oder Stromverbrauch alte Heizung (Einheiten siehe oben)
+
+GCV = «Gross Calorific Value» - Energieinhalt
+
+Energieinhalt GCV und Wirkungsgrad
+
+![Energieinhalte undWirkungsgrad](Energieinhalte_Wirkungsgrad.png)
+
+Vollaststunden $t_{voll}$
+
+![Vollaststunden](Vollaststunden.png)
+
+spez. Wärmebedarf
+
+![spez. Jahreswärmebedarf](spez_Jahreswärmebedarf.png)
 
 
 ### Speicher 
