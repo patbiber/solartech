@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.49999618530273
+    "width": 200
   },
   "right": {
     "id": "c87d1f548a0ce682",
@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +171,7 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "WP_sole.jpeg",
     "WP_Q_ews.png",
     "Druckverlust.xlsx",
     "Reibungsverlust.jpeg",
@@ -187,7 +188,6 @@
     "GWT Script angepasst 28.pdf",
     "SolarWarmwasser.png",
     "Brennwert.png",
-    "AusdehnungWasser.png",
     "basics.md",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",

@@ -619,33 +619,56 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 ## Wärmepumpen Grundlagen
 
-$COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$
+Coefficient of performance $COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$ -> Das Verhältnis von Leistungsabgabe zu Leistungsaufnahme in einem festen Betriebspunkt.
 
-$JAZ = Q_a / E_a$
+Jahresarbeitszahl $JAZ = Q_a / E_a$
 
-$E_a = Q_a / JAZ$
+Jahresstrombedarf in kWh/a $E_a = Q_a / JAZ$
 
-$Q_a=P_{el}+Q_{a EWS}
+Heizleistung [kW]  $\dot Q_h =P_{el}+ \dot Q_{a EWS}$
 
-$Q_{a EWS} = Q_a - E_a$
+Umweltwärmebedarf in kWh/a
+ $Q_{a EWS} = Q_a - E_a$
 
-$Länge_{EWS}=Q_a*(1-(1/JAZ))/Q_{spez EWS}$
+ ### Erdsonde
+
+Entzugsleistung Erdwärmekollektoren $Länge_{EWS}=(Q_a*(1-(1/JAZ)))/Q_{spez EWS}$ oder $\dot Q_{EWS}/ \dot Q_{EWS/m}$
+
+$\dot Q_{EWS/m}$ 0.035 kW/m
+
+$Q_{ sepu EWS}$ meist 70 kWh/m
 
 Qa = Jahreswärmebedarf in kWh/a
 
 Ea = Jahresstrombedarf in kWh/a
 
-JAZ = Jahresarbeitszahl
+### Warmwasser
 
-Qa EWS = Umweltwärmebedarf in kWh/a
+Warmwasse [kWh] $Q_{WW}=(m * c * \Delta t)$
 
-Ea = Jahresstrombedarf in kWh/a
+Speicher [m3] $ V= (Q*3600)/( p *c* \Delta )$
 
-Entzugsleistung Erdwärmekollektoren $Q_{spez EWS}$
+### Grundwasser 
+
+$\dot m_{Grundwasser} [kg/h ]= \dot Q_k * 3600 / (c * t_{Ein}-t_{Aus})$
+
+$\dot Q_k$ = Entzugsleistung
+
+ $c_{Wasser}$ = 4.187 [KJ/kg K]
+
+### Sanierung
+
+$\dot Q = ( B_a * CGV * \eta )  / t_{voll}$
+
+Ba = Brennstoff oder Stromverbrauch alte Heizung (Einheiten siehe oben)
+
+GCV = «Gross Calorific Value» - Energieinhalt
 
 ![WP_Q_ews.png](WP_Q_ews.png)
 
 ![WP Basic](WP_basic.jpeg)
+
+Hochruck- und Niederdruckpessostat Drucküberwachung zur Sicherheit
 
 ![Agregatzustände](WP_agregatzustädne.jpeg)
 
@@ -654,6 +677,12 @@ Verdampfung (Q0) + Strom (Pel) = Kondensation (Qc)
 Kältemittel
 
 ![Kältemittel](WP_Kältemittel.jpeg)
+
+Vorteile natürlicher Kältemittel
+
+- kleines GWP Global Warming Potential 
+- kleines ODP Ozon Abbau Potential
+- Gute thermodynamische Eigenschaften
 
 ### Log PH Diagramm
 
@@ -667,18 +696,6 @@ Ueberhitzung
 
 
 
-## Wärmepumpen Dimensionierung
-
-### Sanierung
-
-$ \dot Q = ( B_a * CGV * \eta )  / t_{voll} $
-
-Qneu = Wärmeleistung Wärmepumpe neu in kW
-
-Ba = Brennstoff oder Stromverbrauch alte Heizung (Einheiten siehe oben)
-
-GCV = «Gross Calorific Value» - Energieinhalt
-
 Energieinhalt GCV und Wirkungsgrad
 
 ![Energieinhalte undWirkungsgrad](Energieinhalte_Wirkungsgrad.png)
@@ -691,27 +708,104 @@ spez. Wärmebedarf
 
 ![spez. Jahreswärmebedarf](spez_Jahreswärmebedarf.png)
 
+## Wärmequellen 
 
-### Speicher 
+#### Wasser:
 
-[m3] $ V= (Q*3600)/( p *c* \Delta )$
+Oberflächenwasser
+- Flusswasser
+- Seewasser
+- Meerwasser
 
+Unterirdisches Wasser
+- Grundwasser
+- Quellwasser
+- Brunnenwasser
+- Tiefenwasser
 
+Abwärme
+- Kühlwasser
+- Komm. Abwasser
+- Industrieabwasser
 
-QK = QH -QEL
+Kreislaufwasser
 
-35 W/m
+- Fernheitznetz
+- Wasserleitungsnetz
+- Prozesswasser
 
-70 kWh/m
+#### Erdreich
 
-(QH * (1-(1/JAZ)))/Qspez)
+- Erdwärmesonden 
+- Tiefenbohrungen
+- Erdkollektoren
 
-QH = Heizenergie
+#### Luft
 
-QSpez = 70 kWh/a m
+- Aussenluft
+- Fortluft ab Lüftung
+- Prozessabwärme
+- Personenabwärme
 
+## WP Typen
 
+### Luft/Wasser
 
+#### Schallarten: 
+- Luftschall
+- Körperschall
+- Fliess-/Strömungsgeräusche
+
+### Innenaufgestellt
+Vorteile
+- Schallemissionen gegen aussen sind in der Regel praktisch ausgeschlossen
+- Es sind keine Frostfreihalteeinrichtun-gen erforderlich
+
+Nachteile:
+- Platzbedarf Luftkanäle
+- Gefahr von Luftkurzschluss 
+- baulicher Aufwand (Wandöffnungen, Lichtschächte etc.
+
+### Aussenaufstellung
+
+Vorteile:
+- Geringer Platzbedarf im Gebäude
+- Einfacher baulicher Aufwand (kleine Gebäudeöffnungen für Leitungen usw.)
+- Geringere Gefahr von Luftkurzschlüssen
+
+Nachteile:
+- Schallemissionen muss Rechnung getragen werden
+- Erfordert eine Baubewilligung
+- Bei der Leitungsführung muss der Frostgefahr Beachtung geschenkt wer-den
+- Höhere Verluste aufgrund aussenverlegter Leitungen (je nach Länge und Isolation)
+
+### Split Anlagen
+
+Vorteile:
+- Geringer Platzbedarf im Gebäude
+- Einfacher baulicher Aufwand (kleine Gebäudeöffnungen für Leitungen usw.)
+- Geringere Gefahr von Luftkurzschlüs-sen
+- Kostengünstig
+
+Nachteile:
+- Schallemissionen muss Rechnung getragen werden
+- Erfordert eine Baubewilligung
+- Geringere Effizienz
+- Begrenzt in der Leistung
+- Höherer Kältemittelinhalt und damit grösserer Aufwand in Wartung und Dichtigkeitskontrollen
+- i.d.R. tiefere Lebensdauer
+
+### Abstände Erdsonden
+- Abstand zwischen 2 und mehreren Erdwärmesonden ca. 7-8 m (Mindestab-stand 5 m)
+
+- Kanton Zürich: Merkblatt "Erdwärmesonden" des AWEL → schreibt 6 m zwischen zwei Sonden, 3 m zur Grundstücksgrenze, 2 m zu Gebäuden vor.
+
+- in den Rohren der Erdwärmesonden sollte eine turbulente Strömung sein, da sonst die Quellentemperatur ca. 1.5 [K] absinkt (tiefere Verdampfung)
+- Warmwasserbereitung bei der Dimensionierung nicht vergessen
+
+Sicherheitseinrichtungen
+
+![WP_sole](WP_sole.jpeg)
 
 ## Wärmepumpen Regelung
 
