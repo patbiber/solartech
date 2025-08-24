@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "massens",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -171,6 +171,12 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "ST_Druckverlust.jpg",
+    "ST_Druckverlust.png.jpg",
+    "ST_Druckverlust.jpeg",
+    "~$Druckverlust.xlsx",
+    "ST_Rohre2.jpeg",
+    "ST_Rohre.jpeg",
     "ST_Zuschlagfaktor.jpeg",
     "ST_ausdehnungskoeffizient.jpeg",
     "Sicherheitseinrichtungen.png",
@@ -178,11 +184,6 @@
     "WP_Q_ews.png",
     "Druckverlust.xlsx",
     "Reibungsverlust.jpeg",
-    "mischkeuz.png",
-    "Thermische_Ausdehnungsfaktor.png",
-    "Kontrollwerte.png",
-    "Screenshot 2025-05-31 151729.png",
-    "Kontrollwerte.jpeg",
     "Lambda-Werte-Waremedurchgangswerte.pdf",
     "GWT Script angepasst 31.pdf",
     "GWT Script angepasst 30.pdf",

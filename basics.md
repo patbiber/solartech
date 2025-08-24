@@ -488,7 +488,7 @@ $f$ Korrekturfaktor Medium Glykol 1.2 bis 2
 
 Ausdehnungsvolumen mit Vorlagevolumen $V_{ex}$ [l] =$V_{sys} * e * x$
 
-$V_{sys} = V_{koll} * 2 = V_{koll} + V_{WT} + V_{LTG}$
+$V_{sys} = V_{koll} * 2$ oder $V_{koll} + V_{WT} + V_{LTG}$
 
 $V_{LTG} = r2 * \pi * 2*l$
 
@@ -502,6 +502,16 @@ $P_V$ Auslegegungs_Vordruck  [bar] = Anlagenhähendruck m / 10 + 0.3 bar
 ![ST_ausdehnungskoeffizient](ST_ausdehnungskoeffizient.jpeg)
 
 ![ST_Zuschlagfaktor](ST_Zuschlagfaktor.jpeg)
+
+Abmessung Gewicht Wasserinhalt Rohre
+
+![ST Rohre](ST_Rohre.jpeg)
+
+![ST Rohre](ST_Rohre2.jpeg)
+
+Druckverlust
+
+![Druckverlust](ST_Druckverlust.jpg)
 
 
 # Heizleistung und Wärmeübertragung
