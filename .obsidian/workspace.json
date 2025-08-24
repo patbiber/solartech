@@ -146,7 +146,7 @@
                 "file": "basics.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "Thermie"
               },
               "icon": "lucide-list",
               "title": "Outline of basics"
@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 436.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +171,8 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "ST_Zuschlagfaktor.jpeg",
+    "ST_ausdehnungskoeffizient.jpeg",
     "Sicherheitseinrichtungen.png",
     "WP_sole.jpeg",
     "WP_Q_ews.png",
@@ -181,13 +183,11 @@
     "Kontrollwerte.png",
     "Screenshot 2025-05-31 151729.png",
     "Kontrollwerte.jpeg",
-    "Vollaststunden.png",
     "Lambda-Werte-Waremedurchgangswerte.pdf",
     "GWT Script angepasst 31.pdf",
     "GWT Script angepasst 30.pdf",
     "GWT Script angepasst 29.pdf",
     "GWT Script angepasst 28.pdf",
-    "SolarWarmwasser.png",
     "basics.md",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",

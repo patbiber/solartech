@@ -410,70 +410,98 @@ lt = Körperlänge nach der Temperaturänderung [m]
 
 
 # Solarthermie ST
+![[ST_Anlage.jpg]]
+#### Berechnung Kollektorfläche
 
-## Berechnung Kollektorfläche
+600 - 1000 W/m2 Sonneneinstrahlung
+1100 kWh/m2 Globalstrahlung in CH
+Optimaler Kollektor Neigungswinkel 40° bis 60° im Winter im Sommer 25° - 35° gegen Süden meist 45°
+Abstand a = h / tan (Sonnenstand 19° 21.12) oder höhe Modulkante * 3
 
 Kollerktorfläche [m2] $A_k = (Q_{WEE} * \alpha ) / q$ 
 
 Jährlicher Wärmebedarf [kWh/a] $Q_{WWE}=(m*c*\Delta T * 365)/3600$
 
-- $m$: Masse des Mediums [Kilogramm (kg)]
-- $c$: Spezifische Wärmekapazität Wasser: 4.187, [kJ/(kg·K)]
-- $\Delta T$: Temperaturänderung [K]
+$c$  4.187, [kJ/(kg·K)]
 
-Mittlerer jährlicher Nutzwärmeertrag [kWh/(m2*a)] $q$q
+$q$  Mittlerer jährlicher Nutzwärmeertrag [kWh/(m2*a)] 
 
 - Mittelland EFH 500 kWh/(m2*a) / MFH 650 kWh/(m2*a)
 - Alpen EFH 650 kWh/(m2*a)  / MFH 900 kWh/(m2*a)
 
-Faktor Verbrauchsdeckung $\alpha$
+$\alpha$ Faktor Verbrauchsdeckung 
 - EFH 0.45 − 0.65
 - MFH 0.30 − 0.50
 
 EFH 50 l pro Person
 
-![ST_Anlage](ST_Anlage.jpg)
-
-### Approximative Fläche 
-![Approximative Fläche ](ST_approx_A.png)
-
-## Solar Speicher
+#### Solar WW Speicher
 
 Speichervolumen [l] $V_{SP} = A_K * V_S + V_Z$ 
 
-Installierte Kollektorfläche [m2]$A_K$ 
+$A_K$  Installierte Kollektorfläche [m2]
 
-Solar Volumen $V_s$ [l/m2]= 30 - 60 l/m2 
+$V_s$ Solar Vorwärm Volumen  [l/m2]= 30 - 60 l/m2 
 
-Zusatzheitzvoluen $V_Z = V_B * f$
+ $V_Z$ Zusatzheitzvolumen = $V_B * f$
 
-$f$ : 
+$f$ 
 - Gas oder Öl: 0.5 x Tagesbedarf / 
 -  Wärmepumpe und Elektro: 1.0 x Tagesbedarf
 
-ab 6m2 Wärmetauscherfläche zwingen Aussenliegend WT oder be Nachrüsten
+$V_B$ Bereitschaftsvolumen 50 l pro Person
 
-### Approximativer Pufferpseicher
+![[ST_approx_A.png]]
 
 ![ST_Puffer_approx](ST_Puffer_approx.png)
 
-## Wärmetauscher
+#### Wärmetauscher
+
+ab 6m2 Wärmetauscherfläche zwingen Aussenliegend WT oder bei Nachrüsten
 
 Wärmetauscher Fläche $A_{WT} = (A_K * \dot Q_K) / (k * \Delta T)$
 
-Kollektorfläche $A_K$
+$A_K$ Kollektorfläche 
 
-Spezifische Kollektorleistung ca 650 [W/m2]$\dot Q $ 
+$\dot Q_K$  Spezifische Kollektorleistung ca 650 [W/m2]
 
-Wärmetauscher Kennwerte [W / (m2 K)]
+$k$ Wärmetauscher Kennwerte [W / (m2 K)]
 
-## Leitungsnetz
+#### Umwälzpumpe
 
-Fliessgeschwindigkeit Glykol 0.6 bis [1 m/s]
+Fliessgeschwindigkeit Glykol 0.6 bis 1 [m/s]
 
 100 Pa = 1mBar
 
-Druckverlust plus 20 %
+Volumenstrom $\dot V = A_k * V_s$
+
+V Volumstrom l/h 
+$V_s$ Spezifischer Volumenstrom gem Kollektortyp 
+
+Druckverlust [Pa] [Pa] $\Delta_{ptot}=( \Delta_{pkoll} + \Delta_{pWT} + \Delta_{pLTg} )* f$
+
+$f$ Korrekturfaktor Medium Glykol 1.2 bis 2
+
+1 bar = 100'000 Pa = 10 mWS
+
+#### Expansionsgefäss
+
+Ausdehnungsvolumen mit Vorlagevolumen $V_{ex}$ [l] =$V_{sys} * e * x$
+
+$V_{sys} = V_{koll} * 2 = V_{koll} + V_{WT} + V_{LTG}$
+
+$V_{LTG} = r2 * \pi * 2*l$
+
+e = Ausdehnungskoeffizient 
+
+Mindest Nennvolumen Expansionsgefäss $V_n = (V_{ex} * P_E  + 1) / (P_E - P_V)$
+
+$P_E$ Auslegegungs_Enddruck  [bar]= Gefässvordruck (3) / 1.3
+$P_V$ Auslegegungs_Vordruck  [bar] = Anlagenhähendruck m / 10 + 0.3 bar
+
+![ST_ausdehnungskoeffizient](ST_ausdehnungskoeffizient.jpeg)
+
+![ST_Zuschlagfaktor](ST_Zuschlagfaktor.jpeg)
 
 
 # Heizleistung und Wärmeübertragung
