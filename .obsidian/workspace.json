@@ -161,6 +161,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -171,6 +172,7 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "basics.md",
     "ST_Druckverlust.jpg",
     "ST_Druckverlust.png.jpg",
     "ST_Druckverlust.jpeg",
@@ -183,13 +185,11 @@
     "WP_sole.jpeg",
     "WP_Q_ews.png",
     "Druckverlust.xlsx",
-    "Reibungsverlust.jpeg",
     "Lambda-Werte-Waremedurchgangswerte.pdf",
     "GWT Script angepasst 31.pdf",
     "GWT Script angepasst 30.pdf",
     "GWT Script angepasst 29.pdf",
     "GWT Script angepasst 28.pdf",
-    "basics.md",
     "Verschaltung_Modul.png.crdownload",
     "verschattung_und verschaltung_Halbzellen.jpg.crdownload",
     "gitignore",

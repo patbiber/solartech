@@ -469,7 +469,8 @@ $k$ Wärmetauscher Kennwerte [W / (m2 K)]
 
 #### Umwälzpumpe
 
-Fliessgeschwindigkeit Glykol 0.6 bis 1 [m/s]
+Fliessgeschwindigkeit Glykol 0.6 bis 1 [m/s] optimal 0.7 [m/s]
+
 
 100 Pa = 1mBar
 
@@ -480,7 +481,7 @@ $V_s$ Spezifischer Volumenstrom gem Kollektortyp
 
 Druckverlust [Pa] [Pa] $\Delta_{ptot}=( \Delta_{pkoll} + \Delta_{pWT} + \Delta_{pLTg} )* f$
 
-$f$ Korrekturfaktor Medium Glykol 1.2 bis 2
+$f$ Korrekturfaktor Medium Glykol 1.2
 
 1 bar = 100'000 Pa = 10 mWS
 
