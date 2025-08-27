@@ -489,13 +489,13 @@ $f$ Korrekturfaktor Medium Glykol 1.2
 
 Ausdehnungsvolumen mit Vorlagevolumen $V_{ex}$ [l] =$V_{sys} * e * x$
 
-$V_{sys} = V_{koll} * 2$ oder $V_{koll} + V_{WT} + V_{LTG}$
+$V_{sys} =V_{koll} + V_{WT} + V_{LTG}$ oder $(V_{koll} + V_{LTG})*2$
 
 $V_{LTG} = r2 * \pi * 2*l$
 
 e = Ausdehnungskoeffizient 
 
-Mindest Nennvolumen Expansionsgefäss $V_n = (V_{ex} * P_E  + 1) / (P_E - P_V)$
+Mindest Nennvolumen Expansionsgefäss $V_n = (V_{ex} * (P_E  + 1))/ (P_E - P_V)$
 
 $P_E$ Auslegegungs_Enddruck  [bar]= Gefässvordruck (3) / 1.3
 $P_V$ Auslegegungs_Vordruck  [bar] = Anlagenhähendruck m / 10 + 0.3 bar
