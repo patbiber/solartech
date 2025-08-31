@@ -413,12 +413,16 @@ lt = Körperlänge nach der Temperaturänderung [m]
 ![[ST_Anlage.jpg]]
 #### Berechnung Kollektorfläche
 
+$(n_{Personen} * Tagesverbrauch * \Delta t  *  4,187 * 365 * 1.2 )/3600$
+
 600 - 1000 W/m2 Sonneneinstrahlung
 1100 kWh/m2 Globalstrahlung in CH
 Optimaler Kollektor Neigungswinkel 40° bis 60° im Winter im Sommer 25° - 35° gegen Süden meist 45°
 Abstand a = h / tan (Sonnenstand 19° 21.12) oder höhe Modulkante * 3
 
-Kollerktorfläche [m2] $A_k = (Q_{WEE} * \alpha ) / q$ 
+Person mal 1.5 m2 überschlag
+
+Kollerktorfläche [m2] $A_k = (Q_{WWE} * \alpha ) / q$ 
 
 Jährlicher Wärmebedarf [kWh/a] $Q_{WWE}=(m*c*\Delta T * 365)/3600$
 
@@ -430,12 +434,23 @@ $q$  Mittlerer jährlicher Nutzwärmeertrag [kWh/(m2*a)]
 - Alpen EFH 650 kWh/(m2*a)  / MFH 900 kWh/(m2*a)
 
 $\alpha$ Faktor Verbrauchsdeckung 
-- EFH 0.45 − 0.65
+- EFH 0.45 − 0.65 -> 0.55
 - MFH 0.30 − 0.50
 
-EFH 50 l pro Person
+m EFH 50 l * person * 1.2
+Plus 20 Prozent Verlust
+
+##### Ueberschlagsmässige Jahresdeckung
+
+400 kWh/m2/a für Vorwärmung nach Roland
+
+SD = Fläche  Jahresertrag / Vollaststunden
+
+SD =  6 m2  * 400 kWh / 2700h = 0.08 = 8%
 
 #### Solar WW Speicher
+
+$V_{SP} = A_K * V_S + (n_{personen} * Tagesbedarf * f)$
 
 Speichervolumen [l] $V_{SP} = A_K * V_S + V_Z$ 
 
@@ -455,6 +470,8 @@ $V_B$ Bereitschaftsvolumen 50 l pro Person
 
 ![ST_Puffer_approx](ST_Puffer_approx.png)
 
+![STapproxberechnungWW](STapproxberechnungWW.jpeg)
+
 #### Wärmetauscher
 
 ab 6m2 Wärmetauscherfläche zwingen Aussenliegend WT oder bei Nachrüsten
@@ -467,12 +484,22 @@ $\dot Q_K$  Spezifische Kollektorleistung ca 650 [W/m2]
 
 $k$ Wärmetauscher Kennwerte [W / (m2 K)]
 
-#### Umwälzpumpe
+$\Delta T$ VL RL zum Kollektor ca 10 K
+
+$Q_{ab}=Q_{auf}$
+
+einmal c für wasser einmal für Wasser/Glykol
+
+#### Solarleitung
 
 Fliessgeschwindigkeit Glykol 0.6 bis 1 [m/s] optimal 0.7 [m/s]
 
+![Druckverlust](ST_Druckverlust.jpg)
 
 100 Pa = 1mBar
+10'000 Pa = 1 Bar
+
+#### Umwälzpumpe 
 
 Volumenstrom $\dot V = A_k * V_s$
 
@@ -481,19 +508,26 @@ $V_s$ Spezifischer Volumenstrom gem Kollektortyp
 
 Druckverlust [Pa] [Pa] $\Delta_{ptot}=( \Delta_{pkoll} + \Delta_{pWT} + \Delta_{pLTg} )* f$
 
+$\Delta_{pLTg} = Länge * P/m * 1.2$   (20% für Formstücke)
+
 $f$ Korrekturfaktor Medium Glykol 1.2
 
-1 bar = 100'000 Pa = 10 mWS
+High flow 30 - 40 l/m2/h
 
+Förderhöhe [mWs]= $\Delta_{ptot}$ [Pa] / (1000 * 9.81 [N])
+
+#### Fülldruck
+
+Fülldruck = Betriebsdruck = Anlagenhöhendruck m / 10 + 0.3 bar + 0.5 bar
 #### Expansionsgefäss
 
 Ausdehnungsvolumen mit Vorlagevolumen $V_{ex}$ [l] =$V_{sys} * e * x$
 
-$V_{sys} =V_{koll} + V_{WT} + V_{LTG}$ oder $(V_{koll} + V_{LTG})*2$
+$V_{sys} =V_{koll} + V_{WT} + V_{LTG}$ oder $(Anlageinhalt)*2$
 
 $V_{LTG} = r2 * \pi * 2*l$
 
-e = Ausdehnungskoeffizient 
+e = Ausdehnungskoeffizient
 
 Mindest Nennvolumen Expansionsgefäss $V_n = (V_{ex} * (P_E  + 1))/ (P_E - P_V)$
 
@@ -509,11 +543,6 @@ Abmessung Gewicht Wasserinhalt Rohre
 ![ST Rohre](ST_Rohre.jpeg)
 
 ![ST Rohre](ST_Rohre2.jpeg)
-
-Druckverlust
-
-![Druckverlust](ST_Druckverlust.jpg)
-
 
 # Heizleistung und Wärmeübertragung
 
