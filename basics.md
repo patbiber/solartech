@@ -525,7 +525,7 @@ Vordruck =  Anlagenhöhendruck m / 10 + 0.3 bar
 
 Ausdehnungsvolumen mit Vorlagevolumen $V_{ex}$ [l] =$V_{sys} * e * x$
 
-$V_{sys} =V_{koll} + V_{WT} + V_{LTG}$ oder $(Anlageinhalt)*2$
+$V_{sys} =V_{koll} + V_{SK} * 2$ 
 
 $V_{LTG} = r2 * \pi * 2*l$
 

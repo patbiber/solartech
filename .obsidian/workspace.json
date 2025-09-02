@@ -146,7 +146,7 @@
                 "file": "basics.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "thermi"
               },
               "icon": "lucide-list",
               "title": "Outline of basics"
@@ -170,8 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1e4df124ecafaae",
+  "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "2025-09-01.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "basics.md",
     "STapproxberechnungWW.jpeg",
     "ST_Druckverlust.jpg",
     "ST_Druckverlust.png.jpg",
@@ -183,17 +188,12 @@
     "ST_ausdehnungskoeffizient.jpeg",
     "Sicherheitseinrichtungen.png",
     "WP_sole.jpeg",
-    "WP_Q_ews.png",
     "Druckverlust.xlsx",
     "Lambda-Werte-Waremedurchgangswerte.pdf",
     "GWT Script angepasst 31.pdf",
     "GWT Script angepasst 30.pdf",
     "GWT Script angepasst 29.pdf",
     "GWT Script angepasst 28.pdf",
-    "basics.md",
-    "Verschaltung_Modul.png.crdownload",
-    "verschattung_und verschaltung_Halbzellen.jpg.crdownload",
-    "gitignore",
-    "Untitled.canvas"
+    "Verschaltung_Modul.png.crdownload"
   ]
 }
