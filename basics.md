@@ -494,7 +494,7 @@ einmal c für wasser einmal für Wasser/Glykol
 
 Fliessgeschwindigkeit Glykol 0.6 bis 1 [m/s] optimal 0.7 [m/s]
 
-![Druckverlust](ST_Druckverlust.jpg)
+
 
 100 Pa = 1mBar
 10'000 Pa = 1 Bar
@@ -520,6 +520,8 @@ Förderhöhe [mWs]= $\Delta_{ptot}$ [Pa] / (1000 * 9.81 [N])
 
 Fülldruck = Betriebsdruck = Anlagenhöhendruck m / 10 + 0.3 bar + 0.5 bar
 #### Expansionsgefäss
+
+Vordruck =  Anlagenhöhendruck m / 10 + 0.3 bar
 
 Ausdehnungsvolumen mit Vorlagevolumen $V_{ex}$ [l] =$V_{sys} * e * x$
 
