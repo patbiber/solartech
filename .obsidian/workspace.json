@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "basics.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -146,7 +146,7 @@
                 "file": "basics.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": "thermi"
+                "searchQuery": "wärmepumpen"
               },
               "icon": "lucide-list",
               "title": "Outline of basics"
@@ -172,6 +172,8 @@
   },
   "active": "dca1ba2f3b845230",
   "lastOpenFiles": [
+    "WP_agregatzustaende.jpeg",
+    "WP_Kaeltemittel.jpeg",
     "Untitled.canvas",
     "2025-09-01.md",
     "Untitled.base",
@@ -187,7 +189,6 @@
     "ST_Zuschlagfaktor.jpeg",
     "ST_ausdehnungskoeffizient.jpeg",
     "Sicherheitseinrichtungen.png",
-    "WP_sole.jpeg",
     "Druckverlust.xlsx",
     "Lambda-Werte-Waremedurchgangswerte.pdf",
     "GWT Script angepasst 31.pdf",

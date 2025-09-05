@@ -691,6 +691,9 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 Coefficient of performance $COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$ -> Das Verhältnis von Leistungsabgabe zu Leistungsaufnahme in einem festen Betriebspunkt.
 
+*Je kleiner der Temperaturhub zwischen Quelle und Senke,
+desto höher fällt der COP aus.*
+
 Jahresarbeitszahl $JAZ = Q_a / E_a$
 
 Jahresstrombedarf in kWh/a $E_a = Q_a / JAZ$
@@ -740,13 +743,13 @@ GCV = «Gross Calorific Value» - Energieinhalt
 
 Hochruck- und Niederdruckpessostat Drucküberwachung zur Sicherheit
 
-![Agregatzustände](WP_agregatzustädne.jpeg)
+![Agregatzustände](WP_agregatzustaende.jpeg)
 
 Verdampfung (Q0) + Strom (Pel) = Kondensation (Qc)
 
 Kältemittel
 
-![Kältemittel](WP_Kältemittel.jpeg)
+![Kältemittel](WP_Kaeltemittel.jpeg)
 
 Vorteile natürlicher Kältemittel
 
