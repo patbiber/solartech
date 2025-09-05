@@ -789,7 +789,7 @@ Vollaststunden $t_{voll}$
 
 spez. Wärmebedarf
 
-![spez. Jahreswärmebedarf](spez_Jahreswärmebedarf.png)
+![spez. Jahreswärmebedarf](spez_Jahreswaermebedarf.png)
 
 ## Wärmequellen 
 
