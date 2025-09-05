@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "4.1",
-                "matchingCase": false,
+                "query": "mono",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": true,
@@ -170,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dca1ba2f3b845230",
+  "active": "f9539ebd1fcffce6",
   "lastOpenFiles": [
     "spezifische_Waermekapazität_von_Stoffen.png",
     "spez_Jahreswaermebedarf.png",

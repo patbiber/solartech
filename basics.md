@@ -717,9 +717,9 @@ Umweltwärmebedarf in kWh/a
 
 Entzugsleistung Erdwärmekollektoren $Länge_{EWS}=(Q_a*(1-(1/JAZ)))/Q_{spez EWS}$ oder $\dot Q_{EWS}/ \dot Q_{EWS/m}$
 
-$\dot Q_{EWS/m}$ 0.035 kW/m
+$\dot Q_{EWS/m}$ 0.035 kW/m max 250 m
 
-$Q_{ sepu EWS}$ meist 70 kWh/m
+$Q_{ sepu EWS}$ meist 70 kWh/m max 250 m
 
 Qa = Jahreswärmebedarf in kWh/a
 
