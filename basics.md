@@ -687,7 +687,7 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
       Energiebedarf = ((4.9 + 1) / 28) * 16 * 3267 ≈ 11,900 kWh pro Jahr
 
 
-## Wärmepumpen Grundlagen
+# Wärmepumpen Grundlagen
 
 Coefficient of performance $COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$ -> Das Verhältnis von Leistungsabgabe zu Leistungsaufnahme in einem festen Betriebspunkt.
 
