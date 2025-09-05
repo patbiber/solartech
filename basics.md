@@ -892,6 +892,17 @@ Sicherheitseinrichtungen
 
 ![Sicherheitseitseinrichtung](Sicherheitseinrichtungen.png)
 
+### Betriebsarten von Wärmepumpen
+
+| Betriebsart       | Beschreibung                                   | Typischer Zusatz | Einsatzbereich                  |
+|-------------------|-----------------------------------------------|------------------|---------------------------------|
+| **Monovalent**    | Wärmepumpe alleinige Heizquelle, deckt 100 % der Heizlast | keiner           | Gut gedämmte EFH/MFH, Neubauten |
+| **Monoenergetisch** | Wärmepumpe + kleiner Elektroheizstab für Spitzenlast | Elektroheizstab  | EFH, Standardlösung in CH/DE    |
+| **Bivalent-parallel** | Wärmepumpe + fossiler Wärmeerzeuger, beide können gleichzeitig laufen | Öl- oder Gaskessel | Sanierungen, höhere Heizlast    |
+| **Bivalent-alternativ** | Wärmepumpe bis Bivalenzpunkt, dann fossiler Wärmeerzeuger übernimmt allein | Öl- oder Gaskessel | Kalte Regionen, Altbauten       |
+| **Multivalent**   | Kombination mehrerer Systeme                  | z. B. WP + Solarthermie + Gas | Große Gebäude, Industrie, Netze |
+
+
 ## Wärmepumpen Regelung
 
 Fast alle Wärmepumpen tragen ein Label namens "SG Ready", weil das eine Förderbedingung ist in Deutschalnd. 
