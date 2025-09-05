@@ -689,10 +689,20 @@ Für ein 140 m² Einfamilienhaus in Zürich mit 4 Personen:
 
 # Wärmepumpen Grundlagen
 
-Coefficient of performance $COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$ -> Das Verhältnis von Leistungsabgabe zu Leistungsaufnahme in einem festen Betriebspunkt.
+### COP
 
+Coefficient of performance $COP = \dot Q_h / P_{auf} = P_{ab} / P_{auf}$ 
+
+**Das Verhältnis von Leistungsabgabe zu Leistungsaufnahme in einem festen Betriebspunkt.**
 *Je kleiner der Temperaturhub zwischen Quelle und Senke,
 desto höher fällt der COP aus.*
+
+### JAZ
+
+**Das Verhältnis der abgegebenen Wärmemenge zur aufge-
+nommenen elektrischen Energie während eines Jahres.**
+*Es handelt sich dabei um sich dabei immer um effektiv gemessene Werte der Wärme-
+pumpenanlage.*
 
 Jahresarbeitszahl $JAZ = Q_a / E_a$
 
