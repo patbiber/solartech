@@ -1,6 +1,6 @@
-# Elektrotechnik für Solarteure
+# Alle Formeln und Fachbegriffe für Solarteure
 
-Basic elektrotechnik Formeln in Markdown
+Phsysik, Wärmelehre, Elektrotechnik, Photovoltaik, Solarthermie und Wärmepumpen Formeln in Markdown
 
 Hilfe zur Markdownformatierung 
 
