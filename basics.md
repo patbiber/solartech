@@ -965,7 +965,7 @@ Leitungsverlust $P_v = U_v2 /R_l = I2 * R_l$
 | 160                 | 70                |
 | 100                 | 35                |
 | 80                  | 25                |
-| 69                  | 16 (Erdung)       |
+| 63                  | 16 (Erdung)       |
 | 50                  | 16 (Erdung)       |
 | 40                  | 10                |
 | 32                  | 8                 |
