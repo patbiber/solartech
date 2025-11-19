@@ -410,7 +410,7 @@ lt = Körperlänge nach der Temperaturänderung [m]
 
 
 # Solarthermie ST
-![[ST_Anlage.jpg]]
+![ST_Anlage.jpg]
 #### Berechnung Kollektorfläche
 
 $(n_{Personen} * Tagesverbrauch * \Delta t  *  4,187 * 365 * 1.2 )/3600$
@@ -945,7 +945,7 @@ $A = r2 * \pi$ = Leiterquerschnitt [mm²]
 
 Leitwert Siemens [S] $G = 1/R$
 
-Spannungsabfall  [V] $\Delta U = U_{RL1} + U_{RL2} = (R_{L1}+R_{L2})*I=2*((\rho*l*I)/A)$
+Spannungsabfall  [V] $\Delta U = U_{RL1} + U_{RL2} = (R_{L1}+R_{L2}) * I=2 * ((\rho * l * I)/A)$
 
 spezifischer Leitwiederstand zbsp für Kupfer $\rho_cu= 0.0175 \frac{\Omega * mm2}{m}$
 
@@ -1659,7 +1659,7 @@ $n= U_{min} / U_{mpp Modul}$
 
 $ISC_max = ISC_Modul * 1.25$
 
-$ISC_{max}=ISC_{Modul STC}*(1+(T_{max}-T_{STC})*(kT_{ISC}/100))*n$
+$ISC_{max}=ISC_{Modul STC} * (1+(T_{max}-T_{STC}) * (kT_{ISC}/100)) * n$
 
 Der Temperaturkoeffizient kann auf dem Datenblatt des Modulherstellers abgelesen werden, in der Regel bewegt er sich bei kristallinen Modulen um 0.03 % / °K. Da dieser Einfluss sehr klein ist, kann und wird die Temperaturkorrektur oft vernachlässigt.
 
