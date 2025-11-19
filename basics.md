@@ -334,15 +334,15 @@ $\Delta T_{tot} = (m_1* \Delta T_1 + m_2 \Delta T_2)/m_{tot}$
 
 Kaltwasser:
 
-$T_1 = ((m_1+m_2)*T_m-m_2*T_2)/m_1$
+$T_1 = ((m_1+m_2) * T_m-m_2 * T_2)/m_1$
 
 $m_1 = (m_2*(T_2-T_m))/(T_m- T_1)$
 
 Warmwasser: 
 
-$T_2=((m_1+m_2)*T_m-m1*T_1)/m2$
+$T_2=((m_1+m_2) * T_m-m1 * T_1)/m2$
 
-$m_2 = (m_1*(T_m-T_1))/(T_2- T_m)$
+$m_2 = (m_1 * (T_m-T_1))/(T_2- T_m)$
 
 ### Hydraulische Schaltungen
 
