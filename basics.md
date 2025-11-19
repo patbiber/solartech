@@ -230,7 +230,7 @@ SIA 384.201 oder Ableitung aus SIA 380/1 plus allgemeine Zuschläge
 
 Ermittlung aus Brennstoffverbrauch oder Messungen
 
-$\Phi_{HL}=(Verbrauch*H_s*\eta) / t_{voll}$ 
+$\Phi_{HL}=(Verbrauch*H_s*\eta)/t_{voll}$ 
 
 - $H_s$ Brennwert
 
@@ -334,7 +334,7 @@ $\Delta T_{tot} = (m_1* \Delta T_1 + m_2 \Delta T_2)/m_{tot}$
 
 Kaltwasser:
 
-$T_1 = ((m_1+m_2)*T_m - m_2*T_2)/m_1$
+$T_1 = ((m_1+m_2)*T_m-m_2*T_2)/m_1$
 
 $m_1 = (m_2*(T_2-T_m))/(T_m- T_1)$
 
