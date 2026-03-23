@@ -729,7 +729,7 @@ Ea = Jahresstrombedarf in kWh/a
 
 Warmwasse [kWh] $Q_{WW}=(m * c * \Delta t)$
 
-Speicher [m3] $ V= (Q*3600)/( p *c* \Delta )$
+Speicher [m3] $V= (Q*3600)/( p *c* \Delta )$
 
 ### Grundwasser 
 
