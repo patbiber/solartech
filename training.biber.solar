@@ -1,0 +1,51 @@
+# training.biber.solar – MkDocs Solar Wiki
+# Schritt 1: Diese Datei nach /etc/nginx/sites-enabled/ kopieren
+# Schritt 2: certbot --nginx -d training.biber.solar
+# Schritt 3: nginx -t && systemctl reload nginx
+
+server {
+    server_name training.biber.solar;
+
+    # Pfad zur gebauten MkDocs-Site (mkdocs build erzeugt diesen Ordner)
+    root /var/www/html/training.biber.solar/solartech/site;
+    index index.html;
+
+    access_log /var/log/nginx/training.biber.solar.access;
+    error_log  /var/log/nginx/training.biber.solar.error;
+
+    # MkDocs statische Site – saubere URLs
+    location / {
+        try_files $uri $uri/ $uri.html =404;
+    }
+
+    # Gzip Kompression (identisch zur biber.solutions Konfig)
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1000;
+    gzip_comp_level 5;
+    gzip_types application/json text/css application/javascript
+               application/x-javascript image/svg+xml text/html
+               text/xml text/plain;
+    gzip_proxied any;
+
+    # Versteckte Dateien blockieren
+    location ~ /\.ht {
+        access_log off;
+        log_not_found off;
+        deny all;
+    }
+
+    # Certbot fügt SSL hier ein (nach: certbot --nginx -d training.biber.solar)
+    listen 80;
+}
+
+# HTTP → HTTPS Redirect (wird von Certbot automatisch ergänzt)
+# Nach certbot sieht der Block so aus:
+# server {
+#     if ($host = training.biber.solar) {
+#         return 301 https://$host$request_uri;
+#     }
+#     server_name training.biber.solar;
+#     listen 80;
+#     return 404;
+# }

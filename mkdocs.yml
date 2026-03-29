@@ -1,0 +1,108 @@
+site_name: "☀️ Solar & Haustechnik Wissen"
+site_description: "Solarteur Lernunterlagen – PV, Solarthermie, Wärmepumpen, Elektrotechnik"
+site_author: "Biber Solar"
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: slate
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Light Mode
+    - scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Dark Mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/solar-power
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+      title: Inhalt
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - 🏠 Start: index.md
+  - ⚡ Elektro Grundlagen:
+    - Übersicht: elektro/index.md
+    - Sicherheitsregeln: elektro/sicherheit.md
+    - Ohmsches Gesetz: elektro/ohm.md
+    - Leistung & Energie: elektro/leistung.md
+    - Leiterberechnung: elektro/leiter.md
+    - Drehstrom: elektro/drehstrom.md
+    - Schutzklassen & IP: elektro/schutz.md
+  - ☀️ Photovoltaik:
+    - Übersicht: pv/index.md
+    - Module & Verschaltung: pv/module.md
+    - Wechselrichter: pv/wechselrichter.md
+    - Auslegung & Berechnung: pv/auslegung.md
+    - Schemata & Schutz: pv/schema.md
+    - Bewilligung & Förderung: pv/bewilligung.md
+    - Batteriespeicher: pv/batterie.md
+  - 🌡️ Solarthermie:
+    - Übersicht: st/index.md
+    - Kollektorfläche: st/kollektor.md
+    - Speicher & Wärmetauscher: st/speicher.md
+    - Pumpe & Druckverlust: st/pumpe.md
+    - Expansionsgefäss: st/expansion.md
+  - 🔥 Wärmepumpen:
+    - Übersicht: wp/index.md
+    - COP & JAZ: wp/cop.md
+    - Wärmequellen & Typen: wp/typen.md
+    - Erdsonden: wp/erdsonde.md
+    - Log-ph Diagramm: wp/logph.md
+    - Betriebsarten & Regelung: wp/betrieb.md
+  - 🏠 Heizung & Hydraulik:
+    - Übersicht: heizung/index.md
+    - Heizlast & Dimensionierung: heizung/heizlast.md
+    - Druckverlust: heizung/druckverlust.md
+    - Expansionsgefäss: heizung/expansion.md
+    - Warmwasser: heizung/warmwasser.md
+  - 📋 Normen & Gesetze:
+    - Übersicht: normen/index.md
+    - Energiestrategie 2050: normen/energiestrategie.md
+    - Abkürzungen: normen/abkuerzungen.md
+  - 🔗 Links: links.md
