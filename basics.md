@@ -410,7 +410,7 @@ lt = Körperlänge nach der Temperaturänderung [m]
 
 
 # Solarthermie ST
-![ST_Anlage.jpg]
+![ST Anlage](ST_Anlage.jpg)
 #### Berechnung Kollektorfläche
 
 $(n_{Personen} * Tagesverbrauch * \Delta t  *  4,187 * 365 * 1.2 )/3600$
